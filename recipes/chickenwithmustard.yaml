@@ -1,0 +1,81 @@
+---
+name: "Chicken with mustard (Poulet à la moutarde)"
+author: "David Lebovitz"
+source: "My Paris Kitchen"
+image: "https://gbc-cdn-public-media.azureedge.net/img85681.768x512.jpg"
+ingredients:
+  - 2/3 cup plus 3 tbsp Dijon mustard 
+  - 1/4 tsp sweet or smoked paprika 
+  - Freshly ground black pepper 
+  - 3/4 tsp sea salt or kosher salt 
+  - 4 chicken thighs and 4 legs (8 pieces, total) 
+  - 4 oz diced smoked thick-cut bacon 
+  - 1 small onion, peeled and finely diced 
+  - 1 tsp fresh thyme leaves, or 1/2 tsp dried 
+  - 1 cup white wine 
+  - 1 tbsp whole mustard seeds or grainy mustard 
+  - 2 to 3 tbsp crème fraîche 
+  - Warm water (optional) 
+  - Chopped fresh flat-leaf parsley or chives, for garnish
+steps:
+  - 1:
+     name: "Mix Mustard and Chicken"
+     step: "Mix 2/3 cup of the Dijon mustard in a bowl with 1/4 tsp paprika, a few generous grinds of the peppermill, and 3/4 tsp sea salt. Toss the chicken pieces in the mustard mixture, lifting the skin and rubbing some of it underneath."
+     dependencies: null
+     time: 5
+  - 2:
+     name: "Cook the Bacon"
+     step: "Heat a dutch oven or wide pot with a lid over a medium-high heat. Add 4 oz of chopped bacon, stirring frequently, until cooked through and just starting to brown."
+     dependencies: null
+     time: 8
+  - 3:
+     name: "Dice the Onion"
+     step: "While the bacon cooks, peel and finely dice 1 small onion."
+     dependencies: [5]
+     time: 2
+  - 4:
+     name: "Remove the Bacon"
+     step: "Remove the bacon from the pan and drain on paper towels. Leave about 1 tbsp of bacon fat in the pan, discarding the rest."
+     dependencies: [2]
+     time: 2
+  - 5:
+     name: "Cook the Onion"
+     step: "Add the onion and cook for about 5 minutes, until soft and translucent."
+     dependencies: [4]
+     time: 5
+  - 6:
+     name: "Add the Thyme"
+     step: "Stir in 1 tsp fresh thyme or 1/2 tsp dried thyme, and let cook for another 2-3 minutes.  Then scrape the cooked onion into a bowl."
+     dependencies: [5]
+     time: 2
+  - 7:
+     name: "Brown the Chicken"
+     step: "Place the chicken pieces in the pan in a single layer. Cook over medium-high heat, browning them well on one side."
+     dependencies: [6]
+     time: 8
+  - 8:
+     name: "Flip the Chicken"
+     step: "Flip the chicken pieces and brown on the other side.  Be sure the chicken is well-browned on all sides."
+     dependencies: [7]
+     time: 8
+  - 9:
+     name: "Deglaze the Pan"
+     step: "Remove the chicken pieces and put them in the bowl with the onions. Add 1 cup of wine to the hot pan, scraping the fond off the bottom with a sturdy flat utensil."
+     dependencies: [8]
+     time: 2
+  - 10:
+     name: "Return the Chicken to the Pan"
+     step: "Return the chicken pieces to the pan along with the bacon and onions. Cover and cook over low to medium heat, turning the chicken in the sauce a few times during cooking, until the chicken is cooked through, about 15 minutes."
+     dependencies: [9]
+     time: 15
+     timer: True
+  - 11:
+     name: "Remove the Pan from Heat"
+     step: "Remove the pot from the heat and stir in the 3tbsp Dijon mustard, 1 tbsp whole mustard seeds or grainy mustard and 2 to 3 tbsp crème fraîche."
+     dependencies: [10]
+     time: 2
+  - 12:
+     name: "Garnish and Serve"
+     step: "If the sauce has reduced and is quite thick, you can thin it with a little warm water. Sprinkle a little chopped parsley over the top and serve."
+     dependencies: [11]
+     time: 1
