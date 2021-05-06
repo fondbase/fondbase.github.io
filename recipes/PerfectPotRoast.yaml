@@ -1,0 +1,82 @@
+---
+name: "Perfect Pot Roast"
+author: "Ree Drummond"
+source: "The Pioneer Woman Cooks"
+image: "https://www.wideopeneats.com/wp-content/uploads/2018/01/Pot-Roast-720x405.jpg"
+ingredients:
+  - 2 or 3 tablespoons olive oil
+  - Kosher salt
+  - One 3-pound chuck roast
+  - 2 onions
+  - 6 to 8 carrots
+  - Pepper
+  - 2 to 2 1/2 cups beef stock
+  - 3 or 4 fresh rosemary sprigs
+  - 2 or 3 fresh thyme springs
+steps:
+  - 1:
+     name: "Preheat Oven"
+     step: "Preheat Oven to 275."
+     dependencies: null
+     time: 10
+  - 2:
+     name: "Salt the Meat"
+     step: "Generously salt the chuck roast on both sides."
+     dependencies: null
+     time: 3
+  - 3:
+     name: "Heat the Pot"
+     step: "Heat a large pot or Dutch oven over medium-high heat. While it heats, prepare the onions and carrots. Add the olive oil and let it get really hot."
+     dependencies: null
+     time: 5
+  - 4:
+     name: "Cut Onions"
+     step: "Peel and cut two onions in half, from root to tip.  When the pot is very hot, place the onions in the oil and brown on both sides, about a minute per side. Remove the onions to a plate."
+     dependencies: [3]
+     time: 2
+  - 5:
+     name: "Wash and Chop Carrots"
+     step: "Wash and roughly chop 6-8 carrots."
+     dependencies: null
+     time: 2
+  - 6:
+     name: "Brown the Carrots"
+     step: "Throw the chopped carrots into the same (very hot) pot. Toss them around until slightly brown, about a minute or so. The point here is to get a nice color started on the outside of the vegetables, not to cook them.."
+     dependencies: [4,5]
+     time: 1
+  - 7:
+     name: "Remove the Carrots"
+     step: "Remove the carrots from the pot and allow the pot to get really hot again. Add another tablespoon of oil to the pan."
+     dependencies: [6]
+     time: 2
+  - 8:
+     name: "Sear the Meat"
+     step: "Place the meat in the pot and sear it, about a minute per side. Remove to a plate."
+     dependencies: [7]
+     time: 2
+  - 9:
+     name: "Sear the Meat"
+     step: "With the burner on high, deglaze the pot by adding 1 cup of the beef stock, whisking constantly to loosen all of the flavorful fond from the bottom of the pot."
+     dependencies: [8]
+     time: 2
+  - 10:
+     name: "Return the Meat and Vegetables"
+     step: "Place the meat, onions and carrots back in the pot and cover halfway with beef stock."
+     dependencies: [9]
+     time: 1
+  - 11:
+     name: "Add the Fresh Herbs"
+     step: "Tuck 3-4 fresh rosemary sprigs and 2-3 fresh thyme sprigs into the pot."
+     dependencies: [10]
+     time: 1
+  - 12:
+     name: "Cover and Roast"
+     step: "Cover the pot and roast for 3 to 3 1/2 hours without disturbing."
+     dependencies: [11]
+     time: 180
+     timer: True
+  - 13:
+     name: "Cool and Serve"
+     step: "After 3 hours, check the roast for doneness; a fork should go in easily and the meat should be very tender. Remove the meat to a cutting board and slice against the grain."
+     dependencies: [12]
+     time: 4     
