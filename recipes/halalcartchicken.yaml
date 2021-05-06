@@ -1,0 +1,93 @@
+---
+name: "Chicken and rice, street cart style"
+author: "Deb Perelman"
+source: "Smitten Kitchen Everyday"
+image: "https://www.mirchitales.com/wp-content/uploads/2018/07/Halal-Cart-Style-Chicken-and-Rice-6-1024x683.jpg"
+ingredients:
+  Chicken and Marinade
+  - Juice of 1/2 lemon
+  - 2 garlic cloves, minced
+  - 1 tsp kosher salt
+  - 1 tsp paprika
+  - 1/4 tsp ground coriander
+  - 1 1/2 tsp ground cumin
+  - 1/8 tsp ground cloves
+  - 1 tsp dried oregano
+  - 2 lbs boneless, skinless chicken thighs (about 6)
+  - 1 tbsp olive oil, plus more to coat the pan
+ Rice
+  - 1 tbsp olive oil
+  - 1/2 tsp ground turmeric
+  - 3/4 tsp ground cumin
+  - 2 cups basmati or any long-grain rice
+  - 3 1/2 cups chicken stock
+  - 1 tsp kosher salt
+ Sauce
+  - 3/4 cup plain greek yogurt
+  - 2 tbsp mayo
+  - 1 tbsp white vinegar
+  - 1/2 tsp granulated sugar
+  - 1/2 tsp kosher salt
+ Assembly
+  - 1/2 head iceberg lettuce, chopped
+  - 2 medium tomatoes, chopped
+  - 1/2 small red onion, chopped
+  - kosher salt & ground pepper, to taste
+  - 1 tbsp hot sauce
+  - 1 tbsp harissa
+  - 1 tbsp olive oil
+  - Chopped fresh cilantro for garnish
+  - 3 large pocketless pita breads, toasted and halved
+steps:
+  - 1:
+     name: "Mix Marinade"
+     step: "In a ziploc bag, mix juice of 1/2 lemon, 2 minced garlic cloves, 1 tsp kosher salt, 1 tsp paprika, 1/4 tsp ground coriander, 1 1/2 tsp ground cumin, 1/8 tsp ground cloves (1/8 tsp), 1 tsp dried oregano.  Add 2 lbs boneless, skinless chicken thighs and marinate overnight."
+     dependencies: null
+     time: 1440
+  - 2:
+     name: "Mix the Sauce"
+     step: "In a medium bowl, mix 3/4 cup plain greek yogurt, 2 tbsp mayo, 1 tbsp white vinegar, 1/2 tsp granulated sugar and 1/2 tsp kosher salt"
+     dependencies: null
+     time: 5
+  - 3:
+     name: "Cook the Chicken"
+     step: "Heat a large, deep skillet with a lid over medium-high heat. Coat lightly with oil. Arrange the chicken thighs in one layer and do not move them until they're brown and don't want to stick anymore, 5-8 minutes."
+     dependencies: [1]
+     time: 8
+  - 4:
+     name: "Flip the Chicken"
+     step: "Flip, and brown well on the second side, about 4-5 minutes and remove to a plate."
+     dependencies: [3]
+     time: 5
+  - 5:
+     name: "Bloom the Spices"
+     step: "Add 1 tbsp olive oil to the pan.  Add 1/2 tsp ground turmeric, 3/4 tsp ground cumin and 2 cups of basmati rice. Toast together for a minute, stirring."
+     dependencies: [4]
+     time: 1
+  - 6:
+     name: "Cook the Rice"
+     step: "Add 3 1/2 cups chicken stock and 1 tsp salt, and bring to a boil; then reduce the heat to low, cover with a lid and let cook for about 15 minutes, until the stock has absorbed and the rice is tender."
+     dependencies: [5]
+     time: 15
+     timer: True
+  - 7:
+     name: "Assemble the Salad"
+     step: "While the Rice cooks, chop 1/2 head of iceberg lettuce, 2 medium tomatoes and 1/2 small red onion. Combine in a large bowl to make the salad. Season with salt and pepper. The sauce will be your dressing."
+     dependencies: [6]
+     time: 5
+  - 8:
+     name: "Rest the Rice"
+     step: "Remove the rice fromt the heat and let rest for 5 minutes."
+     dependencies: [6]
+     time: 5
+     timer: True
+  - 9:
+     name: "Mix the Hot Sauce"
+     step: "In a small bowl, stir 1 tbsp hot sauce and 1 tbsp harissa together."
+     dependencies: [null]
+     time: 5
+  - 10:
+     name: "Final Assembly"
+     step: "To finish, chop the chicken into bite-sized, uneven pieces, then place the chopped chicken on the platter. Pile the salad in the remaining part of the platter. Dress the dish with sauce, to taste, and garnish with cilantro. Serve with halved pitas."
+     dependencies: [9]
+     time: 3
