@@ -1,0 +1,55 @@
+---
+name: "Ike's Vietnamese Fish Sauce Wings"
+author: "Andy Ricker"
+source: "Pok Pok"
+image: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2013%2F12%2F06%2Ffw2008-xl-ike-vietnamese-wings.jpg"
+ingredients:
+  - 3 pounds chicken wings, split at the drumettes
+  - 1/2 cup Asian fish sauce
+  - 1/2 cup superfine sugar
+  - 4 garlic cloves, 2 crushed and 2 minced
+  - 2 tablespoons vegetable oil, plus more for frying 
+  - 1 cup cornstarch
+  - 1 tablespoon chopped cilantro
+  - 1 tablespoon chopped mint
+steps:
+  - 1:
+     name: "Prepare the Marinade"
+     step: "In a bowl, whisk 1/2 cup fish sauce, 1/2 cup of superfine sugar and 2 cloves of crushed garlic. Add 3 lbs of chicken wings and toss to coat. Refrigerate for 3 hours, tossing the wings occasionally."
+     dependencies: null
+     time: 180
+  - 2:
+     name: "Mince Garlic"
+     step: "Mince 2 cloves of garlic."
+     dependencies: null
+     time: 3
+  - 3:
+     name: "Fry the Garlic"
+     step: "Heat 2 tbsp vegetable oil in a small skillet. Add the minced garlic; cook over moderate heat until golden, 3 minutes. Drain on paper towels."
+     dependencies: [2]
+     time: 3
+  - 4:
+     name: "Heat Frying Oil"
+     step: "In a large pot, heat 2 inches of vegetable oil to 350°."
+     dependencies: [1]
+     time: 10
+  - 5:
+     name: "Dry and Prep Wings"
+     step: "While the oil heats, pat the wings dry on paper towels; reserving the marinade. Put 1 cup of cornstarch in a shallow bowl, add the wings and turn to coat."
+     dependencies: [1]
+     time: 10
+  - 6:
+     name: "Fry the Wings"
+     step: "Fry the wings in batches until golden and cooked through, about 10 minutes. Drain on paper towels and transfer to a large bowl."
+     dependencies: [4,5]
+     time: 10
+  - 7:
+     name: "Reduce Marinade"
+     step: "While the wings fry, add the marinade to a small saucepan and simmer over moderately high heat until syrupy, 5 minutes."
+     dependencies: [5]
+     time: 5
+  - 8:
+     name: "Garnish and Serve"
+     step: "Strain the marinade over the wings and toss to mix. Top with 1 tbsp chopped cilantro; 1 tbsp chopped mint and the fried garlic.  Serve immmediately."
+     dependencies: [6,7]
+     time: 2
