@@ -1,0 +1,42 @@
+---
+name: "Frankies' Tomato Sauce"
+author: "Frank Falcinelli and Frank Castronovo"
+source: "The Frankies Spuntino Kitchen Companion & Cooking Manual"
+image: "https://www.seriouseats.com/thmb/2LfVQ7f6trtgNy0kJpO83JqZFds=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20100614frankiestomatosauce-8fae7843eaad4119b9853d0201043791.jpg"
+ingredients:
+  - 1 cup olive oil
+  - 13 cloves garlic, peeled
+  - One 96-ounce can (or, if you can find it, 1-kg) or four 28-ounce cans Italian tomatoes 
+  - Large pinch of red pepper flakes
+  - 2 teaspoons fine sea salt 
+steps:
+  - 1:
+     name: "Peel Garlic"
+     step: "Peel 13 cloves of garlic."
+     dependencies: null
+     time: 5
+  - 2:
+     name: "Brown Garlic in Oil"
+     step: "Combine 1 cup olive oil and the peeled garlic in a large, deep saucepan and cook over medium-low heat for about 10 minutes, stirring or swirling occasionally, until the garlic is deeply colored—striations of deep brown running through the golden cloves—and fragrant. If the garlic starts to smell acrid or sharp or is taking on color quickly, pull the pan off the stove and reduce the heat."
+     dependencies: [1]
+     time: 10
+  - 3:
+     name: "Crush Tomatoes"
+     step: "While the garlic cooks, pour 1 96-oz can of whole Italian tomatoes into a bowl and crush them with your hands. We like to pull out the firmer stem ends from each of the tomatoes as we crush them and discard those along with the basil leaves that are packed into the can."
+     dependencies: [1]
+     time: 5
+  - 4:
+     name: "Add Pepper Flakes"
+     step: "When the garlic is just about done, add a large pinch of red pepper flakes to the oil and cook them for 30 seconds or a minute, to infuse their flavor and spice into the oil."
+     dependencies: [2]
+     time: 1
+  - 5:
+     name: "Peel Garlic"
+     step: "Dump in the tomatoes, add 2 tsp fine sea salt, and stir well. Turn the heat up to medium, set the sauce simmering at a gentle pace, not aggressively, and simmer for 4 hours. Stir it from time to time. Mother it a little bit."
+     dependencies: [4]
+     time: 240
+  - 6:
+     name: "Season and Serve with Pasta"
+     step: "Check the sauce for salt at the end. The sauce can be cooked with meat at this point, or stored, covered, in the fridge for at least 4 days or frozen for up to a few months."
+     dependencies: [5]
+     time: 2
