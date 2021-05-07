@@ -1,0 +1,68 @@
+---
+name: "Turkey & Ricotta Meatballs"
+author: "Julia Turshen"
+source: "Small Victories"
+image: "https://s3.amazonaws.com/cdn.houseandhome.com/wp-content/uploads/2016/11/Recipe-Turley-Meatballs.jpg"
+ingredients:
+  - Two 28-oz cans whole peeled tomatoes
+  - 7 tbsp extra-virgin olive oil
+  - 7 garlic cloves; 4 thinly sliced, 3 minced
+  - Kosher salt
+  - 1 cup fresh basil leaves, finely chopped
+  - 1 cup fresh Italian parsley leaves, finely chopped
+  - 1 ½ cups fresh wholemilk ricotta cheese
+  - ½ cup finely grated Parmesan cheese
+  - 2 lb ground turkey (preferably dark meat), at room temperature
+steps:
+  - 1:
+     name: "Crush Tomatoes"
+     step: "Pour two 28-oz cans of whole peeled tomatoes into a large bowl (set the cans aside) and crush the tomatoes with your hands.  Rinse one of the cans with about ¼ cup water, pour it into the second can and swish it around to get all the excess tomato out of the cans, and then pour the water into the tomato bowl."
+     dependencies: null
+     time: 3
+  - 2:
+     name: "Preheat Oven"
+     step: "Preheat your oven to 425°F. Line a baking sheet with aluminum foil. Drizzle 2 tbsp olive oil on the baking sheet and use your hands to rub it over the entire surface of the sheet. Set aside."
+     dependencies: null
+     time: 15    
+  - 3:
+     name: "Peel Garlic"
+     step: "Peel 7 cloves of garlic. Thinly slice 4 of the cloves and mince the other 3. Set aside."
+     dependencies: [1]
+     time: 5
+  - 4:
+     name: "Cook Sliced Garlic"
+     step: "In a large saucepan or pot over medium-high heat, warm 3 tbsp of olive oil, add the sliced garlic, and cook, stirring, until it begins to sizzle, about 1 minute. "
+     dependencies: [3]
+     time: 3
+  - 5:
+     name: "Add the Tomatoes"
+     step: "Add the tomatoes and a very large pinch of salt and bring to a boil. Lower the heat and let the sauce simmer, stirring every so often, until it is slightly reduced and has lost any tin-can taste, about 30 minutes."
+     dependencies: [4]
+     time: 30
+  - 6:
+     name: "Chop Herbs"
+     step: "Finely chop 1 cup of basil leaves and 1 cup of parsley. Add to a large bowl."
+     dependencies: [5]
+     time: 4
+  - 7:
+     name: "Add Meatball Ingredients"
+     step: "To the basil and parsley, add the minced garlic; 1 1/2 cups of fresh ricotta; 1/2 cup of grated parmesan; 2 lbs of ground turkey; and 1 tbsp salt. Blend everything together gently but authoritatively with your hands (they’re the best tool for the job) until well mixed."
+     dependencies: [6]
+     time: 5
+  - 8:
+     name: "Shape Meatballs"
+     step: "Use your hands to form the mixture into golf ball–sized meatballs; the mixture will be sticky, so wet your hands with a bit of water to help prevent the meat from sticking to them. Transfer the meatballs to the prepared baking sheet as you form them (it’s okay if they are touching a little)."
+     dependencies: [7]
+     time: 8
+  - 9:
+     name: "Roast the Meatballs"
+     step: "Drizzle the meatballs with the remaining 2 Tbsp olive oil and roast until they’re browned and firm to the touch, about 25 minutes."
+     dependencies: [2,8]
+     time: 25
+     timer: True
+  - 10:
+     name: "Add the Meatballs to the Sauce"
+     step: "Use tongs or a slotted spoon to transfer the meatballs to the simmering sauce (discard whatever juice and fat is left on the baking sheet). Cook the meatballs for 10 minutes in the sauce (they can be left in the gently simmering sauce for up to 1 hour) and serve."
+     dependencies: [5,9]
+     time: 10
+     timer: True
