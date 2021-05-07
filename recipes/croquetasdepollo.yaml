@@ -1,0 +1,90 @@
+---
+name: "Chicken Croquettes (Croquetas de Pollo)"
+author: "Jeff Koehler"
+source: "Spain"
+image: "https://www.seriouseats.com/thmb/vK_sD8hgOvhsWj6h0dWqmYK5uBk=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__02__20140224-284251-cook-the-book-chicken-croquettes-49933a6c38e840edb2b439b6e46734e1.jpg"
+ingredients:
+  - 1 tablespoon extra-virgin olive oil
+  - 12 ounces (340 g) boneless, skinless chicken breast
+  - Salt
+  - 1/2 cup (110 g) butter, cut into pieces
+  - 1 medium onion, very finely chopped
+  - 3 cups (720 ml) whole milk
+  - Freshly ground black pepper
+  - Pinch freshly grated nutmeg
+  - 1 cup (125 g) all-purpose flour, plus more for dusting
+  - 2 eggs
+  - 1 cup (140 g) fine breadcrumbs
+  - Sunflower oil or mild olive oil for frying
+steps:
+  - 1:
+     name: "Cook the Chicken"
+     step: "In a skillet or sauté pan, heat the olive oil over medium heat. Season the chicken with salt and sauté until cooked through, about 10 minutes. Transfer to a platter to cool."
+     dependencies: null
+     time: 10
+  - 2:
+     name: "Dice Onion"
+     step: "While the chicken cooks, finely dice 1 medium onion. Set aside."
+     dependencies: [null]
+     time: 5
+  - 3:
+     name: "Grind the Chicken"
+     step: "Cut the cooked chicken into pieces and grind with a food processor."
+     dependencies: [1]
+     time: 5
+  - 4:
+     name: "Saute Onion"
+     step: "In a clean skillet or sauté pan, melt 1/2 cup of butter over medium heat.  Add the onion and cook over medium-low heat, until soft and transparent but not yet browned, about 12 minutes."
+     dependencies: [2]
+     time: 12
+  - 5:
+     name: "Heat Milk"
+     step: "While the onion cookes, bring 3 cups whole milk to a simmer in a medium sauce pan. Season with salt, pepper, and a pinch of nutmeg. Reduce the heat, cover the pan, and keep hot."
+     dependencies: [2]
+     time: 5
+  - 6:
+     name: "Add Flour to Onion"
+     step: "Sift 1 cup AP flour into the skillet over the onion and cook, stirring constantly, for about 2 minutes. It should be a compact and just-moist ball."
+     dependencies: [4]
+     time: 2
+  - 7:
+     name: "Slowly Add the Milk Mixture"
+     step: "Spread out the ball in the pan and begin slowly stirring in the hot milk mixture until creamy and not too sticky when touched, about 5 minutes."
+     dependencies: [5,6]
+     time: 5
+  - 8:
+     name: "Add the Ground Chicken"
+     step: "Reduce the heat to low and fold in the ground chicken. Cook, gently stirring, for 2 minutes. The mixture should be spongy and can be touched without sticking to your finger."
+     dependencies: [7]
+     time: 2
+  - 9:
+     name: "Cool the Meat Mixture"
+     step: "Transfer the mixture to a large baking tray to cool. Once cool, cover with plastic wrap and refrigerate for several hours until chilled. (This will make forming the croquettes easier.)"
+     dependencies: [8]
+     time: 120
+  - 10:
+     name: "Form Croquettes"
+     step: "On a flat work surface dusted with flour, form the meat mixture into into 2- to 2 1/2-inch long cylinders about 1 inch (2.5 cm) in diameter. Lightly roll in flour."
+     dependencies: [9]
+     time: 8
+  - 11:
+     name: "Prepare Dip and Dredge"
+     step: "Break 2 eggs in a bowl and thoroughly whisk. Place 1 cup fine breadcrumbs in a second bowl."
+     dependencies: [9]
+     time: 3
+  - 12:
+     name: "Heat the Oil"
+     step: "In a skillet or sauté pan, heat at least 3/4 inch/2 cm of sunflower oil to a temperature of 350F."
+     dependencies: [11]
+     time: 8
+  - 13:
+     name: "Dip and Dredge the Croquettes"
+     step: "Dip the croquettes in the egg and roll in breadcrumbs to completely cover."
+     dependencies: [11,12]
+     time: 5
+  - 14:
+     name: "Fry the Croquettes"
+     step: "Working in small batches that don’t crowd the pan, fry the croquettes, turning frequently, until they are golden on the outside and hot and creamy at the center, about 4 minutes. Gently transfer them to absorbent paper towels to drain off excess oil. Serve hot."
+     dependencies: [13]
+     time: 4
+  
