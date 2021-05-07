@@ -1,0 +1,77 @@
+---
+name: "Instant Pot Butter Chicken"
+author: "Urvashi Pitre"
+source: "Indian Instant Pot Cookbook: Traditional Indian Dishes Made Easy & Fast"
+image: "https://images.food52.com/TbnZSRmCgiu0rs0Fkb9aFzUtTXw=/2016x1344/filters:format(webp)/cd78f9fd-6888-474e-9d2d-9a054cdaa9f0--2018-0108_instant-pot-butter-chicken_3x2_rocky-luten_028.jpg"
+ingredients:
+  - For the butter chicken
+  - 1 (14-ounce) can diced tomatoes
+  - 1 tablespoon minced ginger
+  - 1 tablespoon minced garlic
+  - 1 teaspoon turmeric
+  - 1/2-1 teaspoons cayenne pepper (adjust to taste)
+  - 1 teaspoon paprika
+  - 1 teaspoon salt
+  - 2 teaspoons good-quality garam masala, divided
+  - 1 teaspoon ground cumin
+  - 1 pound boneless skinless chicken thighs, left whole
+  - 4 ounces butter, cut into cubes (use coconut oil, if dairy free)
+  - 4 ounces heavy cream (use full-fat coconut milk, if dairy free)
+  - 1/4-1/2 cups chopped cilantro
+  - For the rice
+  - 1 cup aged basmati rice, rinsed
+  - 1 cup water
+  - 1 tablespoon ghee or vegetable oil
+  - 1 teaspoon salt
+steps:
+  - 1:
+     name: "Prepare the Rice"
+     step: "In a 6 or 7-inch heat-safe pan, combine 1 cup aged basmati rice, rinsed; 1 cup water; 1 tbsp ghee or vegetable oil; and 1 spd salt. Set aside."
+     dependencies: null
+     time: 3
+  - 2:
+     name: "Mince Garlic and Ginger"
+     step: "Finely mince 2 cloves of garlic and 1 one-inch knob of ginger and place in the instant pot."
+     dependencies: null
+     time: 5
+  - 3:
+     name: "Add Ingredients to Instant Pot"
+     step: "To the Instant Pot, add 1 (14-ounce) can diced tomatoes; 1 tsp turmeric; 1/2-1 tsp cayenne pepper (adjust to taste); 1 tsp paprika; 1 tsp salt, 1 tsp of garam masala, and 1 tsp cumin into the Instant Pot. Mix the sauce a bit, then add 1 pound whole boneless, skinless chicken thighs."
+     dependencies: [2]
+     time: 3
+  - 4:
+     name: "Add Ingredients to Instant Pot"
+     step: "Place a tall steamer rack/trivet on top of the chicken mixture, and place the uncovered bowl of uncooked rice on the rack."
+     dependencies: [3]
+     time: 1
+  - 5:
+     name: "Start the Instant Pot"
+     step: "Press the Manual or Pressure cook button, set the timer to 10 mins, and cook."
+     dependencies: [4]
+     time: 20
+  - 6:
+     name: "Let the Pressure Release"
+     step: "Once it is done cooking, allow the pot to cool for 10 minutes, undisturbed. Then, release all remaining pressure and open the pot. Remove and set the cooked rice aside. Remove the chicken and set aside."
+     dependencies: [5]
+     time: 10
+  - 7:
+     name: "Blend the Sauce"
+     step: "Using an immersion blender, blend together the sauce until it is smooth. Let the sauce cool for 5 minutes."
+     dependencies: [6]
+     time: 6
+     timer: True
+  - 8:
+     name: "Chop the Chicken"
+     step: "While the sauce cools, roughly chop the chicken into bite-sized pieces."
+     dependencies: [6]
+     time: 1
+  - 9:
+     name: "Stir in Butter and Cream"
+     step: "Stir in 1/2 stick (4 oz) cut-up butter; 4 oz heavy cream; 1/4 to 1/2 cup of roughly torn or chopped cilantro, and 1 tsp garam masala."
+     dependencies: [7]
+     time: 2
+  - 10:
+     name: "Add the Chicken and Serve"
+     step: "Remove half the sauce and freeze or refrigerate for later. Add the chicken back to the remaning sauce. Serve with rice."
+     dependencies: [9]
+     time: 2
