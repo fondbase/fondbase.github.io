@@ -1,0 +1,87 @@
+---
+name: "Red Wine-Braised Short Ribs"
+author: "Ina Garten"
+source: "Cook Like a Pro"
+image: "https://assets.bonappetit.com/photos/5c4b21e785b9bd2cf3b17454/1:1/w_2560%2Cc_limit/red-wine-braised-short-ribs.jpg"
+ingredients:
+  - 5 pounds very meaty bone-in beef short ribs, cut into 2-inch chunks
+  - Good olive oil
+  - Kosher salt and freshly ground black pepper
+  - 3 cups chopped leeks, white and light green parts (3 leeks)
+  - 3 cups chopped celery (5 to 6 ribs)
+  - 2 cups chopped yellow onions (2 onions)
+  - 2 cups chopped unpeeled carrots (6 carrots)
+  - 1½ tablespoons minced garlic (5 cloves)
+  - 1 (750-ml) bottle Burgundy, Côtes du Rhône, Chianti, or other dry red wine
+  - 4 cups beef stock, preferably homemade, or College Inn
+  - 1 cup canned crushed tomatoes, such as San Marzano
+  - 1 (11.2-ounce) bottle Guinness draught stout
+  - 6 sprigs fresh thyme, tied with kitchen string
+steps:
+  - 1:
+     name: "Preheat the Oven"
+     step: "Preheat the oven to 425 degrees."
+     dependencies: null
+     time: 10
+  - 2:
+     name: "Season the Ribs"
+     step: "Place 5 lbs short ribs on a sheet pan. Brush the tops with olive oil, and sprinkle with 1½ tablespoons salt and 1½ teaspoons pepper."
+     dependencies: null
+     time: 4
+  - 3:
+     name: "Roast the Ribs"
+     step: "Roast for 20 minutes and remove from the oven. Reduce the temperature to 325 degrees."
+     dependencies: [1]
+     time: 20
+     timer: True
+  - 4:
+     name: "Chop Vegetables"
+     step: "While the short ribs roast, chop 3 leeks (white and green parts); 5-6 ribs of celery; 2 onions; and 6 carrots."
+     dependencies: [2]
+     time: 10 
+  - 5:
+     name: "Mince Garlic"
+     step: "Peel and mince 5 cloves of garlic."
+     dependencies: [2]
+     time: 5
+  - 6:
+     name: "Cook Vegetables"
+     step: "Heat ¼ cup olive oil in a large (12-inch) Dutch oven, such as Le Creuset, over medium heat. Add the leeks, celery, onions, and carrots and cook over medium to medium-high heat for 20 minutes, stirring occasionally."
+     dependencies: [4]
+     time: 20
+     timer: True
+  - 7:
+     name: "Add Garlic and then the Wine"
+     step: "Add the garlic and cook for one minute. Add 1 (750ml) bottle of dry red wine, bring to a boil, lower the heat, and simmer over medium heat for 10 minutes, until the liquid is reduced."
+     dependencies: [5,6]
+     time: 10
+     timer: True
+  - 8:
+     name: "Add Stock and Beer"
+     step: "Add 4 cups beef stock; 1 cup canned crushed tomatoes; 1 11.2 oz bottle of Guinness; 6 sprigs of fresh thyme, tied with kitchen string; 1 tablespoon salt, and 1½ teaspoons pepper."
+     dependencies: [7]
+     time: 2
+  - 9:
+     name: "Add Ribs and Begin Braising"
+     step: "Place the ribs in the pot, along with the juices and seasonings from the sheet pan. Bring to a boil, cover, and transfer to the oven to cook for one hour."
+     dependencies: [8]
+     time: 60
+     timer: True
+  - 10:
+     name: "Uncover and Continue Braising"
+     step: "Uncover and cook for one more hour, until the meat is very tender."
+     dependencies: [9]
+     time: 60
+     timer: True
+  - 11:
+     name: "Remove Ribs and Reduce Liquid"
+     step: "Remove the short ribs to a plate with a slotted spoon and discard the thyme bundle and any bones that have separated from the meat. Simmer the sauce on the stove for 20 minutes, until reduced. Skim some of the fat off the top and discard."
+     dependencies: [10]
+     time: 20
+     timer: True
+  - 12:
+     name: "Return the Ribs to the Pot"
+     step: "Return the ribs to the pot, heat for 5 minutes, and taste for seasonings. Serve hot."
+     dependencies: [11]
+     time: 5
+     timer: True
