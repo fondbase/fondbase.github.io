@@ -1,0 +1,110 @@
+---
+name: "Shrimp Clemenceau"
+author: "Lolis Eric Elie"
+source: "Treme: Stories and Recipes from the Heart of New Orleans"
+image: "https://www.seriouseats.com/thmb/KOmCFBTs9S7R34NcxfrhUrBq2ec=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__08__080513-261661-cook-the-book-clemenceaud-shrimp-9e9beeabb0d94ae39b4ec5491bc47816.jpg"
+ingredients:
+  - 18 large or 24 medium Gulf shrimp, heads intact
+  - 1 1/2 pounds baby new potatoes, preferably some combination of red, white, yellow, and purple
+  - 4 ounces enoki or cremini mushrooms, wiped clean
+  - 1/4 cup extra-virgin olive oil
+  - Sea salt and freshly ground pepper
+  - 2 fresh thyme sprigs
+  - 6 cloves garlic, unpeeled, lightly smashed
+  - 1 pound sugar snap peas, ends trimmed
+  - 2 Meyer lemons
+  - 3/4 cup (1 1/2 sticks) cold unsalted butter, cut into tablespoons
+  - 3 tablespoons canola oil
+steps:
+  - 1:
+     name: "Line a Baking Sheet"
+     step: "Line a baking sheet with parchment paper."
+     dependencies: null
+     time: 2
+  - 2:
+     name: "Preheat Oven"
+     step: "Preheat Oven to 350 degrees."
+     dependencies: null
+     time: 10
+  - 3:
+     name: "Peel and Devein Shrimp"
+     step: "Peel and devein 18 large or 24 medium Gulf shrimp, making sure to keep the heads attached. Arrange the peeled shrimp in a single layer on the prepared baking sheet, cover with plastic wrap, and keep refrigerated until ready to serve."
+     dependencies: [1]
+     time: 15
+  - 4:
+     name: "Scrub Potatoes"
+     step: "Scrub 1 1/2 pounds baby new potatoes (but do not peel), pat dry, and place them in a large mixing bowl. "
+     dependencies: [1]
+     time: 4
+  - 5:
+     name: "Add Mushooms"
+     step: "Add 4 ounces enoki or cremini mushrooms, wiped clean. Drizzle with the olive oil and season with salt and pepper. Toss gently to mix well and coat evenly with 1/4 cup olive oil."
+     dependencies: [4]
+     time: 2
+  - 6:
+     name: "Peel and Crush Garlic"
+     step: "Peel and gently crush 6 cloves of garlic."
+     dependencies: [5]
+     time: 2
+  - 7:
+     name: "Roast the Potatoes and Mushrooms"
+     step: "Spread the potatoes and mushrooms in a single layer on a large, rimmed baking sheet. Scatter 2 fresh thyme sprigs and crushed garlic on top. Roast until tender, 25 to 30 minutes."
+     dependencies: [6]
+     time: 25
+     timer: True
+  - 8:
+     name: "Bring Water to Boil"
+     step: "While the potatoes roast, bring a medium saucepan of salted water to a boil. While the water is heating, prepare an ice bath by filling a large bowl halfway with ice, then adding enough water just to cover the ice."
+     dependencies: [6]
+     time: 5
+  - 9:
+     name: "Blanch the Peas"
+     step: "Add 1 lb trimmed sugar snap peas to the boiling water and blanch just until tender, about 2 minutes. Drain the peas and immediately plunge them into the ice bath to stop the cooking and preserve their color. Using a slotted spoon, remove them from the ice bath and set aside."
+     dependencies: [8]
+     time: 2
+     timer: True
+  - 10:
+     name: "Zest the Lemons"
+     step: "Using a microplane or the smallest holes on a box grater, finely grate the zest of two meyer lemons. Set aside the zest. "
+     dependencies: [6]
+     time: 2
+  - 11:
+     name: "Supreme the Lemons"
+     step: "Using a sharp paring knife, remove the skins of the lemons and discard. Over a small bowl, supreme the lemons by gently cutting in between each segment to remove the flesh, letting the segments fall into the bowl as you work. Squeeze the rinds and pulp over the lemon supremes to extract any remaining juice, and discard the peels. Set aside."
+     dependencies: [10]
+     time: 10
+  - 12:
+     name: "Bring Water to Boil"
+     step: "Bring 1/4 cup water to boil in a small saucepan set over medium-high heat."
+     dependencies: [9]
+     time: 3
+  - 13:
+     name: "Reduce the Heat and Add Butter"
+     step: "Reduce the heat to low and whisk in 1 1/2 sticks (12 oz) cold butter, 1 tablespoon at a time, until all the butter is melted and a fully emulsified sauce forms. Season to taste with salt. Remove from the heat and cover to keep warm."
+     dependencies: [12]
+     time: 6
+  - 14:
+     name: "Place Peas in a Saucepan"
+     step: "Place the cooked sugar snap peas in a medium saucepan with 2 tablespoons water and heat over medium-high heat until hot. Season with salt and pepper. Spoon 2 tablespoons of the butter sauce over the peas and toss to coat. Remove from the heat and cover to keep warm."
+     dependencies: [13]
+     time: 4
+  - 15:
+     name: "Season the Shrimp"
+     step: "Remove the shrimp from the refrigerator and season on both sides with salt and pepper."
+     dependencies: [14]
+     time: 3
+  - 16:
+     name: "Cook the Shrimp"
+     step: "Divide the canola oil between 2 large nonstick skillets and heat over medium-high heat. (Alternatively, you can cook the shrimp in 1 pan but in 2 batches; what’s important is to avoid overcrowding the pan.)  Add the shrimp to the hot pans and sear until the shrimp start to turn opaque, 1 to 1 1/2 minutes."
+     dependencies: [15]
+     time: 3
+  - 17:
+     name: "Flip the Shrimp and Continue Cooking"
+     step: "Turn the shrimp and continue cooking just until cooked through, 1 to 1 1/2 minutes longer."
+     dependencies: [16]
+     time: 2
+  - 18:
+     name: "Plate and Serve"
+     step: "Arrange the potatoes and a spoonful of sugar snap peas in the center of each of six large plates, along with 3 or 4 shrimp. Stir the lemon segments, zest, and juice into the butter sauce and spoon the sauce over and around the shrimp. Serve at once."
+     dependencies: [8,11,14,17]
+     time: 5
