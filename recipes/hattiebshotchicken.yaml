@@ -1,0 +1,72 @@
+---
+name: "Hattie B's Hot Chicken"
+author: "Lee Brian Schrager"
+source: "Fried & True: More than 50 Recipes for America's Best Fried Chicken and Sides"
+image: "https://www.seriouseats.com/thmb/ASQwZMVaSIEb5m-WptLQLLt9kPc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__08__20140826-fried-and-true-hattie-bs-hot-chicken-evan-sung-812d8599262148aaa9732285fb8d2dbe.jpg"
+ingredients:
+  - For the Dry Brine:
+  - 1 whole chicken (3 pounds), washed, patted dry, and cut into quarters
+  - 1 tablespoon kosher salt
+  - 1 1/2 teaspoons freshly ground black pepper
+  - For the Dip:
+  - 1 cup whole milk
+  - 2 large eggs
+  - 1 tablespoon Louisiana-style hot sauce
+For the Dredge:
+  - 2 cups all-purpose flour
+  - 2 teaspoons sea salt
+  - Vegetable oil, for frying
+For the Spicy Coating:
+  - 1/2 cup lard, melted and heated (or hot frying oil)
+  - 3 tablespoons cayenne pepper
+  - 1 tablespoon (packed) light brown sugar
+  - 1 teaspoon freshly ground black pepper
+  - 3/4 teaspoon sea salt
+  - 1/2 teaspoon paprika
+  - 1/2 teaspoon garlic powder
+steps:
+  - 1:
+     name: "Dry and Cut up Chicken"
+     step: "Pat dry 1 chicken. Cut into quarters."
+     dependencies: null
+     time: 4
+  - 2:
+     name: "Dry Brine the Chicken"
+     step: "In a bowl, toss the chicken pieces with 1 tbsp salt and 1 1/2 tsp pepper, cover, and refrigerate overnight or up to 24 hours."
+     dependencies: [1]
+     time: 1440
+  - 3:
+     name: "Make the Dip"
+     step: "In a bowl, whisk together 1 cup whole milk; 2 large eggs; and 1 tablespoon Louisiana-style hot sauce."
+     dependencies: [2]
+     time: 2
+  - 4:
+     name: "Make the Dredge"
+     step: "In a separate bowl, whisk together 2 cups all-purpose flour; and 2 teaspoons sea salt."
+     dependencies: [2]
+     time: 2
+  - 5:
+     name: "Heat the Oil"
+     step: "Fill a 6- to 8-quart pot halfway with oil and heat to 325°F.  Set a wire rack on top of a rimmed baking sheet and set aside."
+     dependencies: [4]
+     time: 10
+  - 6:
+     name: "Dredge the Chicken"
+     step: "While the oil heats, dip the chicken in the flour mixture, then in the milk mixture, then in the flour mixture again, shaking off the excess after each step."
+     dependencies: [5]
+     time: 2
+  - 7:
+     name: "Fry the Chicken"
+     step: "Working in batches, lower the chicken into the fryer and fry until crisp, 15 to 17 minutes for breast quarters and 18 to 20 minutes for leg quarters. Remove the chicken and let drain on the rack."
+     dependencies: [6]
+     time: 20
+  - 8:
+     name: "Make the Spicy Coating"
+     step: "While the chicken fries, carefully ladle 1/2 cup melted and heated lard (or frying oil) into a medium heatproof bowl and whisk in 3 tbsp cayenne pepper; 1 tsp (packed) light brown sugar; 1 tsp freshly ground black pepper; 3/4 tsp sea salt; 1/2 tsp paprika; and 1/2 tsp garlic powder."
+     dependencies: [6]
+     time: 3
+  - 9:
+     name: "Baste and Serve"
+     step: "Baste the spice mixture over the hot fried chicken and serve immediately."
+     dependencies: [7,8]
+     time: 2
