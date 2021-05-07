@@ -65,12 +65,12 @@ steps:
   - 9:
      name: "Peel and Chop Onion"
      step: "Peel and chop 1 medium onion. Add to apples."
-     dependencies: [6]
+     dependencies: [8]
      time: 5
   - 10:
      name: "Peel and Grate Ginger"
-     step: "Peel and grate a 2inch knob of ginger.  Add to apple and onion mix."
-     dependencies: [6]
+     step: "Peel and grate a 2inch knob of ginger.  Add to apples."
+     dependencies: [8]
      time: 5  
   - 11:
      name: "Add Additional Spices"

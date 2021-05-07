@@ -1,0 +1,71 @@
+---
+name: "Gougères"
+author: "Dorie Greenspan"
+source: "Around My French Table: More Than 300 Recipes from My Home to Yours"
+image: "https://assets.epicurious.com/photos/56098f066a59cdb91b5f7896/6:4/w_620%2Ch_413/361149.jpg"
+ingredients:
+  - 1/2 cup whole milk
+  - 1/2 cup water
+  - 8 tablespoons (1 stick) unsalted butter, cut into 4 pieces
+  - 1/2 teaspoon salt
+  - 1 cup all-purpose flour
+  - 5 large eggs, at room temperature
+  - 1 1/2 cups coarsely grated cheese, such as Gruyère or cheddar (about 6 ounces; see above)
+steps:
+  - 1:
+     name: "Preheat the Oven"
+     step: "Position the racks to divide the oven into thirds and preheat the oven to 425 degrees F."
+     dependencies: null
+     time: 15
+  - 2:
+     name: "Line Baking Sheets"
+     step: "Line two baking sheets with silicone baking mats or parchment paper."
+     dependencies: null
+     time: 2
+  - 3:
+     name: "Line Baking Sheets"
+     step: "In a heavy bottomed sauce pan, bring 1/2 cup whole milk, 1/2 cup water, 1 stick (8 oz) unsalted butter, and 1/2 tsp salt to a rapid boil over high heat."
+     dependencies: null
+     time: 5
+  - 4:
+     name: "Add the Flour"
+     step: "Add the flour all at once, lower the heat to medium-low, and immediately start stirring energetically with a wooden spoon or heavy whisk. The dough will come together and a light crust will form on the bottom of the pan. Keep stirring—with vigor—for another minute or two to dry the dough. The dough should now be very smooth."
+     dependencies: [3]
+     time: 5
+  - 5:
+     name: "Turn out the Dough"
+     step: "Turn the dough into the bowl of a mixer fitted with the paddle attachment or into a bowl that you can use for mixing with a hand mixer or a wooden spoon and elbow grease."
+     dependencies: [4]
+     time: 1
+  - 6:
+     name: "Beat in the Eggs"
+     step: "Let the dough sit for a minute, then add 5 eggs, one at a time, and beat, beat, beat until the dough is thick and shiny. Make sure that each egg is completely incorporated before you add the next, and don't be concerned if the dough separates—by the time the last egg goes in, the dough will come together again."
+     dependencies: [5]
+     time: 8
+  - 7:
+     name: "Beat in the Cheese"
+     step: "Beat in 1 1/2 cups (about 6 oz) coarsely grated cheese, such as Gruyère or cheddar. Once the dough is made, it should be spooned out immediately."
+     dependencies: [6]
+     time: 1
+  - 8:
+     name: "Spoon out the Dough"
+     step: "Using about 1 tablespoon of dough for each gougère , drop the dough from a spoon onto the lined baking sheets, leaving about 2 inches of puff space between the mounds."
+     dependencies: [7]
+     time: 4
+  - 9:
+     name: "Lower Temperature and Begin Baking"
+     step: "Slide the baking sheets into the oven.  Immediately turn the oven temperature down to 375 degrees F and bake for 12 minutes."
+     dependencies: [8]
+     time: 12
+     timer: True
+  - 10:
+     name: "Rotate Pans and Continue Baking"
+     step: "Rotate the pans from front to back and top to bottom. Continue baking until the gougères are golden, firm, and, yes, puffed, another 12 to 15 minutes or so."
+     dependencies: [9]
+     time: 12
+     timer: True
+  - 11:
+     name: "Remove from Oven and Serve"
+     step: "Transfer the pans to racks to cool and serve warm."
+     dependencies: [10]
+     time: 5
