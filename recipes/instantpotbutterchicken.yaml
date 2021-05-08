@@ -42,7 +42,7 @@ steps:
   - 4:
      name: "Add Ingredients to Instant Pot"
      step: "Place a tall steamer rack/trivet on top of the chicken mixture, and place the uncovered bowl of uncooked rice on the rack."
-     dependencies: [3]
+     dependencies: [3,1]
      time: 1
   - 5:
      name: "Start the Instant Pot"
