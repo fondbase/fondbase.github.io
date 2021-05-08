@@ -58,5 +58,5 @@ steps:
   - 9:
      name: "Remove from Heat and Serve"
      step: "Remove from the heat, leave for a couple of minutes to settle, then spoon into individual plates and serve with the labneh or yogurt."
-     dependencies: null
+     dependencies: [8]
      time: 3
