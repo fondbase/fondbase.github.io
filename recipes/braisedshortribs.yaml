@@ -64,7 +64,7 @@ steps:
   - 9:
      name: "Add Ribs and Begin Braising"
      step: "Place the ribs in the pot, along with the juices and seasonings from the sheet pan. Bring to a boil, cover, and transfer to the oven to cook for one hour."
-     dependencies: [8]
+     dependencies: [3,8]
      time: 60
      timer: True
   - 10:

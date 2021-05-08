@@ -21,7 +21,7 @@ steps:
   - 2:
      name: "Mince Garlic"
      step: "Mince 2 cloves of garlic."
-     dependencies: null
+     dependencies: [1]
      time: 3
   - 3:
      name: "Fry the Garlic"

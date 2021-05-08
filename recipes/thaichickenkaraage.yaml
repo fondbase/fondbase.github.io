@@ -63,7 +63,7 @@ steps:
   - 9:
      name: "Fry the Chicken"
      step: "Dust the chicken generously with cornstarch and fry until golden brown, turning occasionally to brown on both sides."
-     dependencies: [8]
+     dependencies: [5,7,8]
      time: 15
   - 10:
      name: "Remove Chicken"
@@ -73,5 +73,5 @@ steps:
   - 11:
      name: "Toss with Reserved Brine"
      step: "Add the sliced onion and jalapeños, the reserved 1 cup brine, and 1 cup chile sauce.  Toss to coat, and season with salt to taste. Garnish with torn cilantro, mint, and basil leaves and serve."
-     dependencies: [10]
+     dependencies: [6,10]
      time: 2
