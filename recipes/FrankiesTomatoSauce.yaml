@@ -20,6 +20,7 @@ steps:
      step: "Combine 1 cup olive oil and the peeled garlic in a large, deep saucepan and cook over medium-low heat for about 10 minutes, stirring or swirling occasionally, until the garlic is deeply colored—striations of deep brown running through the golden cloves—and fragrant. If the garlic starts to smell acrid or sharp or is taking on color quickly, pull the pan off the stove and reduce the heat."
      dependencies: [1]
      time: 10
+     timer: True
   - 3:
      name: "Crush Tomatoes"
      step: "While the garlic cooks, pour 1 96-oz can of whole Italian tomatoes into a bowl and crush them with your hands. We like to pull out the firmer stem ends from each of the tomatoes as we crush them and discard those along with the basil leaves that are packed into the can."
@@ -31,7 +32,7 @@ steps:
      dependencies: [2]
      time: 1
   - 5:
-     name: "Peel Garlic"
+     name: "Simmer Sauce"
      step: "Dump in the tomatoes, add 2 tsp fine sea salt, and stir well. Turn the heat up to medium, set the sauce simmering at a gentle pace, not aggressively, and simmer for 4 hours. Stir it from time to time. Mother it a little bit."
      dependencies: [4]
      time: 240
