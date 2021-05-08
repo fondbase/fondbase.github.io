@@ -32,12 +32,12 @@ steps:
   - 4:
      name: "Heat the oil and butter"
      step: "Put 2 tbsp olive oil and 2 tbsp of butter in a large skillet over medium-high heat until butter has melted."
-     dependencies: [3]
+     dependencies: [1,2,3]
      time: 2
   - 5:
      name: "Flour and Begin Cooking the First Batch of Chicken"
      step: "Turn a piece of the chicken in the flour to coat it on all sides and shake off any excess flour. Add the floured chicken to the pan, then repeat with 2-3 more pieces to avoid crowding the pan."
-     dependencies: [4]
+     dependencies: [2,3,4]
      time: 2
   - 6:
      name: "Pan Fry the Chicken"
