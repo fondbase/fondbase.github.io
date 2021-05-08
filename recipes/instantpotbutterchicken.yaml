@@ -54,11 +54,12 @@ steps:
      step: "Once it is done cooking, allow the pot to cool for 10 minutes, undisturbed. Then, release all remaining pressure and open the pot. Remove and set the cooked rice aside. Remove the chicken and set aside."
      dependencies: [5]
      time: 10
+     timer: True
   - 7:
      name: "Blend the Sauce"
      step: "Using an immersion blender, blend together the sauce until it is smooth. Let the sauce cool for 5 minutes."
      dependencies: [6]
-     time: 6
+     time: 5
      timer: True
   - 8:
      name: "Chop the Chicken"
