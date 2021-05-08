@@ -91,7 +91,7 @@ steps:
   - 14:
      name: "Prepare your Pizza Station"
      step: "While the oven heats, create a pizza station that includes bowls full of olive oil, kosher salt, and the ingredients necessary to make the pizzas you have chosen.  Have a bowl of flour ready for dusting your countertop and a bowl of semolina ready for dusting your pizza peel."
-     dependencies: [11]
+     dependencies: [11,13]
      time: 5
   - 15:
      name: "Dust the Dough with Flour"
