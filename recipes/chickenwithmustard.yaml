@@ -41,7 +41,7 @@ steps:
   - 5:
      name: "Cook the Onion"
      step: "Add the onion and cook for about 5 minutes, until soft and translucent."
-     dependencies: [4]
+     dependencies: [3,4]
      time: 5
   - 6:
      name: "Add the Thyme"
