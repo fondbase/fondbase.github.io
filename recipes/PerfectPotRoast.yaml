@@ -52,10 +52,10 @@ steps:
   - 8:
      name: "Sear the Meat"
      step: "Place the meat in the pot and sear it, about a minute per side. Remove to a plate."
-     dependencies: [7]
+     dependencies: [2,3,7]
      time: 2
   - 9:
-     name: "Sear the Meat"
+     name: "Deglaze the Pot"
      step: "With the burner on high, deglaze the pot by adding 1 cup of the beef stock, whisking constantly to loosen all of the flavorful fond from the bottom of the pot."
      dependencies: [8]
      time: 2
