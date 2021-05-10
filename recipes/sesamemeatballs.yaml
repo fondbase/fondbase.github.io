@@ -4,7 +4,7 @@ author: "Deb Perelman"
 source: "The Smitten Kitchen Cookbook: Recipes and Wisdom from an Obsessive Home Cook"
 image: "https://liber.post-gazette.com/image/2013/11/27/1140x_a10-7_ctc/spiced-turkey-meatballs-with-smashed-chickpea-salad-1.jpg"
 ingredients:
-  For the meatballs
+  - For the meatballs
   - 1 pound ground turkey
   - 2/3 cup fresh breadcrumbs (from 1 to 2 slices sandwich bread)
   - 1/4 cup water
@@ -17,7 +17,7 @@ ingredients:
   - Pinch of cayenne pepper, or 1/4 teaspoon Aleppo red pepper flakes
   - 2 tablespoons sesame seeds, toasted
   - Olive oil, to coat pan
-  For the chickpea salad
+  - For the chickpea salad
   - 1 3/4 cups cooked chickpeas, drained and rinsed
   - Handful of pitted, halves, and very thinly sliced green olives
   - 1/2 teaspoon ground sumac, plus more for garnish
