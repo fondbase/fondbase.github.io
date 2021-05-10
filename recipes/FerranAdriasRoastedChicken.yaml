@@ -29,12 +29,12 @@ ingredients:
   - 3:
      name: "Season the Chicken"
      step: "Put the chicken in a roasting pan, season inside and out with salt, then rub with oil. Finely grate the lemon zest over the breast and legs and rub the herb mixture all over. Cut the lemon and place in the cavity along with 4 unpeeled garlic cloves"
-     dependencies: null
+     dependencies: [2]
      time: 3
  - 4:
      name: "Roast the Chicken"
      step: "Roast the chicken, breast facing down, for 25 minutes"
-     dependencies: [1]
+     dependencies: [1,2,3]
      time: 25
      timer: true
   - 5:
