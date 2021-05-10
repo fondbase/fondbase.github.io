@@ -1,0 +1,44 @@
+---
+name: "Buttermilk Bacon-Fat Flour Tortillas"
+author: "Lisa Fain"
+source: "The Homesick Texan's Family Table"
+image: "https://www.seriouseats.com/thmb/nTaMqp3iE5sRLDm3Z8sJN63GrDw=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__05__20140605-294475-cook-the-book-buttermilk-bacon-fat-flour-tortillas-abf89260f3864980a3d71807ffc39a1f.jpg"
+ingredients:
+  - 2 tablespoons bacon grease (see note)
+  - 2 tablespoons unsalted butter
+  - 2 cups all‐purpose flour
+  - 1/2 teaspoon baking powder
+  - 1/4 teaspoon kosher salt
+  - 3/4 cup buttermilk
+steps:
+  - 1:
+     name: "Melt Bacon Grease and Butter"
+     step: "Combine 2 tablespoons bacon grease and 2 tablespoons unsalted butter in a pot and cook over medium-low heat until bacon grease and butter have melted. remove from the heat."
+     dependencies: null
+     time: 5
+  - 2:
+     name: "Mix Dough"
+     step: "In a bowl, stir together 2 cups all‐purpose flour, 1/2 teaspoon baking powder, and 1/4 teaspoon kosher salt. Pour in the melted fat mixture and stir until the flour is crumbly. Pour in 3/4 cup buttermilk and stir until a soft dough forms."
+     dependencies: [1]
+     time: 3
+  - 3:
+     name: "Knead Dough and Rest"
+     step: "Place the dough on a floured surface and knead for 2 minutes until the dough is firm and smooth. Cover the dough and let it rest for an hour."
+     dependencies: [2]
+     time: 60
+     timer: True
+  - 4:
+     name: "Divide the Dough"
+     step: "Divide the dough into eight pieces and roll each piece into a ball."
+     dependencies: [3]
+     time: 3
+  - 5:
+     name: "Shape the Tortillas"
+     step: "One at a time place a dough ball on a floured surface, pat it out into a 4-inch circle, and then roll with a palote or rolling pin from the center out until the tortilla is thin and about 8 inches in diameter. Keep the rolled-out tortillas covered, side by side, until you are ready to cook. (I usually have one cooking as I roll out another.)"
+     dependencies: [4]
+     time: 5
+  - 6:
+     name: "Cook the Tortillas"
+     step: "In a dry cast-iron skillet heated over medium-high heat, cook each tortilla for 30 seconds on one side, flip it, and then cook for 1 minute on the other side. It should start to puff a bit. Flip it again and cook for 30 more seconds. Cover the cooked tortilla with a cloth until you are ready to serve. Repeat with the remaining balls of dough."
+     dependencies: [5]
+     time: 10
