@@ -35,22 +35,22 @@ steps:
   - 4:
      name: "Saute Onion"
      step: "In a clean skillet or sauté pan, melt 1/2 cup of butter over medium heat.  Add the onion and cook over medium-low heat, until soft and transparent but not yet browned, about 12 minutes."
-     dependencies: [2]
+     dependencies: [1,2]
      time: 12
   - 5:
      name: "Heat Milk"
      step: "While the onion cookes, bring 3 cups whole milk to a simmer in a medium sauce pan. Season with salt, pepper, and a pinch of nutmeg. Reduce the heat, cover the pan, and keep hot."
-     dependencies: [2]
+     dependencies: [1,2]
      time: 5
   - 6:
      name: "Add Flour to Onion"
      step: "Sift 1 cup AP flour into the skillet over the onion and cook, stirring constantly, for about 2 minutes. It should be a compact and just-moist ball."
-     dependencies: [4]
+     dependencies: [4,5]
      time: 2
   - 7:
      name: "Slowly Add the Milk Mixture"
      step: "Spread out the ball in the pan and begin slowly stirring in the hot milk mixture until creamy and not too sticky when touched, about 5 minutes."
-     dependencies: [5,6]
+     dependencies: [6]
      time: 5
   - 8:
      name: "Add the Ground Chicken"
@@ -62,6 +62,7 @@ steps:
      step: "Transfer the mixture to a large baking tray to cool. Once cool, cover with plastic wrap and refrigerate for several hours until chilled. (This will make forming the croquettes easier.)"
      dependencies: [8]
      time: 120
+     timer: True
   - 10:
      name: "Form Croquettes"
      step: "On a flat work surface dusted with flour, form the meat mixture into into 2- to 2 1/2-inch long cylinders about 1 inch (2.5 cm) in diameter. Lightly roll in flour."
