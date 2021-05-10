@@ -1,0 +1,86 @@
+---
+name: "Tam Taeng Kwaa (Thai Cucumber Salad)"
+author: "Andy Ricker"
+source: "Pok Pok"
+image: "https://www.seriouseats.com/thmb/HJGQPVcRkk8-RW6h9rb-QwMa5vg=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__11__20131104-272122-cook-the-book-thai-cucumber-salad-85a5b088cafe4a35a4afafe275ad6e21.jpg"
+ingredients:
+  - 1 tablespoon medium-size dried shrimp, rinsed and patted dry
+  - 1 ounce palm sugar
+  - 1/4 teaspoon water
+  - 1 small lime (preferably a Key lime), halved through the stem
+  - 3 grams peeled garlic (about 1 medium clove), halved lengthwise
+  - 1 gram dried Thai chiles (about 4), soaked in lukewarm water just until pliable, about 10 minutes, then drained
+  - 1 ounce long beans, ends trimmed, cut into 2-inch lengths (about 1/2 cup)
+  - 7 ounces Persian, English, or Japanese cucumbers (or any firm variety without large seeds and thick, bitter skin)
+  - 1 tablespoon Thai fish sauce
+  - 1 tablespoon naam plaa raa (fermented fish sauce)
+  - 1 tablespoon lime juice (preferably from Key limes or spiked with a small squeeze of Meyer lemon juice)
+  - 2 ounces cherry tomatoes (about 4), halved, or quartered if very large
+  - 2 generous tablespoons coarsely chopped unsalted roasted peanuts
+  - 2 ounces cooked Vietnamese or Thai dried rice vermicelli (optional)
+steps:
+  - 1:
+     name: "Rinse Shrimp"
+     step: "Rinse and pat dry 1 tbsp of medium-sized, dried shrimp."
+     dependencies: null
+     time: 3
+  - 2:
+     name: "Dry Fry Shrimp"
+     step: "Heat a small dry pan or wok over medium heat, add the shrimp and cook, stirring frequently, until they’re dry all the way through and slightly crispy, about 5 minutes. Set them aside in a small bowl to cool. They’ll keep covered at room temperature for up to 1 week."
+     dependencies: [1]
+     time: 5
+  - 3:
+     name: "Soften the Palm Sugar"
+     step: "Put 1 oz palm sugar in a small microwavable bowl, sprinkle on 1/4 teaspoon of water, cover the bowl with plastic wrap, and microwave on low just until the sugar has softened (not liquefied), 10 to 30 seconds. Pound the mixture in a mortar (or mash it in the bowl) until you have a smooth paste. Covered, it will keep soft for up to 2 days."
+     dependencies: null
+     time: 2
+  - 4:
+     name: "Soak the Chilies"
+     step: "Soak 4 dried Thai chiles in lukewarm water until pliable, about 10 minutes, then drain and set aside."
+     dependencies: null
+     time: 10
+  - 5:
+     name: "Cut Lime"
+     step: "Cut a lime in half, from stem to stem.  Cut half of the lime lengthwise into thirds, then cut the thirds in half crosswise. Set aside 3 of the pieces (reserve the rest for another purpose)."
+     dependencies: null
+     time: 2
+  - 6:
+     name: "Peel Garlic"
+     step: "Peel one clove of garlic and slice lengthwise."
+     dependencies: null
+     time: 2
+  - 7:
+     name: "Trim the Long Beans"
+     step: "Trim the ends from 1/2 ounce long beans and cut into 2-inch lengths.  You should have about 1/2 cup."
+     dependencies: null
+     time: 2
+  - 8:
+     name: "Pound the Garlic and Chilies with Sugar"
+     step: "Combine the garlic, chiles, and 1 heaping teaspoon of the softened palm sugar in a large clay mortar and pound just until you have a chunky sludge with small but visible pieces of garlic and slightly broken down chiles (do not turn the chiles into mush), 5 to 10 seconds."
+     dependencies: [1,2,3,4,5,6,7]
+     time: 1
+  - 8:
+     name: "Add the Lime, Shrimp and Long Beans"
+     step: "Add the 3 lime wedges and pound very lightly and briefly, just to release the juice. Add the shrimp, pound lightly just to release their flavor (don’t smash or pulverize them), then add the long beans and pound lightly to bruise them (they should not break into pieces or dramatically flatten)."
+     dependencies: [7]
+     time: 1
+  - 9:
+     name: "Cut and Add the Cucumber"
+     step: "Halve 7 ounces of cucumber lengthwise and cut it into angled, irregular 3/4- to 1-inch chunks. Add the cucumber, 1 tbsp Thai fish sauce; 1 tablespoon naam plaa raa (fermented fish sauce); and 1 tbsp lime juice."
+     dependencies: [8]
+     time: 5
+  - 10:
+     name: "Bruise and Toss the Cucumber"
+     step: "The next step is easy but subtle. You want to use the pestle to barely bruise the cucumber (lightly pounding at a slight angle, not directly up-and-down) for about 10 seconds, while simultaneously using a large spoon to scoop up from the bottom of the mortar, essentially tossing the cucumber, palm sugar mixture, and the other ingredients as you pound. Do not smash the cucumber."
+     dependencies: [9]
+     time: 1
+  - 11:
+     name: "Add the Tomatoes and Peanuts"
+     step: "Add 4 cherry tomatoes and pound lightly, just to release the juices. Add 2 tbsp peanuts and mix briefly but well with the spoon."
+     dependencies: [10]
+     time: 1
+  - 12:
+     name: ""
+     step: "If you’re using the noodles, cook and drain 2 oz Vietnamese or Thai dried rice vermicelli according to the package.  Put them on a plate with raised edges or in a shallow bowl. Spoon the contents of the mortar, liquid and all, over them. Stir well before you eat."
+     dependencies: [11]
+     time: 3
