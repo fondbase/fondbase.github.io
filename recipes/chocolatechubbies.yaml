@@ -41,7 +41,7 @@ steps:
      name: "Whip the Eggs in a Stand Mixer"
      step: "Whip 3 large eggs in the bowl of a heavy-duty stand mixer fitted with the whisk attachment on medium-high speed until the eggs are foamy and lightly thickened, about 30 seconds."
      dependencies: null
-     time: .5
+     time: 1
      timer: True
   - 6:
      name: "Whip the Eggs in a Stand Mixer"
