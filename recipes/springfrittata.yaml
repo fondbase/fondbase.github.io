@@ -32,7 +32,7 @@ steps:
   - 2:
      name: "Bake Potato"
      step: "Pierce 1 scrubbed, medium russet potato several times with a fork. Bake it directly on an oven rack for 1 hour, or until tender. Refrigerate until cool enough to handle."
-     dependencies: [1]]
+     dependencies: [1]
      time: 60
      timer: True
   - 3:
@@ -46,12 +46,12 @@ steps:
      dependencies: [4]
      time: 5
   - 5:
-     name: ""
+     name: "Peel and Trim Asparagus"
      step: "Peel and trim the woody stalks off of 10 medium asparagus stalks.  Cut into 1/2-inch pieces and set aside."
      dependencies: null
      time: 3
   - 6:
-     name: ""
+     name: "Trim and Chop Chard"
      step: "Wash, trim and chop 1 small bunch (about 2 packed cups) Swiss chard leaves.  Set aside."
      dependencies: null
      time: 3
