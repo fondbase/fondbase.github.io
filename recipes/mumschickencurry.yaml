@@ -15,8 +15,8 @@ ingredients:
   - salt
   - 1 cup  tomato passata
   - 2 tbsp  tomato paste
-  - 1½ tsp  ground cumin
-  - ½ tsp ground turmeric
+  - 1 1/2 tsp  ground cumin
+  - 1/2 tsp ground turmeric
   - 3 tbsp  whole-milk yogurt (plus extra to serve)
   - 2 lbs skinless, boneless chicken thighs
   - 3 tbsp  ground almonds
@@ -30,22 +30,22 @@ steps:
   - 2:
      name: "Bloom the Spices"
      step: "Put the ghee and oil into a wide-bottomed, lidded frying pan on a medium heat and, when it’s hot, add the cumin seeds and cinnamon sticks. Let them infuse in the oil for a minute, and then add the onions. Cook for 10 to 12 minutes, stirring occasionally, until golden brown."
-     dependencies: null
+     dependencies: [1]
      time: 15
   - 3:
      name: "Peel and Grate Ginger"
      step: "While the spices bloom, peel and grate a 2 inch knob of ginger and place into a mortar."
-     dependencies: [2]
+     dependencies: [1]
      time: 5
   - 4:
      name: "Peel and Crush Garlic"
      step: "Peel and crush 6 cloves of garlic. Add them to the ginger."
-     dependencies: [2]
+     dependencies: [3]
      time: 2
   - 5:
      name: "Chop Chillies"
      step: "Roughly chop 2 fresh green chillies. Add them to the ginger and garlic along with a pinch of salt."
-     dependencies: [2]
+     dependencies: [4]
      time: 2
   - 6:
      name: "Grind to a Paste"
@@ -55,7 +55,7 @@ steps:
   - 7:
      name: "Add Paste to the Pan"
      step: "Add the paste to the pan and cook gently for 2 minutes."
-     dependencies: [5]
+     dependencies: [2,6]
      time: 2
      Timer: True
   - 8:
@@ -65,12 +65,12 @@ steps:
      time: 5
   - 9:
      name: "Add the Tomato Paste and Season"
-     step: "Add 2 tbsp tomato paste, 1½ tsp  ground cumin, ½ tsp ground turmeric and ½ teaspoon of salt (or to taste)."
+     step: "Add 2 tbsp tomato paste, 1 1/2 tsp  ground cumin, 1/2 tsp ground turmeric and ½ teaspoon of salt (or to taste)."
      dependencies: [8]
      time: 1
   - 10:
      name: "Add the Tomato Paste and Season"
-     step: "Add 2 tbsp tomato paste, 1½ tsp  ground cumin, ½ tsp ground turmeric and ½ teaspoon of salt (or to taste)."
+     step: "Add 2 tbsp tomato paste, 1 1/2 tsp  ground cumin, 1/2 tsp ground turmeric and 1/2 teaspoon of salt (or to taste)."
      dependencies: [9]
      time: 1
   - 11:
