@@ -46,7 +46,7 @@ steps:
      time: 1440
   - 2:
      name: "Mix the Sauce"
-     step: "In a medium bowl, mix 3/4 cup plain greek yogurt, 2 tbsp mayo, 1 tbsp white vinegar, 1/2 tsp granulated sugar and 1/2 tsp kosher salt"
+     step: "In a medium bowl, mix 3/4 cup plain greek yogurt, 2 tbsp mayo, 1 tbsp white vinegar, 1/2 tsp granulated sugar and 1/2 tsp kosher salt."
      dependencies: null
      time: 5
   - 3:
