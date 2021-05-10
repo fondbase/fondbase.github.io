@@ -44,12 +44,12 @@ steps:
      dependencies: [2]
      time: 5
   - 4:
-     name: "Cook Meatballs"
+     name: "Brown Meatballs"
      step: "Heat a generous slick of olive oil in a large ovenproof saute pan with a lid. Brown the meatballs in batches, being careful not to crowd the pan or nudge them before they are nicely browned. Transfer the meatballs to a paper-towel-lined tray."
-     dependencies: [3]
+     dependencies: [1,3]
      time: 10
   - 5:
-     name: "Cook Meatballs"
+     name: "Roast Meatballs"
      step: "Discard the oil and wipe all but a thin layer from the pan. Return all of the meatballs to the pan and transfer to preheated oven. Bake until a thermometer reads an internal temperature of 160 to 165 degrees, or about 10 to 15 minutes."
      dependencies: [4]
      time: 10
@@ -59,7 +59,6 @@ steps:
      step: "While the meatballs bake, in a medium bowl,combine: 1 3/4 cups drained and rinsed cooked chickpeas; a handful of pitted, halved, and very thinly sliced green olives; 1/2 tsp ground sumac; 2 tbsp freshly squeezed lemon juice; 1 clove of minced garlic; a pinch of cayenne pepper; a small handful of chopped fresh parsley; and 1/4 teaspoon table salt."
      dependencies: [4]
      time: 5
-     timer: True
   - 7:
      name: "Smash the Chickpeas"
      step: "Very lightly smash the chickpea mixture with the back of a fork or a potato masher. You're not looking for a hummus-like puree but something closer to a coarse chop, with a few smaller bits to hold it together."
