@@ -59,28 +59,28 @@ steps:
      step: "Combine the garlic, chiles, and 1 heaping teaspoon of the softened palm sugar in a large clay mortar and pound just until you have a chunky sludge with small but visible pieces of garlic and slightly broken down chiles (do not turn the chiles into mush), 5 to 10 seconds."
      dependencies: [1,2,3,4,5,6,7]
      time: 1
-  - 8:
+  - 9:
      name: "Add the Lime, Shrimp and Long Beans"
      step: "Add the 3 lime wedges and pound very lightly and briefly, just to release the juice. Add the shrimp, pound lightly just to release their flavor (don’t smash or pulverize them), then add the long beans and pound lightly to bruise them (they should not break into pieces or dramatically flatten)."
-     dependencies: [7]
+     dependencies: [8]
      time: 1
-  - 9:
+  - 10:
      name: "Cut and Add the Cucumber"
      step: "Halve 7 ounces of cucumber lengthwise and cut it into angled, irregular 3/4- to 1-inch chunks. Add the cucumber, 1 tbsp Thai fish sauce; 1 tablespoon naam plaa raa (fermented fish sauce); and 1 tbsp lime juice."
-     dependencies: [8]
+     dependencies: [9]
      time: 5
-  - 10:
+  - 11:
      name: "Bruise and Toss the Cucumber"
      step: "The next step is easy but subtle. You want to use the pestle to barely bruise the cucumber (lightly pounding at a slight angle, not directly up-and-down) for about 10 seconds, while simultaneously using a large spoon to scoop up from the bottom of the mortar, essentially tossing the cucumber, palm sugar mixture, and the other ingredients as you pound. Do not smash the cucumber."
-     dependencies: [9]
-     time: 1
-  - 11:
-     name: "Add the Tomatoes and Peanuts"
-     step: "Add 4 cherry tomatoes and pound lightly, just to release the juices. Add 2 tbsp peanuts and mix briefly but well with the spoon."
      dependencies: [10]
      time: 1
   - 12:
-     name: ""
-     step: "If you’re using the noodles, cook and drain 2 oz Vietnamese or Thai dried rice vermicelli according to the package.  Put them on a plate with raised edges or in a shallow bowl. Spoon the contents of the mortar, liquid and all, over them. Stir well before you eat."
+     name: "Add the Tomatoes and Peanuts"
+     step: "Add 4 cherry tomatoes and pound lightly, just to release the juices. Add 2 tbsp peanuts and mix briefly but well with the spoon."
      dependencies: [11]
+     time: 1
+  - 13:
+     name: "Toss with Vermicelli"
+     step: "If you’re using the noodles, cook and drain 2 oz Vietnamese or Thai dried rice vermicelli according to the package.  Put them on a plate with raised edges or in a shallow bowl. Spoon the contents of the mortar, liquid and all, over them. Stir well before you eat."
+     dependencies: [12]
      time: 3
