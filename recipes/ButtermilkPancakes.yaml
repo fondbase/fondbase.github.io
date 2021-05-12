@@ -44,7 +44,7 @@ steps:
   - 6:
       name: "Cook"
       step: "Working in batches, carefully add a ladleful of batter into skillet and cook until bubbles have formed on the top and the bottom is golden brown."
-      dependencies: [5]
+      dependencies: [4,5]
       time: 3
       timer: True
   - 7:

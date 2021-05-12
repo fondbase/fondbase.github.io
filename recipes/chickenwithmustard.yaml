@@ -1,7 +1,8 @@
 ---
-name: "Chicken with mustard (Poulet à la moutarde)"
+name: "Chicken with Mustard (Poulet à la moutarde)"
 author: "David Lebovitz"
 source: "My Paris Kitchen"
+tags: [Dinner,chicken,meat,french,Lebovitz,mustard,Poulet,moutarde]
 image: "https://gbc-cdn-public-media.azureedge.net/img85681.768x512.jpg"
 ingredients:
   - 2/3 cup plus 3 tbsp Dijon mustard 
@@ -20,18 +21,18 @@ ingredients:
 steps:
   - 1:
      name: "Mix Mustard and Chicken"
-     step: "Mix 2/3 cup of the Dijon mustard in a bowl with 1/4 tsp paprika, a few generous grinds of the peppermill, and 3/4 tsp sea salt. Toss the chicken pieces in the mustard mixture, lifting the skin and rubbing some of it underneath."
+     step: "Mix [2/3 cup of Dijon mustard] in a bowl with [1/4 tsp sweet or smoked paprika], a few generous grinds of [black pepper], and [3/4 tsp sea salt]. Toss [4 chicken thighs and 4 legs] in the mustard mixture, lifting the skin and rubbing some of it underneath."
      dependencies: null
      time: 5
   - 2:
      name: "Cook the Bacon"
-     step: "Heat a dutch oven or wide pot with a lid over a medium-high heat. Add 4 oz of chopped bacon, stirring frequently, until cooked through and just starting to brown."
+     step: "Heat a dutch oven or wide pot with a lid over a medium-high heat. Add [4 oz of chopped bacon], stirring frequently, until cooked through and just starting to brown."
      dependencies: null
      time: 8
   - 3:
      name: "Dice the Onion"
-     step: "While the bacon cooks, peel and finely dice 1 small onion."
-     dependencies: [5]
+     step: "While the bacon cooks, peel and finely dice [1 small onion]."
+     dependencies: [1]
      time: 2
   - 4:
      name: "Remove the Bacon"
@@ -43,24 +44,27 @@ steps:
      step: "Add the onion and cook for about 5 minutes, until soft and translucent."
      dependencies: [3,4]
      time: 5
+     timer: True
   - 6:
      name: "Add the Thyme"
-     step: "Stir in 1 tsp fresh thyme or 1/2 tsp dried thyme, and let cook for another 2-3 minutes.  Then scrape the cooked onion into a bowl."
+     step: "Stir in [1 tsp fresh thyme or 1/2 tsp dried thyme], and let cook for another 2-3 minutes.  Then scrape the cooked onion into a bowl."
      dependencies: [5]
      time: 2
   - 7:
      name: "Brown the Chicken"
      step: "Place the chicken pieces in the pan in a single layer. Cook over medium-high heat, browning them well on one side."
      dependencies: [6]
-     time: 8
+     time: 5
+     timer: True
   - 8:
      name: "Flip the Chicken"
      step: "Flip the chicken pieces and brown on the other side.  Be sure the chicken is well-browned on all sides."
      dependencies: [7]
-     time: 8
+     time: 5
+     timer: True
   - 9:
      name: "Deglaze the Pan"
-     step: "Remove the chicken pieces and put them in the bowl with the onions. Add 1 cup of wine to the hot pan, scraping the fond off the bottom with a sturdy flat utensil."
+     step: "Remove the chicken pieces and put them in the bowl with the onions. Add [1 cup of white wine] to the hot pan, scraping the fond off the bottom with a sturdy flat utensil."
      dependencies: [8]
      time: 2
   - 10:
@@ -71,11 +75,11 @@ steps:
      timer: True
   - 11:
      name: "Remove the Pan from Heat"
-     step: "Remove the pot from the heat and stir in the 3tbsp Dijon mustard, 1 tbsp whole mustard seeds or grainy mustard and 2 to 3 tbsp crème fraîche."
+     step: "Remove the pot from the heat and stir in [3 tbsp Dijon mustard], [1 tbsp whole mustard seeds or grainy mustard] and [2 to 3 tbsp crème fraîche]."
      dependencies: [10]
      time: 2
   - 12:
      name: "Garnish and Serve"
-     step: "If the sauce has reduced and is quite thick, you can thin it with a little warm water. Sprinkle a little chopped parsley over the top and serve."
+     step: "If the sauce has reduced and is quite thick, you can thin it with a little warm water. Sprinkle a little [chopped parsley] over the top and serve."
      dependencies: [11]
      time: 1
