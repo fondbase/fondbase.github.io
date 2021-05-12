@@ -21,7 +21,7 @@ steps:
      name: "Preheat Oven"
      step: "Preheat oven to 450 degrees."
      dependencies: null
-     time: 15
+     time: 1
   - 2:
      name: "Mix Lemon Juice and Water"
      step: "Fill a medium bowl three-quarters full with cold water. Cut the lemon in half, squeeze the juice into the water, and throw in the rind."
