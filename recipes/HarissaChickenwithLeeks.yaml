@@ -5,7 +5,7 @@ source: "Dinner Changing the Game"
 image: "https://www.eatyourbooks.com/media/791558/035_clar_9780553448238_art_r1.jpg"
 ingredients:
   - 1 1/2 pounds bone-in, skin-on chicken thighs and drumsticks
-  - 1 1/4 pounds Yukon Gold potatoes, peeled and cut into 1 × ½-inch chunks
+  - 1 1/4 pounds Yukon Gold potatoes, peeled and cut into 1 1/2-inch chunks
   - 3 teaspoons kosher salt
   - 3/4 teaspoon freshly ground black pepper
   - 2 tablespoons harissa
@@ -20,12 +20,12 @@ ingredients:
 steps:
   - 1:
      name: "Peel and Chop Potatoes"
-     step: "Peel and cut 1¼ pounds Yukon Gold potatoes into 1 × ½-inch chunks.  Place into a large bowl."
+     step: "Peel and cut 1 1/4 pounds Yukon Gold potatoes into 1 × 1/2-inch chunks.  Place into a large bowl."
      dependencies: null
      time: 10
   - 2:
      name: "Add the Chicken"
-     step: "To the potatoes, add 1½ pounds bone-in, skin-on chicken thighs and drumsticks. Season them with 2 1/2 teaspoons of salt and 1/2 teaspoon of the pepper."
+     step: "To the potatoes, add 1 1/2 pounds bone-in, skin-on chicken thighs and drumsticks. Season them with 2 1/2 teaspoons of salt and 1/2 teaspoon of the pepper."
      dependencies: [1]
      time: 3
   - 3:
