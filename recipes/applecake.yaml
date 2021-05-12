@@ -3,6 +3,7 @@ name: "Marie-Hélène's Apple Cake"
 author: "Dorie Greenspan"
 source: "Around My French Table: More Than 300 Recipes from My Home to Yours"
 image: "https://assets.epicurious.com/photos/56098f066a59cdb91b5f789a/6:4/w_620%2Ch_413/361150.jpg"
+tags: [dessert,french,apple,cake,rum]
 ingredients:
   - 3/4 cup all-purpose flour
   - 3/4 teaspoon baking powder
@@ -12,13 +13,13 @@ ingredients:
   - 3/4 cup sugar
   - 3 tablespoons dark rum
   - 1/2 teaspoon pure vanilla extract
-  - 8 tablespoons (1 stick) unsalted butter, melted and cooled
+  - 8 tablespoons (1 stick) unsalted butter, melted and cooled plus more for greasing the pan
 steps:
   - 1:
      name: "Preheat Oven"
      step: "Center a rack in the oven and preheat the oven to 350 degrees."
      dependencies: null
-     time: 10
+     time: 1
   - 2:
      name: "Grease the Pan"
      step: "Generously butter an 8-inch springform pan and put it on a baking sheet lined with a silicone baking mat or parchment paper and put the springform on it."
@@ -26,22 +27,22 @@ steps:
      time: 5
   - 3:
      name: "Mix the Dry Ingredients"
-     step: "Whisk 3/4 cup all-purpose flour; 3/4 teaspoon baking powder; and a pinch of salt together in small bowl."
+     step: "Whisk [3/4 cup all-purpose flour]; [3/4 teaspoon baking powder]; and a [pinch of salt] together in small bowl."
      dependencies: null
      time: 2
   - 4:
      name: "Peel and Cut the Apples"
-     step: "Peel 4 large apples, cut them in half and remove the cores. Cut the apples into 1- to 2-inch chunks."
+     step: "Peel [4 large apples], cut them in half and remove the cores. Cut the apples into 1- to 2-inch chunks."
      dependencies: null
      time: 10
   - 5:
      name: "Mix the Wet Ingredients"
-     step: "In a medium bowl, beat 2 large eggs with a whisk until they're foamy. Pour in 3/4 cup of sugar and whisk for a minute or so to blend. Whisk in 3 tbsp dark rum and 1/2 tsp pure vanilla extract."
+     step: "In a medium bowl, beat [2 large eggs] with a whisk until they're foamy. Pour in [3/4 cup of sugar] and whisk for a minute or so to blend. Whisk in [3 tbsp dark rum] and [1/2 tsp pure vanilla extract]."
      dependencies: null
      time: 4
   - 6:
      name: "Fold in the Dry Ingredients"
-     step: "Whisk in half the flour and when it is incorporated, add half of the melted butter, followed by the rest of the flour and the remaining butter, mixing gently after each addition so that you have a smooth, rather thick batter."
+     step: "Whisk in half the flour mixture and when it is incorporated, add [4 tbsp melted butter], followed by the rest of the flour and another [4 tbsp melted butter], mixing gently after each addition so that you have a smooth, rather thick batter."
      dependencies: [3,5]
      time: 2
   - 7:
