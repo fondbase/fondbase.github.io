@@ -2,6 +2,7 @@
 name: "Basic No-Knead Bread"
 author: "Jim Lahey"
 source: "My Bread"
+tags: [bread,vegetarian,vegan,Jim,Lahey,no-knead]
 image: "https://www.seriouseats.com/thmb/YhjJkSxzAXBdjNt2PedfWIcYcT4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2011__06__20200419-no-knead-bread-vicky-wasik2-a20f97803cb349e38c2c3fad18f767b5.jpg"
 ingredients:
   - 300 grams (10.5 ounces, about 2 cups) bread flour or all-purpose flour

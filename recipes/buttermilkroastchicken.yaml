@@ -2,6 +2,7 @@
 name: "Buttermilk-Marinated Roast Chicken"
 author: "Samin Nosrat"
 source: "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking"
+tags: [Samin,Nosrat,Chicken,Dinner,buttermilk,roast]
 image: "https://www.thebeaderchef.com/wp-content/uploads/2019/05/samins-buttermilk-marinated-roast-chicken-4.jpg"
 ingredients:
   - 3½- to 4-pound chicken 
@@ -10,51 +11,57 @@ ingredients:
 steps:
   - 1:
      name: "Season the Chicken"
-     step: "The day before you want to cook the chicken, remove the wingtips by cutting through the first wing joint with poultry shears or a sharp knife. Reserve for stock. Season the chicken generously with salt and let it sit for 30 minutes."
+     step: "The day before you want to cook, remove the wingtips of [1 3½- to 4-pound chicken] by cutting through the first wing joint with poultry shears or a sharp knife. Reserve for stock. Season the chicken generously with salt and let it sit for 30 minutes."
      dependencies: null
      time: 30
+     timer: True
   - 2:
      name: "Marinate the Chicken"
-     step: "Stir 2 tablespoons of kosher salt or 4 teaspoons fine sea salt into the buttermilk to dissolve. Place the chicken in a gallon-size resealable plastic bag and pour in the buttermilk. Seal it, squish the buttermilk all around the chicken, place on a rimmed plate, and refrigerate overnight."
+     step: "Stir [2 tablespoons of kosher salt or 4 teaspoons fine sea salt] into [2 cups buttermilk] to dissolve. Place the chicken in a gallon-size resealable plastic bag and pour in the salted buttermilk."
      dependencies: [1]
      time: 1440
   - 3:
+     name: "Refrigerate Overight"
+     step: "Seal the bag, squish the buttermilk all around the chicken, place on a rimmed plate, and refrigerate overnight."
+     dependencies: [2]
+     time: 1440
+  - 4:
      name: "Remove Chicken and Rest"
      step: "Pull the chicken from the fridge and let rest for an hour."
-     dependencies: [2]
+     dependencies: [3]
      time: 60
      timer: True
-  - 4:
+  - 5:
      name: "Preheat Oven"
      step: "While the chicken rests, adjust oven rack to center position and preheat the oven to 425°F."
-     dependencies: [2]
+     dependencies: [3]
      time: 10
-  - 5:
+  - 6:
      name: "Prepare Chicken"
      step: "Remove the chicken from the plastic bag and scrape off as much buttermilk as you can without being obsessive. Tightly tie together the legs of the chicken with a piece of butcher’s twine. Place the chicken in a 10-inch cast iron skillet or shallow roasting pan."
-     dependencies: [3,4]
+     dependencies: [4,5]
      time: 5
-  - 6:
+  - 7:
      name: "Begin Roasting"
      step: "Slide the pan all the way to the back of the oven on the center rack. Rotate the pan so that the legs are pointing toward the rear left corner and the breast is pointing toward the center of the oven (the back corners tend to be the hottest spots in the oven, so this orientation protects the breast from overcooking before the legs are done). Pretty soon you should hear the chicken sizzling.  Roast for 20 minutes."
-     dependencies: [5]
+     dependencies: [6]
      time: 20
      timer: True
-  - 7:
+  - 8:
      name: "Reduce Heat and Continue Roasting"
      step: "After about 20 minutes, when the chicken starts to brown, reduce the heat to 400°F and continue roasting for 10 minutes."
-     dependencies: [6]
+     dependencies: [7]
      time: 10
      timer: True
-  - 8:
+  - 9:
      name: "Rotate Pan and Continue Roasting"
      step: "Move the pan so the legs are facing the back right corner of the oven.  Continue cooking for another 30 minutes or so, until the chicken is brown all over and the juices run clear when you insert a knife down to the bone between the leg and the thigh."
-     dependencies: [7]
+     dependencies: [8]
      time: 30
      timer: True
-  - 9:
+  - 10:
      name: "Rest and Carve"
      step: "When the chicken’s done, remove it to a platter and let it rest for 10 minutes before carving and serving."
-     dependencies: [8]
+     dependencies: [9]
      time: 10
      timer: True

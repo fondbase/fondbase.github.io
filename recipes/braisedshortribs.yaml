@@ -3,6 +3,7 @@ name: "Red Wine-Braised Short Ribs"
 author: "Ina Garten"
 source: "Cook Like a Pro"
 image: "https://assets.bonappetit.com/photos/5c4b21e785b9bd2cf3b17454/1:1/w_2560%2Cc_limit/red-wine-braised-short-ribs.jpg"
+tags: [Beef,Short Ribs,Dinner,Meat,Ina,Garten,Barefoot,Contessa]
 ingredients:
   - 5 pounds very meaty bone-in beef short ribs, cut into 2-inch chunks
   - Good olive oil
@@ -22,43 +23,43 @@ steps:
      name: "Preheat the Oven"
      step: "Preheat the oven to 425 degrees."
      dependencies: null
-     time: 10
+     time: 1
   - 2:
      name: "Season the Ribs"
-     step: "Place 5 lbs short ribs on a sheet pan. Brush the tops with olive oil, and sprinkle with 1½ tablespoons salt and 1½ teaspoons pepper."
+     step: "Place [5 lbs of meaty, bone-in short ribs] on a sheet pan. Brush the tops with olive oil, and sprinkle with [1½ tablespoons salt] and [1½ teaspoons pepper]."
      dependencies: null
      time: 4
   - 3:
      name: "Roast the Ribs"
      step: "Roast for 20 minutes and remove from the oven. Reduce the temperature to 325 degrees."
-     dependencies: [1]
+     dependencies: [1,2]
      time: 20
      timer: True
   - 4:
      name: "Chop Vegetables"
-     step: "While the short ribs roast, chop 3 leeks (white and green parts); 5-6 ribs of celery; 2 onions; and 6 carrots."
+     step: "While the short ribs roast, chop [3 leeks (white and green parts)]; [5-6 ribs of celery]; [2 onions]; and [6 carrots]."
      dependencies: [2]
      time: 10 
   - 5:
      name: "Mince Garlic"
-     step: "Peel and mince 5 cloves of garlic."
+     step: "Peel and mince [5 cloves of garlic]."
      dependencies: [2]
      time: 5
   - 6:
      name: "Cook Vegetables"
-     step: "Heat ¼ cup olive oil in a large (12-inch) Dutch oven, such as Le Creuset, over medium heat. Add the leeks, celery, onions, and carrots and cook over medium to medium-high heat for 20 minutes, stirring occasionally."
+     step: "Heat [¼ cup olive oil] in a large (12-inch) Dutch oven, such as Le Creuset, over medium heat. Add the leeks, celery, onions, and carrots and cook over medium to medium-high heat for 20 minutes, stirring occasionally."
      dependencies: [4]
      time: 20
      timer: True
   - 7:
      name: "Add Garlic and then the Wine"
-     step: "Add the garlic and cook for one minute. Add 1 (750ml) bottle of dry red wine, bring to a boil, lower the heat, and simmer over medium heat for 10 minutes, until the liquid is reduced."
+     step: "Add the garlic and cook for one minute. Add [1 (750ml) bottle of dry red wine], bring to a boil, lower the heat, and simmer over medium heat for 10 minutes, until the liquid is reduced."
      dependencies: [5,6]
      time: 10
      timer: True
   - 8:
      name: "Add Stock and Beer"
-     step: "Add 4 cups beef stock; 1 cup canned crushed tomatoes; 1 11.2 oz bottle of Guinness; 6 sprigs of fresh thyme, tied with kitchen string; 1 tablespoon salt, and 1½ teaspoons pepper."
+     step: "Add [4 cups beef stock]; [1 cup canned crushed tomatoes]; [1 11.2 oz bottle of Guinness]; [6 sprigs of fresh thyme], tied with kitchen string; [1 tablespoon salt], and [1½ teaspoons pepper]."
      dependencies: [7]
      time: 2
   - 9:
