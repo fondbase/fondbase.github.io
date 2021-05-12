@@ -2,6 +2,7 @@
 name: "Chicken Croquettes (Croquetas de Pollo)"
 author: "Jeff Koehler"
 source: "Spain"
+tags: [tapas,spain,spanish,croquettes,meat,chicken,small plates,appetizers,dinner]
 image: "https://www.seriouseats.com/thmb/vK_sD8hgOvhsWj6h0dWqmYK5uBk=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__02__20140224-284251-cook-the-book-chicken-croquettes-49933a6c38e840edb2b439b6e46734e1.jpg"
 ingredients:
   - 1 tablespoon extra-virgin olive oil
@@ -19,13 +20,14 @@ ingredients:
 steps:
   - 1:
      name: "Cook the Chicken"
-     step: "In a skillet or sauté pan, heat the olive oil over medium heat. Season the chicken with salt and sauté until cooked through, about 10 minutes. Transfer to a platter to cool."
+     step: "In a skillet or sauté pan, heat the olive oil over medium heat. Season [12 ounces (340 g) boneless, skinless chicken breast] with salt and sauté until cooked through, about 10 minutes. Transfer to a platter to cool."
      dependencies: null
      time: 10
+     timer: True
   - 2:
      name: "Dice Onion"
-     step: "While the chicken cooks, finely dice 1 medium onion. Set aside."
-     dependencies: [null]
+     step: "Finely dice [1 medium onion]. Set aside."
+     dependencies: null
      time: 5
   - 3:
      name: "Grind the Chicken"
@@ -34,17 +36,18 @@ steps:
      time: 5
   - 4:
      name: "Saute Onion"
-     step: "In a clean skillet or sauté pan, melt 1/2 cup of butter over medium heat.  Add the onion and cook over medium-low heat, until soft and transparent but not yet browned, about 12 minutes."
+     step: "In a clean skillet or sauté pan, melt [1/2 cup of butter] over medium heat.  Add the onion and cook over medium-low heat, until soft and transparent but not yet browned, about 12 minutes."
      dependencies: [1,2]
      time: 12
+     timer: True
   - 5:
      name: "Heat Milk"
-     step: "While the onion cookes, bring 3 cups whole milk to a simmer in a medium sauce pan. Season with salt, pepper, and a pinch of nutmeg. Reduce the heat, cover the pan, and keep hot."
+     step: "While the onion cookes, bring [3 cups whole milk] to a simmer in a medium sauce pan. Season with salt, pepper, and a [pinch of nutmeg]. Reduce the heat, cover the pan, and keep hot."
      dependencies: [1,2]
      time: 5
   - 6:
      name: "Add Flour to Onion"
-     step: "Sift 1 cup AP flour into the skillet over the onion and cook, stirring constantly, for about 2 minutes. It should be a compact and just-moist ball."
+     step: "Sift [1 cup AP flour] into the skillet over the onion and cook, stirring constantly, for about 2 minutes. It should be a compact and just-moist ball."
      dependencies: [4,5]
      time: 2
   - 7:
@@ -70,12 +73,12 @@ steps:
      time: 8
   - 11:
      name: "Prepare Dip and Dredge"
-     step: "Break 2 eggs in a bowl and thoroughly whisk. Place 1 cup fine breadcrumbs in a second bowl."
+     step: "Break [2 eggs] in a bowl and thoroughly whisk. Place [1 cup] fine breadcrumbs in a second bowl."
      dependencies: [9]
      time: 3
   - 12:
      name: "Heat the Oil"
-     step: "In a skillet or sauté pan, heat at least 3/4 inch/2 cm of sunflower oil to a temperature of 350F."
+     step: "In a skillet or sauté pan, heat at least 3/4 inch/2 cm of [sunflower oil] to a temperature of 350F."
      dependencies: [11]
      time: 8
   - 13:
