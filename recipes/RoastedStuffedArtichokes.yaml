@@ -4,7 +4,7 @@ author: "Louisa Shafia"
 source: "The New Persian Kitchen"
 image: "https://www.seriouseats.com/thmb/nUFzWeWBKSBc4N4czqB0kcnk8H8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__04__042313-249100-cook-the-book-roasted-stuffed-artichokes-a91f870b5dd244538a56cc2eb721cd44.jpg"
 ingredients:
-  - 1 lemon
+  - 3-4 lemons
   - 2 globe artichokes
   - 1/2 cup freshly squeezed lemon juice
   - 1 tablespoon dried mint
@@ -87,14 +87,14 @@ steps:
      step: "Pour the mint oil over the artichokes, drizzling it on the outer leaves as well as the filling. Add a splash of water to the baking dish, and cover tightly."
      dependencies: [12,13]
      time: 1
-  - 14:
+  - 15:
      name: "Roast the Artichokes"
      step: "Roast the artichokes for 1 1/2 hours, until the flesh is very tender and the ricotta is firm and doubled in size."
      dependencies: [14]
      time: 90
      timer: True
-  - 14:
+  - 16:
      name: "Serve with Pan Juice"
      step: "Serve warm, topped with the pan juice. To eat an artichoke, pull off the leaves and dip the fleshy part in the pan juice. When you reach the center, cut into the ricotta and the artichoke heart with a fork."
-     dependencies: [5]
+     dependencies: [15]
      time: 2
