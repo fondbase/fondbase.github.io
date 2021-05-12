@@ -1,5 +1,5 @@
 ---
-name: "Chicken and rice, street cart style"
+name: "Chicken and Rice, Street Cart Style"
 author: "Deb Perelman"
 source: "Smitten Kitchen Everyday"
 image: "https://www.mirchitales.com/wp-content/uploads/2018/07/Halal-Cart-Style-Chicken-and-Rice-6-1024x683.jpg"
@@ -32,7 +32,7 @@ ingredients:
   - 1/2 head iceberg lettuce, chopped
   - 2 medium tomatoes, chopped
   - 1/2 small red onion, chopped
-  - kosher salt & ground pepper, to taste
+  - Kosher salt & ground pepper, to taste
   - 1 tbsp hot sauce
   - 1 tbsp harissa
   - 1 tbsp olive oil
@@ -72,8 +72,8 @@ steps:
      timer: True
   - 7:
      name: "Assemble the Salad"
-     step: "While the Rice cooks, chop 1/2 head of iceberg lettuce, 2 medium tomatoes and 1/2 small red onion. Combine in a large bowl to make the salad. Season with salt and pepper. The sauce will be your dressing."
-     dependencies: [6]
+     step: "Chop 1/2 head of iceberg lettuce, 2 medium tomatoes and 1/2 small red onion. Combine in a large bowl to make the salad. Season with salt and pepper. The sauce will be your dressing."
+     dependencies: [5]
      time: 5
   - 8:
      name: "Rest the Rice"
