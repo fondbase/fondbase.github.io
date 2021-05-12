@@ -2,6 +2,7 @@
 name: "Chicken Marbella"
 author: "Julee Rosso and Sheila Lukins"
 source: "The Silver Palate Cookbook"
+tags: [silver palate,chicken,meat,dinner,classic]
 image: "https://static01.nyt.com/images/2016/05/03/dining/03COOKING-CHICKENMARBELLA1/03COOKING-CHICKENMARBELLA1-articleLarge.jpg"
 ingredients:
   - 4 chickens, 2 1/2 pounds each, quartered
@@ -20,32 +21,37 @@ ingredients:
 steps:
   - 1:
      name: "Peel and Puree Garlic"
-     step: "Peel 1 head of garlic and finely mince or puree the cloves."
+     step: "Peel [1 head of garlic] and finely mince or puree the cloves."
      dependencies: null
      time: 10
   - 2:
      name: "Marinate Chicken"
-     step: "In a large bowl combine 4 quartered chickens; the pureed garlic; 1/4 cup dried oregano; 1/2 cup red wine vinegar; 1/2 cup olive oil; 1 cup pitted prunes; 1/2 cup pitted green olives; 1/2 cup capers and juice; 6 bay leaves; pepper and coarse salt to taste. Cover and refrigerate overnight."
+     step: "In a large bowl combine [4 quartered chickens]; the pureed garlic; [1/4 cup dried oregano]; [1/2 cup red wine vinegar]; [1/2 cup olive oil]; [1 cup pitted prunes]; [1/2 cup pitted green olives]; [1/2 cup capers and juice]; [6 bay leaves]; pepper and coarse salt to taste."
      dependencies: [1]
-     time: 1440
+     time: 8
   - 3:
-     name: "Preheat Oven"
-     step: "Preheat oven to 350."
+     name: "Refrigerate Overnight"
+     step: "Cover and refrigerate overnight."
      dependencies: [2]
-     time: 10
+     time: 1440
   - 4:
-     name: "Arrange Chicken on a Pan"
-     step: "Arrange chicken in a single layer in one or two large, shallow baking pans and spoon marinade over it evenly. Sprinkle chicken pieces with 1 cup of brown sugar and pour 1 cup of white wine around them."
+     name: "Preheat Oven"
+     step: "Preheat oven to 350 F."
      dependencies: [3]
-     time: 5
+     time: 1
   - 5:
+     name: "Arrange Chicken on a Pan"
+     step: "Arrange chicken in a single layer in one or two large, shallow baking pans and spoon marinade over it evenly. Sprinkle chicken pieces with [1 cup of brown sugar] and pour [1 cup of white wine] around them."
+     dependencies: [4]
+     time: 5
+  - 6:
      name: "Bake the Chicken"
      step: "Bake for 50 minutes to 1 hour, basting frequently with pan juices."
-     dependencies: [4]
+     dependencies: [5]
      time: 50
      timer: True
-  - 6:
+  - 7:
      name: "Plate and Serve"
-     step: "With a slotted spoon, transfer chicken, prunes, olives and capers to a serving platter. Moisten with a few spoonfuls of pan juices and sprinkle generously with 1/4 cup parsley or cilantro. Pass remaining pan juices in a sauceboat."
-     dependencies: [5]
+     step: "With a slotted spoon, transfer chicken, prunes, olives and capers to a serving platter. Moisten with a few spoonfuls of pan juices and sprinkle generously with [1/4 cup parsley or cilantro]. Pass remaining pan juices in a sauceboat."
+     dependencies: [6]
      time: 3
