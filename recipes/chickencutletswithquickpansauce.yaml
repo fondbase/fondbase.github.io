@@ -2,6 +2,7 @@
 name: "Chicken Cutlets with Quick Pan Sauce"
 author: "Mark Bittman"
 source: "How to Cook Everything The Basics"
+tags: [bittman,meat,chicken,easy,dinner,30-minute meals,minimalist]
 image: "https://www.seriouseats.com/thmb/eyzSkZmNeIS0gPCTK1xRXjc7SRE=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__05__201200503-204660-chicken-cutlets-with-quick-pan-sauce-3727e06f029e4aa69f38accf89760f08.jpg"
 ingredients:
   - 1 cup all-purpose flour
@@ -18,26 +19,26 @@ steps:
      name: "Preheat the Oven"
      step: "Preheat the oven to 200°F." 
      dependencies: null
-     time: 10
+     time: 1
   - 2:
      name: "Pound and Season the Chicken"
-     step: "Put each cutlet between 2 sheets of sheet of plastic wrap and pound to uniform thickness.  Blot the chicken dry with a paper towel and sprinkle with salt and pepper" 
+     step: "Separate [1 1/2 pounds boneless, skinless chicken breasts, thighs, or tenders]. Put each cutlet between 2 sheets of sheet of plastic wrap and pound to uniform thickness.  Blot the chicken dry with a paper towel and sprinkle with salt and pepper" 
      dependencies: null
      time: 5
   - 3:
      name: "Prepare the flour"
-     step: "Put 1 cup of flour on a plate or in a shallow bowl next to the stove." 
+     step: "Put [1 cup of flour] on a plate or in a shallow bowl next to the stove." 
      dependencies: null
      time: 1
   - 4:
      name: "Heat the oil and butter"
-     step: "Put 2 tbsp olive oil and 2 tbsp of butter in a large skillet over medium-high heat until butter has melted."
+     step: "Add [2 tbsp olive oil] and [2 tbsp of butter] in a large skillet over medium-high heat until butter has melted."
      dependencies: [1,2,3]
      time: 2
   - 5:
      name: "Flour and Begin Cooking the First Batch of Chicken"
      step: "Turn a piece of the chicken in the flour to coat it on all sides and shake off any excess flour. Add the floured chicken to the pan, then repeat with 2-3 more pieces to avoid crowding the pan."
-     dependencies: [2,3,4]
+     dependencies: [4]
      time: 2
   - 6:
      name: "Pan Fry the Chicken"
@@ -81,24 +82,23 @@ steps:
      time: 3
      timer: True
   - 13:
-     name: "Flip the Chicken and Continue Cooking"
-     step: "Turn the cutlets over and cook on the second side, adjusting the heat, another 3 to 4 minutes. To check for doneness, cut into a piece with a thin-bladed knife and take a peek. Transfer the chicken to the ovenproof platter in the oven."
-     dependencies: [12]
-     time: 3
-     timer: True
-  - 14:
      name: "Deglaze the Pan with Wine"
      step: "Add 1/2 cup dry white wine to the skillet, keeping the heat at medium-high. Let it bubble away as you stir and scrape the bottom of the pan, until about half the wine has evaporated, a minute or two."
-     dependencies: [13]
+     dependencies: [12]
      time: 2
-  - 15:
-     name: "Continue Making the Pan Sauce"
-     step: "Pour in 1/2 cup water, chicken stock, or vegetable stock and continue to stir until the liquid has thickened slightly and reduced to 1/4 cup, another 2 or 3 minutes. Add 1 tbsp of butter to the skillet and swirl the pan around until the butter melts; turn off the heat."
-     dependencies: [14]
+  - 14:
+     name: "Add Chicken or Stock"
+     step: "Pour in [1/2 cup water, chicken stock, or vegetable stock] and continue to stir until the liquid has thickened slightly and reduced to 1/4 cup, another 2 or 3 minutes."
+     dependencies: [13]
      time: 3
+  - 15:
+     name: "Add Butter"
+     step: "Add [1 tbsp of butter] to the skillet and swirl the pan around until the butter melts; turn off the heat."
+     dependencies: [14]
+     time: 2
   - 16:
      name: "Combine the Chicken and Sauce"
-     step: "Remove the chicken from the oven, and if any juices have accumulated on the platter, add them to the skillet along with the 1/4 cup parsley. Stir, taste the sauce, and adjust the seasoning. Spoon the sauce over the chicken, garnish with the remaining 2 tablespoons parsley, and serve with the lemon quarters."
+     step: "Remove the chicken from the oven, and if any juices have accumulated on the platter, add them to the skillet along with the [1/4 cup parsley]. Stir, taste the sauce, and adjust the seasoning. Spoon the sauce over the chicken, garnish with the remaining [2 tablespoons parsley], and serve with lemon quarters."
      dependencies: [15]
      time: 2
      timer: True
