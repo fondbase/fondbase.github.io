@@ -35,7 +35,6 @@ steps:
       dependencies: [3]
       time: 15
       timer: True
-      passive: True
   - 5: 
       name: "Heat Skillet"
       step: "Heat a skillet over medium heat and melt [1 tbsp butter]"
