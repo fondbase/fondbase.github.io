@@ -1,0 +1,100 @@
+---
+name: "Roasted Stuffed Artichokes with Mint Oil"
+author: "Louisa Shafia"
+source: "The New Persian Kitchen"
+image: "https://www.seriouseats.com/thmb/nUFzWeWBKSBc4N4czqB0kcnk8H8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__04__042313-249100-cook-the-book-roasted-stuffed-artichokes-a91f870b5dd244538a56cc2eb721cd44.jpg"
+ingredients:
+  - 1 lemon
+  - 2 globe artichokes
+  - 1/2 cup freshly squeezed lemon juice
+  - 1 tablespoon dried mint
+  - 1/4 cup grapeseed oil
+  - 1 clove garlic, finely minced
+  - Sea salt
+  - 2 ounces ricotta cheese, drained
+  - Pinch of saffron, ground and steeped in 1 tablespoon hot water
+  - Grated zest of 1 lemon
+  - 1 egg, whisked
+  - Freshly ground black pepper
+steps:
+  - 1:
+     name: "Preheat Oven"
+     step: "Preheat oven to 450 degrees."
+     dependencies: null
+     time: 15
+  - 2:
+     name: "Mix Lemon Juice and Water"
+     step: "Fill a medium bowl three-quarters full with cold water. Cut the lemon in half, squeeze the juice into the water, and throw in the rind."
+     dependencies: null
+     time: 3
+  - 3:
+     name: "Prepare the Artichokes"
+     step: "Slice off the top third of 1 artichoke with a serrated knife, and cut off the stem to make a flat base."
+     dependencies: [2]
+     time: 1
+  - 4:
+     name: "Trim the Artichokes"
+     step: "Pull off the small leaves around the bottom, and snip the tips of the remaining leaves with scissors. Stretch open the center of the artichoke with your thumbs, and pluck out the inner yellow leaves."
+     dependencies: [3]
+     time: 2
+  - 5:
+     name: "Remove the Choke and Soak the Artichokes"
+     step: "Pull out the purple choke, and scrape out the fibrous hairs with a melon baller, a grapefruit spoon, or a paring knife. Place the artichoke in the lemon water to prevent browning, and repeat with the remaining artichoke."
+     dependencies: [4]
+     time: 3
+  - 6:
+     name: "Steep Saffron"
+     step: "Grind one pinch of saffron and steep in 1 tablespoon hot water."
+     dependencies: [5]
+     time: 2
+  - 7:
+     name: "Zest a Lemon"
+     step: "Zest one lemon into a small bowl, reserving the lemon for later."
+     dependencies: [6]
+     time: 2
+  - 8:
+     name: "Drain Ricotta"
+     step: "Drain 2 oz of ricotta and add to the lemon zest."
+     dependencies: [7]
+     time: 
+  - 9:
+     name: "Add Egg"
+     step: "Add the saffron mix to the ricotta and lemon zest and whisk together. Season to taste with salt and pepper before beating in one egg. Set aside."
+     dependencies: [8]
+     time: 2
+  - 10:
+     name: "Mince Garlic"
+     step: "Peel and mince one clove of garlic. Set aside in a medium bowl."
+     dependencies: [1]
+     time: 2
+  - 11:
+     name: "Juice Lemons"
+     step: "Squeeze 2-3 lemons to produce 1/2 cup of freshly squeezed lemon juice.  Add to the minced garlic."
+     dependencies: [10]
+     time: 5
+  - 12:
+     name: "Add Mint and Oil"
+     step: "To the garlic and lemon juice, add 1 tbsp dried mint; and 1/4 cup grapeseed oil. Add a pinch of salt and set aside for a few minutes to allow the mint to soften."
+     dependencies: [11]
+     time: 2
+  - 13:
+     name: "Spoon in the Ricotta Mixture"
+     step: "Place the artichokes in a rimmed baking dish and spoon the ricotta into the center of the artichokes."
+     dependencies: [9]
+     time: 2
+  - 14:
+     name: "Add the Mint Oil"
+     step: "Pour the mint oil over the artichokes, drizzling it on the outer leaves as well as the filling. Add a splash of water to the baking dish, and cover tightly."
+     dependencies: [12,13]
+     time: 1
+  - 14:
+     name: "Roast the Artichokes"
+     step: "Roast the artichokes for 1 1/2 hours, until the flesh is very tender and the ricotta is firm and doubled in size."
+     dependencies: [14]
+     time: 90
+     timer: True
+  - 14:
+     name: "Serve with Pan Juice"
+     step: "Serve warm, topped with the pan juice. To eat an artichoke, pull off the leaves and dip the fleshy part in the pan juice. When you reach the center, cut into the ricotta and the artichoke heart with a fork."
+     dependencies: [5]
+     time: 2
