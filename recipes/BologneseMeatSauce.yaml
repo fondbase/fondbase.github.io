@@ -35,38 +35,38 @@ steps:
       step: "Add [1 tbsp olive oil], [3 tbsp butter] and the chopped onion to a medium-sized pot, and turn the heat on to medium. Cook and stir the onion until it has become translucent."
       time: 5
   - 4: 
-      dependencies: [1]
+      dependencies: [2]
       name: "Add Celery and Carrots"
       step: "Add the celery and carrots. Continue to cook for about 2 minutes, stirring the vegetables to coat them well."
       time: 2
   - 5: 
-      dependencies: [2]
+      dependencies: [3]
       name: "Add Meat"
       step: "Add [3/4 ground beef], a large [pinch of salt] and a few grindings of [ground black pepper].  Break up the meat, stir well, and cook until the beef has lost its raw, red color"
       time: 5
   - 6: 
-      dependencies: [3]
+      dependencies: [4]
       name: "Add Milk"
       step: "Add [1 cup of milk] and let it simmer gently, stirring frequently, until it has bubbled away completely. Add [1/8 teaspoon—of nutmeg], and stir."
       time: 5
   - 7: 
-      dependencies: [4]
+      dependencies: [5]
       name: "Add Wine"
       step: "Add [1 cup of dry white wine], let it simmer until it has evaporated."
       time: 5
   - 8: 
-      dependencies: [5]
+      dependencies: [6]
       name: "Add Tomatoes and Simmer"
       step: "Add [1 1/2 cups canned Italian plum tomatoes] and stir thoroughly to coat all ingredients well. When the tomatoes begin to bubble, turn the heat down so that the sauce cooks at the laziest of simmers, with just an intermittent bubble breaking through to the surface. Cook, uncovered for 3 hours or more, stirring from time to time and adding 1/2 cup of water whenever necessary. At the end, however, no water at all must be left and the fat must separate from the sauce. Taste and correct for salt."
       time: 180
       timer: True
   - 9: 
-      dependencies: [6]
+      dependencies: [7]
       name: "Taste and Adjust Seasoning"
       step: "Taste and add salt if needed."
       time: 1
   - 10: 
-      dependencies: [7]
+      dependencies: [8]
       name: "Toss with Pasta and Serve"
       step: "Toss with cooked drained pasta, adding [1 tbsp butter], and serve with [freshly grated Parmigiano-Reggiano] on the side"
       time: 2
