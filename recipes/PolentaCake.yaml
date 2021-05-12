@@ -1,0 +1,76 @@
+---
+name: "Polenta Cake with Olive Oil and Rosemary"
+author: "David Lebovitz"
+source: "Ready for Dessert"
+image: "https://www.seriouseats.com/thmb/13Ggjrde4zuZ4qvWw68x12Uc9JQ=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20100426lebovitzpolentaoliveoilcakeslice-3179bf1dcd5c4697977e49f68732db6e.jpg"
+ingredients:
+  - 1 tablespoon plus 1/2 cup unsalted butter, at room temperature
+  - 2 teaspoons plus 4 teaspoons finely minced fresh rosemary leaves
+  - 2 tablespoons plus 3/4 cup polenta or stone-ground corn meal
+  - 1 cup all-purpose flour
+  - 2 teaspoons baking powder
+  - 1 teaspoon salt
+  - 1/2 cup olive oil
+  - 5 large eggs, at room temperature
+  - 2 large egg yolks
+  - 1/2 teaspoon almond extract o2 1 teaspoon vanilla extract
+  - 1 1/3 cups sugar
+  - 1/2 cups butter  
+steps:
+  - 1:
+     name: "Set Out Eggs"
+     step: "Set out 7 eggs and allow them to come to room temperature."
+     dependencies: null
+     time: 2
+  - 2:
+     name: "Preheat the Oven"
+     step: "Preheat the oven to 350°F."
+     dependencies: null
+     time: 10
+  - 3:
+     name: "Mince Rosemary"
+     step: "Finely mince 6 tsp fresh rosemary."
+     dependencies: null
+     time: 5
+  - 4:
+     name: "Grease a Pan"
+     step: "Smear 1 tbsp butter all over the inside of a 10-cup Bundt cake or tube pan. Sprinkle 2 tsp of minced rosemary evenly into the pan, then dust with 2 tbsp of polenta, tilting the pan to coat the sides."
+     dependencies: [3]
+     time: 4
+  - 5:
+     name: "Mix Dry Ingredients"
+     step: "In a small bowl, sift together 1 cup all-purpose flour, 3/4 cup polenta, 2 teaspoons baking powder, and 1 tsp salt. Set aside."
+     dependencies: [1]
+     time: 5
+  - 6:
+     name: "Mix Wet Ingredients"
+     step: "In a separate bowl, whisk 1/2 cup of olive oil, 5 large eggs, 2 large egg yolks, and 1/2 tsp almond extract OR 1 tsp vanilla extract."
+     dependencies: [1]
+     time: 4
+  - 7:
+     name: "Cream the Sugar"
+     step: "In a stand mixer fitted with the paddle attachment (or in a bowl by hand), beat together 1/2 cup butter and 1 1/3 cups of sugar on medium speed until light and fluffy, 3 to 5 minutes."
+     dependencies: [5,6]
+     time: 5
+  - 8:
+     name: "Add the Egg Mixture"
+     step: "With the mixer running, slowly dribble in the egg mixture, a little at a time, until completely incorporated."
+     dependencies: [7]
+     time: 3
+  - 9:
+     name: "Add the Flour Mixture"
+     step: "Stir in the flour mixture along with the 4 tsp of rosemary until just incorporated. Don't over mix."
+     dependencies: [8]
+     time: 3
+  - 10:
+     name: "Bake the Cake"
+     step: "Scrape the batter into the prepared cake pan and smooth the top. Bake until a toothpick inserted into the center comes out clean, about 40 minutes. "
+     dependencies: [9]
+     time: 40
+     timer: True
+  - 11:
+     name: "Cool and Serve"
+     step: "Let cool for about 30 minutes, then invert the cake onto a serving plate."
+     dependencies: [10]
+     time: 30
+     timer: True
