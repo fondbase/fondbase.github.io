@@ -2,6 +2,7 @@
 name: "Chocolate Chubbies"
 author: "Sarabeth Levine"
 source: "Sarabeth's Bakery"
+tags: [chocolate,Sarabeth,chubbies,dessert,cookies,vegetarian]
 image: "https://www.seriouseats.com/thmb/mXjBGSNhD0dRUYAbt-OVN4pNj9E=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20101229-129766-chocolate-chubbies-c42e9cbb89fd4ddab33b35045808619b.jpg"
 ingredients:
   - 8 tablespoons (1 stick) unsalted butter, cut into 1/2-inch cubes
@@ -21,10 +22,10 @@ steps:
      name: "Preheat Oven"
      step: "Position racks in the center and top third of the oven and preheat to 350°F. Line two half-sheet pans with parchment paper."
      dependencies: null
-     time: 15
+     time: 2
   - 2:
      name: "Melt Chocolate"
-     step: "Bring 1 inch of water to a simmer in a medium saucepan over low heat. Put 1 stick (8 oz) butter in a wide, heatproof bowl, and melt the butter over the hot water in the saucepan. Add 9 oz semisweet and 3 oz unsweetened chocolate, stirring often, until melted and the mixture is smooth."
+     step: "Bring 1 inch of water to a simmer in a medium saucepan over low heat. Put [1 stick (8 oz) butter] in a wide, heatproof bowl, and melt the butter over the hot water in the saucepan. Add [9 oz semisweet and 3 oz unsweetened chocolate], stirring often, until melted and the mixture is smooth."
      dependencies: [1]
      time: 5
   - 3:
@@ -32,20 +33,21 @@ steps:
      step: "Remove the bowl from the heat and let stand, stirring occasionally, until cooled slightly but still warm, about 5 minutes."
      dependencies: [2]
      time: 5
+     timer: True
   - 4:
      name: "Mix Dry Ingredients"
-     step: "Sift 1/2 cup unbleached all-purpose flour, 1/2 teaspoon baking powder, and 1/4 teaspoon fine sea salt together into a medium bowl."
+     step: "Sift [1/2 cup unbleached all-purpose flour], [1/2 teaspoon baking powder], and [1/4 teaspoon fine sea salt] together into a medium bowl."
      dependencies: null
      time: 2
   - 5:
      name: "Whip the Eggs in a Stand Mixer"
-     step: "Whip 3 large eggs in the bowl of a heavy-duty stand mixer fitted with the whisk attachment on medium-high speed until the eggs are foamy and lightly thickened, about 30 seconds."
+     step: "Whip [3 large eggs] in the bowl of a heavy-duty stand mixer fitted with the whisk attachment on medium-high speed until the eggs are foamy and lightly thickened, about 30 seconds."
      dependencies: null
      time: 1
      timer: True
   - 6:
      name: "Whip the Eggs in a Stand Mixer"
-     step: "Increase the speed to high and gradually add 1 1/4 cups superfine sugar and 2 tsp vanilla extract. Whip until the eggs are very thick and pale yellow, about 3 minutes."
+     step: "Increase the speed to high and gradually add [1 1/4 cups superfine sugar] and [2 tsp vanilla extract]. Whip until the eggs are very thick and pale yellow, about 3 minutes."
      dependencies: [5]
      time: 3
      timer: True
@@ -61,7 +63,7 @@ steps:
      time: 3
   - 9:
      name: "Stir in Nuts"
-     step: "Remove the bowl from the mixer. Using a wooden spoon, stir in 2 cups of chocolate chips, 1 1/2 cups of chopped pecans, and 1 1/4 cups of chopped walnuts, making sure the chunky ingredients are evenly distributed at the bottom of the bowl. The dough will be somewhat soft."
+     step: "Remove the bowl from the mixer. Using a wooden spoon, stir in [2 cups of chocolate chips], [1 1/2 cups of chopped pecans], and [1 1/4 cups of chopped walnuts], making sure the chunky ingredients are evenly distributed at the bottom of the bowl. The dough will be somewhat soft."
      dependencies: [8]
      time: 2
   - 10:
