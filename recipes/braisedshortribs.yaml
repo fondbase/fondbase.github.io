@@ -38,7 +38,7 @@ steps:
   - 4:
      name: "Chop Vegetables"
      step: "While the short ribs roast, chop [3 leeks (white and green parts)]; [5-6 ribs of celery]; [2 onions]; and [6 carrots]."
-     dependencies: [2]
+     dependencies: [1,2]
      time: 10 
   - 5:
      name: "Mince Garlic"
@@ -86,3 +86,9 @@ steps:
      dependencies: [11]
      time: 5
      timer: True
+  - 13:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [12]
+     time: 1
+     
