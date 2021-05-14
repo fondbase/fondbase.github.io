@@ -2,6 +2,7 @@
 name: "Meat Loaf with Spinach"
 author: "Allison Fishman Task"
 source: "Lighten Up, America!"
+tags: [meatloaf,meat,dinner,healthy,spinach,beef,veal]
 image: "https://www.seriouseats.com/thmb/jt4vIV-zNRN0PMnnXkISCHHljTA=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__01__20140107-278878-cook-the-book-meatloaf-spinach-de546c290af04190a370ad9eaa63c189.jpg"
 ingredients:
   - 1 (5-ounce) package fresh baby spinach
@@ -24,17 +25,18 @@ steps:
      time: 10
   - 2:
      name: "Saute Spinach"
-     step: "heat a large sauté pan over medium heat; add 1 5-oz package of baby spinach and 2 tablespoons water to pan. Cover and steam 2 minutes or until spinach wilts. Remove pan from heat; cool 5 minutes."
+     step: "Heat a large sauté pan over medium heat; add [1 5-oz package of baby spinach] and 2 tbsp water to pan. Cover and steam 2 minutes or until spinach wilts. Remove pan from heat; cool 5 minutes."
      dependencies: null
-     time: 7
+     time: 5
+     timer: True
   - 3:
      name: "Mix Meatloaf Ingredients"
-     step: "In a large bowl, combine 1 pound ground sirloin, 1/2 pound ground veal, 1 1/2 cups finely chopped onion, 1 1/2 teaspoons dry mustard, 1/2 teaspoon dried thyme, 1 large egg."
+     step: "In a large bowl, combine [1 pound ground sirloin], [1/2 pound ground veal], [1 1/2 cups finely chopped onion], [1 1/2 teaspoons dry mustard], [1/2 teaspoon dried thyme], [1 large egg]."
      dependencies: [2]
      time: 3
   - 4:
      name: "Gently Mix"
-     step: "Add cooked and cooled spinach and 1/2 cup uncooked old-fashioned rolled oats; gently mix until blended."
+     step: "Add cooked and cooled spinach and [1/2 cup uncooked old-fashioned rolled oats]; gently mix until blended."
      dependencies: [3]
      time: 1
   - 5:
@@ -44,7 +46,7 @@ steps:
      time: 2
   - 6:
      name: "Prepare Glaze"
-     step: "Combine 1/4 cup ketchup, 2 tbsp brown sugar and 2 tbsp apple cider vinegar, stirring with a whisk until blended."
+     step: "Combine [1/4 cup ketchup], [2 tbsp brown sugar] and [2 tbsp apple cider vinegar], stirring with a whisk until blended."
      dependencies: [3]
      time: 3
   - 7:

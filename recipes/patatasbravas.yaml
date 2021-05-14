@@ -2,6 +2,7 @@
 name: "Patatas Bravas"
 author: "Simone and Inés Ortega"
 source: "The Book of Tapas"
+tags: [Spanish,tapas,potatoes,Patatas,bravas,appetizers,side,vegetarian,vegan,ortega]
 image: "https://www.seriouseats.com/thmb/HC_tDG9ODGW9TpkV-qK0TZP-aU4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20100524tapaspatatasbravas-1f5c585cb6704189b3a4fcb8b15c5746.jpg"
 ingredients:
   - 12 small potatoes, unpeeled
@@ -19,18 +20,18 @@ steps:
      time: 10
   - 2:
      name: "Cook the Potatoes"
-     step: "Add the potatoes and cook for 20 to 25 minutes, until tender but not falling apart."
+     step: "Add [12 small potatoes] and cook for 20 to 25 minutes, until tender but not falling apart."
      dependencies: [1]
      time: 20
      timer: True
   - 3:
      name: "Chop the Garlic"
-     step: "While the potatoes cook, mince 1 clove of garlic."
+     step: "Mince [1 clove of garlic]."
      dependencies: null
      time: 2
   - 4:
      name: "Mix the Sauce"
-     step: "In a bowl, mix together 2 tbsp olive oil, 1 tbsp white wine vinegar, 1 pinch hot paprika, 1 clove minced garlic, and 1 tsp chili powder or Worcestershire sauce."
+     step: "In a bowl, mix together [2 tbsp olive oil], [1 tbsp white wine vinegar], [1 pinch hot paprika], the minced garlic, and [1 tsp chili powder or Worcestershire sauce]."
      dependencies: [3]
      time: 2
   - 5:

@@ -2,6 +2,7 @@
 name: "Nancy Silverton's Pizza Dough"
 author: "Nancy Silverton"
 source: "The Mozza Cookbook"
+tags: [italian,pizza,dough,bread,Nancy,silverton,mozza]
 image: "https://www.seriouseats.com/thmb/ziTYhgvtWRkMJ9q04jjXq_hkG74=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2011__10__20111013-174966-nancy-silvertons-pizza-dough-primary-655d5c63a8f9418381ec1b0cdaa1acc7.jpg"
 ingredients:
   - 22 ounces warm tap water (2 cups, 6 ounces)
@@ -16,12 +17,12 @@ ingredients:
 steps:
   - 1:
      name: "Activate the Yeast"
-     step: "Put 15 ounces of warm tap water and 1/2 ounce (1 tablespoon) compressed yeast or 1 teaspoon active dry yeast in the bowl of a standing mixer and let it sit for a few minutes to dissolve the yeast."
+     step: "Put 15 ounces of warm tap water and [1/2 ounce (1 tablespoon) compressed yeast or 1 teaspoon active dry yeast] in the bowl of a standing mixer and let it sit for a few minutes to dissolve the yeast."
      dependencies: null
      time: 2
   - 2:
      name: "Add Flour"
-     step: "Add 13 ounces of bread flour, 1/2 ounce (1 tablespoon) dark rye flour or medium rye flour, and 1 1/2 teaspoons wheat germ. Stir with a wooden spoon to combine the ingredients."
+     step: "Add [13 ounces of bread flour], [1/2 ounce (1 tablespoon) dark rye flour or medium rye flour], and [1 1/2 teaspoons wheat germ]. Stir with a wooden spoon to combine the ingredients."
      dependencies: [1]
      time: 3
   - 3:
@@ -32,7 +33,7 @@ steps:
      timer: True
   - 4:
      name: "Add the Remaining Flour"
-     step: "Uncover the bowl and add the remaining 7 ounces of water, the remaining 13 ounces of bread flour, and 1 1/2 teaspoons barley malt or mild-flavored honey, such as clover or wildflower."
+     step: "Uncover the bowl and add the remaining 7 ounces of water, the remaining [13 ounces of bread flour], and [1 1/2 teaspoons barley malt or mild-flavored honey, such as clover or wildflower]."
      dependencies: [3]
      time: 2
   - 5:
@@ -43,13 +44,13 @@ steps:
      timer: True
   - 6:
      name: "Increase Speed to Medium"
-     step: "Add the salt and mix on medium speed for 6 to 8 minutes, until the dough starts to pull away from the sides of the bowl. Note that the dough will not pull so much that it completely cleans the bowl, but if the dough is too sticky and is not pulling away from the sides at all, throw a small handful of flour into the bowl to make it less sticky."
+     step: "Add [1/2 oz (1 tbsp) kosher salt] and mix on medium speed for 6 to 8 minutes, until the dough starts to pull away from the sides of the bowl. Note that the dough will not pull so much that it completely cleans the bowl, but if the dough is too sticky and is not pulling away from the sides at all, throw a small handful of flour into the bowl to make it less sticky."
      dependencies: [5]
      time: 6
      timer: True
   - 7:
      name: "Grease a Bowl"
-     step: "While the dough is mixing, lightly grease with olive oil a bowl large enough to hold the dough when it doubles in size."
+     step: "While the dough is mixing, lightly grease with [olive oil] a bowl large enough to hold the dough when it doubles in size."
      dependencies: [4]
      time: 2
   - 8:
@@ -77,60 +78,54 @@ steps:
      time: 60
      timer: True
   - 12:
-     name: "Proof the Dough"
-     step: "Lightly flour your hands and use both hands to gather each round of dough into a taut ball. Dust a baking sheet generously with flour and place the dough rounds on the baking sheet. Cover the baking sheet with the dishtowel and set them again at room temperature for 1 hour to proof the dough. (Or leave the dough on the counter to proof instead.)"
-     dependencies: [11]
-     time: 60
-     timer: True
-  - 13:
      name: "Preheat the Oven"
      step: "Remove the oven racks from the oven and place a pizza stone on the floor of the oven.  Preheat the oven and stone to 500°F, or as hot as your oven will go, for at least 1 hour."
      dependencies: [12]
      time: 60
      timer: True
-  - 14:
+  - 13:
      name: "Prepare your Pizza Station"
      step: "While the oven heats, create a pizza station that includes bowls full of olive oil, kosher salt, and the ingredients necessary to make the pizzas you have chosen.  Have a bowl of flour ready for dusting your countertop and a bowl of semolina ready for dusting your pizza peel."
-     dependencies: [11,13]
+     dependencies: [11,12]
      time: 5
-  - 15:
+  - 14:
      name: "Dust the Dough with Flour"
      step: "When your dough is ready, generously flour your work surface and place one round of dough in the center of the floured surface. Dust the dough lightly with flour."
+     dependencies: [13]
+     time: 1
+  - 15:
+     name: "Flatten the Dough"
+     step: "Using your fingertips as though you were tapping on piano keys, gently tap the center of the dough to flatten it slightly, leaving a 1-inch rim untouched."
      dependencies: [14]
      time: 1
   - 16:
-     name: "Flatten the Dough"
-     step: "Using your fingertips as though you were tapping on piano keys, gently tap the center of the dough to flatten it slightly, leaving a 1-inch rim untouched."
-     dependencies: [15]
-     time: 1
-  - 17:
      name: "Shape the Dough"
      step: "Pick up the dough and, with your fists facing your body, place the top edge of the dough on your fists so the round stretches downward against the backs of your hands, away from them. Move the circle of dough around your fists like the hands of a clock so the dough continues to stretch downward into a circle. When the dough has stretched to about 10 inches in diameter, lay it down on the flour-dusted surface."
-     dependencies: [16]
+     dependencies: [15]
      time: 2
-  - 18:
+  - 17:
      name: "Assemble the Pizza"
      step: "Brush the rim of the dough with olive oil and sprinkle kosher salt over the surface of the dough. Dress the pizza according to the recipe you have chosen, making sure to leave a 1-inch rim with no sauce or topping around the edge."
-     dependencies: [17]
+     dependencies: [16]
      time: 5
-  - 19:
+  - 18:
      name: "Put the Pizza onto the Peel"
      step: "Dust a pizza peel with semolina and slide the pizza peel under the pizza with one decisive push. Reshape the pizza on the peel if it has lost its shape. Shake the peel gently to determine weather the dough will release easily in the oven. If it is sticking to the peel, carefully lift one side of the dough and throw some more semolina under it. Do this from a few different angles until there is semolina under the entire crust."
-     dependencies: [18]
+     dependencies: [17]
      time: 2
-  - 20:
+  - 19:
      name: "Put the Pizza into the Oven"
      step: "Open the oven door and slide the dough onto the preheated pizza stone. Again, moving decisively, pull the peel toward you to leave the pizza on the stone."
      dependencies: [12, 18]
      time: 1
-  - 21:
+  - 20:
      name: "Bake the Pizza"
      step: "Bake the pizza until it is golden brown and the cornice, or rim, is crisp and blistered, 8 to 12 minutes. Cooking times may vary according to the power of your oven."
-     dependencies: [12, 18]
+     dependencies: [19]
      time: 8
      timer: True
-  - 22:
+  - 21:
      name: "Remove from Oven, Slice and Repeat"
      step: "When the pizza is done, slide the peel under the crust, remove it from the oven, and place it on a cutting board or round."
-     dependencies: [21]
+     dependencies: [20]
      time: 1
