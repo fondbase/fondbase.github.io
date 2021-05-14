@@ -2,6 +2,7 @@
 name: "Ina Garten's Overnight Mac & Cheese"
 author: "Ina Garten"
 source: "Ina Garten"
+tags: [Barefoot,contessa,mac,cheese,dinner,kids,vegetarian,italian,ina,garten]
 image: "https://d14iv1hjmfkv57.cloudfront.net/assets/recipes/overnight-mac-cheese/_1200x600_crop_center-center_82_line/64093/IMG_0802.jpg?mtime=20200422090604&focal=none&tmtime=20210324094645"
 ingredients:
   - Kosher salt and freshly ground black pepper
@@ -15,13 +16,13 @@ ingredients:
 steps:
   - 1:
      name: "Cook Pasta"
-     step: "Bring a large pot of water to a boil.  Add 2 tbsp salt and 8 oz of elbow macaroni or cavatappi.  Boil for 4 minutes.  Drain and set aside."
+     step: "Bring a large pot of water to a boil.  Add [2 tbsp salt] and [8 oz of elbow macaroni or cavatappi].  Boil for 4 minutes.  Drain and set aside."
      dependencies: null
      time: 15
      timer: True
   - 2:
      name: "Prepare cheese sauce"
-     step: "In a medium (10-inch) bowl, combine 3 cups cream, ¼ teaspoon ground nutmeg, 1 cup of Gruyere, ½ cup of Cheddar, 2 teaspoons salt, and 1 teaspoon pepper.  Stir it into the cream mixture, cover the bowl with plastic wrap, and refrigerate for 24 hours.  The pasta will absorb the cream and expand."
+     step: "In a medium (10-inch) bowl, combine [3 cups cream], [1/4 teaspoon ground nutmeg], [1 cup of gruyere], [1/2 cup of cheddar], [2 teaspoons salt], and [1 teaspoon pepper].  Stir it into the cream mixture, cover the bowl with plastic wrap, and refrigerate for 24 hours.  The pasta will absorb the cream and expand."
      dependencies: [1]
      time: 1380
      timer: True
@@ -43,12 +44,12 @@ steps:
      time: 10
   - 6:
      name: "Top with Cheese"
-     step: "Combine the remaining 1 cup Gruyere and ½ cup Cheddar and sprinkle it evenly on top." 
+     step: "Combine the remaining [1 cup gruyere] and [1/2 cup cheddar] and sprinkle it evenly on top." 
      dependencies: [5]
      time: 10
   - 7:
      name: "Top with Butter and Bread Crumbs"
-     step: "Combine 1½ cups fine fresh bread crumbs and 2 tablespoons butter and sprinkle evenly on top." 
+     step: "Combine [1 1/2 cups fine fresh bread crumbs] and [2 tablespoons butter] and sprinkle evenly on top." 
      dependencies: [6]
      time: 10
   - 8:
