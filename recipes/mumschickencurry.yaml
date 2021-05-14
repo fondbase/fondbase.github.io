@@ -5,8 +5,8 @@ source: "Made in India, Cooked in Britain: Recipes from an Indian Family Kitchen
 tags: ["Indian","Meera","Sodha","Curry","Chicken","Meat","Dinner"]
 image: "https://flockler.com/thumbs/sites/192/chickencurry10_s600x600_c3072x1795_l0x1048.jpg"
 ingredients:
-  - 2 tbsp  ghee or unsalted butter
-  - 1 tbsp  rapeseed oil
+  - 2 tbsp ghee or unsalted butter
+  - 1 tbsp rapeseed oil
   - 1 tsp cumin seeds
   - 2 2-inch cinnamon sticks
   - 2 large onions, finely chopped
@@ -25,73 +25,73 @@ ingredients:
 steps:
   - 1:
      name: "Chop Onions"
-     step: "Peel and finely chop 2 onions."
+     step: "Peel and finely chop [2 onions]."
      dependencies: null
      time: 5
   - 2:
      name: "Bloom the Spices"
-     step: "Put the ghee and oil into a wide-bottomed, lidded frying pan on a medium heat and, when it’s hot, add the cumin seeds and cinnamon sticks. Let them infuse in the oil for a minute, and then add the onions. Cook for 10 to 12 minutes, stirring occasionally, until golden brown."
+     step: "Add [2 tbsp ghee or unsalted butter] and [1 tbsp rapeseed oil] into a wide-bottomed, lidded frying pan on a medium heat and, when it’s hot, add [1 tsp cumin seeds] and [2 2-inch cinnamon sticks]. Let them infuse in the oil for a minute."
      dependencies: [1]
-     time: 15
+     time: 1
   - 3:
-     name: "Peel and Grate Ginger"
-     step: "While the spices bloom, peel and grate a 2 inch knob of ginger and place into a mortar."
-     dependencies: [1]
-     time: 5
+     name: "Add the Onion"
+     step: "Add the onions. Cook for 10 to 12 minutes, stirring occasionally, until golden brown."
+     dependencies: [1,2]
+     time: 10
   - 4:
-     name: "Peel and Crush Garlic"
-     step: "Peel and crush 6 cloves of garlic. Add them to the ginger."
-     dependencies: [3]
-     time: 2
+     name: "Peel and Grate Ginger"
+     step: "While the spices bloom, peel and grate a [2 inch knob of ginger] and place into a mortar."
+     dependencies: [2]
+     time: 5
   - 5:
-     name: "Chop Chillies"
-     step: "Roughly chop 2 fresh green chillies. Add them to the ginger and garlic along with a pinch of salt."
+     name: "Peel and Crush Garlic"
+     step: "Peel and crush [6 cloves of garlic]. Add them to the ginger."
      dependencies: [4]
      time: 2
   - 6:
+     name: "Chop Chillies"
+     step: "Roughly chop [2 fresh green chillies]. Add them to the ginger and garlic along with a pinch of salt."
+     dependencies: [5]
+     time: 2
+  - 7:
      name: "Grind to a Paste"
      step: "Grind the chilli, garlic and ginger mixture into a coarse paste."
-     dependencies: [3,4,5]
+     dependencies: [4,5,6]
      time: 3
-  - 7:
+  - 8:
      name: "Add Paste to the Pan"
      step: "Add the paste to the pan and cook gently for 2 minutes."
-     dependencies: [2,6]
+     dependencies: [7]
      time: 2
      Timer: True
-  - 8:
-     name: "Add the Passata"
-     step: "Pour in 1 cup of tomato passata and stir. Cook the passata for a few minutes until it resembles a thick paste."
-     dependencies: [7]
-     time: 5
   - 9:
-     name: "Add the Tomato Paste and Season"
-     step: "Add 2 tbsp tomato paste, 1 1/2 tsp  ground cumin, 1/2 tsp ground turmeric and ½ teaspoon of salt (or to taste)."
+     name: "Add the Passata"
+     step: "Pour in [1 cup of tomato passata] and stir. Cook the passata for a few minutes until it resembles a thick paste."
      dependencies: [8]
-     time: 1
+     time: 5
   - 10:
      name: "Add the Tomato Paste and Season"
-     step: "Add 2 tbsp tomato paste, 1 1/2 tsp  ground cumin, 1/2 tsp ground turmeric and 1/2 teaspoon of salt (or to taste)."
+     step: "Add [2 tbsp tomato paste], [1 1/2 tsp ground cumin], [1/2 tsp ground turmeric] and [1/2 teaspoon of salt] (or to taste)."
      dependencies: [9]
      time: 1
   - 11:
      name: "Add the Yogurt"
-     step: "Whisk 3 tbsp whole milk yogurt and add it slowly to the curry. Cook it through until it starts to bubble."
+     step: "Whisk [3 tbsp whole milk yogurt] and add it slowly to the curry. Cook it through until it starts to bubble."
      dependencies: [10]
      time: 3
   - 12:
      name: "Add the Chicken"
-     step: "Add 2lbs boneless skinless chicken thighs, put the lid on the pan and continue to cook on a gentle heat for around 30 minutes."
+     step: "Add [2lbs boneless skinless chicken thighs], put the lid on the pan and continue to cook on a gentle heat for around 30 minutes."
      dependencies: [11]
      time: 30
      timer: True
   - 13:
      name: "Add the almonds and garam masala"
-     step: "Add 3 tbsp  ground almonds and 1 tsp garam masala and cook for another 5 minutes."
+     step: "Add [3 tbsp  ground almonds] and [1 tsp garam masala] and cook for another 5 minutes."
      dependencies: [12]
      time: 5
   - 14:
      name: "Remove from Heat and Serve"
-     step: "Serve with a tower of chapattis, hot fluffy naan bread or rice, and offer yoghurt at the table."
+     step: "Serve with a tower of chapattis, hot fluffy naan bread or rice, and offer yogurt at the table."
      dependencies: [13]
      time: 1
