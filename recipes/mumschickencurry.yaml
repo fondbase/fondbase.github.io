@@ -2,7 +2,7 @@
 name: "Mum's Chicken Curry"
 author: "Meera Sodha"
 source: "Made in India, Cooked in Britain: Recipes from an Indian Family Kitchen"
-tags: [Indian,Meera,Sodha,Curry,Chicken,Meat,Dinner]
+tags: ["Indian","Meera","Sodha","Curry","Chicken","Meat","Dinner"]
 image: "https://flockler.com/thumbs/sites/192/chickencurry10_s600x600_c3072x1795_l0x1048.jpg"
 ingredients:
   - 2 tbsp  ghee or unsalted butter
