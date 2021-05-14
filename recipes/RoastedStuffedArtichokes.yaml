@@ -57,7 +57,7 @@ steps:
      name: "Drain Ricotta"
      step: "Drain [2 oz of ricotta] and add to the lemon zest."
      dependencies: [7]
-     time: 
+     time: 2
   - 9:
      name: "Add Egg"
      step: "Add the saffron mix to the ricotta and lemon zest and whisk together. Season to taste with salt and pepper before beating in [1 egg]. Set aside."
@@ -67,7 +67,7 @@ steps:
      name: "Mince Garlic"
      step: "Peel and mince [1 clove of garlic]. Set aside in a medium bowl."
      dependencies: [1]
-     time: 2
+     time: 3
   - 11:
      name: "Add Mint and Oil"
      step: "To the garlic, add the reserved lemon juice, [1 tbsp dried mint]; and [1/4 cup grapeseed oil]. Add a [pinch of salt] and set aside for a few minutes to allow the mint to soften."
@@ -94,3 +94,40 @@ steps:
      step: "Serve warm, topped with the pan juice. To eat an artichoke, pull off the leaves and dip the fleshy part in the pan juice. When you reach the center, cut into the ricotta and the artichoke heart with a fork."
      dependencies: [14]
      time: 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
