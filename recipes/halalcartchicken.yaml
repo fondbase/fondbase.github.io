@@ -86,7 +86,7 @@ steps:
   - 9:
      name: "Mix the Hot Sauce"
      step: "In a small bowl, stir [1 tbsp hot sauce] and [1 tbsp harissa] together."
-     dependencies: [null]
+     dependencies: null
      time: 5
   - 10:
      name: "Final Assembly"
