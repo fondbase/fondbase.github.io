@@ -2,6 +2,7 @@
 name: "Mum's Chicken Curry"
 author: "Meera Sodha"
 source: "Made in India, Cooked in Britain: Recipes from an Indian Family Kitchen"
+tags: [Indian,Meera,Sodha,Curry,Chicken,Meat,Dinner]
 image: "https://flockler.com/thumbs/sites/192/chickencurry10_s600x600_c3072x1795_l0x1048.jpg"
 ingredients:
   - 2 tbsp  ghee or unsalted butter
@@ -50,7 +51,7 @@ steps:
   - 6:
      name: "Grind to a Paste"
      step: "Grind the chilli, garlic and ginger mixture into a coarse paste."
-     dependencies: [3.4.5]
+     dependencies: [3,4,5]
      time: 3
   - 7:
      name: "Add Paste to the Pan"
@@ -94,4 +95,3 @@ steps:
      step: "Serve with a tower of chapattis, hot fluffy naan bread or rice, and offer yoghurt at the table."
      dependencies: [13]
      time: 1
-
