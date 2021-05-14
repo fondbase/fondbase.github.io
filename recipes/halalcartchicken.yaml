@@ -91,5 +91,5 @@ steps:
   - 10:
      name: "Final Assembly"
      step: "To finish, chop the chicken into bite-sized, uneven pieces, then place the chopped chicken on the platter. Pile the salad in the remaining part of the platter. Dress the dish with sauce, to taste, and garnish with [cilantro]. Serve with halved [pitas]."
-     dependencies: [9]
+     dependencies: [8]
      time: 3
