@@ -2,6 +2,7 @@
 name: "Sri Lankan Rice with Cilantro and Lemongrass"
 author: "Madhur Jaffrey"
 source: "At Home with Madhur Jaffrey"
+tags: [Madhur,Jaffrey,"Sri Lankan",rice,vegetarian,vegan,dinner,lunch,side,asian]
 image: "https://www.seriouseats.com/thmb/peD-3y4LkQ4_pLIKlPek1IXAJrM=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20110308-140840-sri-lankan-rice-with-cilantro-and-lemongrass-8d591c5f17fb4bf29ba7f107450bce72.jpg"
 ingredients:
   - 2 cups basmati rice
@@ -19,38 +20,38 @@ ingredients:
 steps:
   - 1:
      name: "Wash and Soak Rice"
-     step: "Wash the rice in several changes of water. Drain. Soak in water to cover generously for 30 minutes. Drain."
+     step: "Wash [2 cups basmati rice] in several changes of water. Drain. Soak in water to cover generously for 30 minutes. Drain."
      dependencies: null
      time: 30
      timer: True
   - 2:
      name: "Mince Ginger"
-     step: "Mince 2 cloves of garlic.  Set aside."
+     step: "Mince [2 cloves of garlic].  Set aside."
      dependencies: null
      time: 3
   - 3:
      name: "Peel and Grate Ginger"
-     step: "Peel and grate 2 tsp ginger.  Set aside."
+     step: "Peel and grate [2 tsp ginger].  Set aside."
      dependencies: null
      time: 3
   - 4:
      name: "Peel and Cut Lemongrass"
-     step: "Peel and cut the bottom 6 inches of a lemongrass stalk into 2, 3-inch pieces.  Set aside."
+     step: "Peel and cut [the bottom 6 inches of a lemongrass stalk] into 2, 3-inch pieces.  Set aside."
      dependencies: null
      time: 3
   - 5:
      name: "Chop Cilantro"
-     step: "Rinse, drain and chop 1 packed cup of cilantro, using tender stems and leaves.  Set aside."
+     step: "Rinse, drain and chop [1 packed cup of cilantro], using tender stems and leaves.  Set aside."
      dependencies: null
      time: 3
   - 6:
      name: "Heat Oil"
-     step: "Pour 3 tablespoons olive or canola oil into a medium-sized, heavy pan and set on medium-high heat."
+     step: "Pour [3 tablespoons olive or canola oil] into a medium-sized, heavy pan and set on medium-high heat."
      dependencies: [1,2,3,4,5]
      time: 3
   - 7:
      name: "Bloom Spices"
-     step: "When hot, add 3 cardamom pods; 3 whole cloves; one 2-inch cinnamon stick. Let them sizzle for 5 seconds. Add 10 fresh curry leaves (or 5 fresh basil leaves), torn up; and the garlic, ginger and lemon grass. Stir around for a minute."
+     step: "When hot, add [3 cardamom pods]; [3 whole cloves]; one [2-inch cinnamon stick]. Let them sizzle for 5 seconds. Add [10 fresh curry leaves (or 5 fresh basil leaves)], torn up; and the garlic, ginger and lemon grass. Stir around for a minute."
      dependencies: [6]
      time: 1
   - 8:
@@ -60,7 +61,7 @@ steps:
      time: 1
   - 9:
      name: "Add Stock and Bring to Boil"
-     step: "Add 2 2/3 cups chicken stock and 1 tsp salt and bring to a boil. "
+     step: "Add [2 2/3 cups chicken stock] and 1 tsp salt and bring to a boil. "
      dependencies: [8]
      time: 5
   - 10:

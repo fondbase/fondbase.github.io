@@ -2,6 +2,7 @@
 name: "Thai Chicken Karaage"
 author: "Heather Shouse"
 source: "Food Trucks"
+tags: [thai,chicken,meat,Karaage,fried,dinner,lunch,"food truck"]
 image: "https://www.seriouseats.com/thmb/q0lYlCQy7ContFtkVaTyK5n_FDU=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20110512-151405-thai-chicken-karaage-dbffe575cafe4b398d2f85546397eddd.jpg"
 ingredients:
   - 1 cup fish sauce
@@ -22,22 +23,22 @@ ingredients:
 steps:
   - 1:
      name: "Mince Garlic"
-     step: "Finely mince one who head of garlic and place in medium mixing bowl."
+     step: "Finely mince [one whole head of garlic] and place in medium mixing bowl."
      dependencies: null
      time: 10
   - 2:
      name: "Roughly Chop Chilies"
-     step: "Roughly Chop 4 Thai Chilies and add to minced garlic."
+     step: "Roughly Chop [4 Thai chilies] and add to minced garlic."
      dependencies: null
      time: 5
   - 3:
      name: "Make the Brine"
-     step: "To the bowl with the garlic and chilies, add 1 cup fish sauce, 1 cup white vinegar, 1 cup sugar.  Stir to combine.  Set aside 1 cup of the brine for later."
+     step: "To the bowl with the garlic and chilies, add [1 cup fish sauce], [1 cup white vinegar], [1 cup sugar].  Stir to combine.  Set aside 1 cup of the brine for later."
      dependencies: [2, 1]
      time: 3
   - 4:
      name: "Add the Chicken and Marinate Overnight"
-     step: "Add the 6 boneless, skinless chicken thighs to the remaining brine, cover, and refrigerate for 24 hours."
+     step: "Add the [6 boneless, skinless chicken thighs] to the remaining brine, cover, and refrigerate for 24 hours."
      dependencies: [3]
      time: 1440
   - 5:
@@ -47,7 +48,7 @@ steps:
      time: 10
   - 6:
      name: "Slice Onion and Jalapenos"
-     step: "While the chicken drains, thinly slice 1/4 onion and 2 jalapenos and place in a small bowl."
+     step: "While the chicken drains, thinly slice [1/4 onion] and [2 jalapenos] and place in a small bowl."
      dependencies: [5]
      time: 10    
   - 7:
@@ -57,7 +58,7 @@ steps:
      time: 10
   - 8:
      name: "Prepare Cornstarch"
-     step: "Pour 1 cup of cornstarch onto a plate."
+     step: "Pour [1 cup of cornstarch] onto a plate."
      dependencies: [4]
      time: 1
   - 9:
@@ -72,6 +73,6 @@ steps:
      time: 2
   - 11:
      name: "Toss with Reserved Brine"
-     step: "Add the sliced onion and jalapeños, the reserved 1 cup brine, and 1 cup chile sauce.  Toss to coat, and season with salt to taste. Garnish with torn cilantro, mint, and basil leaves and serve."
+     step: "Add the sliced onion and jalapeños, the reserved 1 cup brine, and [1 cup sweet chile sauce, such as Mae Ploy].  Toss to coat, and season with salt to taste. Garnish with torn [cilantro, mint, and basil leaves] and serve."
      dependencies: [6,10]
      time: 2

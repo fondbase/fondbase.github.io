@@ -2,6 +2,7 @@
 name: "Spring Frittata"
 author: "Michael Romano and Karen Stabiner"
 source: "Famly Table: Favorite Staff Meals from Our Restaurants to Your Home"
+tags: [eggs,frittata,spring,easy,italian,brunch,dinner]
 image: "https://www.seriouseats.com/thmb/tjn_b2sh5qAOyJFOwTU3h5k2B_E=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__04__050313-249931-cook-the-book-springtime-frittata-2fe083d1c67c4c4085d330b07d1fdcb4.jpg"
 ingredients:
   - For the Filling
@@ -31,28 +32,28 @@ steps:
      time: 10
   - 2:
      name: "Bake Potato"
-     step: "Pierce 1 scrubbed, medium russet potato several times with a fork. Bake it directly on an oven rack for 1 hour, or until tender. Refrigerate until cool enough to handle."
+     step: "Pierce [1 scrubbed, medium russet potato] several times with a fork. Bake it directly on an oven rack for 1 hour, or until tender. Refrigerate until cool enough to handle."
      dependencies: [1]
      time: 60
      timer: True
   - 3:
      name: "Trim Artichoke"
-     step: "Pull off the outer leaves of the artichoke, then pull out or cut away the pale green leaves in the center. Trim the stem to 1 to 2 inches. With a paring knife, trim away the dark green outer portion of the heart and the stem. Split the heart in half and use a spoon or small paring knife to carve out the prickly choke at its center. Cut the artichoke into 1/8-inch-thick slices. Set aside."
+     step: "Pull off the outer leaves of [1 large artichoke], then pull out or cut away the pale green leaves in the center. Trim the stem to 1 to 2 inches. With a paring knife, trim away the dark green outer portion of the heart and the stem. Split the heart in half and use a spoon or small paring knife to carve out the prickly choke at its center. Cut the artichoke into 1/8-inch-thick slices. Set aside."
      dependencies: null
      time: 10
   - 4:
      name: "Peel and Slice Onion"
-     step: "Peel and thinly slice 1 large onion.  Set aside."
+     step: "Peel and thinly slice [1 large onion].  Set aside."
      dependencies: [4]
      time: 5
   - 5:
      name: "Peel and Trim Asparagus"
-     step: "Peel and trim the woody stalks off of 10 medium asparagus stalks.  Cut into 1/2-inch pieces and set aside."
+     step: "Peel and trim the woody stalks off of [10 medium asparagus stalks].  Cut into 1/2-inch pieces and set aside."
      dependencies: null
      time: 3
   - 6:
      name: "Trim and Chop Chard"
-     step: "Wash, trim and chop 1 small bunch (about 2 packed cups) Swiss chard leaves.  Set aside."
+     step: "Wash, trim and chop [1 small bunch (about 2 packed cups) Swiss chard leaves].  Set aside."
      dependencies: null
      time: 3
   - 7:
@@ -77,27 +78,27 @@ steps:
      time: 10
   - 11:
      name: "Chop Herbs"
-     step: "While the oven heats, finely chop a small handful of mixed fresh basil, Italian parsley, and chives.  You should be left with 2 tbsp finely chopped herbs."
+     step: "While the oven heats, finely chop a [small handful of mixed fresh basil, Italian parsley, and chives].  You should be left with 2 tbsp finely chopped herbs."
      dependencies: [9]
      time: 3
   - 12:
      name: "Grate Gruyere"
-     step: "Grate 1/2 cup of gruyere.  Set aside."
+     step: "Grate [1/2 cup of gruyere].  Set aside."
      dependencies: [9]
      time: 3
   - 13:
      name: "Grate Parmesan"
-     step: "Grate 1/4 cup of Parmigiano-Reggiano. Set aside"
+     step: "Grate [1/4 cup of Parmigiano-Reggiano]. Set aside"
      dependencies: [9]
      time: 3
   - 14:
      name: "Beat Eggs and Mix-in Filling"
-     step: "Beat 9 eggs and 3 yolks together in a large bowl. Stir in 1/4 cup heavy cream, the grated Gruyère, 3 tablespoons of the grated Parmigiano, the herbs, 2 tbsp bread crumbs, the potato slices, the asparagus-chard mixture.  Add salt and pepper to taste."
+     step: "Beat [9 eggs and 3 yolks] together in a large bowl. Stir in [1/4 cup heavy cream], the grated Gruyère, 3 tablespoons of the grated Parmigiano, the herbs, [2 tbsp bread crumbs], the potato slices, the asparagus-chard mixture.  Add salt and pepper to taste."
      dependencies: [9,10,11,12,13,14]
      time: 4
   - 15:
      name: "Scrable the Frittata"
-     step: "Heat the 1 tablespoon oil in a 10-inch ovenproof nonstick skillet over medium-high heat. Add the egg mixture and, with a rubber spatula or wooden spoon, stir to scramble the frittata for 30 seconds, scraping the bottom of the pan and breaking up any large egg curds. The frittata will still be mostly wet, with evenly dispersed cooked egg throughout. Remove the pan from the heat, smooth the top of the frittata, and gently tap the pan on the counter to settle it."
+     step: "Heat the [1 tablespoon olive oil] in a 10-inch ovenproof nonstick skillet over medium-high heat. Add the egg mixture and, with a rubber spatula or wooden spoon, stir to scramble the frittata for 30 seconds, scraping the bottom of the pan and breaking up any large egg curds. The frittata will still be mostly wet, with evenly dispersed cooked egg throughout. Remove the pan from the heat, smooth the top of the frittata, and gently tap the pan on the counter to settle it."
      dependencies: [14]
      time: 1
   - 16:

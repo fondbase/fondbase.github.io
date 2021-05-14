@@ -2,6 +2,7 @@
 name: "Tomato Sauce With Onion and Butter"
 author: "Marcella Hazan"
 source: "Essentials of Classic Italian Cooking"
+tags: [tomato,sauce,pasta,italian,dinner,vegetarian,Marcella,Hazan]
 image: "https://static01.nyt.com/images/2013/11/10/magazine/10eat2/10eat2-articleLarge.jpg"
 ingredients:
   - 2 pounds fresh ripe tomatoes, blanched as described below*, or 2 cups canned imported Italian tomatoes, cut up, with their juice
@@ -11,17 +12,17 @@ ingredients:
 steps:
   - 1:
      name: "Blanch Tomatoes"
-     step: "If using fresh tomatoes, blanch them in boiling water for about a minute and let drain.  As soon as they are cool enough to handle, skin them, cut the core out, roughly chop and place in a medium sauce pan."
+     step: "Blanch [2 pounds fresh ripe tomatoes] in boiling water for about a minute and let drain.  As soon as they are cool enough to handle, skin them, cut the core out, roughly chop and place in a medium sauce pan."
      dependencies: null
      time: 15
   - 2:
      name: "Peel and Cut an Onion"
-     step: "Peel and cut one medium onion in half and add to the tomatoes."
+     step: "Peel and cut [1 medium onion] in half and add to the tomatoes."
      dependencies: null
      time: 2
   - 3:
      name: "Add the Butter and Cook"
-     step: "Add 5 tbsp butter and a pinch of salt to the sauce pan, place over medium-low heat and simmer, uncovered, for about 45 minutes, stirring occationally."
+     step: "Add [5 tbsp butter] and a pinch of salt to the sauce pan, place over medium-low heat and simmer, uncovered, for about 45 minutes, stirring occationally."
      dependencies: [1,2]
      time: 45
      timer: True

@@ -2,6 +2,7 @@
 name: "Turmeric Chicken with Sumac and Lime"
 author: "Louisa Shafia"
 source: "The New Persian Kitchen"
+tags: [dinner,meat,chicken,persian,Shafia,sumac,lime]
 image: "https://www.seriouseats.com/thmb/QgXSu2GqCY0P9TNVmyHOBx7KcOQ=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__04__042513-249107-cook-the-book-turmeric-chicken-sumac-lime-cc30b32ef3a24fed8aba8673c5189b82.jpg"
 ingredients:
   - 1 teaspoon ground turmeric
@@ -15,12 +16,12 @@ ingredients:
 steps:
   - 1:
      name: "Mix Spices"
-     step: "In a small bowl, mix 1 tsp turmeric with 1 tbsp salt and 2 tsp pepper."
+     step: "In a small bowl, mix [1 tsp turmeric] with 1 tbsp salt and 2 tsp pepper."
      dependencies: null
      time: 1
   - 2:
      name: "Season Chicken"
-     step: "Place the chicken in a large skillet.  Rub on all sides with 2 tbsp grapeseed oil and the spice mixture, leaving them skin-side down."
+     step: "Place [4 bone-in chicken thighs] in a large skillet.  Rub on all sides with [2 tbsp grapeseed oil] and the spice mixture, leaving them skin-side down."
      dependencies: [1]
      time: 3
   - 3:
@@ -37,12 +38,12 @@ steps:
      timer: True
   - 5:
      name: "Mince Garlic"
-     step: "While the chicken cooks, mince 4 cloves of garlic."
+     step: "While the chicken cooks, mince [4 cloves of garlic]."
      dependencies: [3]
      time: 3
   - 6:
-     name: "Add Wated and Garlic"
-     step: "Pour in 3/4 cup water and 4 cloves of minced garlic.  Bring the water to a boil, then turn down the heat to low and cover.  Simmer for 25 minutes."
+     name: "Add Water and Garlic"
+     step: "Pour in 3/4 cup water and the minced garlic.  Bring the water to a boil, then turn down the heat to low and cover.  Simmer for 25 minutes."
      dependencies: [5]
      time: 25
      timer: True
