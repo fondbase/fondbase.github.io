@@ -3,7 +3,7 @@ name: "Chicken and Rice, Street Cart Style"
 author: "Deb Perelman"
 source: "Smitten Kitchen Everyday"
 image: "https://www.mirchitales.com/wp-content/uploads/2018/07/Halal-Cart-Style-Chicken-and-Rice-6-1024x683.jpg"
-tags: [meat,dinner,chicken,Smitten,Kitchen,Deb,Perelman,Halal,Cart,Rice]
+tags: ["meat","dinner","chicken","Smitten","Kitchen","Deb","Perelman","Halal","Cart","Rice"]
 ingredients:
   - For the Chicken and Marinade
   - Juice of 1/2 lemon
