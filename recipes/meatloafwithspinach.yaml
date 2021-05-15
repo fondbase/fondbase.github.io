@@ -22,7 +22,7 @@ steps:
      name: "Preheat Oven"
      step: "Preheat Oven to 450."
      dependencies: null
-     time: 10
+     time: 1
   - 2:
      name: "Saute Spinach"
      step: "Heat a large sauté pan over medium heat; add [1 5-oz package of baby spinach] and 2 tbsp water to pan. Cover and steam 2 minutes or until spinach wilts. Remove pan from heat; cool 5 minutes."

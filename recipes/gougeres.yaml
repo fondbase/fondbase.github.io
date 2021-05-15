@@ -17,7 +17,7 @@ steps:
      name: "Preheat the Oven"
      step: "Position the racks to divide the oven into thirds and preheat the oven to 425 degrees F."
      dependencies: null
-     time: 15
+     time: 1
   - 2:
      name: "Line Baking Sheets"
      step: "Line two baking sheets with silicone baking mats or parchment paper."

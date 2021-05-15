@@ -36,7 +36,7 @@ steps:
      name: "Preheat the Oven"
      step: "Preheat the oven to 400 degrees"
      dependencies: [2]
-     time: 10
+     time: 1
   - 5:
      name: "Add Pasta to Gratin Dish"
      step: "Butter a 2-quart gratin dish, transfer the pasta mixture to the dish and spread it evenly." 

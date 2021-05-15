@@ -33,7 +33,7 @@ steps:
      name: "Preheat Oven"
      step: "Preheat oven to 400 degrees."
      dependencies: null
-     time: 15
+     time: 1
   - 2:
      name: "Prepare Meatball Mix"
      step: "In a large bowl, combine [1 lb ground turkey], [2/3 cup fresh breadcrumbs], 1/4 cup water, [1 tsp table salt], [1 large egg], [2 minced garlic cloves], [1/2 tsp ground cumin], [1/2 tsp ground coriander], [1/2 tsp Aleppo pepper], [1/8 tsp cayenne pepper, or 1/4 teaspoon Aleppo red pepper flakes], [2 tbsp toasted sesame seeds]."

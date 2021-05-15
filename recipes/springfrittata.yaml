@@ -29,7 +29,7 @@ steps:
      name: "Preheat Oven"
      step: "Preheat the oven to 350 degrees."
      dependencies: null
-     time: 10
+     time: 1
   - 2:
      name: "Bake Potato"
      step: "Pierce [1 scrubbed, medium russet potato] several times with a fork. Bake it directly on an oven rack for 1 hour, or until tender. Refrigerate until cool enough to handle."

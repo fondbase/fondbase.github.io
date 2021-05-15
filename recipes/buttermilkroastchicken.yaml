@@ -35,7 +35,7 @@ steps:
      name: "Preheat Oven"
      step: "While the chicken rests, adjust oven rack to center position and preheat the oven to 425°F."
      dependencies: [3]
-     time: 10
+     time: 1
   - 6:
      name: "Prepare Chicken"
      step: "Remove the chicken from the plastic bag and scrape off as much buttermilk as you can without being obsessive. Tightly tie together the legs of the chicken with a piece of butcher’s twine. Place the chicken in a 10-inch cast iron skillet or shallow roasting pan."

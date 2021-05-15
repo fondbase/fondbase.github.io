@@ -26,7 +26,7 @@ steps:
      name: "Preheat Oven"
      step: "Preheat Oven to 350 degrees."
      dependencies: null
-     time: 10
+     time: 1
   - 3:
      name: "Peel and Devein Shrimp"
      step: "Peel and devein [18 large or 24 medium Gulf shrimp], making sure to keep the heads attached. Arrange the peeled shrimp in a single layer on the prepared baking sheet, cover with plastic wrap, and keep refrigerated until ready to serve."

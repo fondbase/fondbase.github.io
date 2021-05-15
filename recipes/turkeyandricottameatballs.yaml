@@ -24,7 +24,7 @@ steps:
      name: "Preheat Oven"
      step: "Preheat your oven to 425°F. Line a baking sheet with aluminum foil. Drizzle [2 tbsp olive oil] on the baking sheet and use your hands to rub it over the entire surface of the sheet. Set aside."
      dependencies: null
-     time: 15    
+     time: 1
   - 3:
      name: "Peel Garlic"
      step: "Peel [7 cloves of garlic]. Thinly slice 4 of the cloves and mince the other 3. Set aside."

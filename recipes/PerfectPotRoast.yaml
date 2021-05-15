@@ -19,7 +19,7 @@ steps:
      name: "Preheat Oven"
      step: "Preheat Oven to 275."
      dependencies: null
-     time: 10
+     time: 1
   - 2:
      name: "Salt the Meat"
      step: "Generously salt [1 3-pound chuck roast] on both sides."

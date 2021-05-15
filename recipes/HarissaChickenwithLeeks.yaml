@@ -44,7 +44,7 @@ steps:
      name: "Preheat the Oven"
      step: "While the chicken marinates, heat the oven to 425°F."
      dependencies: [3]
-     time: 15
+     time: 1
   - 6:
      name: "Slice Leeks"
      step: "Halve [2 leeks, white and light green parts], rinse well and thinly slice into half-moons.  Set aside in a medium bowl."
