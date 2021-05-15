@@ -18,7 +18,7 @@ steps:
      name: "Cook Pasta"
      step: "Bring a large pot of water to a boil.  Add [2 tbsp salt] and [8 oz of elbow macaroni or cavatappi].  Boil for 4 minutes.  Drain and set aside."
      dependencies: null
-     time: 15
+     time: 4
      timer: True
   - 2:
      name: "Prepare cheese sauce"

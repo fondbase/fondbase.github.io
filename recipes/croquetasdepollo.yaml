@@ -79,16 +79,16 @@ steps:
   - 12:
      name: "Heat the Oil"
      step: "In a skillet or sauté pan, heat at least 3/4 inch/2 cm of [sunflower oil] to a temperature of 350F."
-     dependencies: [9,11]
+     dependencies: [9,10,11]
      time: 8
   - 13:
      name: "Dip and Dredge the Croquettes"
      step: "Dip the croquettes in the egg and roll in breadcrumbs to completely cover."
-     dependencies: [9,11,12]
+     dependencies: [9,10,11,12]
      time: 5
   - 14:
      name: "Fry the Croquettes"
      step: "Working in small batches that don’t crowd the pan, fry the croquettes, turning frequently, until they are golden on the outside and hot and creamy at the center, about 4 minutes. Gently transfer them to absorbent paper towels to drain off excess oil. Serve hot."
-     dependencies: [9,11,12,13]
+     dependencies: [9,10,11,12,13]
      time: 4
   
