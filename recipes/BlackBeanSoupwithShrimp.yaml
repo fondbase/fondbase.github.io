@@ -1,0 +1,77 @@
+---
+name: "Black Bean Soup with Shrimp"
+author: "Rick Bayless"
+source: "The Best Soups in the World"
+image: "https://www.seriouseats.com/thmb/IbLdZPh4dvZyaAi4vkw9oN4MQ30=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20100126-baylessblackbeansoup-81381adeea5e46339d3e3be873f60f8b.jpg"
+tags: [latin,mexican,beans,soup,seafood,shrimp,vegetarian,Bayless,Rick,"Black Bean"]
+ingredients:
+  - 3/4 pound (1 1/2 cups) dried black beans, picked over
+  - 12 cups water
+  - 6 ounces (about 1 link) Mexican-style chorizo, casing removed and crumbled
+  - 1 stalk fennel, chopped
+  - 1 medium onion, chopped
+  - 3 chipotle chiles in adobo, chopped
+  - 4 teaspoons salt, or more to taste
+  - 1/2 teaspoon freshly ground black pepper
+  - 12 medium shrimp, peeled and deveined if necessary
+  - 5 corn tostadas, broken up or a handful of corn tortilla chips
+  - 1/2 cup crumbled queso fresco or cheddar cheese
+steps:
+  - 1:
+     name: "Bring Beans to a Boil"
+     step: "In a large pot, place [3/4 pound (1 1/2 cups) dried black beans, picked over] and cover with 6 cups of water. Bring to a boil over high heat."
+     dependencies: null
+     time: 5
+  - 2:
+     name: "Let Beans Sit"
+     step: "Turn the heat off and let the beans sit for 1 hour."
+     dependencies: [1]
+     time: 60
+     timer: True
+  - 3:
+     name: "Chop Fennel and Onion"
+     step: "Trim and chop 1 stalk fennel and 1 medium onion.  Set aside."
+     dependencies: null
+     time: 5
+  - 4:
+     name: "Chop Chipotles"
+     step: "Remove 3 chipotle chiles in adobo from can and roughly chop."
+     dependencies: null
+     time: 2
+  - 5:
+     name: "Drain the Beans"
+     step: "Drain the beans and return to the pot. Cover with 6 cups of water and bring to a boil over high heat."
+     dependencies: [2]
+     time: 3
+  - 6:
+     name: "Add Chorizo, Fennel, Onion and Chipotles"
+     step: "Reduce the heat to low, stir in the [6 ounces (about 1 link) Mexican-style chorizo, casing removed and crumbled], fennel, onion, and chipotle chiles in adobo."
+     dependencies: [5]
+     time: 1
+  - 7:
+     name: "Simmer Soup"
+     step: "Partially cover, and simmer until the beans are tender, about 2 hours."
+     dependencies: [6]
+     time: 120
+     timer: True
+  - 8:
+     name: "Blend until Smooth"
+     step: "Use an immersion blender (or transfer the soup to a blender, in batches if necessary) and blend until it forms a smooth puree."
+     dependencies: [7]
+     time: 5
+  - 9:
+     name: "Reheat Soup"
+     step: "Return the soup to the pot, add [4 teaspoons salt, or more to taste] and [1/2 teaspoon freshly ground black pepper], stir, and heat over medium heat until hot."
+     dependencies: [8]
+     time: 5
+     timer: True
+  - 10:
+     name: "Add Shrimp"
+     step: "Add [12 medium shrimp, peeled and deveined if necessary] and cook until they are orange-red, 3 to 4 minutes."
+     dependencies: [9]
+     time: 4
+  - 11:
+     name: "Serve and Enjoy!"
+     step: "Serve the soup in individual bowls garnished with the tostadas and crumbled cheese."
+     dependencies: [10]
+     time: 1
