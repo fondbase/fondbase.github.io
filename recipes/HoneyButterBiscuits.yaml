@@ -1,0 +1,97 @@
+---
+name: "The World's Best Biscuits — End of Story"
+author: "Andrew Carmellini"
+source: "American Flavor"
+image: "https://www.seriouseats.com/thmb/SQ7p3J0_NRaZuv7M0ISJE4AJdDs=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2011__11__20111128-181382-world-best-biscuits-3c17b1c2809c4a0494e6829071d7cdbb.jpg"
+tags: [Andrew,Carmellini,vegetarian,bread,biscuits,buttermilk,honey-butter,side,lunch,dinner]
+ingredients:
+  - For the Honey-Butter Topping
+  - 3 tablespoons unsalted butter, cut into small pieces
+  - 3 tablespoons honey
+  - 1/4 teaspoon salt  
+  - For the Biscuits
+  - 4 1/2 cups all-purpose flour, plus extra for flouring your work surface and rolling pin
+  - 1 teaspoon baking soda
+  - 1 tablespoon plus 2 teaspoons baking powder
+  - 1 teaspoon salt
+  - 2 teaspoons sugar
+  - 1 cup solid vegetable shortening
+  - 2 1/2 cups buttermilk 
+steps:
+  - 1:
+     name: "Boil Water"
+     step: "Bring 2 tablespoons of water to a boil in a small pot."
+     dependencies: null
+     time: 1
+  - 2:
+     name: "Add Butter"
+     step: "Slowly whisk in [3 tablespoons unsalted butter, cut into small pieces], piece by piece, letting each piece melt completely into the water before adding the next one."
+     dependencies: [1]
+     time: 3
+  - 3:
+     name: "Add Salt and Honey"
+     step: "Add [3 tablespoons honey] and [1/4 teaspoon salt], and whisk everything together until you have a shiny, well-combined liquid."
+     dependencies: [2]
+     time: 2
+  - 4:
+     name: "Let Honey-Butter Sit"
+     step: "Let the honey butter sit in a warm area of the kitchen, or over the lowest possible fl ame on the stove, until you’re ready to use it. It’s important to keep it warm so it will spread easily—and the longer you let it sit, the better the honey butter will be."
+     dependencies: [3]
+     time: 1
+  - 5:
+     name: "Preheat Oven"
+     step: "Preheat the oven to 425°F."
+     dependencies: [4]
+     time: 1
+  - 6:
+     name: "Mix Dry Ingredients"
+     step: "In a large bowl, sift together [4 1/2 cups all-purpose flour], [1 teaspoon baking soda], [1 tablespoon plus 2 teaspoons baking powder], [1 teaspoon salt], and [2 teaspoons sugar]. (If you don’t have a sifter, you can use a whisk.)."
+     dependencies: [5]
+     time: 2
+  - 7:
+     name: "Cut in Shortening"
+     step: "Add [1 cup solid vegetable shortening]. Using a pastry cutter, or holding a butter knife in each hand, cut through the shortening and flour in an X-shaped motion until the shortening is mixed in. Be careful to break up any large pieces. You should end up with lots of little pebbles."
+     dependencies: [6]
+     time: 3
+  - 8:
+     name: "Add Buttermilk and Form Dough"
+     step: "Add [2 1/2 cups buttermilk] and use your hands to mix everything together, turning the mixture until it forms a dough. Then keep turning and kneading until you’ve got a roughly shaped ball of dough. If things get sticky, add a little bit of flour."
+     dependencies: [7]
+     time: 5
+  - 9:
+     name: "Turn Out the Dough"
+     step: "Flour a board or countertop well, and turn the dough out on it."
+     dependencies: [8]
+     time: 1
+  - 10:
+     name: "Roll Out the Dough"
+     step: "Flour your rolling pin, and then roll the dough out until it forms a round about 1/2 inch thick."
+     dependencies: [9]
+     time: 3
+  - 11:
+     name: "Fold and Roll 7 Times"
+     step: "Fold the dough round into thirds, like you’re folding a business letter. Slap the dough down hard with the palms of your hands to really bring it together, and then roll it out and fold it in again. Do this 7 times in all, skipping the folding step the seventh time. Reflour the work surface, the dough, and the rolling pin as you go."
+     dependencies: [10]
+     time: 10
+  - 12:
+     name: "Cut Out Rounds"
+     step: "Flour a 3 1/2-inch round pastry cutter, and cut out as many rounds of dough as possible (you should have 8 to 10 or so). Reflour the cutter as you go. (When we make these at the restaurant, we usually bake off the leftover pieces and eat them ourselves.)"
+     dependencies: [11]
+     time: 5
+  - 13:
+     name: "Begin Baking"
+     step: "Cover a baking sheet with parchment paper, lay the biscuits on it, and put it on the middle oven rack and bake for 10 minutes."
+     dependencies: null
+     time: 10
+     timer: True
+  - 14:
+     name: "Rotate Pan and Continue Baking"
+     step: "Turn the baking sheet so that all the biscuits bake evenly and continue baking for another 10 minutes, or until the biscuits are baked through and the tops are golden-brown (about 20 minutes). Remove from oven."
+     dependencies: [13]
+     time: 10
+     timer: True
+  - 15:
+     name: "Brush with Honey-Butter and Serve"
+     step: "Using a big pastry brush, coat the tops of the biscuits with the honey butter. The biscuits will be very soft and flaky inside, with just a little bit of crispness on the outside. Serve them while they’re hot."
+     dependencies: [4,14]
+     time: 5
