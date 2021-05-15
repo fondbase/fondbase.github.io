@@ -1,0 +1,78 @@
+---
+name: "Arepas de Queso"
+author: "Heather Shouse "
+source: "Food Trucks"
+image: "https://www.seriouseats.com/thmb/t7pAXMXZmU109kmV3LyEqF5qSFY=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__04__20111214-arepas-2-18-c5ffb234c0704eeda8cbb26bc1fcd30c.jpeg"
+tags: [latin,arepas,colombian,venezuelan,queso,cheese,bread,side,vegetarian]
+ingredients:
+  - 2 cups masarepa
+  - 2 ounces (about 1/2 cup) finely crumbled queso fresco (optional)
+  - 2 cups water, plus more as necessary
+  - 2 teaspoons vegetable oil
+  - Kosher salt
+  - 1/2 pound mozzarella or other good melting cheese, sliced or grated
+  - 2 teaspoons butter
+steps:
+  - 1:
+     name: "Preheat Oven"
+     step: "Preheat toaster oven or oven with rack in the center to 325°F."
+     dependencies: null
+     time: 1
+  - 2:
+     name: "Slice or Grate Cheese"
+     step: "Slice or grate 1/2 pound mozzarella or other good melting cheese."
+     dependencies: null
+     time: 3
+  - 3:
+     name: "Mix Dough"
+     step: "Combine [2 cups masarepa], [2 ounces (about 1/2 cup) finely crumbled queso fresco (optional)], 1 cup water, and [1 teaspoon vegetable oil] in a medium bowl and knead with hands until a dough is formed."
+     dependencies: [1]
+     time: 1
+  - 4:
+     name: "Test Dough and Rest"
+     step: "Take a small amount and flatten it between your palms If the edges crack, knead in more water a tablespoon at a time until dough is supple and smooth but not sticky. Season dough to taste with salt, then cover and set aside for five minutes."
+     dependencies: [3]
+     time: 2
+  - 5:
+     name: "Divide Dough"
+     step: "Divide dough into eight even pieces and roll into balls."
+     dependencies: [4]
+     time: 3
+  - 6:
+     name: "Form Disks"
+     step: "Working on a wooden cutting board or a regular cutting board with a sheet of plastic wrap or parchment paper on top of it, flatten each ball down to a disk about 5-inches in diameter and 1/4-inch thick."
+     dependencies: [5]
+     time: 3
+  - 7:
+     name: "Add Cheese"
+     step: "Place 1/4 of cheese into center of one disk, leaving a 1/2-inch gap all around."
+     dependencies: [2,6]
+     time: 3
+  - 8:
+     name: "Form Arepas"
+     step: "Place a second disk on top and carefully seal the edges all around, trying to remove as much air from the center as possible. Use one hand to shape the edges of the arepa so that it is an even round disk."
+     dependencies: [7]
+     time: 4
+  - 9:
+     name: "Begin Cooking Arepas"
+     step: "Melt [2 tsp butter] in a 12-inch cast iron or non-stick skillet over medium-low heat. Add arepas and cook, moving them around the pan and rotating them occasionally, until first side is charred in spots and a dry crust has formed, about five minutes."
+     dependencies: [1,8]
+     time: 5
+     timer: True
+  - 10:
+     name: "Flip and Continue Cooking"
+     step: "Flip arepas and cook on second side until a dry crust has formed, about five minutes longer. "
+     dependencies: [9]
+     time: 5
+     timer: True
+  - 11:
+     name: "Transfer to Oven"
+     step: "Transfer to a baking sheet and place in oven until heated through and cheese is melted, about 10 minutes."
+     dependencies: [1,10]
+     time: 10
+     timer: True
+  - 12:
+     name: "Serve Immediately"
+     step: "Take a picture of your arepas and enjoy!"
+     dependencies: [11]
+     time: 1

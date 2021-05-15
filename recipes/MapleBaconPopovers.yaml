@@ -41,9 +41,9 @@ steps:
      time: 5
      timer: True
   - 6:
-     name: "Add Drippings to Pan and Return to Oven"
+     name: "Add Drippings to Pan and Place in Oven"
      step: "Add [2 tbsp melted butter] to bacon drippings; stir to combine. Spoon 1 tsp drippings mixture into each cup of a 12-cup popover pan or large muffin pan. (Discard any remaining drippings mixture.) Place pan in oven to heat."
-     dependencies: [5]
+     dependencies: [2,5]
      time: 3
   - 7:
      name: "Combine Dry Ingredients"
