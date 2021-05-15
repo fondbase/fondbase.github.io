@@ -1,0 +1,155 @@
+---
+name: "Beef Empanadas"
+author: "Lucinda Scala Quinn"
+source: "Mad Hungry"
+image: "https://wearecocina.com/wp-content/uploads/2020/06/emp-min.jpg"
+tags: [latin,mexican,meat,side,beef,appetizers,dough,spanish]
+ingredients:
+  - 1 tablespoon olive oil
+  - 1 small onion, chopped
+  - 1 small green bell pepper, chopped
+  - 1 pound ground beef
+  - 1 teaspoon ground cumin
+  - 3/4 cup pimento-filled green olives, sliced
+  - 3/4 cup raisins
+  - 1 teaspoon honey
+  - 1 teaspoon coarse salt
+  - 1/4 teaspoon freshly ground black pepper
+  - Several dashes of hot sauce
+  - 2 large eggs, separated
+  - 1 recipe Cream Cheese Pastry (recipe follows)
+  - 8 tablespoons (1 stick) unsalted butter, at room temperature
+  - 4 ounces cream cheese, at room temperature
+  - 1/4 cup heavy cream
+  - 1 1/2 cups plus 2 tablespoons all-purpose flour, plus more for rolling the dough
+  - 1/2 teaspoon coarse salt
+steps:
+  - 1:
+     name: "Chop Pepper and Onion"
+     step: "Chop [1 small onion] and [1 small green bell pepper]."
+     dependencies: null
+     time: 5
+  - 2:
+     name: "Saute Onion and Pepper"
+     step: "Heat a large skillet over medium heat, and then swirl in the olive oil. Add the onion and bell pepper. Saute until the onion is translucent, 3 to 4 minutes. "
+     dependencies: [1]
+     time: 4
+     timer: True
+  - 3:
+     name: "Add Beef"
+     step: "Raise the heat to high and add [1 pound ground beef]. Cook, stirring constantly, to brown, about 5 to 7 minutes."
+     dependencies: [2]
+     time: 7
+     timer: True
+  - 4:
+     name: "Slice Olives"
+     step: "Slice 3/4 cup pimento-filled green olives.  Set aside."
+     dependencies: null
+     time: 2
+  - 5:
+     name: "Add Cumin to Beef"
+     step: "Add [1 teaspoon ground cumin] to beef and cook for another minute."
+     dependencies: [3]
+     time: 1
+  - 6:
+     name: "Add Olives"
+     step: "Stir in the olives, [3/4 cup raisins], [1 teaspoon honey], [1 teaspoon coarse salt], [1/4 teaspoon freshly ground black pepper], and [Several dashes of hot sauce]. Cook until the meat is golden brown, the liquid has evaporated, and the flavors have blended, about 4 more minutes."
+     dependencies: [4,5]
+     time: 5
+     timer: True
+  - 7:
+     name: "Cool the Beef"
+     step: "Cool the filling mixture completely in the fridge."
+     dependencies: [6]
+     time: 60
+     timer: True
+  - 8:
+     name: "Separate Eggs"
+     step: "Separate 2 eggs. Set aside the yolks for eggwash later."
+     dependencies: [6]
+     time: 2
+  - 9:
+     name: "Add Egg Whites to Flling"
+     step: "Stir the whites into the cooled beef mixture."
+     dependencies: [7.8]
+     time: 1
+  - 10:
+     name: "Begin Making the Dough"
+     step: "Remove [8 tablespoons (1 stick) unsalted butter], and [4 ounces cream cheese] and allow them to come to room temperature"
+     dependencies: null
+     time: 10
+     timer: True
+  - 11:
+     name: "Mix Butter and Cream Cheese"
+     step: "Process the butter, cream cheese, and [1/4 cup heavy cream] in a food processor, electric mixer or by hand to thoroughly combine."
+     dependencies: [10]
+     time: 4
+  - 12:
+     name: "Add Flour"
+     step: "Add [1 1/2 cups plus 2 tablespoons all-purpose flour] and [1/2 teaspoon coarse salt]. Process until just combined and the dough holds together in a ball. "
+     dependencies: [11]
+     time: 3
+  - 13:
+     name: "Turn Out the Dough"
+     step: "Turn the dough out onto a well-floured surface. Divide into 2 pieces. "
+     dependencies: [12]
+     time: 1
+  - 14:
+     name: "Shape into Disks"
+     step: "Flatten into disks and wrap each in plastic wrap. Refrigerate for at least 30 minutes before rolling out. If the dough is chilled overnight, take it out 15 minutes before rolling out."
+     dependencies: [13]
+     time: 30
+     timer: True
+  - 15:
+     name: "Preheat Oven"
+     step: "When ready to bake, preheat the oven to 375°F.  Line a baking sheet with parchment paper."
+     dependencies: [14]
+     time: 1
+  - 16:
+     name: "Flour a Rolling Pin"
+     step: "Rub flour all over a rolling pin. "
+     dependencies: [14]
+     time: 1
+  - 17:
+     name: "Roll Out the Disks"
+     step: "Working with one dough disk at a time, place the disk on a clean, well-floured work surface. Applying some pressure with the rolling pin, roll gently from the center of the dough to the top and bottom edges. Rotate the the disk, and roll to the top and bottom edges again. Reflour the work surface and rolling pin, turn the dough over, and continue to roll the dough from the center out to the edges. Turn over and roll again, rotating the disk to ensure even rolling until the dough is about 12 inches in diameter, thin but not transparent."
+     dependencies: [14,16]
+     time: 10
+  - 18:
+     name: "Cut Dough"
+     step: "To form the empanadas, work with half of the disk of dough at a time. rolling out on a floured work surface. Using an overturned bowl (about 5 inches across), cut out circles about 3 or 4 at a time from each piece of dough. Gather all the dough scraps together, reroll once, and cut."
+     dependencies: [17]
+     time: 8
+  - 19:
+     name: "Fill Empanadas"
+     step: "Place 1/4 cup filling on one side of the dough circle. Wet the edges of the dough with water. Fold the dough over to form a half circle. Pinch the edges of the dough together. Crimp the edges with a fork. Repeat the process until all of the filling is used. The empanadas can be frozen at this point."
+     dependencies: [9,18]
+     time: 10
+  - 20:
+     name: "Chill Empanadas"
+     step: "Place the empanadas on the prepared baking sheet and chill for a few minutes."
+     dependencies: [15,19]
+     time: 5
+     timer: True
+  - 21:
+     name: "Mix Eggwash"
+     step: "In a small bowl, beat the reserved egg yolks with 1 tablespoon of water."
+     dependencies: [19]
+     time: 2
+  - 22:
+     name: "Brush Eggwash"
+     step: "Prick each pie on top twice with a fork and brush the egg wash over each empanada."
+     dependencies: [20.21]
+     time: 2
+  - 23:
+     name: "Bake Empanadas"
+     step: "Bake for 20 to 25 minutes, until golden brown."
+     dependencies: [22]
+     time: 20
+     timer: True
+  - 24:
+     name: "Cool and Serve"
+     step: "Let rest for 5 minutes before serving. The empanadas can be cooled and frozen to reheat in a microwave."
+     dependencies: [23]
+     time: 5
+     timer: True
