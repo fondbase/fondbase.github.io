@@ -1,0 +1,140 @@
+---
+name: "Barbacoa Beef Cheek Tacos"
+author: "Amanda Hesser and Merrill Stubbs"
+source: "The Food52 Cookbook "
+image: "https://www.seriouseats.com/thmb/Fz7at-V8OmBIXpPoaXpnsVDPv6c=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__04__20120423-barbacoa-tacos-primary-7c9e3e5a760641dda7ad3e1436ae9c8b.jpg"
+tags: [latin,mexican,beef,meat,dinner,tacos,Barbacoa]
+ingredients:
+  - 1 whole dried New Mexico, costeño, or choricero chili, seeds and stem removed (see note)
+  - 1 whole chile ancho or pasilla, seeds and stem removed (see note)
+  - 1 whole chile negro, seeds and stem removed (see note)
+  - 1 quart low sodium store-bought or homemade chicken stock, divided
+  - 3 tablespoons vegetable or canola oil, divided
+  - 1 pound oxtails
+  - 1 small onion, finely sliced
+  - 6 medium cloves garlic, smashed
+  - 2 teaspoons ground cumin
+  - 1/2 teaspoon ground cloves
+  - 2 teaspoons dried oregano
+  - 4 chipotle chilis packed in adobo, roughly chopped, with 2 tablespoons adobo sauce
+  - 1/4 cup apple cider vinegar
+  - 2 teaspoons fish sauce
+  - 1 whole chuck-eye roast (about 4 pounds), or 4 pounds boneless shortribs
+  - Kosher salt and freshly ground black pepper
+  - 2 whole bay leaves
+  - Kosher salt
+  - Warm corn tortillas, onions, cilantro, salsa, limes, and other condiments for serving
+steps:
+  - 1:
+     name: "Preheat Oven"
+     step: "Adjust oven rack to lower middle position and preheat oven to 275°F."
+     dependencies: null
+     time: 1
+  - 2:
+     name: "Slice Onion"
+     step: "Finely slice 1 small onion."
+     dependencies: null
+     time: 3
+  - 3:
+     name: "Smash Garlic"
+     step: "Peel and smash 6 medium cloves garlic."
+     dependencies: null
+     time: 3
+  - 4:
+     name: "Roast Chilies"
+     step: "Add [1 whole dried New Mexico, costeño, or choricero chili, seeds and stem removed], [1 whole chile ancho or pasilla, seeds and stem removed] and [1 whole chile negro, seeds and stem removed] to large heavy-bottomed Dutch oven or stock pot and cook over medium-high heat, stirring frequently, until slightly darkened with intense, roasted aroma, 2 to 5 minutes. Do not allow to smoke. Remove chilies to small bowl and set aside."
+     dependencies: [1]
+     time: 5
+     timer: True
+  - 5:
+     name: "Simmer Chilies"
+     step: "Transfer chilies to a 2-quart microwave-safe liquid measuring cup or bowl. Add [2 cups chicken broth], cover with plastic wrap, and microwave on high power until gently simmering, about 5 minutes. Remove from microwave and set aside."
+     dependencies: [4]
+     time: 5
+     timer: True
+  - 6:
+     name: "Heat Oil"
+     step: "Heat [1 tbsp vegetable or canola oil] in now-empty Dutch oven over high heat until shimmering."
+     dependencies: [4]
+     time: 2
+  - 7:
+     name: "Brown Oxtails"
+     step: "Cook [1 pound oxtails] until well-browned on all sides, about 8 minutes total. "
+     dependencies: [6]
+     time: 8
+  - 8:
+     name: "Remove Oxtails"
+     step: "Remove oxtails and set aside. Reduce heat to medium."
+     dependencies: [7]
+     time: 1
+  - 9:
+     name: "Cool Onions and Garlic"
+     step: "Add remaining [2 tbsp vegetable or canola oil] and heat along with onions and garlic and cook, stirring frequently, until deep brown and just starting to burn, about 10 minutes."
+     dependencies: [8]
+     time: 10
+     timer: True
+  - 10:
+     name: "Chop Chipotles"
+     step: "Roughly chop [4 chipotle chilis packed in adobo] and set aside, along with 2 tbsp of the adobo sauce."
+     dependencies: [8]
+     time: 2
+  - 11:
+     name: "Add Spices"
+     step: "Add [2 tsp ground cumin], [1/2 tsp ground cloves], and [2 tsp dried oregano] and cook, stirring constantly until fragrant, about 30 seconds."
+     dependencies: [10]
+     time: 1
+  - 12:
+     name: "Add Chipotles, Vinegar and Stock"
+     step: "Add chipotle chilies, [1/4 cup apple cider vinegar], and remaining [2 cups chicken broth]. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
+     dependencies: [11]
+     time: 10
+     timer: True
+  - 13:
+     name: "Transfer Liquid to Blender"
+     step: "Transfer entire contents to the jar of a blender.  Add the soaked chilies and their liquid and [2 tsp fish sauce]. Start blender on low and slowly increase speed to high. Puree until smooth, about 1 minute. Set aside."
+     dependencies: [12]
+     time: 2
+  - 14:
+     name: "Begin Braising the Beef"
+     step: "Place [1 whole chuck-eye roast (about 4 pounds), or 4 pounds boneless shortribs] in Dutch oven. Add browned oxtails, [2 whole bay leaves], and sauce. Bring to a boil over high heat."
+     dependencies: [7,8,13]
+     time: 1
+  - 15:
+     name: "Move Beef to Oven"
+     step: "Place lid on pot slightly cracked and transfer to oven. Cook, turning beef occasionally, until completely tender and a cake tester or metal skewer inserted into meat shows little to no resistance, about 4 hours."
+     dependencies: [14]
+     time: 240
+     timer: True
+  - 16:
+     name: "Remove Beef from Oven"
+     step: "When cooked, remove pot from oven, discard bay leaves and oxtails (meat from oxtails can be eaten if desired) and transfer chuck to a large plate."
+     dependencies: [15]
+     time: 3
+  - 17:
+     name: "Reduce Braising Liquid"
+     step: "Return Dutch oven to stovetop and cook, stirring frequently, over medium-high heat until liquid is reduced to about 1 1/2 cups, about 5 minutes."
+     dependencies: [16]
+     time: 5
+     timer: True
+  - 18:
+     name: "Rest Beef"
+     step: "Beef can be cut and served immediately, but for best flavor, transfer beef to a sealed container along with liquid and refrigerate overnight and up to five days."
+     dependencies: [17]
+     time: 1440
+     timer: True
+  - 19:
+     name: "Slice and Shred Beef"
+     step: "When ready to serve, slice beef against the grain into 1 1/2- to 2-inch slices, then shred into large chunks with fingers or two forks."
+     dependencies: [18]
+     time: 4
+  - 20:
+     name: "Reheat and Season Beef"
+     step: "Return beef to a pot along with the sauce. Bring to a simmer and cook, gently stirring and folding until beef is hot, tender, and coated in sauce. Season to taste with salt."
+     dependencies: [19]
+     time: 5
+     timer: True
+  - 21:
+     name: "Serve with Garnishes"
+     step: "Serve immediately, piling the beef into [warm corn tortillas with onions, cilantro, salsa, limes, or other condiments] as desired. "
+     dependencies: [20]
+     time: 1
