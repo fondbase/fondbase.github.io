@@ -1,0 +1,79 @@
+---
+name: "Lemon Roasted Potatoes"
+author: "Aki Kamozawa and H. Alexander Talbot"
+source: "Maximum Flavor"
+image: "https://www.seriouseats.com/thmb/tdrKjrNyitPJEwoNldC036N1mGU=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__10__20131022-270140-cook-the-book-lemon-roasted-potatoes-1535e6b8b444471cb1122435f03e54e0.jpg"
+tags: [Side,Lemon,Flavor,Potatoes,Vegetarian,Dinner,"Small Plates"]
+ingredients:
+  - 2 pounds 3 ounces (1,000 grams) new potatoes
+  - 1 medium yellow onion
+  - 2 small lemons, preferably Meyer
+  - Fine sea salt
+  - 1 teaspoon (5 grams) olive oil
+  - 2/3 cup (75 grams) unsalted butter
+  - 1 teaspoon (1.5 grams) chopped fresh rosemary
+steps:
+  - 1:
+     name: "Preheat Oven"
+     step: "Preheat the oven to 425°F (225°C)."
+     dependencies: null
+     time: 1
+  - 2:
+     name: "Steam Potatoes"
+     step: "Set a stovetop steamer over medium heat. Add the potatoes. Adjust the heat to maintain a gentle simmer and steam the potatoes until tender when pierced with a cake tester, about 10 minutes."
+     dependencies: null
+     time: 10
+     timer: True
+  - 3:
+     name: "Slice Onion"
+     step: "Halve [1 medium yellow onion] through the root end so that there is a piece of core at the end of both halves holding the layers together. Use a mandoline or sharp chef’s knife to thinly slice the onion, discarding the cores when you are done."
+     dependencies: [1]
+     time: 5
+  - 4:
+     name: "Slice Lemons"
+     step: "Cut off a small slice at one end of [2 small lemons, preferably Meyer] so that you just expose the inner fruit. Use a mandoline or sharp chef’s knife to thinly slice the lemons, discarding the uncut end of the lemon and any seeds."
+     dependencies: [1]
+     time: 5
+  - 5:
+     name: "Mix Onions and Lemons"
+     step: "Mix the lemons and onion together with your hands in a medium bowl and season with salt to taste."
+     dependencies: [3,4]
+     time: 3
+  - 6:
+     name: "Peel and Cut Potatoes"
+     step: "Once the potatoes are cooked, transfer them to a large plate to cool slightly and then use a paring knife to peel off the skins and discard. Cut each potato in half."
+     dependencies: [1,2]
+     time: 5
+  - 7:
+     name: "Arrange in Roasting Pan"
+     step: "Add [1 teaspoon (5 grams) olive oil] to a heavy 9 × 13-inch (23 × 33 cm) roasting pan and rub it around the inside of the pan to coat it thoroughly. Layer the onions and lemons in the bottom of the pan. Lay the potatoes cut side down on top of them."
+     dependencies: [5,6]
+     time: 3
+  - 8:
+     name: "Add Butter and Roast"
+     step: "Thinly slice [2/3 cup (75 grams) unsalted butter] and lay one slice over each potato and scatter any extra over the top. Bake for 25 minutes."
+     dependencies: [7]
+     time: 25
+     timer: True
+  - 9:
+     name: "Rotate and Continue Roasting"
+     step: "Rotate the pan and bake until the potatoes are a deep golden brown, about 10 more minutes."
+     dependencies: [8]
+     time: 10
+     timer: True
+  - 10:
+     name: "Chop Rosemary"
+     step: "Finely chop the leaves of 1-2 sprigs of fresh rosemary, producing [1 teaspoon (1.5 grams) chopped fresh rosemary]."
+     dependencies: [8]
+     time: 3
+  - 11:
+     name: "Rest Potatoes"
+     step: "Remove the dish from the oven and scatter the rosemary over the potatoes. Let the dish rest for 5 minutes before serving so that the herb can permeate the dish."
+     dependencies: [9,10]
+     time: 5
+     timer: True
+  - 12:
+     name: "Serve and Enjoy!"
+     step: "Serve from the roasting pan so the potatoes will remain crisp."
+     dependencies: [11]
+     time: 1
