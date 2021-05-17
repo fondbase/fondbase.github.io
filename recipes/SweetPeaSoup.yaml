@@ -1,0 +1,78 @@
+---
+name: "Sweet Pea Soup"
+author: "Kelsey Nixon"
+source: "Kitchen Confidence"
+tags: [sweet,pea,soup,small plates,Kelsey,Nixon,soup,dinner]
+image: "https://www.seriouseats.com/thmb/YsQcalMCFWkoYD29sMzLG__XPF4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__03__20140310-285966-cook-the-book-sweet-pea-soup-2e50fc0a33274f93943ec2f8e954cf97.jpg"
+ingredients:
+  - 1/4 cup (1/2 stick) unsalted butter
+  - 1 bunch scallions, finely chopped (white and green parts kept separate)
+  - 1/2 teaspoon sugar
+  - 1 teaspoon kosher salt
+  - 1 1/2 teaspoons cracked black pepper
+  - 1 garlic clove, minced
+  - 4 cups low-sodium chicken broth
+  - 1 (16-ounce) package frozen petite peas
+  - 1 cup heavy cream
+  - Crème fraîche, for garnish (optional)
+  - Pea shoots, for garnish (optional)
+steps:
+  - 1:
+     name: "Chop Scallions"
+     step: "Finely chop [1 bunch scallions], separating the white and green parts. Set aside."
+     dependencies: null
+     time: 4
+  - 2:
+     name: "Mince Garlic"
+     step: "Peel and mince [1 garlic clove]. Set aside."
+     dependencies: null
+     time: 2
+  - 3:
+     name: "Melt Butter"
+     step: "In a large soup pot set over medium-high heat, melt [3 tablespoons of butter]."
+     dependencies: [1,2]
+     time: 3
+  - 4:
+     name: "Cook the Scallions"
+     step: "Add the scallion whites, [1/2 teaspoon sugar], [1 teaspoon kosher salt], and [1 1/2 teaspoons cracked black pepper]. Cook, stirring, until just fragrant, about 2 minutes. "
+     dependencies: [3]
+     time: 2
+     timer: True
+  - 5:
+     name: "Add the Garlic"
+     step: "Add the garlic and cook, stirring, for 1 minute. "
+     dependencies: [4]
+     time: 1
+     timer: True
+  - 6:
+     name: "Add the Stock"
+     step: "Add [4 cups low-sodium chicken broth] and bring to a simmer, scraping up any bits from the bottom of the pot. "
+     dependencies: [5]
+     time: 2
+  - 7:
+     name: "Add the Peas"
+     step: "Add [1 (16-ounce) package frozen petite peas] and half of the scallion greens (reserving the rest for garnish). Simmer until the peas are thawed and tender, about 3 minutes. Remove the pan from the heat and let cool slightly."
+     dependencies: [6]
+     time: 3
+     timer: True
+  - 8:
+     name: "Blend the Soup"
+     step: "Using an immersion blender, blend the soup until it’s semi-smooth but still has some texture. (Alternatively, puree the soup in batches in a standard blender.)"
+     dependencies: [7]
+     time: 5
+  - 9:
+     name: "Return to Heat"
+     step: "Return the soup pot to medium-high heat. Add [1 cup heavy cream] and stir well. Cook until the soup is warmed through, 5 to 7 minutes."
+     dependencies: [8]
+     time: 5
+     timer: True
+  - 10:
+     name: "Remove from Heat"
+     step: "Remove from the heat and stir in the remaining [1 tablespoon butter] until melted. Season to taste with salt and pepper."
+     dependencies: [9]
+     time: 1
+  - 11:
+     name: "Serve and Enjoy"
+     step: "To serve, ladle the soup into serving bowls and garnish with crème fraîche and pea shoots, if desired."
+     dependencies: [10]
+     time: 1
