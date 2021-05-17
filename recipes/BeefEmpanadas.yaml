@@ -75,7 +75,7 @@ steps:
      time: 1
   - 10:
      name: "Begin Making the Dough"
-     step: "Remove [8 tablespoons (1 stick) unsalted butter], and [4 ounces cream cheese] and allow them to come to room temperature"
+     step: "Remove [8 tablespoons (1 stick) unsalted butter], and [4 ounces cream cheese] and allow them to come to room temperature."
      dependencies: null
      time: 10
      timer: True
@@ -86,12 +86,12 @@ steps:
      time: 4
   - 12:
      name: "Add Flour"
-     step: "Add [1 1/2 cups plus 2 tablespoons all-purpose flour] and [1/2 teaspoon coarse salt]. Process until just combined and the dough holds together in a ball. "
+     step: "Add [1 1/2 cups plus 2 tablespoons all-purpose flour] and [1/2 teaspoon coarse salt]. Process until just combined and the dough holds together in a ball."
      dependencies: [11]
      time: 3
   - 13:
      name: "Turn Out the Dough"
-     step: "Turn the dough out onto a well-floured surface. Divide into 2 pieces. "
+     step: "Turn the dough out onto a well-floured surface. Divide into 2 pieces."
      dependencies: [12]
      time: 1
   - 14:
@@ -107,7 +107,7 @@ steps:
      time: 1
   - 16:
      name: "Flour a Rolling Pin"
-     step: "Rub flour all over a rolling pin. "
+     step: "Rub flour all over a rolling pin."
      dependencies: [14]
      time: 1
   - 17:
