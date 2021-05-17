@@ -1,0 +1,75 @@
+---
+name: "Osaka-Style Okonomiyaki"
+author: "Tadashi Ono and Harris Salat"
+source: "Japanese Soul Cooking"
+tags: [Japanese,Okonomiyaki,vegetarian,easy,dinner,asian,pancake,osaka]
+image: "https://www.seriouseats.com/thmb/3uWJhVRC0zFpNttrWdoukm0UYCo=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__12__20131211-276240-cook-the-book-osaka-style-okonomiyaki-3d632a2c37644d8fa7a92d468957e280.jpg"
+ingredients:
+  - 2 cups flour
+  - 1 cup dashi or water, cold or at room temperature
+  - 1 teaspoon salt
+  - 1 teaspoon baking powder
+  - 2 teaspoons sugar
+  - 1 pound cabbage, coarsely chopped (about 10 cups)
+  - 4 eggs
+  - 1/4 cup toasted sesame oil
+  - 8 ounces fresh pork belly, thinly sliced
+  - Toppings
+  - Okonomiyaki sauce
+  - Kewpie mayonnaise or other mayonnaise
+  - Aonori (powdered nori seaweed)
+  - Dried, shaved bonito (katsuobushi)
+steps:
+  - 1:
+     name: "Chop Cabbage"
+     step: "Coarsely chop [1 pound cabbage]." 
+     dependencies: null
+     time: 5
+  - 2:
+     name: "Heat Skillet"
+     step: "Preheat a nonstick or cast-iron skillet for at least 5 minutes on medium-low heat." 
+     dependencies: [1]
+     time: 1
+  - 3:
+     name: "Mix Batter"
+     step: "In a large bowl, mix together [2 cups flour], [1 cup dashi or water, cold or at room temperature], [1 teaspoon salt], [1 teaspoon baking powder], and [2 teaspoons sugar]. Add the cabbage to the batter and mix well for at least 30 seconds, until all the cabbage is coated." 
+     dependencies: [1]
+     time: 4
+  - 4:
+     name: "Add Eggs"
+     step: "Add [4 eggs] and mix, lightly this time, for about 15 seconds, or until the eggs are just combined with the cabbage." 
+     dependencies: [3]
+     time: 1
+  - 5:
+     name: "Add Oil to Hot Skillet"
+     step: "Add [1 tablespoon toasted sesame oil], making sure to coat the entire surface of the skillet." 
+     dependencies: [2,4]
+     time: 1
+  - 6:
+     name: "Spoon Batter into Skillet"
+     step: "Cook the okonomiyaki in batches. Spoon the cabbage and batter mixture into the skillet to form a pancake about 6 inches in diameter and about 1 inch thick. Don’t push down on the cabbage; you want a fluffy pancake. Gently lay about 1/4 of your [8 ounces of thinly sliced fresh pork belly] on top of the pancake, trying not to overlap.  Cook the pancake for about 3 minutes." 
+     dependencies: [5]
+     time: 3
+     timer: True
+  - 7:
+     name: "Flip and Continue Cooking"
+     step: "Use a long spatula (a fish spatula is ideal) to carefully flip the pancake, so the side with the pork belly is now facing down. Gently press down on the pancake with the spatula (don’t push too hard, you don’t want batter spilling from the sides). Cook for about 5 more minutes." 
+     dependencies: [6]
+     time: 5
+     timer: True
+  - 8:
+     name: "Flip One Last Time"
+     step: "Flip the pancake again, so the side with the pork belly is now facing up. (If the okonomiyaki comes apart when you flip it, don’t worry; use a spatula to tuck any stray ingredients back into the pancake.) Cook for about 2 more minutes. When it’s ready, the pancake should be lightly browned on both sides, the pork cooked through, and the cabbage inside tender." 
+     dependencies: [7]
+     time: 2
+     timer: True
+  - 9:
+     name: "Transfer to Plate and Top"
+     step: "Transfer the pancake to a plate, pork side up, and add the toppings. Squeeze about 1 tablespoon of [okonomiyaki sauce] onto the pancake, in long ribbons. Squeeze about 1 tablespoon of [mayonnaise] onto the pancake, also in long ribbons. Sprinkle about 1 tablespoon of [aonori] over the pancake. Sprinkle about 1 tablespoon of [dried, shaved bonito] over the pancake. (Add more or less of any topping, to taste.)" 
+     dependencies: [8]
+     time: 2
+  - 10:
+     name: "Serve Immediately"
+     step: "Cut the pancake into quarters and serve immediately.  Repeat with remaining three pancakes." 
+     dependencies: [9]
+     time: 1
