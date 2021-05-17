@@ -1,0 +1,103 @@
+---
+name: "Fried Halloumi Salad"
+author: "Hugh Fearnley-Whittingstall"
+source: "River Cottage Every Day"
+tags: [Salad,Vegetarian,Greek,Halloumi,dinner,lunch,side,Fearnley-Whittingstall]
+image: "https://www.seriouseats.com/thmb/mPtLWO4LzuuLx_nRdWV7ZxNRCa8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20110410-146615-fried-halloumi-salad-d99b411723104a1b82f2c143a6ef89a7.jpg"
+ingredients:
+  - 1 teaspoon honey
+  - Juice of 1/2 lemon
+  - 1 small garlic clove, crushed
+  - A pinch of red pepper flakes
+  - A pinch of sea salt
+  - 3 tablespoons canola or olive oil
+  - For the salad
+  - 1 small red onion, very finely sliced
+  - 1 small cucumber, cut into chunks
+  - 2/3 cup cherry tomatoes, halved
+  - 1/3 cup kalamata or other black olives, pitted
+  - A large handful of mint leaves, coarsely shredded
+  - A large handful of flat-leaf parsley leaves
+  - 1/4 cup all-purpose flour
+  - A large pinch of smoked paprika
+  - Sea salt and freshly ground black pepper
+  - 8 ounces halloumi cheese, cut into 8 slices
+  - 2 tablespoons canola or olive oil
+steps:
+  - 1:
+     name: "Peel and Crush Garlic"
+     step: "Peel and Crush [1 small garlic clove]" 
+     dependencies: null
+     time: 1
+  - 2:
+     name: "Mix Dressing"
+     step: "Stir together [1 teaspoon honey], [Juice of 1/2 lemon], the garlic, A [pinch of red pepper flakes], and a [pinch of sea salt] until well combined, then whisk in [3 tablespoons canola or olive oil].  Set aside." 
+     dependencies: [1]
+     time: 3
+  - 3:
+     name: "Slice Onion"
+     step: "Very finely slice [1 small red onion] and add to a large bowl." 
+     dependencies: [2]
+     time: 5
+  - 4:
+     name: "Chop Cucumber"
+     step: "Roughly chop [1 small cucumber]. Add to large bowl." 
+     dependencies: [2]
+     time: 2
+  - 5:
+     name: "Slice Tomatoes"
+     step: "Halve [2/3 cup cherry tomatoes]. Add to large bowl." 
+     dependencies: [2]
+     time: 2
+  - 6:
+     name: "Shred Mint"
+     step: "Coursely shred a [large handful of mint leaves]. Add to large bowl." 
+     dependencies: [2]
+     time: 2
+  - 7:
+     name: "Add Olives and Parsley"
+     step: "To the large bowl, add [1/3 cup pitted kalamata or other black olives] and [a large handful of flat-leaf parsley leaves]." 
+     dependencies: [3,4,5,6]
+     time: 1
+  - 8:
+     name: "Slice Halloumi"
+     step: "Cut [8 ounces of halloumi cheese] into 8, 1 ounce slices." 
+     dependencies: [7]
+     time: 2
+  - 9:
+     name: "Mix Dredge"
+     step: "In a small bowl, whisk together [1/4 cup all-purpose flour], [A large pinch of smoked paprika], and some [Sea salt and freshly ground black pepper]." 
+     dependencies: [7]
+     time: 5
+  - 10:
+     name: "Heat Oil"
+     step: "Heat [2 tablespoons canola or olive oil] in a large frying pan." 
+     dependencies: [8,9]
+     time: 1
+  - 11:
+     name: "Dredge Halloumi"
+     step: "Moisten the halloumi slices slightly with water, if necessary, then press them into the seasoned flour and shake off any excess." 
+     dependencies: [10]
+     time: 2
+  - 12:
+     name: "Begin Frying the Halloumi"
+     step: "Fry the halloumi slices over medium heat for about 2 minutes." 
+     dependencies: [11]
+     time: 2
+     timer: True
+  - 13:
+     name: "Flip and Continue Frying"
+     step: "Flip the halloumi and continue frying until both sides are golden and slightly soft inside, another 2 minutes." 
+     dependencies: [12]
+     time: 2
+     timer: True
+  - 14:
+     name: "Toss the Salad and Dressing"
+     step: "Toss the salad vegetables with the dressing, turning them over with your hands to make sure everything is lightly coated." 
+     dependencies: [2,7,13]
+     time: 2
+  - 15:
+     name: "Plate and Top with Halloumi"
+     step: "Divide the salad among 4 plates, put 2 pieces of the hot halloumi on each one, and serve immediately." 
+     dependencies: [14]
+     time: 2
