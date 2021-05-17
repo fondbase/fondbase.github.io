@@ -1,0 +1,90 @@
+---
+name: "Kimchi Pancakes"
+author: "Cecilia Hae-Jin Lee"
+source: "Quick and Easy Korean Cookings"
+image: "https://www.seriouseats.com/thmb/2LfVQ7f6trtgNy0kJpO83JqZFds=/600x400/filters:max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20100614frankiestomatosauce-8fae7843eaad4119b9853d0201043791.jpg"
+tags: [Asian,Korean,Kimchi,Pancakes,Vegetarian,Dinner,"Small Plates"]
+ingredients:
+  - 1 cup (125g) all-purpose flour
+  - 1/2 cup (65g) rice flour
+  - 1 1/2 cups (350ml) ice cold water, plus more as needed
+  - 1/4 cup (60ml) kimchi brine plus 1 cup drained kimchi (8 ounces, 225g), coarsely chopped
+  - 1 large egg, lightly beaten
+  - 3 scallions, white and light green parts only, cut into 1/2-inch lengths, plus more chopped scallions for garnish
+  - 8 ounces (225g) raw shrimp, peeled, de-veined, and roughly chopped into 1/4-inch pieces
+  - 1/2 teaspoon (3g) kosher salt
+  - 3 tablespoons (45ml) soy sauce
+  - 3 tablespoons (45ml) rice vinegar
+  - 1 teaspoon (5ml) toasted sesame oil
+  - 1 teaspoon (4g) sugar or honey
+  - 1 teaspoon (3g) toasted sesame seeds
+  - Peanut, grapeseed, or other neutral oil, for frying
+  - Quick-Pickled Watermelon Radishes, for serving
+steps:
+  - 1:
+     name: "Slice Scallions"
+     step: "Slice [3 scallions], white and light green parts only, into 1/2-inch lengths.  Set aside.  Slice the green parts of 1 scallion and reserve separately for garnish."
+     dependencies: null
+     time: 3
+  - 2:
+     name: "Chop Kimchi"
+     step: "Coursely chop [1 cup drained kimchi]."
+     dependencies: null
+     time: 2
+  - 3:
+     name: "Peel and Chop Shrimp"
+     step: "Peel and devein [8 ounces (225g) raw shrimp]. Roughly chop into 1/4-inch pieces. Set aside."
+     dependencies: null
+     time: 8
+  - 4:
+     name: "Beat Egg"
+     step: "Lightly beat [1 egg]. Set aside."
+     dependencies: null
+     time: 2
+  - 5:
+     name: "Mix Batter"
+     step: "In a large bowl, stir together [1 cup (125g) all-purpose flour], [1/2 cup (65g) rice flour], [1 1/2 cups (350ml) ice cold water], [1/4 cup (60ml) kimchi brine], and the egg; the mixture should be the consistency of slightly lumpy pancake batter."
+     dependencies: [1,2,3,4]
+     time: 5
+  - 6:
+     name: "Stir in Kimchi and Shrimp"
+     step: "Stir in the chopped kimchi, scallion segments, shrimp, and [1/2 teaspoon (3g) kosher salt]. Add a little more water if needed. Set batter aside."
+     dependencies: [1,2,3]
+     time: 2
+  - 7:
+     name: "Mix Dipping Sauce"
+     step: "In a small bowl, stir together [3 tablespoons (45ml) soy sauce], [3 tablespoons (45ml) rice vinegar], [1 teaspoon (5ml) toasted sesame oil], [1 teaspoon (4g) sugar or honey], and [1 teaspoon (3g) toasted sesame seeds]. Set dipping sauce aside."
+     dependencies: null
+     time: 5
+  - 8:
+     name: "Preheat Oven"
+     step: "Preheat oven to its lowest heat setting."
+     dependencies: [6]
+     time: 1
+  - 9:
+     name: "Heat Skillet"
+     step: "In a large skillet, heat about 1 tablespoon oil over medium-high heat until shimmering."
+     dependencies: [6]
+     time: 1
+  - 10:
+     name: "Pour Batter"
+     step: "Pour 1/4 cup of batter into the skillet and spread it into a 4-inch circle. Repeat until pan is full but not crowded. (Alternatively, you can make one large 8-inch pancake per batch)."
+     dependencies: [6,8,9]
+     time: 2
+  - 11:
+     name: "Cook Pancakes"
+     step: "Cook until the edges turn golden and crispy, 2 to 4 minutes."
+     dependencies: [10]
+     time: 2
+     timer: True
+  - 12:
+     name: "Flip and Continue Cooking"
+     step: "Flip pancakes, add a little more oil, if needed, and cook for about another 2 to 3 minutes until cooked through. Remove and arrange cooked pancakes in a single layer on a baking sheet and keep in warm oven until ready to serve. Repeat with the remaining batter, adding oil as needed."
+     dependencies: [11]
+     time: 2
+     timer: True
+  - 13:
+     name: "Serve with Dipping Sauce"
+     step: "Serve whole or cut into wedges, garnished with scallions, and with dipping sauce."
+     dependencies: [1,7,12]
+     time: 1
