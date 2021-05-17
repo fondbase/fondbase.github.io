@@ -1,0 +1,67 @@
+---
+name: "Steam-Braised Sea Bass with Thyme and Lemon"
+author: "Hugh Fearnley-Whittingstall and Nick Fisherr"
+source: "The River Cottage Fish Book"
+tags: [Fish,Cod,Pollock,"sea bass",braised,steam,dinner]
+image: "https://www.seriouseats.com/thmb/yd5iQyz9qUm8MAVSzmyPJDtPeLw=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__09__20120921-222723-cook-the-book-steam-braised-sea-bass-21f72adeb3734595bf23e6aba176e9e2.jpg"
+ingredients:
+  - 1 tablespoon olive oil
+  - 1 tablespoon unsalted butter
+  - 1 tablespoon white wine
+  - A squeeze of lemon juice
+  - 2 strips of finely pared lemon zest
+  - 2 sprigs of thyme
+  - 2 or 3 bay leaves
+  - 1/2 teaspoon fennel seeds (optional)
+  - 1 small garlic clove, finely sliced (optional)
+  - 1 1/2 to 2 1/4 pounds black sea bass, pollock, or cod fillet, cut into 3/4- to 1 1/4-inch thick medallions
+  - Salt and freshly ground black pepper
+steps:
+  - 1:
+     name: "Slice Garlic"
+     step: "If you are choosing to add garlic, finely slice [1 small garlic clove]."
+     dependencies: null
+     time: 2
+  - 2:
+     name: "Zest Lemon"
+     step: "Finely pare 2 strips of lemon zest from [1 lemon].  Set aside zest and reserve the lemon for squeezing."
+     dependencies: null
+     time: 2
+  - 3:
+     name: "Prepare Braising Liquid"
+     step: "Put [1 tablespoon olive oil], [1 tablespoon unsalted butter], and [1 tablespoon white wine] in a large, wide saucepan or a deep frying pan. Add a tablespoon of water, a [squeeze of lemon juice], the zest, [2 sprigs of thyme], and [2 or 3 bay leaves]. Bring to a simmer."
+     dependencies: [1,2]
+     time: 4
+  - 4:
+     name: "Optional-Add Garlic and Fennel"
+     step: "Optionally, add the garlic and/or [1/2 teaspoon fennel seeds]."
+     dependencies: [1,2,3]
+     time: 1
+  - 5:
+     name: "Cut and Season Fish"
+     step: "Cut [1 1/2 to 2 1/4 pounds black sea bass, pollock, or cod fillet] into 3/4- to 1 1/4-inch thick medallions.  Season lightly with salt and pepper."
+     dependencies: null
+     time: 2
+  - 6:
+     name: "Add Fish to Braising Liquid"
+     step: "Arrange the fish medallions in the pan in a single layer."
+     dependencies: [3,5]
+     time: 1
+  - 7:
+     name: "Cover and Cook"
+     step: "Cover and cook for 2-3 minutes, depending on the thickness of the fish."
+     dependencies: [6]
+     time: 2
+     timer: True
+  - 8:
+     name: "Flip and Continue Cooking"
+     step: "Flip the fish, very carefully, so they don’t break up and continue cooking for another 2-3 minutes."
+     dependencies: [7]
+     time: 2
+     timer: True
+  - 9:
+     name: "Plate and Serve"
+     step: "Transfer the fish to warmed plates and spoon over the juices. Boiled spuds or mashed potatoes and something fresh and green – broccoli, perhaps, or spring greens – are the only accompaniments you need."
+     dependencies: [8]
+     time: 1
+     
