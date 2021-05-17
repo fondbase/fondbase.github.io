@@ -53,7 +53,7 @@ steps:
      time: 1
   - 6:
      name: "Add Olives"
-     step: "Stir in the olives, [3/4 cup raisins], [1 teaspoon honey], [1 teaspoon coarse salt], [1/4 teaspoon freshly ground black pepper], and [Several dashes of hot sauce]. Cook until the meat is golden brown, the liquid has evaporated, and the flavors have blended, about 4 more minutes."
+     step: "Stir in the sliced olives, [3/4 cup raisins], [1 teaspoon honey], [1 teaspoon coarse salt], [1/4 teaspoon freshly ground black pepper], and [Several dashes of hot sauce]. Cook until the meat is golden brown, the liquid has evaporated, and the flavors have blended, about 4 more minutes."
      dependencies: [4,5]
      time: 5
      timer: True
