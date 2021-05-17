@@ -51,7 +51,7 @@ steps:
   - 8:
      name: "Spoon out the Dough"
      step: "Using about 1 tablespoon of dough for each gougère, drop the dough from a spoon onto the lined baking sheets, leaving about 2 inches of puff space between the mounds."
-     dependencies: [7]
+     dependencies: [1,2,7]
      time: 4
   - 9:
      name: "Lower Temperature and Begin Baking"

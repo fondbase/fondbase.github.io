@@ -55,7 +55,7 @@ steps:
   - 8:
      name: "Bake"
      step: "Bake for 10 minutes and then rotate pan." 
-     dependencies: [7]
+     dependencies: [3,4,7]
      time: 10
      timer: True
   - 9:
