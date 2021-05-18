@@ -91,4 +91,8 @@ steps:
      step: "Working in small batches that don’t crowd the pan, fry the croquettes, turning frequently, until they are golden on the outside and hot and creamy at the center, about 4 minutes. Gently transfer them to absorbent paper towels to drain off excess oil. Serve hot."
      dependencies: [9,10,11,12,13]
      time: 4
-  
+  - 15:
+     name: "Transfer to Plate and Serve Hot"
+     step: "Gently transfer them to absorbent paper towels to drain off excess oil. Serve hot."
+     dependencies: [14]
+     time: 1
