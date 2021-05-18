@@ -110,7 +110,7 @@ steps:
      time: 5
   - 18:
      name: "Put the Pizza onto the Peel"
-     step: "Dust a pizza peel with semolina and slide the pizza peel under the pizza with one decisive push. Reshape the pizza on the peel if it has lost its shape. Shake the peel gently to determine weather the dough will release easily in the oven. If it is sticking to the peel, carefully lift one side of the dough and throw some more semolina under it. Do this from a few different angles until there is semolina under the entire crust."
+     step: "Dust a pizza peel with semolina and slide the pizza peel under the pizza with one decisive push. Reshape the pizza on the peel if it has lost its shape. Shake the peel gently to determine whether the dough will release easily in the oven. If it is sticking to the peel, carefully lift one side of the dough and throw some more semolina under it. Do this from a few different angles until there is semolina under the entire crust."
      dependencies: [17]
      time: 2
   - 19:
