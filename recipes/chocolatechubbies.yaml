@@ -54,12 +54,12 @@ steps:
   - 7:
      name: "Add the Cooled Chocolate"
      step: "Reduce the mixer speed to medium and beat in the tepid chocolate, making sure it is completely incorporated."
-     dependencies: [6]
+     dependencies: [6,3]
      time: 2
   - 8:
      name: "Add the Flour Mixture"
      step: "Change to the paddle attachment and reduce the mixer speed to low. Gradually add the flour mixture."
-     dependencies: [7]
+     dependencies: [7,4]
      time: 3
   - 9:
      name: "Stir in Nuts"
