@@ -30,7 +30,7 @@ steps:
   - 3:
      name: "Season the Chicken"
      step: "Put the chicken in a roasting pan, season inside and out with salt, then rub with [2 tbsp olive oil]. Finely grate the zest of [2 lemons] over the breast and legs and rub the herb mixture all over. Cut the lemons and place in the cavity along with 4 unpeeled garlic cloves."
-     dependencies: [2,1]
+     dependencies: [2]
      time: 3
   - 4:
      name: "Roast the Chicken"
