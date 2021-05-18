@@ -36,7 +36,7 @@ steps:
       step: "Add [1 tbsp olive oil], [3 tbsp butter] and the chopped onion to a medium-sized pot, and turn the heat on to medium. Cook and stir the onion until it has become translucent."
       time: 5
   - 4: 
-      dependencies: [1,2]
+      dependencies: [1,2,3]
       name: "Add Celery and Carrots"
       step: "Add the celery and carrots. Continue to cook for about 2 minutes, stirring the vegetables to coat them well."
       time: 2
