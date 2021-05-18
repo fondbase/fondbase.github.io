@@ -37,22 +37,22 @@ steps:
   - 3:
      name: "Slice Onion"
      step: "Very finely slice [1 small red onion] and add to a large bowl." 
-     dependencies: [2]
+     dependencies: null
      time: 5
   - 4:
      name: "Chop Cucumber"
      step: "Roughly chop [1 small cucumber]. Add to large bowl." 
-     dependencies: [2]
+     dependencies: null
      time: 2
   - 5:
      name: "Slice Tomatoes"
      step: "Halve [2/3 cup cherry tomatoes]. Add to large bowl." 
-     dependencies: [2]
+     dependencies: null
      time: 2
   - 6:
      name: "Shred Mint"
      step: "Coursely shred a [large handful of mint leaves]. Add to large bowl." 
-     dependencies: [2]
+     dependencies: null
      time: 2
   - 7:
      name: "Add Olives and Parsley"
