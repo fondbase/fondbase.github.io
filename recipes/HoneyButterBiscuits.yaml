@@ -35,7 +35,7 @@ steps:
      time: 2
   - 4:
      name: "Let Honey-Butter Sit"
-     step: "Let the honey butter sit in a warm area of the kitchen, or over the lowest possible fl ame on the stove, until you’re ready to use it. It’s important to keep it warm so it will spread easily—and the longer you let it sit, the better the honey butter will be."
+     step: "Let the honey butter sit in a warm area of the kitchen, or over the lowest possible flame on the stove, until you’re ready to use it. It’s important to keep it warm so it will spread easily—and the longer you let it sit, the better the honey butter will be."
      dependencies: [3]
      time: 1
   - 5:
@@ -86,7 +86,7 @@ steps:
      timer: True
   - 14:
      name: "Rotate Pan and Continue Baking"
-     step: "Turn the baking sheet so that all the biscuits bake evenly and continue baking for another 10 minutes, or until the biscuits are baked through and the tops are golden-brown (about 20 minutes). Remove from oven."
+     step: "Turn the baking sheet so that all the biscuits bake evenly and continue baking for another 10 minutes, or until the biscuits are baked through and the tops are golden-brown. Remove from oven."
      dependencies: [13]
      time: 10
      timer: True
