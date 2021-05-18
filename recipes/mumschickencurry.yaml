@@ -9,13 +9,13 @@ ingredients:
   - 1 tbsp rapeseed oil
   - 1 tsp cumin seeds
   - 2 2-inch cinnamon sticks
-  - 2 large onions, finely chopped
-  - 2 inches of ginger, peeled and grated
-  - 6 cloves of garlic, crushed
+  - 2 large onions
+  - 2 inches of ginger
+  - 6 cloves of garlic
   - 2 fresh green chillies (or 1 teaspoon chilli powder)
   - salt
-  - 1 cup  tomato passata
-  - 2 tbsp  tomato paste
+  - 1 cup tomato passata
+  - 2 tbsp tomato paste
   - 1 1/2 tsp  ground cumin
   - 1/2 tsp ground turmeric
   - 3 tbsp  whole-milk yogurt (plus extra to serve)
@@ -38,6 +38,7 @@ steps:
      step: "Add the onions. Cook for 10 to 12 minutes, stirring occasionally, until golden brown."
      dependencies: [1,2]
      time: 10
+     timer: True
   - 4:
      name: "Peel and Grate Ginger"
      step: "While the spices bloom, peel and grate a [2 inch knob of ginger] and place into a mortar."
@@ -61,7 +62,7 @@ steps:
   - 8:
      name: "Add Paste to the Pan"
      step: "Add the paste to the pan and cook gently for 2 minutes."
-     dependencies: [7]
+     dependencies: [7,3]
      time: 2
      Timer: True
   - 9:
