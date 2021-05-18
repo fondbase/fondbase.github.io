@@ -80,5 +80,5 @@ steps:
   - 12:
      name: "Add the Yogurt and Herbs"
      step: "Spoon the yogurt over the chicken and vegetables in the baking sheet (or you can transfer everything to a platter if you want to be fancy about it). Scatter [1 cup of mixed soft herbs, such as dill, parsley, mint, and/or cilantro] over the yogurt.  Drizzle some olive oil and lemon juice over the top, and serve."
-     dependencies: [11]
+     dependencies: [10,11]
      time: 3
