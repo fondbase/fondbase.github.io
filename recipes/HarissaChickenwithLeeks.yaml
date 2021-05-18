@@ -42,7 +42,7 @@ steps:
      timer: True
   - 5:
      name: "Preheat the Oven"
-     step: "While the chicken marinates, heat the oven to 425°F."
+     step: "Heat the oven to 425°F."
      dependencies: [3]
      time: 1
   - 6:
