@@ -40,7 +40,7 @@ steps:
   - 5:
      name: "Add Pasta to Gratin Dish"
      step: "Butter a 2-quart gratin dish, transfer the pasta mixture to the dish and spread it evenly." 
-     dependencies: [2]
+     dependencies: [2,3]
      time: 10
   - 6:
      name: "Top with Cheese"
