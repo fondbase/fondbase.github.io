@@ -9,7 +9,7 @@ ingredients:
   - 12 ounces (340 g) boneless, skinless chicken breast
   - Salt
   - 1/2 cup (110 g) butter, cut into pieces
-  - 1 medium onion, very finely chopped
+  - 1 medium onion
   - 3 cups (720 ml) whole milk
   - Freshly ground black pepper
   - Pinch freshly grated nutmeg
@@ -58,7 +58,7 @@ steps:
   - 8:
      name: "Add the Ground Chicken"
      step: "Reduce the heat to low and fold in the ground chicken. Cook, gently stirring, for 2 minutes. The mixture should be spongy and can be touched without sticking to your finger."
-     dependencies: [7]
+     dependencies: [7,3]
      time: 2
   - 9:
      name: "Cool the Meat Mixture"

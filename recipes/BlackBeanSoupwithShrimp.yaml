@@ -8,9 +8,9 @@ ingredients:
   - 3/4 pound (1 1/2 cups) dried black beans, picked over
   - 12 cups water
   - 6 ounces (about 1 link) Mexican-style chorizo, casing removed and crumbled
-  - 1 stalk fennel, chopped
-  - 1 medium onion, chopped
-  - 3 chipotle chiles in adobo, chopped
+  - 1 stalk fennel
+  - 1 medium onion
+  - 3 chipotle chiles in adobo
   - 4 teaspoons salt, or more to taste
   - 1/2 teaspoon freshly ground black pepper
   - 12 medium shrimp, peeled and deveined if necessary
@@ -19,7 +19,7 @@ ingredients:
 steps:
   - 1:
      name: "Bring Beans to a Boil"
-     step: "In a large pot, place [3/4 pound (1 1/2 cups) dried black beans, picked over] and cover with 6 cups of water. Bring to a boil over high heat."
+     step: "In a large pot, place [3/4 pound (1 1/2 cups) dried black beans, picked over] and cover with [6 cups of water]. Bring to a boil over high heat."
      dependencies: null
      time: 5
   - 2:
@@ -30,12 +30,12 @@ steps:
      timer: True
   - 3:
      name: "Chop Fennel and Onion"
-     step: "Trim and chop 1 stalk fennel and 1 medium onion.  Set aside."
+     step: "Trim and chop [1 stalk fennel] and [1 medium onion].  Set aside."
      dependencies: null
      time: 5
   - 4:
      name: "Chop Chipotles"
-     step: "Remove 3 chipotle chiles in adobo from can and roughly chop."
+     step: "Remove [3 chipotle chiles in adobo] from can and roughly chop."
      dependencies: null
      time: 2
   - 5:
@@ -46,7 +46,7 @@ steps:
   - 6:
      name: "Add Chorizo, Fennel, Onion and Chipotles"
      step: "Reduce the heat to low, stir in the [6 ounces (about 1 link) Mexican-style chorizo, casing removed and crumbled], fennel, onion, and chipotle chiles in adobo."
-     dependencies: [5]
+     dependencies: [5,3,4]
      time: 1
   - 7:
      name: "Simmer Soup"

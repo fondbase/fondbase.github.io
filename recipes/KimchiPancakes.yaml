@@ -8,10 +8,10 @@ ingredients:
   - 1 cup (125g) all-purpose flour
   - 1/2 cup (65g) rice flour
   - 1 1/2 cups (350ml) ice cold water, plus more as needed
-  - 1/4 cup (60ml) kimchi brine plus 1 cup drained kimchi (8 ounces, 225g), coarsely chopped
-  - 1 large egg, lightly beaten
-  - 3 scallions, white and light green parts only, cut into 1/2-inch lengths, plus more chopped scallions for garnish
-  - 8 ounces (225g) raw shrimp, peeled, de-veined, and roughly chopped into 1/4-inch pieces
+  - 1/4 cup (60ml) kimchi brine plus 1 cup drained kimchi (8 ounces, 225g)
+  - 1 large egg
+  - 3 scallions
+  - 8 ounces (225g) raw shrimp, peeled, de-veined
   - 1/2 teaspoon (3g) kosher salt
   - 3 tablespoons (45ml) soy sauce
   - 3 tablespoons (45ml) rice vinegar
@@ -44,12 +44,12 @@ steps:
   - 5:
      name: "Mix Batter"
      step: "In a large bowl, stir together [1 cup (125g) all-purpose flour], [1/2 cup (65g) rice flour], [1 1/2 cups (350ml) ice cold water], [1/4 cup (60ml) kimchi brine], and the egg; the mixture should be the consistency of slightly lumpy pancake batter."
-     dependencies: [1,2,3,4]
+     dependencies: [4]
      time: 5
   - 6:
      name: "Stir in Kimchi and Shrimp"
      step: "Stir in the chopped kimchi, scallion segments, shrimp, and [1/2 teaspoon (3g) kosher salt]. Add a little more water if needed. Set batter aside."
-     dependencies: [1,2,3]
+     dependencies: [5,1,2,3]
      time: 2
   - 7:
      name: "Mix Dipping Sauce"
