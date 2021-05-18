@@ -40,7 +40,7 @@ steps:
   - 5:
      name: "Mix Dry Ingredients"
      step: "In a small bowl, sift together [1 cup all-purpose flour], [3/4 cup polenta], [2 teaspoons baking powder], and [1 tsp salt]. Set aside."
-     dependencies: [1]
+     dependencies: null
      time: 5
   - 6:
      name: "Mix Wet Ingredients"
@@ -66,7 +66,7 @@ steps:
   - 10:
      name: "Bake the Cake"
      step: "Scrape the batter into the prepared cake pan and smooth the top. Bake until a toothpick inserted into the center comes out clean, about 40 minutes. "
-     dependencies: [9]
+     dependencies: [9,2]
      time: 40
      timer: True
   - 11:
