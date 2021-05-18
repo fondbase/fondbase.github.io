@@ -7,9 +7,9 @@ tags: [Beef,Meat,Italian,Pasta,Sauce,Hazan,Marcella]
 ingredients: 
   - "1 tablespoon vegetable oil"
   - "3 tablespoons butter plus 1 tablespoon for tossing the pasta"
-  - "1/2 cup chopped onion"
-  - "1/2 cup chopped celery"
-  - "1/2 cup chopped carrot"
+  - "1 medium onion"
+  - "2 stalks celery"
+  - "2 carrots"
   - "3/4 pound ground beef chuck"
   - "Salt"
   - "Freshly ground black pepper"
@@ -28,7 +28,7 @@ steps:
   - 2: 
       dependencies: ~
       name: "Chop Carrots and Celery"
-      step: "Wash and chop [2 carrots] and [2 stalks of celery]. You should have about 1/2 cup of each. Set aside."
+      step: "Wash and chop [2 peeled carrots] and [2 stalks of celery]. You should have about 1/2 cup of each. Set aside."
       time: 3 
   - 3: 
       dependencies: [1]
@@ -36,38 +36,38 @@ steps:
       step: "Add [1 tbsp olive oil], [3 tbsp butter] and the chopped onion to a medium-sized pot, and turn the heat on to medium. Cook and stir the onion until it has become translucent."
       time: 5
   - 4: 
-      dependencies: [2]
+      dependencies: [1,2]
       name: "Add Celery and Carrots"
       step: "Add the celery and carrots. Continue to cook for about 2 minutes, stirring the vegetables to coat them well."
       time: 2
   - 5: 
-      dependencies: [3]
+      dependencies: [4]
       name: "Add Meat"
-      step: "Add [3/4 ground beef], a large [pinch of salt] and a few grindings of [ground black pepper].  Break up the meat, stir well, and cook until the beef has lost its raw, red color"
+      step: "Add [3/4lb ground beef], a large [pinch of salt] and a few grindings of [ground black pepper].  Break up the meat, stir well, and cook until the beef has lost its raw, red color"
       time: 5
   - 6: 
-      dependencies: [4]
+      dependencies: [5]
       name: "Add Milk"
       step: "Add [1 cup of milk] and let it simmer gently, stirring frequently, until it has bubbled away completely. Add [1/8 teaspoon—of nutmeg], and stir."
       time: 5
   - 7: 
-      dependencies: [5]
+      dependencies: [6]
       name: "Add Wine"
       step: "Add [1 cup of dry white wine], let it simmer until it has evaporated."
       time: 5
   - 8: 
-      dependencies: [6]
+      dependencies: [7]
       name: "Add Tomatoes and Simmer"
       step: "Add [1 1/2 cups canned Italian plum tomatoes] and stir thoroughly to coat all ingredients well. When the tomatoes begin to bubble, turn the heat down so that the sauce cooks at the laziest of simmers, with just an intermittent bubble breaking through to the surface. Cook, uncovered for 3 hours or more, stirring from time to time and adding 1/2 cup of water whenever necessary. At the end, however, no water at all must be left and the fat must separate from the sauce. Taste and correct for salt."
       time: 180
       timer: True
   - 9: 
-      dependencies: [7]
+      dependencies: [8]
       name: "Taste and Adjust Seasoning"
       step: "Taste and add salt if needed."
       time: 1
   - 10: 
-      dependencies: [8]
+      dependencies: [9]
       name: "Toss with Pasta and Serve"
       step: "Toss with cooked drained pasta, adding [1 tbsp butter], and serve with [freshly grated Parmigiano-Reggiano] on the side"
       time: 2
