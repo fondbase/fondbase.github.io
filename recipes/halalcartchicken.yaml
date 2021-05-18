@@ -79,7 +79,7 @@ steps:
      time: 5
   - 8:
      name: "Rest the Rice"
-     step: "Remove the rice fromt the heat and let rest for 5 minutes."
+     step: "Remove the rice from the heat and let rest for 5 minutes."
      dependencies: [6]
      time: 5
      timer: True
@@ -91,5 +91,5 @@ steps:
   - 10:
      name: "Final Assembly"
      step: "To finish, chop the chicken into bite-sized, uneven pieces, then place the chopped chicken on the platter. Pile the salad in the remaining part of the platter. Dress the dish with sauce, to taste, and garnish with [cilantro]. Serve with halved [pitas]."
-     dependencies: [8]
+     dependencies: [8,2,9,7]
      time: 3
