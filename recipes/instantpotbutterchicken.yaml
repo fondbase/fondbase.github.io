@@ -7,8 +7,8 @@ image: "https://images.food52.com/TbnZSRmCgiu0rs0Fkb9aFzUtTXw=/2016x1344/filters
 ingredients:
   - For the butter chicken
   - 1 (14-ounce) can diced tomatoes
-  - 1 tablespoon minced ginger
-  - 1 tablespoon minced garlic
+  - 2 cloves garlic
+  - 1in knob ginger
   - 1 teaspoon turmeric
   - 1/2-1 teaspoons cayenne pepper (adjust to taste)
   - 1 teaspoon paprika
@@ -75,5 +75,5 @@ steps:
   - 10:
      name: "Add the Chicken and Serve"
      step: "Remove half the sauce and freeze or refrigerate for later. Add the chicken back to the remaning sauce. Serve with rice."
-     dependencies: [9]
+     dependencies: [8,9]
      time: 2
