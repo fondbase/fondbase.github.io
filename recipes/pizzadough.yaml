@@ -56,7 +56,7 @@ steps:
   - 8:
      name: "Turn out the Dough"
      step: "Turn the dough out of the mixer into the oiled bowl. Wrap the bowl as before. Set the dough aside at room temperature for 45 minutes."
-     dependencies: [7]
+     dependencies: [7,6]
      time: 45
      timer: True
   - 9:
@@ -80,7 +80,7 @@ steps:
   - 12:
      name: "Preheat the Oven"
      step: "Remove the oven racks from the oven and place a pizza stone on the floor of the oven.  Preheat the oven and stone to 500°F, or as hot as your oven will go, for at least 1 hour."
-     dependencies: [12]
+     dependencies: [11]
      time: 60
      timer: True
   - 13:
