@@ -41,12 +41,12 @@ steps:
   - 5:
      name: "Preheat Oven"
      step: "Preheat the oven to 425°F."
-     dependencies: [4]
+     dependencies: null
      time: 1
   - 6:
      name: "Mix Dry Ingredients"
      step: "In a large bowl, sift together [4 1/2 cups all-purpose flour], [1 teaspoon baking soda], [1 tablespoon plus 2 teaspoons baking powder], [1 teaspoon salt], and [2 teaspoons sugar]. (If you don’t have a sifter, you can use a whisk.)."
-     dependencies: [5]
+     dependencies: [4]
      time: 2
   - 7:
      name: "Cut in Shortening"
@@ -81,7 +81,7 @@ steps:
   - 13:
      name: "Begin Baking"
      step: "Cover a baking sheet with parchment paper, lay the biscuits on it, and put it on the middle oven rack and bake for 10 minutes."
-     dependencies: [12]
+     dependencies: [5,12]
      time: 10
      timer: True
   - 14:
