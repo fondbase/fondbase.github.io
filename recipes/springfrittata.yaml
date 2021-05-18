@@ -99,11 +99,11 @@ steps:
   - 15:
      name: "Scrable the Frittata"
      step: "Heat the [1 tablespoon olive oil] in a 10-inch ovenproof nonstick skillet over medium-high heat. Add the egg mixture and, with a rubber spatula or wooden spoon, stir to scramble the frittata for 30 seconds, scraping the bottom of the pan and breaking up any large egg curds. The frittata will still be mostly wet, with evenly dispersed cooked egg throughout. Remove the pan from the heat, smooth the top of the frittata, and gently tap the pan on the counter to settle it."
-     dependencies: [14]
+     dependencies: [10,14]
      time: 1
   - 16:
      name: "Bake the Frittata"
      step: "Slide the pan into the oven and bake for 20 to 30 minutes, or until the frittata is firm to the touch. Remove from the oven and turn out onto a large platter (or cut it into wedges in the pan using a nonabrasive spatula). Garnish with the remaining 1 tablespoon Parmigiano and a drizzle of olive oil. Serve hot, warm, or at room temperature."
-     dependencies: [15]
+     dependencies: [10,15]
      time: 20
      timer: True
