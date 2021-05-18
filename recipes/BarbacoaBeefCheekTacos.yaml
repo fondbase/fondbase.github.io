@@ -70,7 +70,7 @@ steps:
   - 9:
      name: "Cool Onions and Garlic"
      step: "Add remaining [2 tbsp vegetable or canola oil] and heat along with onions and garlic and cook, stirring frequently, until deep brown and just starting to burn, about 10 minutes."
-     dependencies: [8]
+     dependencies: [2,3,8]
      time: 10
      timer: True
   - 10:
@@ -86,7 +86,7 @@ steps:
   - 12:
      name: "Add Chipotles, Vinegar and Stock"
      step: "Add chipotle chilies, [1/4 cup apple cider vinegar], and remaining [2 cups chicken broth]. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
-     dependencies: [11]
+     dependencies: [10,11]
      time: 10
      timer: True
   - 13:
