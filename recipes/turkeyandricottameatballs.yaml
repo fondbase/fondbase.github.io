@@ -7,10 +7,10 @@ image: "https://s3.amazonaws.com/cdn.houseandhome.com/wp-content/uploads/2016/11
 ingredients:
   - Two 28-oz cans whole peeled tomatoes
   - 7 tbsp extra-virgin olive oil
-  - 7 garlic cloves; 4 thinly sliced, 3 minced
+  - 7 garlic cloves
   - Kosher salt
-  - 1 cup fresh basil leaves, finely chopped
-  - 1 cup fresh Italian parsley leaves, finely chopped
+  - 1 cup fresh basil leaves
+  - 1 cup fresh Italian parsley leaves
   - 1 ½ cups fresh wholemilk ricotta cheese
   - ½ cup finely grated Parmesan cheese
   - 2 lb ground turkey (preferably dark meat), at room temperature
@@ -40,6 +40,7 @@ steps:
      step: "Add the tomatoes and a very large pinch of salt and bring to a boil. Lower the heat and let the sauce simmer, stirring every so often, until it is slightly reduced and has lost any tin-can taste, about 30 minutes."
      dependencies: [4]
      time: 30
+     timer: True
   - 6:
      name: "Chop Herbs"
      step: "Finely chop [1 cup of basil leaves] and [1 cup of parsley]. Add to a large bowl."
