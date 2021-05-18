@@ -44,7 +44,7 @@ steps:
   - 4:
      name: "Peel and Slice Onion"
      step: "Peel and thinly slice [1 large onion].  Set aside."
-     dependencies: [4]
+     dependencies: [1]
      time: 5
   - 5:
      name: "Peel and Trim Asparagus"
