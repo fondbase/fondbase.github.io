@@ -7,21 +7,21 @@ image: "https://www.seriouseats.com/thmb/mPtLWO4LzuuLx_nRdWV7ZxNRCa8=/960x0/filt
 ingredients:
   - 1 teaspoon honey
   - Juice of 1/2 lemon
-  - 1 small garlic clove, crushed
+  - 1 small garlic clove
   - A pinch of red pepper flakes
   - A pinch of sea salt
   - 3 tablespoons canola or olive oil
   - For the salad
-  - 1 small red onion, very finely sliced
-  - 1 small cucumber, cut into chunks
-  - 2/3 cup cherry tomatoes, halved
+  - 1 small red onion
+  - 1 small cucumber
+  - 2/3 cup cherry tomatoes
   - 1/3 cup kalamata or other black olives, pitted
-  - A large handful of mint leaves, coarsely shredded
+  - A large handful of mint leaves
   - A large handful of flat-leaf parsley leaves
   - 1/4 cup all-purpose flour
   - A large pinch of smoked paprika
   - Sea salt and freshly ground black pepper
-  - 8 ounces halloumi cheese, cut into 8 slices
+  - 8 ounces halloumi cheese
   - 2 tablespoons canola or olive oil
 steps:
   - 1:
@@ -77,12 +77,12 @@ steps:
   - 11:
      name: "Dredge Halloumi"
      step: "Moisten the halloumi slices slightly with water, if necessary, then press them into the seasoned flour and shake off any excess." 
-     dependencies: [10]
+     dependencies: [9]
      time: 2
   - 12:
      name: "Begin Frying the Halloumi"
      step: "Fry the halloumi slices over medium heat for about 2 minutes." 
-     dependencies: [11]
+     dependencies: [11,10]
      time: 2
      timer: True
   - 13:
