@@ -8,13 +8,13 @@ ingredients:
   - 1 cup fish sauce
   - 1 cup white vinegar
   - 1 cup sugar
-  - 1 head garlic, cloves separated and minced
-  - 4 Thai chiles, coarsely chopped
-  - 6 boneless, skinless chicken thighs, diced
+  - 1 head garlic
+  - 4 Thai chiles
+  - 6 boneless, skinless chicken thighs
   - Canola oil, for frying
   - 1 cup cornstarch
-  - 1/4 onion, thinly sliced
-  - 2 jalapeños, thinly sliced
+  - 1/4 onion
+  - 2 jalapeños
   - 1 cup chile sauce, such as Mae Ploy brand
   - Salt
   - 12 fresh cilantro leaves, torn
@@ -23,7 +23,7 @@ ingredients:
 steps:
   - 1:
      name: "Mince Garlic"
-     step: "Finely mince [one whole head of garlic] and place in medium mixing bowl."
+     step: "Separate, peel and finely mince [one whole head of garlic] and place in medium mixing bowl."
      dependencies: null
      time: 10
   - 2:
@@ -38,9 +38,10 @@ steps:
      time: 3
   - 4:
      name: "Add the Chicken and Marinate Overnight"
-     step: "Add the [6 boneless, skinless chicken thighs] to the remaining brine, cover, and refrigerate for 24 hours."
+     step: "Dice [6 boneless, skinless chicken thighs] and add to the remaining brine, cover, and refrigerate for 24 hours."
      dependencies: [3]
      time: 1440
+     timer: True
   - 5:
      name: "Drain the Chicken"
      step: "Remove the chicken from the brine and place the pieces in a strainer or colander, letting the excess brine drain off. Discard the brine."

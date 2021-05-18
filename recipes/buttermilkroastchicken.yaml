@@ -25,6 +25,7 @@ steps:
      step: "Seal the bag, squish the buttermilk all around the chicken, place on a rimmed plate, and refrigerate overnight."
      dependencies: [2]
      time: 1440
+     timer: True
   - 4:
      name: "Remove Chicken and Rest"
      step: "Pull the chicken from the fridge and let rest for an hour."

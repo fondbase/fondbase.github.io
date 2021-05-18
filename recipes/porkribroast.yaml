@@ -5,7 +5,7 @@ source: "In The Green Kitchen"
 tags: [meat,dinner,alice,waters,pork,meat,rib]
 image: "https://www.seriouseats.com/thmb/D4iKh6oQxErlwcyDRQ-SOZ-tFE4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__11__20161102-Roasted-Pork-Loin-07-c66e66a96c754f8da26dd7788d0fa471.jpg"
 ingredients:
-  - For the Pork Loin
+  - For the Roast
   - One (4- to 5-pound; 2- to 2 1/2-kg) pork loin, center cut with rind still intact (see note)
   - Kosher salt
   - 1/4 cup (60ml) neutral oil, like canola or grapeseed
@@ -13,9 +13,9 @@ ingredients:
   - 8 sprigs fresh thyme
   - 2 sprigs fresh rosemary
   - For the Spiced Apple Chutney
-  - 4 tart baking apples (such as Granny Smith), peeled, cored, and cut into 1/2-inch dice
-  - 3/4 cup chopped yellow onion
-  - 2 tablespoons fresh ginger, grated (20g)
+  - 4 tart baking apples (such as Granny Smith)
+  - 1 medium yellow onion
+  - 2in knob of ginger
   - 1/2 cup pomegranate juice (120ml)
   - 1/2 cup plus 2 tablespoons apple cider vinegar (150ml)
   - 3/4 cup light brown sugar, packed (about 5 ounces; 140g)
@@ -51,13 +51,15 @@ steps:
   - 6:
      name: "Begin Roasting"
      step: "Place the loin, skin-side up, on a rack in a roasting pan or baking sheet and roast for 30 minutes."
-     dependencies: [5]
+     dependencies: [5,2]
      time: 30
+     timer: True
   - 7:
      name: "Reduce Heat and Continue Roasting"
      step: "Reduce the heat to 325°F (163°C) and cook until an instant-read thermometer poked into the center of the loin reaches 130°F (54°C) for medium-rare, or 140°F (60°C) for medium, about 1 hour. Skin should be puffy and crisp; if it’s not puffy enough, remove the roast from the oven, preheat the broiler, and place the roast a few inches under the broiler until the skin puffs."
      dependencies: [6]
      time: 60
+     timer: True
   - 8:
      name: "Peel and Core Apples"
      step: "While the pork roasts, peel, core and dice [4 tart baking apples]. Add to a large saucepan."
