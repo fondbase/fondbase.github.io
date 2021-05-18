@@ -94,7 +94,7 @@ steps:
   - 14:
      name: "Beat Eggs and Mix-in Filling"
      step: "Beat [9 eggs and 3 yolks] together in a large bowl. Stir in [1/4 cup heavy cream], the grated Gruyère, 3 tablespoons of the grated Parmigiano, the herbs, [2 tbsp bread crumbs], the potato slices, the asparagus-chard mixture.  Add salt and pepper to taste."
-     dependencies: [9,10,11,12,13,14]
+     dependencies: [9,10,11,12,13]
      time: 4
   - 15:
      name: "Scrable the Frittata"
