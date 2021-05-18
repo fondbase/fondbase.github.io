@@ -87,10 +87,11 @@ steps:
      dependencies: [9,10,11,12]
      time: 5
   - 14:
-     name: "Fry the Croquettes"
+     name: "Fry the Croquettes Until Golden Brown"
      step: "Working in small batches that don’t crowd the pan, fry the croquettes, turning frequently, until they are golden on the outside and hot and creamy at the center, about 4 minutes. Gently transfer them to absorbent paper towels to drain off excess oil. Serve hot."
      dependencies: [9,10,11,12,13]
      time: 4
+     timer: True
   - 15:
      name: "Transfer to Plate and Serve Hot"
      step: "Gently transfer them to absorbent paper towels to drain off excess oil. Serve hot."
