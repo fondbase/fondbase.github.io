@@ -67,7 +67,12 @@ steps:
      dependencies: [6]
      time: 3
   - 9:
-     name: "Baste and Serve"
+     name: "Baste with Hot Oil"
      step: "Baste the spice mixture over the hot fried chicken and serve immediately."
      dependencies: [7,8]
      time: 2
+  - 10:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [9]
+     time: 1
