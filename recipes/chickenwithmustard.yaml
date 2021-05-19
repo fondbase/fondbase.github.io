@@ -83,3 +83,8 @@ steps:
      step: "If the sauce has reduced and is quite thick, you can thin it with a little warm water. Sprinkle a little [chopped parsley] over the top and serve."
      dependencies: [11]
      time: 1
+  - 13:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [12]
+     time: 1
