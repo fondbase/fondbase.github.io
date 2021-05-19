@@ -95,3 +95,8 @@ steps:
      step: "Using a big pastry brush, coat the tops of the biscuits with the honey butter. The biscuits will be very soft and flaky inside, with just a little bit of crispness on the outside. Serve them while they’re hot."
      dependencies: [4,14]
      time: 5
+  - 16:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [15]
+     time: 1
