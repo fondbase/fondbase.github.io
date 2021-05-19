@@ -69,3 +69,8 @@ steps:
      step: "Drizzle sauce on top and garnish with fresh cilantro leaves before serving. Serve immediately with jasmine rice."
      dependencies: [5,8]
      time: 1
+  - 10:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [9]
+     time: 1
