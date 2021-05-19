@@ -64,7 +64,12 @@ steps:
      timer: True
   - 10:
      name: "Add the Meatballs to the Sauce"
-     step: "Use tongs or a slotted spoon to transfer the meatballs to the simmering sauce (discard whatever juice and fat is left on the baking sheet). Cook the meatballs for 10 minutes in the sauce (they can be left in the gently simmering sauce for up to 1 hour) and serve."
+     step: "Use tongs or a slotted spoon to transfer the meatballs to the simmering sauce (discard whatever juice and fat is left on the baking sheet). Cook the meatballs for 10 minutes in the sauce (they can be left in the gently simmering sauce for up to 1 hour)."
      dependencies: [5,9]
      time: 10
      timer: True
+  - 11:
+     name: "Enjoy!"
+     step: "Serve hot and enjoy!"
+     dependencies: [10]
+     time: 1
