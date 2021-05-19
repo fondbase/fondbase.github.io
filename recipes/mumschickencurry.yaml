@@ -87,7 +87,7 @@ steps:
      time: 30
      timer: True
   - 13:
-     name: "Add the almonds and garam masala"
+     name: "Add the Almonds and Garam Masala"
      step: "Add [3 tbsp  ground almonds] and [1 tsp garam masala] and cook for another 5 minutes."
      dependencies: [12]
      time: 5
