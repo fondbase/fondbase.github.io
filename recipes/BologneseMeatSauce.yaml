@@ -68,8 +68,8 @@ steps:
       time: 1
   - 10: 
       dependencies: [9]
-      name: "Toss with Pasta and Serve"
-      step: "Toss with cooked drained pasta, adding [1 tbsp butter], and serve with [freshly grated Parmigiano-Reggiano] on the side"
+      name: "Toss with Pasta"
+      step: "Toss with cooked drained pasta, adding [1 tbsp butter], and serve with [freshly grated Parmigiano-Reggiano] on the side."
       time: 2
   - 11: 
       dependencies: [10]
