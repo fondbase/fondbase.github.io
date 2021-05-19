@@ -54,3 +54,9 @@ steps:
      step: "Carve the chicken into pieces and place on a serving dish."
      dependencies: [6]
      time: 5
+  - 8:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [7]
+     time: 1
+
