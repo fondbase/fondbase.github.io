@@ -41,3 +41,8 @@ steps:
      step: "Taste and correct for salt. Discard the onion before tossing with pasta."
      dependencies: [3,5]
      time: 3    
+  - 7:
+     name: "Enjoy!"
+     step: "Serve immediately and enjoy!"
+     dependencies: [6]
+     time: 1   
