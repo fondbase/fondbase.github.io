@@ -135,6 +135,11 @@ steps:
      timer: True
   - 21:
      name: "Serve with Garnishes"
-     step: "Serve immediately, piling the beef into [warm corn tortillas with onions, cilantro, salsa, limes, or other condiments] as desired. "
+     step: "Serve immediately, piling the beef into [warm corn tortillas with onions, cilantro, salsa, limes, or other condiments] as desired."
      dependencies: [20]
+     time: 1
+  - 22:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [21]
      time: 1
