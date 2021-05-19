@@ -101,3 +101,8 @@ steps:
      step: "Divide the salad among 4 plates, put 2 pieces of the hot halloumi on each one, and serve immediately." 
      dependencies: [14]
      time: 2
+  - 16:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!" 
+     dependencies: [15]
+     time: 1
