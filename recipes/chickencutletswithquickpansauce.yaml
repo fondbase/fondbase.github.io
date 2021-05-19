@@ -59,7 +59,7 @@ steps:
      time: 3
      timer: True
   - 9:
-     name: "Flour and Begin Cooking the Second Batch of Chicken"
+     name: "Flour and Cook the Second Batch of Chicken"
      step: "Turn a piece of the chicken in the flour to coat it on all sides and shake off any excess flour. Add the floured chicken to the pan, then repeat with 2-3 more pieces to avoid crowding the pan."
      dependencies: [8]
      time: 2
