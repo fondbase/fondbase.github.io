@@ -37,7 +37,7 @@ steps:
   - 3:
      name: "Slice Onion"
      step: "Very finely slice [1 small red onion]. Add to a large salad bowl." 
-     dependencies: null
+     dependencies: [2]
      time: 5
   - 4:
      name: "Chop Cucumber"
