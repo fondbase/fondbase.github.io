@@ -73,7 +73,7 @@ steps:
   - 12:
      name: "Cover and Roast"
      step: "Cover the pot and roast for 3 to 3 1/2 hours without disturbing."
-     dependencies: [11]
+     dependencies: [1,11]
      time: 180
      timer: True
   - 13:
