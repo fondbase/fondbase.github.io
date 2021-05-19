@@ -73,7 +73,7 @@ steps:
      time: 10
      timer: True
   - 12:
-     name: "Serve Immediately"
-     step: "Take a picture of your arepas and enjoy!"
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
      dependencies: [11]
      time: 1
