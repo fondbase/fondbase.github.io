@@ -77,7 +77,7 @@ steps:
   - 11:
      name: "Dredge Halloumi"
      step: "Moisten the halloumi slices slightly with water, if necessary, then press them into the seasoned flour and shake off any excess." 
-     dependencies: [9]
+     dependencies: [8,9]
      time: 2
   - 12:
      name: "Begin Frying the Halloumi"
