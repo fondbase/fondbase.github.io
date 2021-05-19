@@ -73,7 +73,12 @@ steps:
      time: 5
      timer: True
   - 12:
-     name: "Serve and Enjoy!"
+     name: "Serve from the Roasting Pan"
      step: "Serve from the roasting pan so the potatoes will remain crisp."
      dependencies: [11]
+     time: 1
+  - 13:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [12]
      time: 1

@@ -88,3 +88,8 @@ steps:
      step: "Serve whole or cut into wedges, garnished with scallions, and with dipping sauce."
      dependencies: [1,7,12]
      time: 1
+  - 14:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [13]
+     time: 1

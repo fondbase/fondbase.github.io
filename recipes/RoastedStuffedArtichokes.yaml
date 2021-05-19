@@ -94,40 +94,8 @@ steps:
      step: "Serve warm, topped with the pan juice. To eat an artichoke, pull off the leaves and dip the fleshy part in the pan juice. When you reach the center, cut into the ricotta and the artichoke heart with a fork."
      dependencies: [14]
      time: 2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - 16:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [15]
+     time: 1

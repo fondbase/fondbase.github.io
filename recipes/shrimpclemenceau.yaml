@@ -109,3 +109,8 @@ steps:
      step: "Arrange the potatoes and a spoonful of sugar snap peas in the center of each of six large plates, along with 3 or 4 shrimp. Stir the lemon segments, zest, and juice into the butter sauce and spoon the sauce over and around the shrimp. Serve at once."
      dependencies: [8,11,14,17]
      time: 5
+  - 19:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [18]
+     time: 1

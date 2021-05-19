@@ -62,3 +62,8 @@ steps:
      step: "Dust the chicken with sumac and pepper, garnish with lime halves, and serve."
      dependencies: [8]
      time: 1
+  - 10:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [9]
+     time: 1

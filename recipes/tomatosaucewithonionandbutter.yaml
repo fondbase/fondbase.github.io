@@ -43,6 +43,6 @@ steps:
      time: 3    
   - 7:
      name: "Enjoy!"
-     step: "Serve immediately and enjoy!"
+     step: "Take a picture of your dish and enjoy!"
      dependencies: [6]
-     time: 1   
+     time: 1 

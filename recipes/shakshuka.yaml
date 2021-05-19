@@ -64,3 +64,8 @@ steps:
      step: "Remove from the heat, leave for a couple of minutes to settle, then spoon into individual plates and serve with [1/2 cup / 120 g labneh or thick yogurt]."
      dependencies: [8]
      time: 3
+  - 10:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [9]
+     time: 1

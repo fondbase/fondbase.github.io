@@ -129,3 +129,8 @@ steps:
      step: "When the pizza is done, slide the peel under the crust, remove it from the oven, and place it on a cutting board or round."
      dependencies: [20]
      time: 1
+  - 22:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [21]
+     time: 1

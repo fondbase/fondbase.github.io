@@ -77,3 +77,8 @@ steps:
      step: "Remove half the sauce and freeze or refrigerate for later. Add the chicken back to the remaning sauce. Serve with rice."
      dependencies: [8,9]
      time: 2
+  - 11:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [10]
+     time: 1

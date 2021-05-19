@@ -70,6 +70,6 @@ steps:
      timer: True
   - 11:
      name: "Enjoy!"
-     step: "Serve hot and enjoy!"
+     step: "Take a picture of your dish and enjoy!"
      dependencies: [10]
      time: 1

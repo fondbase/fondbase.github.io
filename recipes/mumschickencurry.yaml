@@ -96,3 +96,8 @@ steps:
      step: "Serve with a tower of chapattis, hot fluffy naan bread or rice, and offer yogurt at the table."
      dependencies: [13]
      time: 1
+  - 15:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [14]
+     time: 1

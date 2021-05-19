@@ -50,3 +50,8 @@ steps:
      step: "Pour the sauce mixture over the potatoes and serve hot."
      dependencies: [6,4]
      time: 12
+  - 8:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [7]
+     time: 1

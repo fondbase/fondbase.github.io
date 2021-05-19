@@ -72,7 +72,12 @@ steps:
      dependencies: [9]
      time: 1
   - 11:
-     name: "Serve and Enjoy"
+     name: "Garnish and Serve"
      step: "To serve, ladle the soup into serving bowls and garnish with crème fraîche and pea shoots, if desired."
      dependencies: [10]
+     time: 1
+  - 12:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [11]
      time: 1

@@ -64,4 +64,9 @@ steps:
      step: "Transfer the fish to warmed plates and spoon over the juices. Boiled spuds or mashed potatoes and something fresh and green – broccoli, perhaps, or spring greens – are the only accompaniments you need."
      dependencies: [8]
      time: 1
+  - 10:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [9]
+     time: 1
      

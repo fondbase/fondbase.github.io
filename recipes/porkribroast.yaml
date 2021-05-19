@@ -97,4 +97,9 @@ steps:
      step: "Remove the ribs by cutting the remaining flap, discard the garlic and herbs. Carve the loin into slices following the scores so that each slice has a segment of crackling (approximately a 1/4-inch-wide strip). Serve the warm pork loin with apple chutney."
      dependencies: [12,13]
      time: 10
-     
+  - 15:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [14]
+     time: 1
+

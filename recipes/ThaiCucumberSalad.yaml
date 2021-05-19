@@ -85,3 +85,8 @@ steps:
      step: "If you’re using the noodles, cook and drain [2 oz Vietnamese or Thai dried rice vermicelli] according to the package.  Put them on a plate with raised edges or in a shallow bowl. Spoon the contents of the mortar, liquid and all, over them. Stir well before you eat."
      dependencies: [12]
      time: 3
+  - 14:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [13]
+     time: 1
