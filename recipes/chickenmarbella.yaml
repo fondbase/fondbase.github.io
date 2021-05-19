@@ -55,3 +55,8 @@ steps:
      step: "With a slotted spoon, transfer chicken, prunes, olives and capers to a serving platter. Moisten with a few spoonfuls of pan juices and sprinkle generously with [1/4 cup parsley or cilantro]. Pass remaining pan juices in a sauceboat."
      dependencies: [6]
      time: 3
+  - 8:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [7]
+     time: 1
