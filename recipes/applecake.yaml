@@ -82,3 +82,8 @@ steps:
      step: "The cake can be served warm or at room temperature, with or without a little softly whipped, barely sweetened heavy cream or a spoonful of ice cream."
      dependencies: [12]
      time: 2
+  - 14:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [13]
+     time: 1
