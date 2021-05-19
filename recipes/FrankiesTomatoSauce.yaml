@@ -42,3 +42,8 @@ steps:
      step: "Check the sauce for salt at the end. The sauce can be cooked with meat at this point, or stored, covered, in the fridge for at least 4 days or frozen for up to a few months."
      dependencies: [5]
      time: 2
+  - 7:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [6]
+     time: 1

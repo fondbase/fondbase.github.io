@@ -93,3 +93,8 @@ steps:
      step: "To finish, chop the chicken into bite-sized, uneven pieces, then place the chopped chicken on the platter. Pile the salad in the remaining part of the platter. Dress the dish with sauce, to taste, and garnish with [cilantro]. Serve with halved [pitas]."
      dependencies: [8,2,9,7]
      time: 3
+  - 11:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [10]
+     time: 1
