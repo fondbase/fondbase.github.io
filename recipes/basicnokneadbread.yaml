@@ -21,7 +21,7 @@ steps:
      dependencies: [1]
      time: 2
   - 3:
-     name: "Cover and Rest"
+     name: "Cover and Rest Overnight"
      step: "Cover bowl tightly with plastic wrap and let sit at room temperature for at least 12 and up to 24 hours."
      dependencies: [2]
      time: 1440
