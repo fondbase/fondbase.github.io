@@ -62,7 +62,7 @@ steps:
   - 8:
      name: "Slice Halloumi"
      step: "Cut [8 ounces of halloumi cheese] into 8, 1 ounce slices." 
-     dependencies: [7]
+     dependencies: null
      time: 2
   - 9:
      name: "Mix Dredge"
