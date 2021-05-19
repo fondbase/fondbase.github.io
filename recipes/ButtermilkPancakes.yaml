@@ -54,7 +54,12 @@ steps:
       time: 3
       timer: True
   - 8:
-      name: "Top & Enjoy"
+      name: "Top Pancakes"
       step: "Top with maple syrup, butter, whipped cream and/or fresh fruit."
       dependencies: [7]
+      time: 1
+  - 9:
+      name: "Enjoy!"
+      step: "Take a picture of your dish and enjoy!"
+      dependencies: [8]
       time: 1
