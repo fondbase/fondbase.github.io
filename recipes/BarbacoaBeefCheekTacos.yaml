@@ -79,24 +79,24 @@ steps:
      dependencies: [8]
      time: 2
   - 11:
-     name: "Add Spices"
+     name: "Add Spices to Dutch Oven"
      step: "Add [2 tsp ground cumin], [1/2 tsp ground cloves], and [2 tsp dried oregano] and cook, stirring constantly until fragrant, about 30 seconds."
      dependencies: [10]
      time: 1
   - 12:
-     name: "Add Chipotles, Vinegar and Stock"
+     name: "Add Chipotles, Vinegar and Stock to Dutch Oven"
      step: "Add chipotle chilies, [1/4 cup apple cider vinegar], and remaining [2 cups chicken broth]. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
      dependencies: [10,11]
      time: 10
      timer: True
   - 13:
-     name: "Transfer Liquid to Blender"
-     step: "Transfer entire contents to the jar of a blender.  Add the soaked chilies and their liquid and [2 tsp fish sauce]. Start blender on low and slowly increase speed to high. Puree until smooth, about 1 minute. Set aside."
+     name: "Add Soaked Chilies and Blend"
+     step: "Add the soaked chilies and their liquid and [2 tsp fish sauce] to the Dutch oven. Using an immersion blender, puree until smooth, about 1 minute. Set aside."
      dependencies: [12,5]
      time: 2
   - 14:
      name: "Begin Braising the Beef"
-     step: "Place [1 whole chuck-eye roast (about 4 pounds), or 4 pounds boneless shortribs] in Dutch oven. Add browned oxtails, [2 whole bay leaves], and sauce. Bring to a boil over high heat."
+     step: "Add [1 whole chuck-eye roast (about 4 pounds), or 4 pounds boneless shortribs] to Dutch oven. Add browned oxtails, and [2 whole bay leaves]. Bring to a boil over high heat."
      dependencies: [7,8,13]
      time: 1
   - 15:
