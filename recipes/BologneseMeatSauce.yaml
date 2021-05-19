@@ -71,3 +71,8 @@ steps:
       name: "Toss with Pasta and Serve"
       step: "Toss with cooked drained pasta, adding [1 tbsp butter], and serve with [freshly grated Parmigiano-Reggiano] on the side"
       time: 2
+  - 11: 
+      dependencies: [10]
+      name: "Enjoy!"
+      step: "Take a picture of your dish and enjoy!"
+      time: 1
