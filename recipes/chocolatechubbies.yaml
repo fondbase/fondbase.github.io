@@ -84,9 +84,13 @@ steps:
      time: 7
      timer: True
   - 13:
-     name: "Cool and Enjoy"
+     name: "Cool and serve"
      step: "Cool completely on the baking pans."
      dependencies: [12]
      time: 15
      timer: True
-     
+  - 14:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [13]
+     time: 1
