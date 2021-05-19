@@ -46,7 +46,7 @@ steps:
      time: 1
      timer: True
   - 6:
-     name: "Whip the Eggs in a Stand Mixer"
+     name: "Add the Sugar and Vanilla"
      step: "Increase the speed to high and gradually add [1 1/4 cups superfine sugar] and [2 tsp vanilla extract]. Whip until the eggs are very thick and pale yellow, about 3 minutes."
      dependencies: [5]
      time: 3
