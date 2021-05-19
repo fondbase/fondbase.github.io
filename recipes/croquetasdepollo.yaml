@@ -97,3 +97,8 @@ steps:
      step: "Gently transfer them to absorbent paper towels to drain off excess oil. Serve hot."
      dependencies: [14]
      time: 1
+  - 16:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [15]
+     time: 1
