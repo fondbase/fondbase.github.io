@@ -36,27 +36,27 @@ steps:
      time: 3
   - 3:
      name: "Slice Onion"
-     step: "Very finely slice [1 small red onion] and add to a large bowl." 
+     step: "Very finely slice [1 small red onion]. Add to a large salad bowl." 
      dependencies: null
      time: 5
   - 4:
      name: "Chop Cucumber"
-     step: "Roughly chop [1 small cucumber]. Add to large bowl with onion." 
+     step: "Roughly chop [1 small cucumber]. Add to the salad bowl." 
      dependencies: [3]
      time: 2
   - 5:
      name: "Slice Tomatoes"
-     step: "Halve [2/3 cup cherry tomatoes]. Add to large bowl with onion." 
+     step: "Halve [2/3 cup cherry tomatoes]. Add to the salad bowl." 
      dependencies: [3]
      time: 2
   - 6:
      name: "Shred Mint"
-     step: "Coursely shred a [large handful of mint leaves]. Add to large bowl with onion." 
+     step: "Coursely shred a [large handful of mint leaves]. Add to the salad bowl." 
      dependencies: [3]
      time: 2
   - 7:
      name: "Add Olives and Parsley"
-     step: "To the large bowl, add [1/3 cup pitted kalamata or other black olives] and [a large handful of flat-leaf parsley leaves]." 
+     step: "Add [1/3 cup pitted kalamata or other black olives] and [a large handful of flat-leaf parsley leaves] to the salad bowl." 
      dependencies: [3]
      time: 1
   - 8:
