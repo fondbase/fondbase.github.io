@@ -54,7 +54,7 @@ steps:
      dependencies: [7]
      time: 1
   - 9:
-     name: "Serve Warm and Enjoy!"
-     step: "Serve the warm tortillas and enjoy!."
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
      dependencies: [8]
      time: 1
