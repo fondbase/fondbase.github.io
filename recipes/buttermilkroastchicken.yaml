@@ -66,3 +66,8 @@ steps:
      dependencies: [9]
      time: 10
      timer: True
+  - 11:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [10]
+     time: 1
