@@ -70,3 +70,8 @@ steps:
      step: "Transfer the pans to racks to cool and serve warm."
      dependencies: [10]
      time: 5
+  - 12:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [11]
+     time: 1
