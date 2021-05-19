@@ -74,6 +74,11 @@ steps:
      time: 2
   - 11:
      name: "Toss with Reserved Brine"
-     step: "Add the sliced onion and jalapeños, the reserved 1 cup brine, and [1 cup sweet chile sauce, such as Mae Ploy].  Toss to coat, and season with salt to taste. Garnish with torn [cilantro, mint, and basil leaves] and serve."
+     step: "Add the sliced onion and jalapeños, the reserved 1 cup brine, and [1 cup sweet chile sauce, such as Mae Ploy].  Toss to coat, and season with salt to taste. Garnish with torn [cilantro, mint, and basil leaves]."
      dependencies: [6,10]
      time: 2
+  - 12:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [11]
+     time: 1
