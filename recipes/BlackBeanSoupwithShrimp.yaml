@@ -71,7 +71,12 @@ steps:
      dependencies: [9]
      time: 4
   - 11:
-     name: "Serve and Enjoy!"
+     name: "Serve with Tostadas and Cheese"
      step: "Serve the soup in individual bowls garnished with the tostadas and crumbled cheese."
      dependencies: [10]
+     time: 1
+  - 12:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [11]
      time: 1
