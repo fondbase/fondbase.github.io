@@ -45,6 +45,16 @@ steps:
      time: 5
   - 7:
      name: "Cook the Tortillas"
-     step: "In a dry cast-iron skillet heated over medium-high heat, cook each tortilla for 30 seconds on one side, flip it, and then cook for 1 minute on the other side. It should start to puff a bit. Flip it again and cook for 30 more seconds. Cover the cooked tortilla with a cloth until you are ready to serve. Repeat with the remaining balls of dough."
+     step: "In a dry cast-iron skillet heated over medium-high heat, cook each tortilla for 30 seconds on one side, flip it, and then cook for 1 minute on the other side. It should start to puff a bit. Flip it again and cook for 30 more seconds."
      dependencies: [6]
      time: 10
+  - 8:
+     name: "Cover the Cooked Tortillas"
+     step: "Cover the cooked tortilla with a cloth while you cook the remaining dough."
+     dependencies: [7]
+     time: 1
+  - 9:
+     name: "Serve Warm and Enjoy!"
+     step: "Serve the warm tortillas and enjoy!."
+     dependencies: [8]
+     time: 1
