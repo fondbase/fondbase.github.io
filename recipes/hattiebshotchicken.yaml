@@ -49,17 +49,17 @@ steps:
   - 5:
      name: "Heat the Oil"
      step: "Fill a 6- to 8-quart pot halfway with [vegetable oil] and heat to 325°F.  Set a wire rack on top of a rimmed baking sheet and set aside."
-     dependencies: [4]
+     dependencies: [3,4]
      time: 10
   - 6:
      name: "Dredge the Chicken"
      step: "While the oil heats, dip the chicken in the flour mixture, then in the milk mixture, then in the flour mixture again, shaking off the excess after each step."
-     dependencies: [5]
+     dependencies: [3,4,5]
      time: 2
   - 7:
      name: "Fry the Chicken"
      step: "Working in batches, lower the chicken into the fryer and fry until crisp, 15 to 17 minutes for breast quarters and 18 to 20 minutes for leg quarters. Remove the chicken and let drain on the rack."
-     dependencies: [6]
+     dependencies: [5,6]
      time: 20
   - 8:
      name: "Make the Spicy Coating"
