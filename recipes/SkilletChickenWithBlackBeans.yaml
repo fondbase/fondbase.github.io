@@ -43,7 +43,7 @@ steps:
      time: 2
   - 5:
      name: "Season Chicken"
-     step: "Season [8 bone-in skin-on chicken thighs,] with salt and pepper on both sides."
+     step: "Season [8 bone-in skin-on chicken thighs] with salt and pepper on both sides."
      dependencies: null
      time: 2
   - 6:
