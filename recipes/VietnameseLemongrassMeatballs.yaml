@@ -35,7 +35,7 @@ steps:
      time: 2
   - 4:
      name: "Mix in Remaining Meatball Ingredients"
-     step: "To the lemongrass and cilantro, add the minced garlic, [1 pound ground pork], [1 large egg], fish sauce, [2 teaspoons cornstarch], garlic and 1 1/2 teaspoons of salt."
+     step: "To the lemongrass and cilantro, add the minced shallots, [1 pound ground pork], [1 large egg], fish sauce, [2 teaspoons cornstarch], garlic and 1 1/2 teaspoons of salt."
      dependencies: [3]
      time: 3
   - 5:
