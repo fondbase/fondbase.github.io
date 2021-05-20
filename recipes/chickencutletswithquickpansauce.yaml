@@ -22,7 +22,7 @@ steps:
      time: 1
   - 2:
      name: "Pound and Season the Chicken"
-     step: "Separate [1 1/2 pounds boneless, skinless chicken breasts, thighs, or tenders]. Put each cutlet between 2 sheets of sheet of plastic wrap and pound to uniform thickness.  Blot the chicken dry with a paper towel and sprinkle with salt and pepper" 
+     step: "Separate [1 1/2 lb boneless skinless chicken breasts (thighs or tenders will work too)]. Put each cutlet between 2 sheets of sheet of plastic wrap and pound to uniform thickness.  Blot the chicken dry with a paper towel and sprinkle with salt and pepper" 
      dependencies: null
      time: 5
   - 3:
@@ -36,7 +36,7 @@ steps:
      dependencies: [1,2,3]
      time: 2
   - 5:
-     name: "Flour and Cook the First Batch of Chicken"
+     name: "Flour and Cook the First Batch"
      step: "Turn a piece of the chicken in the flour to coat it on all sides and shake off any excess flour. Add the floured chicken to the pan, then repeat with 2-3 more pieces to avoid crowding the pan."
      dependencies: [4]
      time: 2
@@ -59,7 +59,7 @@ steps:
      time: 3
      timer: True
   - 9:
-     name: "Flour and Cook the Second Batch of Chicken"
+     name: "Flour and Cook the Second Batch"
      step: "Turn a piece of the chicken in the flour to coat it on all sides and shake off any excess flour. Add the floured chicken to the pan, then repeat with 2-3 more pieces to avoid crowding the pan."
      dependencies: [8]
      time: 2
@@ -88,7 +88,7 @@ steps:
      time: 2
   - 14:
      name: "Add Chicken or Stock"
-     step: "Pour in [1/2 cup water, chicken stock, or vegetable stock] and continue to stir until the liquid has thickened slightly and reduced to 1/4 cup, another 2 or 3 minutes."
+     step: "Pour in [1/2 cup water (chicken stock or vegetable stock work too)] and continue to stir until the liquid has thickened slightly and reduced to 1/4 cup, another 2 or 3 minutes."
      dependencies: [13]
      time: 3
   - 15:
@@ -101,7 +101,6 @@ steps:
      step: "Remove the chicken from the oven, and if any juices have accumulated on the platter, add them to the skillet along with the [1/4 cup parsley]. Stir, taste the sauce, and adjust the seasoning. Spoon the sauce over the chicken, garnish with the remaining [2 tablespoons parsley], and serve with lemon quarters."
      dependencies: [15]
      time: 2
-     timer: True
   - 17:
      name: "Enjoy!"
      step: "Take a picture of your dish and enjoy!"
