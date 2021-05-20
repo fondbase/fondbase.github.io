@@ -54,7 +54,7 @@ steps:
   - 8:
      name: "Garnish and Serve"
      step: "Strain the marinade over the wings and toss to mix. Top with [1 tbsp chopped cilantro]; [1 tbsp chopped mint] and the fried garlic.  Serve immmediately."
-     dependencies: [6,7]
+     dependencies: [3,6,7]
      time: 2
   - 9:
      name: "Enjoy!"
