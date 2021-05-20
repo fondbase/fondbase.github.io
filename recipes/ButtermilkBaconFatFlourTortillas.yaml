@@ -23,7 +23,7 @@ steps:
      dependencies: [1]
      time: 3
   - 3:
-     name: "Knead Dough and Rest"
+     name: "Knead Dough"
      step: "Place the dough on a floured surface and knead for 2 minutes until the dough is firm and smooth."
      dependencies: [2]
      time: 2
