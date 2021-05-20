@@ -47,7 +47,7 @@ steps:
   - 6:
      name: "Form Meatballs"
      step: "Remove the meatball mix from the refrigerator and form into 1 1/2-inch balls."
-     dependencies: [5]
+     dependencies: [2,5]
      time: 4
   - 7:
      name: "Heat Oil"
