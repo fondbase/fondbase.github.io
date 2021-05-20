@@ -126,7 +126,7 @@ steps:
      dependencies: [19]
      time: 1
   - 21:
-     name: ""
+     name: "Enjoy!"
      step: "Take a picture of your dish and enjoy!"
-     dependencies: null
+     dependencies: [20]
      time: 1
