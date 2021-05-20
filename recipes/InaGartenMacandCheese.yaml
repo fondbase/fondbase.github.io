@@ -28,7 +28,7 @@ steps:
   - 3:
      name: "Cover and Chill Overnight"
      step: "Cover the bowl with plastic wrap, and refrigerate for 24 hours. The pasta will absorb the cream and expand."
-     dependencies: [1]
+     dependencies: [2]
      time: 1380
      timer: True
   - 4:
