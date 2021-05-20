@@ -1,0 +1,132 @@
+---
+name: "Skillet Chicken With Black Beans, Rice and Chiles"
+author: "Diana Henry"
+source: "From the Oven to the Table: Simple Dishes That Look After Themselves"
+tags: [meat,chicken,dinner,beans,rice,Diana,Henry,Chiles]
+image: "https://static01.nyt.com/images/2020/10/11/dining/ml-chicken-and-black-beans/merlin_160015383_4bd71410-dc4f-487f-92e6-c664995b50e0-articleLarge.jpg"
+ingredients:
+  - 8 bone-in, skin-on chicken thighs
+  - Flaky sea salt and black pepper
+  - 2 tablespoons extra-virgin olive oil or peanut oil
+  - 1 large yellow or white onion, chopped
+  - 2 green or red bell peppers, halved, seeded and sliced
+  - 2 ½ cups chicken stock
+  - 2 red Fresno chiles or jalapeños, halved, seeded and chopped
+  - 1 (3-inch) cinnamon stick, broken in half
+  - 3 garlic cloves, finely grated
+  - 1 teaspoon ground cumin
+  - 1 (15-ounce) can black beans, rinsed
+  - ⅓ pound cherry tomatoes, halved
+  - 1 cup basmati rice, rinsed in a sieve until the water runs clear
+  - 3 tablespoons chopped cilantro leaves
+  - Lime wedges, pickled chiles, sliced fresh chiles, sour cream and sliced avocado, for serving
+steps:
+  - 1:
+     name: "Preheat Oven"
+     step: "Heat the oven to 375 degrees."
+     dependencies: null
+     time: 1
+  - 2:
+     name: "Chop Onion"
+     step: "Chop [1 large yellow or white onion]. Set aside."
+     dependencies: null
+     time: 3
+  - 3:
+     name: "Slice Peppers"
+     step: "Halve, Seed and slice [2 green or red bell peppers]. Set aside."
+     dependencies: null
+     time: 3
+  - 4:
+     name: "Rinse Rice"
+     step: "Rinse [1 cup basmati rice] in a sieve until the water runs clear."
+     dependencies: null
+     time: 2
+  - 5:
+     name: "Season Chicken"
+     step: "Season [8 bone-in, skin-on chicken thighs] with salt and pepper on both sides."
+     dependencies: null
+     time: 2
+  - 6:
+     name: "Heat Oil"
+     step: "Heat [2 tablespoons extra-virgin olive oil or peanut oil] in a 12-inch ovenproof skillet (the pan size is very important) over medium-high."
+     dependencies: [5]
+     time: 3
+  - 7:
+     name: "Add Chicken and Brown"
+     step: "Add the chicken thighs to the skillet and brown on one side for 3 to 5 minutes."
+     dependencies: [5,6]
+     time: 3
+     timer: True
+  - 8:
+     name: "Drain and Rinse Beans"
+     step: "Drain and rinse [1 (15-ounce) can black beans] and halve [⅓ pound cherry tomatoes]. Set aside."
+     dependencies: [7]
+     time: 3
+  - 9:
+     name: "Flip Chicken and Continue Browning"
+     step: "Flip the chicken thighs and continue to brown, another 3 to 5 minutes."
+     dependencies: [7]
+     time: 3
+     timer: True
+  - 10:
+     name: "Mince Garlic and Chop Chiles"
+     step: "Halve, seed and chop [2 red Fresno chiles or jalapeños] and finely grate or mince [3 garlic cloves]. Set aside."
+     dependencies: null
+     time: 3
+  - 11:
+     name: "Remove Chicken"
+     step: "Transfer chicken to a plate."
+     dependencies: [9]
+     time: 3
+  - 12:
+     name: "Cook the Onion and Pepper"
+     step: "Add the onion and bell peppers to the pan and sauté until just starting to soften, about 5 minutes. Season with salt and pepper."
+     dependencies: [2,3,11]
+     time: 3
+  - 13:
+     name: "Bring Stock to Boil"
+     step: "In a small saucepan, bring [2 ½ cups chicken stock] to a boil."
+     dependencies: [12]
+     time: 1
+  - 14:
+     name: "Add Aromatics to Skillet"
+     step: "Add the chiles, [1 (3-inch) cinnamon stick, broken in half], garlic and [1 teaspoon ground cumin] to the skillet and cook for about 2 minutes."
+     dependencies: [10,12]
+     time: 2
+     timer: True
+  - 15:
+     name: "Add the Beans and Tomatoes"
+     step: "Add the rinsed black beans and halved cherry tomatoes to the skillet. Season generously with salt and pepper."
+     dependencies: [8,14]
+     time: 1
+  - 16:
+     name: "Add the Rice"
+     step: "Sprinkle the rinsed rice on top of the beans in an even layer. (It’s important that the black beans are beneath the rice and chicken. The rice will burn otherwise.)"
+     dependencies: [4,15]
+     time: 1
+  - 17:
+     name: "Add the Stock"
+     step: "Add the stock and return the chicken to the skillet, skin-side up.  Place in oven."
+     dependencies: [13,16]
+     time: 2
+  - 18:
+     name: "Bake the Chicken"
+     step: "Bake, uncovered, for 40 minutes. The chicken should be lovely and golden, the stock should be absorbed and the rice should be tender."
+     dependencies: [1,17]
+     time: 40
+     timer: True
+  - 19:
+     name: "Chop Cilantro"
+     step: "While the chicken bakes, chop a small handful of cilantro to produce [3 tablespoons chopped cilantro leaves]."
+     dependencies: [17]
+     time: 2
+  - 20:
+     name: "Garnish and Serve"
+     step: "Sprinkle with chopped cilantro. Serve with lime wedges, pickled chiles, sliced fresh chiles, sour cream and avocado (squeeze some lime juice over the avocados in a bowl and sprinkle with salt and pepper)."
+     dependencies: [19]
+     time: 1
+  - 21:
+     name: ""
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: null
+     time: 1
