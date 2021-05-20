@@ -1,0 +1,72 @@
+---
+name: "Vietnamese Lemongrass Meatballs"
+author: "Gail Simmons"
+source: "From the Oven to the Table: Simple Dishes That Look After Themselves"
+tags: [vietnamese,dinner,asian,meatballs,beef,Meat,Simmons,Gail]
+image: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2017%2F10%2Fvietnamese-lemongrass-meatballs-XL-RECIPE2017.jpg"
+ingredients:
+  - 4 shallots, 2 thinly sliced and 2 minced
+  - 1/4 cup unseasoned rice vinegar
+  - Kosher salt
+  - 1 pound ground pork
+  - 1 large egg 
+  - 3 tablespoons minced lemongrass
+  - 1 tablespoon minced cilantro, plus leaves for garnish
+  - 1 tablespoon Asian fish sauce
+  - 2 teaspoons cornstarch
+  - 1 garlic clove, minced
+  - 1 tablespoon canola oil
+  - Bibb lettuce leaves, mint and basil leaves, lime wedges, chile-garlic paste and julienned cucumber and carrot, for garnish
+steps:
+  - 1:
+     name: "Slice and Mince Shallots"
+     step: "Peel [4 shallots], thinly slice 2 and mince the other 2."
+     dependencies: null
+     time: 4
+  - 2:
+     name: "Mix Sliced Shallots and Vinegar"
+     step: "In a small bowl, mix the sliced shallots with [1/4 cup unseasoned rice vinegar] and a generous [pinch of kosher salt].  Set aside."
+     dependencies: [1]
+     time: 1
+  - 3:
+     name: "Mince Lemongrass and Chop Cilantro"
+     step: "Mince the tender ends of 2 stalks of lemongrass and a small handful of cilantro to produce [3 tablespoons minced lemongrass] and [1 tablespoon minced cilantro]."
+     dependencies: null
+     time: 2
+  - 4:
+     name: "Mix in Remaining Meatball Ingredients"
+     step: "To the lemongrass and cilantro, add the minced garlic, [1 pound ground pork], [1 large egg], fish sauce, [2 teaspoons cornstarch], garlic and 1 1/2 teaspoons of salt."
+     dependencies: [3]
+     time: 3
+  - 5:
+     name: "Chill Meatball Mix"
+     step: "Cover and refrigerate meatball mix for 30 minutes."
+     dependencies: [4]
+     time: 30
+     timer: True
+  - 6:
+     name: "Form Meatballs"
+     step: "Remove the meatball mix from the refrigerator and form into 1 1/2-inch balls."
+     dependencies: [5]
+     time: 4
+  - 7:
+     name: "Heat Oil"
+     step: "In a large skillet, heat [1 tablespoon canola oil]."
+     dependencies: [6]
+     time: 1
+  - 8:
+     name: "Cook Meatballs"
+     step: "Add the meatballs and cook over moderate heat until browned all over and cooked through, 8 to 10 minutes."
+     dependencies: [6,7]
+     time: 8
+     timer: True
+  - 9:
+     name: "Garnish and Serve"
+     step: "Transfer to a platter and serve in Bibb lettuce leaves with the pickled shallots and garnishes."
+     dependencies: [2,8]
+     time: 1
+  - 10:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [9]
+     time: 1
