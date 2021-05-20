@@ -43,7 +43,7 @@ steps:
      time: 2
      timer: True
   - 6:
-     name: "Increase Speed to Medium"
+     name: "Increase Speed and Mix on Medium"
      step: "Add [1/2 oz (1 tbsp) kosher salt] and mix on medium speed for 6 to 8 minutes, until the dough starts to pull away from the sides of the bowl. Note that the dough will not pull so much that it completely cleans the bowl, but if the dough is too sticky and is not pulling away from the sides at all, throw a small handful of flour into the bowl to make it less sticky."
      dependencies: [5]
      time: 6
@@ -54,19 +54,19 @@ steps:
      dependencies: [4]
      time: 2
   - 8:
-     name: "Turn out the Dough"
+     name: "Turn out the Dough and Rest"
      step: "Turn the dough out of the mixer into the oiled bowl. Wrap the bowl as before. Set the dough aside at room temperature for 45 minutes."
      dependencies: [7,6]
      time: 45
      timer: True
   - 9:
-     name: "Fold the Dough"
+     name: "Fold the Dough and Rest"
      step: "Dust your work surface lightly with flour and turn the dough out onto the floured surface. Acting as if the round has four sides, fold the edges of the dough toward the center. Turn the dough over and return it, folded side down, to the bowl. Cover the bowl again with plastic wrap and set it aside for 45 minutes."
      dependencies: [8]
      time: 45
      timer: True
   - 10:
-     name: "Divide the Dough"
+     name: "Divide the Dough and Rest"
      step: "Dust your work surface again lightly with flour and turn the dough out onto the floured surface. Divide the dough into six equal segments, each weighing approximately 7 ounces. Gently tuck the edges of each round of dough under itself. Cover the dough rounds with a clean dishtowel and let them rest for 5 minutes."
      dependencies: [9]
      time: 5
