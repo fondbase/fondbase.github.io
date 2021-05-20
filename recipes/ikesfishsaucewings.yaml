@@ -22,7 +22,7 @@ steps:
   - 2:
      name: "Mince Garlic"
      step: "Mince [2 cloves of garlic]."
-     dependencies: [1]
+     dependencies: null
      time: 3
   - 3:
      name: "Fry the Garlic"
@@ -32,12 +32,12 @@ steps:
   - 4:
      name: "Heat Frying Oil"
      step: "In a large pot, heat 2 inches of [vegetable oil] to 350°."
-     dependencies: [1]
+     dependencies: [1,3]
      time: 10
   - 5:
      name: "Dry and Prep Wings"
      step: "While the oil heats, pat the wings dry on paper towels; reserving the marinade. Put [1 cup of cornstarch] in a shallow bowl, add the wings and turn to coat."
-     dependencies: [1]
+     dependencies: [1,3]
      time: 10
   - 6:
      name: "Fry the Wings"
