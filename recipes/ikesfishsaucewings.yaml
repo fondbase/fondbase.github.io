@@ -42,13 +42,13 @@ steps:
   - 6:
      name: "Fry the Wings"
      step: "Fry the wings in batches until golden and cooked through, about 10 minutes. Drain on paper towels and transfer to a large bowl."
-     dependencies: [4,5]
+     dependencies: [3,4,5]
      time: 10
      timer: True
   - 7:
      name: "Reduce Marinade"
      step: "While the wings fry, add the marinade to a small saucepan and simmer over moderately high heat until syrupy, 5 minutes."
-     dependencies: [5]
+     dependencies: [3,5]
      time: 5
      timer: True
   - 8:
