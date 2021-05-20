@@ -16,56 +16,61 @@ ingredients:
 steps:
   - 1:
      name: "Cook Pasta"
-     step: "Bring a large pot of water to a boil.  Add [2 tbsp salt] and [8 oz of elbow macaroni or cavatappi].  Boil for 4 minutes.  Drain and set aside."
+     step: "Bring a large pot of water to a boil.  Add [2 tbsp salt] and [8 oz of elbow macaroni or cavatappi]. Boil for 4 minutes. Drain and set aside."
      dependencies: null
      time: 4
      timer: True
   - 2:
      name: "Prepare cheese sauce"
-     step: "In a medium (10-inch) bowl, combine [3 cups cream], [1/4 teaspoon ground nutmeg], [1 cup of gruyere], [1/2 cup of cheddar], [2 teaspoons salt], and [1 teaspoon pepper].  Stir it into the cream mixture, cover the bowl with plastic wrap, and refrigerate for 24 hours.  The pasta will absorb the cream and expand."
+     step: "In a medium (10-inch) bowl, combine [3 cups cream], [1/4 teaspoon ground nutmeg], [1 cup of gruyere], [1/2 cup of cheddar], [2 teaspoons salt], and [1 teaspoon pepper]. Stir the pasta into the cream mixture."
+     dependencies: [1]
+     time: 5
+  - 3:
+     name: "Cover and Chill Overnight"
+     step: "Cover the bowl with plastic wrap, and refrigerate for 24 hours. The pasta will absorb the cream and expand."
      dependencies: [1]
      time: 1380
      timer: True
-  - 3:
+  - 4:
      name: "Bring Pasta to Room Temperature"
      step: "When ready to cook, allow the mixture to sit at room temperature for about an hour."
-     dependencies: [2]
+     dependencies: [3]
      time: 60
      timer: True
-  - 4:
+  - 5:
      name: "Preheat the Oven"
      step: "Preheat the oven to 400 degrees"
-     dependencies: [2]
+     dependencies: [3]
      time: 1
-  - 5:
+  - 6:
      name: "Add Pasta to Gratin Dish"
      step: "Butter a 2-quart gratin dish, transfer the pasta mixture to the dish and spread it evenly." 
-     dependencies: [2,3]
-     time: 10
-  - 6:
-     name: "Top with Cheese"
-     step: "Combine the remaining [1 cup gruyere] and [1/2 cup cheddar] and sprinkle it evenly on top." 
-     dependencies: [5]
+     dependencies: [3,4]
      time: 10
   - 7:
-     name: "Top with Butter and Bread Crumbs"
-     step: "Combine [1 1/2 cups fine fresh bread crumbs] and [2 tablespoons butter] and sprinkle evenly on top." 
+     name: "Top with Cheese"
+     step: "Combine the remaining [1 cup gruyere] and [1/2 cup cheddar] and sprinkle it evenly on top." 
      dependencies: [6]
      time: 10
   - 8:
+     name: "Top with Butter and Bread Crumbs"
+     step: "Combine [1 1/2 cups fine fresh bread crumbs] and [2 tablespoons butter] and sprinkle evenly on top." 
+     dependencies: [7]
+     time: 10
+  - 9:
      name: "Bake"
      step: "Bake for 10 minutes and then rotate pan." 
-     dependencies: [3,4,7]
-     time: 10
-     timer: True
-  - 9:
-     name: "Rotate and continue baking"
-     step: "Bake for another 10 to 15 minutes, until golden brown and crusty." 
-     dependencies: [8]
+     dependencies: [4,5,8]
      time: 10
      timer: True
   - 10:
+     name: "Rotate and continue baking"
+     step: "Bake for another 10 to 15 minutes, until golden brown and crusty." 
+     dependencies: [9]
+     time: 10
+     timer: True
+  - 11:
      name: "Enjoy!"
      step: "Take a picture of your dish and enjoy!" 
-     dependencies: [9]
+     dependencies: [10]
      time: 1
