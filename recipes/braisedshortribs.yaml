@@ -31,10 +31,15 @@ steps:
      time: 4
   - 3:
      name: "Roast the Ribs"
-     step: "Roast for 20 minutes and remove from the oven. Reduce the temperature to 325 degrees."
+     step: "Roast for 20 minutes and remove from the oven. "
      dependencies: [1,2]
      time: 20
      timer: True
+  - 3.5:
+     name: "Reduce Oven Temp"
+     step: "Reduce oven temperature to 325 degrees."
+     dependencies: [3]
+     time: 1
   - 4:
      name: "Chop Vegetables"
      step: "While the short ribs roast, chop [3 leeks (white and green parts)]; [5-6 ribs of celery]; [2 onions]; and [6 carrots]."
@@ -53,7 +58,7 @@ steps:
      timer: True
   - 7:
      name: "Add Garlic and then the Wine"
-     step: "Add the garlic and cook for one minute. Add [1 (750ml) bottle of dry red wine], bring to a boil, lower the heat, and simmer over medium heat for 10 minutes, until the liquid is reduced."
+     step: "Add the garlic and cook until fragrant (about 1 min). Add [1 (750ml) bottle of dry red wine], bring to a boil, lower the heat, and simmer over medium heat for 10 minutes, until the liquid is reduced."
      dependencies: [5,6]
      time: 10
      timer: True
@@ -65,7 +70,7 @@ steps:
   - 9:
      name: "Add Ribs and Begin Braising"
      step: "Place the ribs in the pot, along with the juices and seasonings from the sheet pan. Bring to a boil, cover, and transfer to the oven to cook for one hour."
-     dependencies: [3,8]
+     dependencies: [3.5,8]
      time: 60
      timer: True
   - 10:
