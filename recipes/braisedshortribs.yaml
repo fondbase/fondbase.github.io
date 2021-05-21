@@ -35,65 +35,65 @@ steps:
      dependencies: [1,2]
      time: 20
      timer: True
-  - 3.5:
+  - 4:
      name: "Reduce Oven Temp"
      step: "Reduce oven temperature to 325 degrees."
      dependencies: [3]
      time: 1
-  - 4:
+  - 5:
      name: "Chop Vegetables"
      step: "While the short ribs roast, chop [3 leeks (white and green parts)]; [5-6 ribs of celery]; [2 onions]; and [6 carrots]."
      dependencies: [1,2]
      time: 10 
-  - 5:
+  - 6:
      name: "Mince Garlic"
      step: "Peel and mince [5 cloves of garlic]."
      dependencies: [2]
      time: 5
-  - 6:
+  - 7:
      name: "Cook Vegetables"
      step: "Heat [¼ cup olive oil] in a large (12-inch) Dutch oven, such as Le Creuset, over medium heat. Add the leeks, celery, onions, and carrots and cook over medium to medium-high heat for 20 minutes, stirring occasionally."
-     dependencies: [3,4]
+     dependencies: [3,5]
      time: 20
      timer: True
-  - 7:
+  - 8:
      name: "Add Garlic and then the Wine"
      step: "Add the garlic and cook until fragrant (about 1 min). Add [1 (750ml) bottle of dry red wine], bring to a boil, lower the heat, and simmer over medium heat for 10 minutes, until the liquid is reduced."
-     dependencies: [5,6]
+     dependencies: [6,7]
      time: 10
      timer: True
-  - 8:
+  - 9:
      name: "Add Stock and Beer"
      step: "Add [4 cups beef stock]; [1 cup canned crushed tomatoes]; [1 11.2 oz bottle of Guinness]; [6 sprigs of fresh thyme], tied with kitchen string; [1 tablespoon salt], and [1½ teaspoons pepper]."
-     dependencies: [7]
+     dependencies: [8]
      time: 2
-  - 9:
+  - 10:
      name: "Add Ribs and Begin Braising"
      step: "Place the ribs in the pot, along with the juices and seasonings from the sheet pan. Bring to a boil, cover, and transfer to the oven to cook for one hour."
-     dependencies: [3.5,8]
-     time: 60
-     timer: True
-  - 10:
-     name: "Uncover and Continue Braising"
-     step: "Uncover and cook for one more hour, until the meat is very tender."
-     dependencies: [9]
+     dependencies: [4,9]
      time: 60
      timer: True
   - 11:
-     name: "Remove Ribs and Reduce Liquid"
-     step: "Remove the short ribs to a plate with a slotted spoon and discard the thyme bundle and any bones that have separated from the meat. Simmer the sauce on the stove for 20 minutes, until reduced. Skim some of the fat off the top and discard."
+     name: "Uncover and Continue Braising"
+     step: "Uncover and cook for one more hour, until the meat is very tender."
      dependencies: [10]
-     time: 20
+     time: 60
      timer: True
   - 12:
-     name: "Return the Ribs to the Pot"
-     step: "Return the ribs to the pot, heat for 5 minutes, and taste for seasonings. Serve hot."
+     name: "Remove Ribs and Reduce Liquid"
+     step: "Remove the short ribs to a plate with a slotted spoon and discard the thyme bundle and any bones that have separated from the meat. Simmer the sauce on the stove for 20 minutes, until reduced. Skim some of the fat off the top and discard."
      dependencies: [11]
-     time: 5
+     time: 20
      timer: True
   - 13:
+     name: "Return the Ribs to the Pot"
+     step: "Return the ribs to the pot, heat for 5 minutes, and taste for seasonings. Serve hot."
+     dependencies: [12]
+     time: 5
+     timer: True
+  - 14:
      name: "Enjoy!"
      step: "Take a picture of your dish and enjoy!"
-     dependencies: [12]
+     dependencies: [13]
      time: 1
      
