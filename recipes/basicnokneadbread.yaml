@@ -12,7 +12,7 @@ ingredients:
 steps:
   - 1:
      name: "Mix Dry Ingredients"
-     step: "Combine [300 grams (10.5 ounces, about 2 cups) bread flour], [4.5 grams (about 3/4 teaspoon) salt], and [3 grams (about .5 teaspoons) yeast] in a large bowl and whisk to combine."
+     step: "Combine [300 grams (10.5 ounces, about 2 cups) bread flour]; [4.5 grams (about 3/4 teaspoon) salt]; and [3 grams (about .5 teaspoons) yeast] in a large bowl and whisk to combine."
      dependencies: null
      time: 3
   - 2:
