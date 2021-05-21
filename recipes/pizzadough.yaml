@@ -48,7 +48,7 @@ steps:
      time: 2
      timer: True
   - 7:
-     name: "Increase Speed and Mix on Medium"
+     name: "Increase Speed to Medium"
      step: "Add [1/2 oz (1 tbsp) kosher salt] and mix on medium speed for 6 to 8 minutes, until the dough starts to pull away from the sides of the bowl. Note that the dough will not pull so much that it completely cleans the bowl, but if the dough is too sticky and is not pulling away from the sides at all, throw a small handful of flour into the bowl to make it less sticky."
      dependencies: [6]
      time: 6

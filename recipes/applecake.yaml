@@ -57,33 +57,38 @@ steps:
      time: 1
   - 9:
      name: "Bake the Cake"
-     step: "Slide the pan into the oven and bake for 50 to 60 minutes, or until the top of the cake is golden brown and a knife inserted deep into the center comes out clean; the cake may pull away from the sides of the pan."
+     step: "Slide the pan into the oven and bake for 50 to 60 minutes."
      dependencies: [1,8]
      time: 50
      timer: True
   - 10:
-     name: "Let the Cake Cool"
-     step: "Transfer to a cooling rack and let rest for 5 minutes."
+     name: "Check for Doneness"
+     step: "The cake is done when the top is golden brown and a knife inserted deep into the center comes out clean - the cake may pull away from the sides of the pan. Transfer to a cooling rack."
      dependencies: [9]
+     time: 1
+  - 11:
+     name: "Let the Cake Cool"
+     step: "Cool for 5 minutes."
+     dependencies: [10]
      time: 5
      timer: True
-  - 11:
+  - 12:
      name: "Slowly Remove Sprngform Pan Sides"
      step: "Carefully run a blunt knife around the edges of the cake and remove the sides of the springform pan. (Open the springform slowly, and before it's fully opened, make sure there aren't any apples stuck to it.)"
-     dependencies: [10]
-     time: 2
-  - 12:
-     name: "Remove Springform Pan Bottom"
-     step: "Once the cake is just slightly warm or at room temperature, run a long spatula between the cake and the pan, cover the top of the cake with a piece of parchment or wax paper, and invert it onto a rack. Carefully remove the bottom of the pan and turn the cake over onto a serving dish."
      dependencies: [11]
      time: 2
   - 13:
-     name: "Cut and Serve"
-     step: "The cake can be served warm or at room temperature, with or without a little softly whipped, barely sweetened heavy cream or a spoonful of ice cream."
+     name: "Remove Springform Pan Bottom"
+     step: "Once the cake is just slightly warm or at room temperature, run a long spatula between the cake and the pan, cover the top of the cake with a piece of parchment or wax paper, and invert it onto a rack. Carefully remove the bottom of the pan and turn the cake over onto a serving dish."
      dependencies: [12]
      time: 2
   - 14:
+     name: "Cut and Serve"
+     step: "The cake can be served warm or at room temperature, with or without a little softly whipped, barely sweetened heavy cream or a spoonful of ice cream."
+     dependencies: [13]
+     time: 2
+  - 15:
      name: "Enjoy!"
      step: "Take a picture of your dish and enjoy!"
-     dependencies: [13]
+     dependencies: [14]
      time: 1
