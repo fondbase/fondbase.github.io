@@ -47,34 +47,49 @@ steps:
      time: 1
   - 6:
      name: "Spoon Batter into Skillet"
-     step: "Cook the okonomiyaki in batches. Spoon the cabbage and batter mixture into the skillet to form a pancake about 6 inches in diameter and about 1 inch thick. Don’t push down on the cabbage; you want a fluffy pancake. Gently lay about 1/4 of your [8 ounces of thinly sliced fresh pork belly] on top of the pancake, trying not to overlap.  Cook the pancake for about 3 minutes." 
+     step: "Cook the okonomiyaki in batches. Spoon the cabbage and batter mixture into the skillet to form a pancake about 6 inches in diameter and about 1 inch thick. Don’t push down on the cabbage; you want a fluffy pancake. Gently lay about 1/4 of your [8 ounces of thinly sliced fresh pork belly] on top of the pancake, trying not to overlap." 
      dependencies: [5]
+     time: 2
+  - 7:
+     name: "Cook the Okonomiyaki"
+     step: "Cook the pancake for about 3 minutes." 
+     dependencies: [6]
      time: 3
      timer: True
-  - 7:
-     name: "Flip and Continue Cooking"
-     step: "Use a long spatula (a fish spatula is ideal) to carefully flip the pancake, so the side with the pork belly is now facing down. Gently press down on the pancake with the spatula (don’t push too hard, you don’t want batter spilling from the sides). Cook for about 5 more minutes." 
-     dependencies: [6]
+  - 8:
+     name: "Flip the Pancake"
+     step: "Use a long spatula (a fish spatula is ideal) to carefully flip the pancake, so the side with the pork belly is now facing down. Gently press down on the pancake with the spatula (don’t push too hard, you don’t want batter spilling from the sides)." 
+     dependencies: [7]
+     time: 1
+  - 9:
+     name: "Continue Cooking"
+     step: "Cook for about 5 more minutes." 
+     dependencies: [8]
      time: 5
      timer: True
-  - 8:
+  - 10:
      name: "Flip One Last Time"
      step: "Flip the pancake again, so the side with the pork belly is now facing up. (If the okonomiyaki comes apart when you flip it, don’t worry; use a spatula to tuck any stray ingredients back into the pancake.) Cook for about 2 more minutes. When it’s ready, the pancake should be lightly browned on both sides, the pork cooked through, and the cabbage inside tender." 
-     dependencies: [7]
-     time: 2
-     timer: True
-  - 9:
-     name: "Transfer to Plate and Top"
-     step: "Transfer the pancake to a plate, pork side up, and add the toppings. Squeeze about 1 tablespoon of [okonomiyaki sauce] onto the pancake, in long ribbons. Squeeze about 1 tablespoon of [mayonnaise] onto the pancake, also in long ribbons. Sprinkle about 1 tablespoon of [aonori] over the pancake. Sprinkle about 1 tablespoon of [dried, shaved bonito] over the pancake. (Add more or less of any topping, to taste.)" 
-     dependencies: [8]
-     time: 2
-  - 10:
-     name: "Serve Immediately"
-     step: "Cut the pancake into quarters and serve immediately.  Repeat with remaining three pancakes." 
      dependencies: [9]
      time: 1
   - 11:
+     name: "Continue Cooking"
+     step: "Cook for about 2 more minutes." 
+     dependencies: [10]
+     time: 2
+     timer: True
+  - 12:
+     name: "Transfer to Plate and Top"
+     step: "When it’s ready, the pancake should be lightly browned on both sides, the pork cooked through, and the cabbage inside tender. Transfer the pancake to a plate, pork side up, and add the toppings. Squeeze about 1 tablespoon of [okonomiyaki sauce] onto the pancake, in long ribbons. Squeeze about 1 tablespoon of [mayonnaise] onto the pancake, also in long ribbons. Sprinkle about 1 tablespoon of [aonori] over the pancake. Sprinkle about 1 tablespoon of [dried, shaved bonito] over the pancake. (Add more or less of any topping, to taste.)" 
+     dependencies: [11]
+     time: 2
+  - 13:
+     name: "Serve Immediately"
+     step: "Cut the pancake into quarters and serve immediately.  Repeat with remaining three pancakes." 
+     dependencies: [12]
+     time: 1
+  - 14:
      name: "Enjoy!"
      step: "Take a picture of your dish and enjoy!"
-     dependencies: [10]
+     dependencies: [13]
      time: 1
