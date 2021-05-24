@@ -27,7 +27,7 @@ steps:
      time: 5
   - 3:
      name: "Mix the Dry Ingredients"
-     step: "Whisk [3/4 cup all-purpose flour]; [3/4 teaspoon baking powder]; and a [pinch of salt] together in small bowl."
+     step: "Whisk [3/4 cup all-purpose flour; 3/4 teaspoon baking powder; and a pinch of salt] together in small bowl."
      dependencies: null
      time: 2
   - 4:
