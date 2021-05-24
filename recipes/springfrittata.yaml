@@ -38,7 +38,7 @@ steps:
      timer: True
   - 3:
      name: "Trim Artichoke"
-     step: "Pull off the outer leaves of [1 large artichoke], then pull out or cut away the pale green leaves in the center. Trim the stem to 1 to 2 inches. With a paring knife, trim away the dark green outer portion of the heart and the stem. Split the heart in half and use a spoon or small paring knife to carve out the prickly choke at its center. Cut the artichoke into 1/8-inch-thick slices. Set aside."
+     step: "Pull off the outer leaves of [1 large artichoke;], then pull out or cut away the pale green leaves in the center. Trim the stem to 1 to 2 inches. With a paring knife, trim away the dark green outer portion of the heart and the stem. Split the heart in half and use a spoon or small paring knife to carve out the prickly choke at its center. Cut the artichoke into 1/8-inch-thick slices. Set aside."
      dependencies: null
      time: 10
   - 4:
