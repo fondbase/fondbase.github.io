@@ -68,7 +68,7 @@ steps:
      time: 10
   - 9:
      name: "Add the Asparagus and Swiss Chard"
-     step: "Add the asparagus and Swiss chard and stir until the chard starts to wilt. About 2 to 3 minutes."
+     step: "Add the asparagus; and Swiss chard and stir until the chard starts to wilt. About 2 to 3 minutes."
      dependencies: [8]
      time: 3
      timer: True
