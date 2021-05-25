@@ -81,11 +81,11 @@ steps:
   - 11:
      name: "Add Spices to Dutch Oven"
      step: "Add [2 tsp ground cumin; 1/2 tsp ground cloves; and 2 tsp dried oregano] and cook, stirring constantly until fragrant, about 30 seconds."
-     dependencies: [10]
+     dependencies: [9,10]
      time: 1
   - 12:
-     name: "Add Chipotles, Vinegar and Stock to Dutch Oven"
-     step: "Add chipotle chilies; [1/4 cup apple cider vinegar]; and remaining [2 cups chicken broth]. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
+     name: "Add Chipotles, Vinegar and Stock"
+     step: "Add [chipotle chilies; 1/4 cup apple cider vinegar; and remaining 2 cups chicken broth] to Dutch oven. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
      dependencies: [10,11]
      time: 10
      timer: True
