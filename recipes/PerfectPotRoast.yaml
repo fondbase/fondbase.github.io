@@ -67,7 +67,7 @@ steps:
      time: 1
   - 11:
      name: "Add the Fresh Herbs"
-     step: "Tuck [3-4 fresh rosemary sprigs; and 2-3 fresh thyme sprigs] into the pot."
+     step: "Tuck [3-4 fresh rosemary sprigs] and [2-3 fresh thyme sprigs] into the pot."
      dependencies: [10]
      time: 1
   - 12:
