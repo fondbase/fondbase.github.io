@@ -17,7 +17,7 @@ steps:
      timer: True
   - 2:
      name: "Marinate the Chicken"
-     step: "Stir [2 tablespoons of kosher salt or 4 teaspoons fine sea salt] into [2 cups buttermilk] to dissolve. Place the chicken in a gallon-size resealable plastic bag and pour in the salted buttermilk."
+     step: "Stir [2 tablespoons of kosher salt or 4 teaspoons fine sea salt; into 2 cups buttermilk] to dissolve. Place the chicken in a gallon-size resealable plastic bag and pour in the salted buttermilk."
      dependencies: [1]
      time: 1440
   - 3:

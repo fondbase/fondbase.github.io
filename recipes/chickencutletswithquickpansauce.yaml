@@ -32,7 +32,7 @@ steps:
      time: 1
   - 4:
      name: "Heat the oil and butter"
-     step: "Add [2 tbsp olive oil] and [2 tbsp of butter] in a large skillet over medium-high heat until butter has melted."
+     step: "Add [2 tbsp olive oil; and 2 tbsp of butter] in a large skillet over medium-high heat until butter has melted."
      dependencies: [1,2,3]
      time: 2
   - 5:
@@ -83,14 +83,16 @@ steps:
      timer: True
   - 13:
      name: "Deglaze the Pan with Wine"
-     step: "Add 1/2 cup dry white wine to the skillet, keeping the heat at medium-high. Let it bubble away as you stir and scrape the bottom of the pan, until about half the wine has evaporated, a minute or two."
+     step: "Add [1/2 cup dry white wine] to the skillet, keeping the heat at medium-high. Let it bubble away as you stir and scrape the bottom of the pan, until about half the wine has evaporated, a minute or two."
      dependencies: [12]
      time: 2
+     timer: True
   - 14:
      name: "Add Chicken or Stock"
      step: "Pour in [1/2 cup water (chicken stock or vegetable stock work too)] and continue to stir until the liquid has thickened slightly and reduced to 1/4 cup, another 2 or 3 minutes."
      dependencies: [13]
      time: 3
+     timer: True
   - 15:
      name: "Add Butter"
      step: "Add [1 tbsp of butter] to the skillet and swirl the pan around until the butter melts; turn off the heat."

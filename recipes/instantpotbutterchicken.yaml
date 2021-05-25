@@ -27,17 +27,17 @@ ingredients:
 steps:
   - 1:
      name: "Prepare the Rice"
-     step: "In a 6 or 7-inch heat-safe pan, combine [1 cup aged basmati rice, rinsed]; 1 cup water; [1 tbsp ghee or vegetable oil]; and [1 tsp salt]. Set aside."
+     step: "In a 6 or 7-inch heat-safe pan, combine [1 cup aged basmati rice, rinsed; 1 cup water; 1 tbsp ghee or vegetable oil; and 1 tsp salt]. Set aside."
      dependencies: null
      time: 3
   - 2:
      name: "Mince Garlic and Ginger"
-     step: "Finely mince [2 cloves of garlic] and [1 one-inch knob of ginger] and place in the instant pot."
+     step: "Finely mince [2 cloves of garlic; and 1 one-inch knob of ginger] and place in the instant pot."
      dependencies: null
      time: 5
   - 3:
      name: "Add Ingredients to Instant Pot"
-     step: "To the Instant Pot, add [1 (14-ounce) can diced tomatoes]; [1 tsp turmeric]; [1/2-1 tsp cayenne pepper (adjust to taste)]; [1 tsp paprika]; [1 tsp salt], [1 tsp of garam masala], and [1 tsp cumin] into the Instant Pot. Mix the sauce a bit, then add [1 pound whole boneless, skinless chicken thighs]."
+     step: "To the Instant Pot, add [1 (14-ounce) can diced tomatoes; 1 tsp turmeric; 1/2-1 tsp cayenne pepper (adjust to taste); 1 tsp paprika; 1 tsp salt; 1 tsp of garam masala; and 1 tsp cumin]. Mix the sauce a bit, then add [1 pound whole boneless, skinless chicken thighs]."
      dependencies: [2]
      time: 3
   - 4:
@@ -69,7 +69,7 @@ steps:
      time: 1
   - 9:
      name: "Stir in Butter and Cream"
-     step: "Stir in [1/2 stick (4 oz) cut-up butter]; [4 oz heavy cream]; [1/4 to 1/2 cup of roughly torn or chopped cilantro], and [1 tsp garam masala]."
+     step: "Stir in [1/2 stick (4 oz) cut-up butter; 4 oz heavy cream; 1/4 to 1/2 cup of roughly torn or chopped cilantro; and 1 tsp garam masala]."
      dependencies: [7]
      time: 2
   - 10:

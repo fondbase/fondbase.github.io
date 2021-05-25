@@ -28,7 +28,7 @@ steps:
      time: 4
   - 2:
      name: "Mix the Marinade"
-     step: "To the garlic, add [1 tablespoon oil], [2 tablespoons ﬁsh sauce (nam pla)], [1 tablespoon soy sauce], [1 tablespoon palm or brown sugar], [1 teaspoon freshly ground black pepper].  Whisk to combine."
+     step: "To the garlic, add [1 tablespoon oil; 2 tablespoons ﬁsh sauce (nam pla); 1 tablespoon soy sauce; 1 tablespoon palm or brown sugar; 1 teaspoon freshly ground black pepper].  Whisk to combine."
      dependencies: [1]
      time: 2
   - 3:
@@ -44,7 +44,7 @@ steps:
      time: 3
   - 5:
      name: "Mix the sauce"
-     step: "To the chilies and shallots, add [2 tablespoons ﬁsh sauce (nam pla)], [2 tablespoons freshly squeezed lime juice], and [1 teaspoon sugar]. Whisk together to combine."
+     step: "To the chilies and shallots, add [2 tablespoons ﬁsh sauce (nam pla); 2 tablespoons freshly squeezed lime juice; and 1 teaspoon sugar]. Whisk together to combine."
      dependencies: [4]
      time: 2
   - 6:

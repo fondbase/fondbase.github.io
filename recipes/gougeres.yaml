@@ -25,7 +25,7 @@ steps:
      time: 2
   - 3:
      name: "Heat Milk"
-     step: "In a heavy bottomed sauce pan, bring [1/2 cup whole milk], 1/2 cup water, [1 stick (8 oz) unsalted butter], and [1/2 tsp salt] to a rapid boil over high heat."
+     step: "In a heavy bottomed sauce pan, bring [1/2 cup whole milk; 1/2 cup water; 1 stick (8 oz) unsalted butter; and 1/2 tsp salt] to a rapid boil over high heat."
      dependencies: null
      time: 5
   - 4:

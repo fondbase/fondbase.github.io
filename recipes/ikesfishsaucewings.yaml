@@ -16,7 +16,7 @@ ingredients:
 steps:
   - 1:
      name: "Prepare the Marinade"
-     step: "In a bowl, whisk [1/2 cup fish sauce], [1/2 cup of superfine sugar] and [2 cloves of crushed garlic]. Add [3 lbs of chicken wings] and toss to coat. Refrigerate for 3 hours, tossing the wings occasionally."
+     step: "In a bowl, whisk [1/2 cup fish sauce; 1/2 cup of superfine sugar; and 2 cloves of crushed garlic]. Add [3 lbs of chicken wings] and toss to coat. Refrigerate for 3 hours, tossing the wings occasionally."
      dependencies: null
      time: 180
   - 2:
@@ -53,7 +53,7 @@ steps:
      timer: True
   - 8:
      name: "Garnish and Serve"
-     step: "Strain the marinade over the wings and toss to mix. Top with [1 tbsp chopped cilantro]; [1 tbsp chopped mint] and the fried garlic.  Serve immmediately."
+     step: "Strain the marinade over the wings and toss to mix. Top with [1 tbsp chopped cilantro; 1 tbsp chopped mint; and the fried garlic].  Serve immmediately."
      dependencies: [3,6,7]
      time: 2
   - 9:

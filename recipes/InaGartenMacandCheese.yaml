@@ -22,7 +22,7 @@ steps:
      timer: True
   - 2:
      name: "Prepare cheese sauce"
-     step: "In a medium (10-inch) bowl, combine [3 cups cream], [1/4 teaspoon ground nutmeg], [1 cup of gruyere], [1/2 cup of cheddar], [2 teaspoons salt], and [1 teaspoon pepper]. Stir the pasta into the cream mixture."
+     step: "In a medium (10-inch) bowl, combine [3 cups cream; 1/4 teaspoon ground nutmeg; 1 cup of gruyere; 1/2 cup of cheddar; 2 teaspoons salt; and 1 teaspoon pepper]. Stir the pasta into the cream mixture."
      dependencies: [1]
      time: 5
   - 3:
@@ -49,12 +49,12 @@ steps:
      time: 10
   - 7:
      name: "Top with Cheese"
-     step: "Combine the remaining [1 cup gruyere] and [1/2 cup cheddar] and sprinkle it evenly on top." 
+     step: "Combine the remaining [1 cup gruyere; and 1/2 cup cheddar] and sprinkle it evenly on top." 
      dependencies: [6]
      time: 10
   - 8:
      name: "Top with Butter and Bread Crumbs"
-     step: "Combine [1 1/2 cups fine fresh bread crumbs] and [2 tablespoons butter] and sprinkle evenly on top." 
+     step: "Combine [1 1/2 cups fine fresh bread crumbs; and 2 tablespoons butter] and sprinkle evenly on top." 
      dependencies: [7]
      time: 10
   - 9:

@@ -14,12 +14,12 @@ ingredients:
 steps:
   - 1:
      name: "Melt Bacon Grease and Butter"
-     step: "Combine [2 tablespoons bacon grease] and [2 tablespoons unsalted butter] in a pot and cook over medium-low heat until bacon grease and butter have melted. remove from the heat."
+     step: "Combine [2 tablespoons bacon grease; and 2 tablespoons unsalted butter] in a pot and cook over medium-low heat until bacon grease and butter have melted. remove from the heat."
      dependencies: null
      time: 5
   - 2:
      name: "Mix Dough"
-     step: "In a bowl, stir together [2 cups all‐purpose flour], [1/2 teaspoon baking powder], and [1/4 teaspoon kosher salt]. Pour in the melted fat mixture and stir until the flour is crumbly. Pour in [3/4 cup buttermilk] and stir until a soft dough forms."
+     step: "In a bowl, stir together [2 cups all‐purpose flour; 1/2 teaspoon baking powder; and 1/4 teaspoon kosher salt]. Pour in the melted fat mixture and stir until the flour is crumbly. Pour in [3/4 cup buttermilk] and stir until a soft dough forms."
      dependencies: [1]
      time: 3
   - 3:

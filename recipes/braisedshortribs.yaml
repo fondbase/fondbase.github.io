@@ -42,7 +42,7 @@ steps:
      time: 1
   - 5:
      name: "Chop Vegetables"
-     step: "While the short ribs roast, chop [3 leeks (white and green parts)]; [5-6 ribs of celery]; [2 onions]; and [6 carrots]."
+     step: "While the short ribs roast, chop [3 leeks (white and green parts); 5-6 ribs of celery; 2 onions; and 6 carrots]."
      dependencies: [1,2]
      time: 10 
   - 6:
@@ -64,7 +64,7 @@ steps:
      timer: True
   - 9:
      name: "Add Stock and Beer"
-     step: "Add [4 cups beef stock]; [1 cup canned crushed tomatoes]; [1 11.2 oz bottle of Guinness]; [6 sprigs of fresh thyme], tied with kitchen string; [1 tablespoon salt], and [1½ teaspoons pepper]."
+     step: "Add [4 cups beef stock; 1 cup canned crushed tomatoes; 1 11.2 oz bottle of Guinness; 6 sprigs of fresh thyme, tied with kitchen string; 1 tablespoon salt; and 1½ teaspoons pepper]."
      dependencies: [8]
      time: 2
   - 10:
