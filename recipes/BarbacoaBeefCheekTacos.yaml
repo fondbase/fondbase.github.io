@@ -42,7 +42,7 @@ steps:
      time: 3
   - 4:
      name: "Roast Chilies"
-     step: "Add [1 whole dried New Mexico, costeño, or choricero chili, seeds and stem removed; 1 whole chile ancho or pasilla, seeds and stem removed; and 1 whole chile negro, seeds and stem removed] to large heavy-bottomed Dutch oven or stock pot and cook over medium-high heat, stirring frequently, until slightly darkened with intense, roasted aroma, 2 to 5 minutes. Do not allow to smoke. Remove chilies to small bowl and set aside."
+     step: "Add [1 whole dried New Mexico, costeño, or choricero chili (seeds and stem removed); 1 whole chile ancho or pasilla (seeds and stem removed); and 1 whole chile negro (seeds and stem removed)] to large heavy-bottomed Dutch oven or stock pot and cook over medium-high heat, stirring frequently, until slightly darkened with intense, roasted aroma, 2 to 5 minutes. Do not allow to smoke. Remove chilies to small bowl and set aside."
      dependencies: [1]
      time: 5
      timer: True
