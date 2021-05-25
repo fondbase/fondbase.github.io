@@ -48,7 +48,7 @@ steps:
      time: 5
   - 6:
      name: "Stir in Kimchi and Shrimp"
-     step: "Stir in [the chopped kimchi; the scallion segments; the chopped shrimp; and 1/2 teaspoon (3g) kosher salt] Add a little more water if needed. Set batter aside."
+     step: "Stir in [the chopped kimchi; the scallion segments; the chopped shrimp; 1/2 teaspoon (3g) kosher salt] Add a little more water if needed. Set batter aside."
      dependencies: [5,1,2,3]
      time: 2
   - 7:
