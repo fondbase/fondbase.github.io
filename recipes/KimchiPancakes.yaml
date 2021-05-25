@@ -43,7 +43,7 @@ steps:
      time: 2
   - 5:
      name: "Mix Batter"
-     step: "In a large bowl, stir together [1 cup (125g) all-purpose flour; 1/2 cup (65g) rice flour; 1 1/2 cups (350ml) ice cold water; 1/4 cup (60ml) kimchi brine; and the beaten egg] the mixture should be the consistency of slightly lumpy pancake batter."
+     step: "In a large bowl, stir together [1 cup (125g) all-purpose flour; 1/2 cup (65g) rice flour; 1 1/2 cups (350ml) ice cold water; 1/4 cup (60ml) kimchi brine; the beaten egg] the mixture should be the consistency of slightly lumpy pancake batter."
      dependencies: [4]
      time: 5
   - 6:
