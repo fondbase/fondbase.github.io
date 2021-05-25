@@ -30,7 +30,7 @@ steps:
      timer: True
   - 3:
      name: "Chop Fennel and Onion"
-     step: "Trim and chop [1 stalk fennel] and [1 medium onion].  Set aside."
+     step: "Trim and chop [1 stalk fennel; and 1 medium onion].  Set aside."
      dependencies: null
      time: 5
   - 4:
@@ -61,7 +61,7 @@ steps:
      time: 5
   - 9:
      name: "Reheat Soup"
-     step: "Return the soup to the pot, add [4 teaspoons salt, or more to taste] and [1/2 teaspoon freshly ground black pepper], stir, and heat over medium heat until hot."
+     step: "Return the soup to the pot, add [4 teaspoons salt, or more to taste; and 1/2 teaspoon freshly ground black pepper], stir, and heat over medium heat until hot."
      dependencies: [8]
      time: 5
      timer: True

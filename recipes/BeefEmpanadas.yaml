@@ -26,7 +26,7 @@ ingredients:
 steps:
   - 1:
      name: "Chop Pepper and Onion"
-     step: "Chop [1 small onion] and [1 small green bell pepper]."
+     step: "Chop [1 small onion; and 1 small green bell pepper]."
      dependencies: null
      time: 5
   - 2:
@@ -43,7 +43,7 @@ steps:
      timer: True
   - 4:
      name: "Slice Olives"
-     step: "Slice 3/4 cup pimento-filled green olives.  Set aside."
+     step: "Slice [3/4 cup pimento-filled green olives]. Set aside."
      dependencies: null
      time: 2
   - 5:
@@ -53,7 +53,7 @@ steps:
      time: 1
   - 6:
      name: "Add Olives"
-     step: "Stir in the sliced olives, [3/4 cup raisins], [1 teaspoon honey], [1 teaspoon coarse salt], [1/4 teaspoon freshly ground black pepper], and [Several dashes of hot sauce]. Cook until the meat is golden brown, the liquid has evaporated, and the flavors have blended, about 4 more minutes."
+     step: "Stir in [the sliced olives; 3/4 cup raisins; 1 teaspoon honey; 1 teaspoon coarse salt; 1/4 teaspoon freshly ground black pepper; and several dashes of hot sauce]. Cook until the meat is golden brown, the liquid has evaporated, and the flavors have blended, about 4 more minutes."
      dependencies: [4,5]
      time: 5
      timer: True
@@ -65,7 +65,7 @@ steps:
      timer: True
   - 8:
      name: "Separate Eggs"
-     step: "Separate 2 eggs. Set aside the yolks for eggwash later."
+     step: "Separate [2 eggs]. Set aside the yolks for eggwash later."
      dependencies: [6]
      time: 2
   - 9:
@@ -75,8 +75,8 @@ steps:
      time: 1
   - 10:
      name: "Begin Making the Dough"
-     step: "Remove [8 tablespoons (1 stick) unsalted butter], and [4 ounces cream cheese] and allow them to come to room temperature."
-     dependencies: null
+     step: "Remove [8 tablespoons (1 stick) unsalted butter; and 4 ounces cream cheese] and allow them to come to room temperature."
+     dependencies: [7]
      time: 10
      timer: True
   - 11:
@@ -86,7 +86,7 @@ steps:
      time: 4
   - 12:
      name: "Add Flour"
-     step: "Add [1 1/2 cups plus 2 tablespoons all-purpose flour] and [1/2 teaspoon coarse salt]. Process until just combined and the dough holds together in a ball."
+     step: "Add [1 1/2 cups plus 2 tablespoons all-purpose flour; and 1/2 teaspoon coarse salt]. Process until just combined and the dough holds together in a ball."
      dependencies: [11]
      time: 3
   - 13:
@@ -102,7 +102,7 @@ steps:
      timer: True
   - 15:
      name: "Preheat Oven"
-     step: "When ready to bake, preheat the oven to 375°F.  Line a baking sheet with parchment paper."
+     step: "When ready to bake, preheat the oven to 375°F. Line a baking sheet with parchment paper."
      dependencies: [14]
      time: 1
   - 16:

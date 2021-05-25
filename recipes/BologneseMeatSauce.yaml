@@ -28,12 +28,12 @@ steps:
   - 2: 
       dependencies: ~
       name: "Chop Carrots and Celery"
-      step: "Wash and chop [2 peeled carrots] and [2 stalks of celery]. You should have about 1/2 cup of each. Set aside."
+      step: "Wash and chop [2 peeled carrots; and 2 stalks of celery]. You should have about 1/2 cup of each. Set aside."
       time: 3 
   - 3: 
       dependencies: [1,2]
       name: "Saute Onion"
-      step: "Add [1 tbsp olive oil], [3 tbsp butter] and the chopped onion to a medium-sized pot, and turn the heat on to medium. Cook and stir the onion until it has become translucent."
+      step: "Add [1 tbsp olive oil]; 3 tbsp butter; and the chopped onion] to a medium-sized pot, and turn the heat on to medium. Cook and stir the onion until it has become translucent."
       time: 5
   - 4: 
       dependencies: [1,2,3]
@@ -43,7 +43,7 @@ steps:
   - 5: 
       dependencies: [4]
       name: "Add Meat"
-      step: "Add [3/4lb ground beef], a large [pinch of salt] and a few grindings of [ground black pepper].  Break up the meat, stir well, and cook until the beef has lost its raw, red color"
+      step: "Add [3/4lb ground beef; a large [pinch of salt; and a few grindings of ground black pepper].  Break up the meat, stir well, and cook until the beef has lost its raw, red color"
       time: 5
   - 6: 
       dependencies: [5]
