@@ -94,7 +94,7 @@ steps:
   - 14:
      name: "Toss the Salad and Dressing"
      step: "Toss the salad vegetables with the dressing, turning them over with your hands to make sure everything is lightly coated." 
-     dependencies: [2,7,13]
+     dependencies: [2,3,4,5,6,7,13]
      time: 2
   - 15:
      name: "Plate and Top with Halloumi"
