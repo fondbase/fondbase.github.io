@@ -32,7 +32,7 @@ steps:
      time: 1
   - 3:
      name: "Mix Batter"
-     step: "In a large bowl, mix together [2 cups flour], [1 cup dashi or water, cold or at room temperature], [1 teaspoon salt], [1 teaspoon baking powder], and [2 teaspoons sugar]. Add the cabbage to the batter and mix well for at least 30 seconds, until all the cabbage is coated." 
+     step: "In a large bowl, mix together [2 cups flour; 1 cup dashi or water, cold or at room temperature; 1 teaspoon salt; 1 teaspoon baking powder; 2 teaspoons sugar]. Add the cabbage to the batter and mix well for at least 30 seconds, until all the cabbage is coated." 
      dependencies: [1]
      time: 4
   - 4:

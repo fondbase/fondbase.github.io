@@ -70,7 +70,7 @@ steps:
      time: 3
   - 11:
      name: "Add Mint and Oil"
-     step: "To the garlic, add the reserved lemon juice, [1 tbsp dried mint]; and [1/4 cup grapeseed oil]. Add a [pinch of salt] and set aside for a few minutes to allow the mint to soften."
+     step: "To the garlic, add the reserved lemon juice, [1 tbsp dried mint; 1/4 cup grapeseed oil]. Add a [pinch of salt] and set aside for a few minutes to allow the mint to soften."
      dependencies: [10]
      time: 2
   - 12:

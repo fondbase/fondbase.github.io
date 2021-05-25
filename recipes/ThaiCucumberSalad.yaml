@@ -67,7 +67,7 @@ steps:
      time: 1
   - 10:
      name: "Cut and Add the Cucumber"
-     step: "Halve [7 ounces of cucumber] lengthwise and cut it into angled, irregular 3/4- to 1-inch chunks. Add the cucumber, [1 tbsp Thai fish sauce]; [1 tablespoon naam plaa raa (fermented fish sauce)]; and [1 tbsp lime juice]."
+     step: "Halve [7 ounces of cucumber] lengthwise and cut it into angled, irregular 3/4- to 1-inch chunks. Add the cucumber, [1 tbsp Thai fish sauce; 1 tablespoon naam plaa raa (fermented fish sauce); 1 tbsp lime juice]."
      dependencies: [9]
      time: 5
   - 11:

@@ -38,7 +38,7 @@ steps:
      time: 1
   - 5:
      name: "Add Spices and Peppers"
-     step: "Add [2 tbsp Pilpelchuma or harissa]; [2 tsp tomato paste]; diced peppers; minced garlic; [1 tsp ground cumin]; and [3/4 teaspoon salt].  Stir and cook over medium heat for about 8 minutes to allow the peppers to soften."
+     step: "Add [2 tbsp Pilpelchuma or harissa; 2 tsp tomato paste; diced peppers; minced garlic; 1 tsp ground cumin; 3/4 teaspoon salt].  Stir and cook over medium heat for about 8 minutes to allow the peppers to soften."
      dependencies: [4]
      time: 8
      timer: True

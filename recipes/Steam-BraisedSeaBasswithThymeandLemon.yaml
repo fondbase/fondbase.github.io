@@ -29,7 +29,7 @@ steps:
      time: 2
   - 3:
      name: "Prepare Braising Liquid"
-     step: "Put [1 tablespoon olive oil], [1 tablespoon unsalted butter], and [1 tablespoon white wine] in a large, wide saucepan or a deep frying pan. Add a tablespoon of water, a [squeeze of lemon juice], the zest, [2 sprigs of thyme], and [2 or 3 bay leaves]. Bring to a simmer."
+     step: "Put [1 tablespoon olive oil], [1 tablespoon unsalted butter], and [1 tablespoon white wine] in a large, wide saucepan or a deep frying pan. Add [a tablespoon of water; a squeeze of lemon juice; the zest; 2 sprigs of thyme; 2 or 3 bay leaves]. Bring to a simmer."
      dependencies: [1,2]
      time: 4
   - 4:

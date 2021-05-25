@@ -31,7 +31,7 @@ steps:
      timer: True
   - 3:
      name: "Mix Meatloaf Ingredients"
-     step: "In a large bowl, combine [1 pound ground sirloin], [1/2 pound ground veal], [1 1/2 cups finely chopped onion], [1 1/2 teaspoons dry mustard], [1/2 teaspoon dried thyme], [1 large egg]."
+     step: "In a large bowl, combine [1 pound ground sirloin; 1/2 pound ground veal; 1 1/2 cups finely chopped onion; 1 1/2 teaspoons dry mustard; 1/2 teaspoon dried thyme; 1 large egg]."
      dependencies: [2]
      time: 3
   - 4:
@@ -46,7 +46,7 @@ steps:
      time: 2
   - 6:
      name: "Prepare Glaze"
-     step: "Combine [1/4 cup ketchup], [2 tbsp brown sugar] and [2 tbsp apple cider vinegar], stirring with a whisk until blended."
+     step: "Combine [1/4 cup ketchup; 2 tbsp brown sugar; 2 tbsp apple cider vinegar], stirring with a whisk until blended."
      dependencies: [3]
      time: 3
   - 7:

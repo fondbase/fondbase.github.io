@@ -51,7 +51,7 @@ steps:
      time: 3
   - 7:
      name: "Bloom Spices"
-     step: "When hot, add [3 cardamom pods]; [3 whole cloves]; one [2-inch cinnamon stick]. Let them sizzle for 5 seconds. Add [10 fresh curry leaves (or 5 fresh basil leaves)], torn up; and the garlic, ginger and lemon grass. Stir around for a minute."
+     step: "When hot, add [3 cardamom pods; 3 whole cloves; one 2-inch cinnamon stick]. Let them sizzle for 5 seconds. Add [10 fresh curry leaves (or 5 fresh basil leaves)], torn up; and the garlic, ginger and lemon grass. Stir around for a minute."
      dependencies: [6]
      time: 1
   - 8:

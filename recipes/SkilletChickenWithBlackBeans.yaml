@@ -90,7 +90,7 @@ steps:
      time: 1
   - 14:
      name: "Add Aromatics to Skillet"
-     step: "Add the chiles, [1 (3-inch) cinnamon stick, broken in half], garlic and [1 teaspoon ground cumin] to the skillet and cook for about 2 minutes."
+     step: "Add the chiles, [1 (3-inch) cinnamon stick, broken in half; garlic; 1 teaspoon ground cumin] to the skillet and cook for about 2 minutes."
      dependencies: [10,12]
      time: 2
      timer: True

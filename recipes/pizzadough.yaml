@@ -22,7 +22,7 @@ steps:
      time: 5
   - 2:
      name: "Add Flour"
-     step: "Add [13 ounces of bread flour], [1/2 ounce (1 tablespoon) dark rye flour or medium rye flour], and [1 1/2 teaspoons wheat germ]. Stir with a wooden spoon to combine the ingredients."
+     step: "Add [13 ounces of bread flour; 1/2 ounce (1 tablespoon) dark rye flour or medium rye flour; 1 1/2 teaspoons wheat germ]. Stir with a wooden spoon to combine the ingredients."
      dependencies: [1]
      time: 3
   - 3:

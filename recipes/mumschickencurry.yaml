@@ -72,7 +72,7 @@ steps:
      time: 5
   - 10:
      name: "Add the Tomato Paste and Season"
-     step: "Add [2 tbsp tomato paste], [1 1/2 tsp ground cumin], [1/2 tsp ground turmeric] and [1/2 teaspoon of salt] (or to taste)."
+     step: "Add [2 tbsp tomato paste; 1 1/2 tsp ground cumin; 1/2 tsp ground turmeric; 1/2 teaspoon of salt] (or to taste)."
      dependencies: [9]
      time: 1
   - 11:

@@ -33,7 +33,7 @@ steps:
      time: 5
   - 3:
      name: "Make the Brine"
-     step: "To the bowl with the garlic and chilies, add [1 cup fish sauce], [1 cup white vinegar], [1 cup sugar].  Stir to combine.  Set aside 1 cup of the brine for later."
+     step: "To the bowl with the garlic and chilies, add [1 cup fish sauce; 1 cup white vinegar; 1 cup sugar].  Stir to combine.  Set aside 1 cup of the brine for later."
      dependencies: [2, 1]
      time: 3
   - 4:

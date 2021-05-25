@@ -31,7 +31,7 @@ steps:
      time: 2
   - 4:
      name: "Mix the Sauce"
-     step: "In a bowl, mix together [2 tbsp olive oil], [1 tbsp white wine vinegar], [1 pinch hot paprika], the minced garlic, and [1 tsp chili powder or Worcestershire sauce]."
+     step: "In a bowl, mix together [2 tbsp olive oil; 1 tbsp white wine vinegar; 1 pinch hot paprika; 1 tsp chili powder or Worcestershire sauce] and the minced garlic."
      dependencies: [3]
      time: 2
   - 5:

@@ -34,7 +34,7 @@ steps:
      time: 3
   - 4:
      name: "Cook the Scallions"
-     step: "Add the scallion whites, [1/2 teaspoon sugar], [1 teaspoon kosher salt], and [1 1/2 teaspoons cracked black pepper]. Cook, stirring, until just fragrant, about 2 minutes. "
+     step: "Add the scallion whites, [1/2 teaspoon sugar; 1 teaspoon kosher salt; 1 1/2 teaspoons cracked black pepper]. Cook, stirring, until just fragrant, about 2 minutes. "
      dependencies: [3]
      time: 2
      timer: True

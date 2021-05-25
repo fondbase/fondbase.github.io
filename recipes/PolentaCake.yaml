@@ -39,12 +39,12 @@ steps:
      time: 4
   - 5:
      name: "Mix Dry Ingredients"
-     step: "In a small bowl, sift together [1 cup all-purpose flour], [3/4 cup polenta], [2 teaspoons baking powder], and [1 tsp salt]. Set aside."
+     step: "In a small bowl, sift together [1 cup all-purpose flour; 3/4 cup polenta; 2 teaspoons baking powder; 1 tsp salt]. Set aside."
      dependencies: null
      time: 5
   - 6:
      name: "Mix Wet Ingredients"
-     step: "In a separate bowl, whisk [1/2 cup of olive oil], [5 large eggs], [2 large egg yolks], and [1/2 tsp almond extract OR 1 tsp vanilla extract]."
+     step: "In a separate bowl, whisk [1/2 cup of olive oil; 5 large eggs; 2 large egg yolks; 1/2 tsp almond extract OR 1 tsp vanilla extract]."
      dependencies: [1]
      time: 4
   - 7:

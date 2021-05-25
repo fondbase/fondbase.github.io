@@ -48,7 +48,7 @@ steps:
      time: 4
   - 7:
      name: "Add Meatball Ingredients"
-     step: "To the basil and parsley, add the minced garlic; [1 1/2 cups of fresh ricotta]; [1/2 cup of grated parmesan]; [2 lbs of ground turkey]; and 1 tbsp salt. Blend everything together gently but authoritatively with your hands (they’re the best tool for the job) until well mixed."
+     step: "To the basil and parsley, add [the minced garlic; 1 1/2 cups of fresh ricotta; 1/2 cup of grated parmesan; 2 lbs of ground turkey; and 1 tbsp salt]. Blend everything together gently but authoritatively with your hands (they’re the best tool for the job) until well mixed."
      dependencies: [6]
      time: 5
   - 8:
