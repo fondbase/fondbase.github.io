@@ -43,12 +43,12 @@ steps:
      time: 2
   - 5:
      name: "Mix Batter"
-     step: "In a large bowl, stir together [1 cup (125g) all-purpose flour; 1/2 cup (65g) rice flour; 1 1/2 cups (350ml) ice cold water; 1/4 cup (60ml) kimchi brine; and the egg] the mixture should be the consistency of slightly lumpy pancake batter."
+     step: "In a large bowl, stir together [1 cup (125g) all-purpose flour; 1/2 cup (65g) rice flour; 1 1/2 cups (350ml) ice cold water; 1/4 cup (60ml) kimchi brine; and the beaten egg] the mixture should be the consistency of slightly lumpy pancake batter."
      dependencies: [4]
      time: 5
   - 6:
      name: "Stir in Kimchi and Shrimp"
-     step: "Stir in [the chopped kimchi; scallion segments; shrimp; and 1/2 teaspoon (3g) kosher salt]. Add a little more water if needed. Set batter aside."
+     step: "Stir in [the chopped kimchi; the scallion segments; the chopped shrimp; and 1/2 teaspoon (3g) kosher salt] Add a little more water if needed. Set batter aside."
      dependencies: [5,1,2,3]
      time: 2
   - 7:
