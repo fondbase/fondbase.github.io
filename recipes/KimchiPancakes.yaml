@@ -23,7 +23,7 @@ ingredients:
 steps:
   - 1:
      name: "Slice Scallions"
-     step: "Slice [3 scallions], white and light green parts only, into 1/2-inch lengths.  Set aside.  Slice the green parts of 1 scallion and reserve separately for garnish."
+     step: "Slice [3 scallions], white and light green parts only, into 1/2-inch lengths.  Set aside;  Slice the green parts of 1 scallion and reserve separately for garnish."
      dependencies: null
      time: 3
   - 2:
@@ -53,7 +53,7 @@ steps:
      time: 2
   - 7:
      name: "Mix Dipping Sauce"
-     step: "In a small bowl, stir together [3 tablespoons (45ml) soy sauce; 3 tablespoons (45ml) rice vinegar; 1 teaspoon (5ml) toasted sesame oil; 1 teaspoon (4g) sugar or honey; and 1 teaspoon (3g) toasted sesame seeds]. Set dipping sauce aside."
+     step: "In a small bowl, stir together [3 tablespoons (45ml) soy sauce; 3 tablespoons (45ml) rice vinegar; 1 teaspoon (5ml) toasted sesame oil; 1 teaspoon (4g) sugar or honey; and 1 teaspoon (3g) toasted sesame seeds] Set dipping sauce aside."
      dependencies: null
      time: 5
   - 8:
