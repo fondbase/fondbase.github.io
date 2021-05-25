@@ -42,7 +42,7 @@ steps:
      time: 3
   - 4:
      name: "Roast Chilies"
-     step: "Add [1 whole dried New Mexico, costeño, or choricero chili, seeds and stem removed]; [1 whole chile ancho or pasilla, seeds and stem removed]; and [1 whole chile negro, seeds and stem removed] to large heavy-bottomed Dutch oven or stock pot and cook over medium-high heat, stirring frequently, until slightly darkened with intense, roasted aroma, 2 to 5 minutes. Do not allow to smoke. Remove chilies to small bowl and set aside."
+     step: "Add [1 whole dried New Mexico, costeño, or choricero chili, seeds and stem removed; 1 whole chile ancho or pasilla, seeds and stem removed; and 1 whole chile negro, seeds and stem removed] to large heavy-bottomed Dutch oven or stock pot and cook over medium-high heat, stirring frequently, until slightly darkened with intense, roasted aroma, 2 to 5 minutes. Do not allow to smoke. Remove chilies to small bowl and set aside."
      dependencies: [1]
      time: 5
      timer: True
@@ -68,7 +68,7 @@ steps:
      dependencies: [7]
      time: 1
   - 9:
-     name: "Cool Onions and Garlic"
+     name: "Cook Onions and Garlic"
      step: "Add remaining [2 tbsp vegetable or canola oil] and heat along with onions and garlic and cook, stirring frequently, until deep brown and just starting to burn, about 10 minutes."
      dependencies: [2,3,8]
      time: 10
@@ -80,7 +80,7 @@ steps:
      time: 2
   - 11:
      name: "Add Spices to Dutch Oven"
-     step: "Add [2 tsp ground cumin]; [1/2 tsp ground cloves]; and [2 tsp dried oregano] and cook, stirring constantly until fragrant, about 30 seconds."
+     step: "Add [2 tsp ground cumin; 1/2 tsp ground cloves; and 2 tsp dried oregano] and cook, stirring constantly until fragrant, about 30 seconds."
      dependencies: [10]
      time: 1
   - 12:
