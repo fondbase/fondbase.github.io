@@ -42,7 +42,7 @@ steps:
      time: 2
   - 6:
      name: "Brown the Carrots"
-     step: "Throw the chopped carrots into the same (very hot) pot. Toss them around until slightly brown, about a minute or so. The point here is to get a nice color started on the outside of the vegetables, not to cook them.."
+     step: "Throw the chopped carrots into the same (very hot) pot. Toss them around until slightly brown, about a minute or so. The point here is to get a nice color started on the outside of the vegetables, not to cook them."
      dependencies: [4,5]
      time: 1
   - 7:
@@ -67,7 +67,7 @@ steps:
      time: 1
   - 11:
      name: "Add the Fresh Herbs"
-     step: "Tuck [3-4 fresh rosemary sprigs] and [2-3 fresh thyme sprigs] into the pot."
+     step: "Tuck [3-4 fresh rosemary sprigs; and 2-3 fresh thyme sprigs] into the pot."
      dependencies: [10]
      time: 1
   - 12:
@@ -78,7 +78,7 @@ steps:
      timer: True
   - 13:
      name: "Cool and Serve"
-     step: "After 3 hours, check the roast for doneness; a fork should go in easily and the meat should be very tender. Remove the meat to a cutting board and slice against the grain."
+     step: "After 3 hours, check the roast for doneness. A fork should go in easily and the meat should be very tender. Remove the meat to a cutting board and slice against the grain."
      dependencies: [12]
      time: 4
   - 14:
