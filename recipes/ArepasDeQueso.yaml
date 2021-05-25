@@ -25,7 +25,7 @@ steps:
      time: 3
   - 3:
      name: "Mix Dough"
-     step: "Combine [2 cups masarepa; 2 ounces (about 1/2 cup) finely crumbled queso fresco (optional); 1 cup water; and 1 teaspoon vegetable oil] in a medium bowl and knead with hands until a dough is formed."
+     step: "Combine [2 cups masarepa; 2 ounces (about 1/2 cup) finely crumbled queso fresco (optional); 1 cup water; 1 teaspoon vegetable oil] in a medium bowl and knead with hands until a dough is formed."
      dependencies: [1]
      time: 1
   - 4:

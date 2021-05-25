@@ -42,7 +42,7 @@ steps:
      time: 3
   - 4:
      name: "Roast Chilies"
-     step: "Add [1 whole dried New Mexico, costeño, or choricero chili (seeds and stem removed); 1 whole chile ancho or pasilla (seeds and stem removed); and 1 whole chile negro (seeds and stem removed)] to large heavy-bottomed Dutch oven or stock pot and cook over medium-high heat, stirring frequently, until slightly darkened with intense, roasted aroma, 2 to 5 minutes. Do not allow to smoke. Remove chilies to small bowl and set aside."
+     step: "Add [1 whole dried New Mexico, costeño, or choricero chili (seeds and stem removed); 1 whole chile ancho or pasilla (seeds and stem removed); 1 whole chile negro (seeds and stem removed)] to large heavy-bottomed Dutch oven or stock pot and cook over medium-high heat, stirring frequently, until slightly darkened with intense, roasted aroma, 2 to 5 minutes. Do not allow to smoke. Remove chilies to small bowl and set aside."
      dependencies: [1]
      time: 5
      timer: True
@@ -80,23 +80,23 @@ steps:
      time: 2
   - 11:
      name: "Add Spices to Dutch Oven"
-     step: "Add [2 tsp ground cumin; 1/2 tsp ground cloves; and 2 tsp dried oregano] and cook, stirring constantly until fragrant, about 30 seconds."
+     step: "Add [2 tsp ground cumin; 1/2 tsp ground cloves; 2 tsp dried oregano] Cook, stirring constantly until fragrant, about 30 seconds."
      dependencies: [9,10]
      time: 1
   - 12:
      name: "Add Chipotles, Vinegar and Stock"
-     step: "Add [chipotle chilies; 1/4 cup apple cider vinegar; and remaining 2 cups chicken broth] to Dutch oven. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
+     step: "Add [chipotle chilies; 1/4 cup apple cider vinegar; remaining 2 cups chicken broth] to Dutch oven. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
      dependencies: [10,11]
      time: 10
      timer: True
   - 13:
      name: "Add Soaked Chilies and Blend"
-     step: "Add the soaked chilies and their liquid and [2 tsp fish sauce] to the Dutch oven. Using an immersion blender, puree until smooth, about 1 minute. Set aside."
+     step: "Add [the soaked chilies and their liquid; 2 tsp fish sauce] to the Dutch oven. Using an immersion blender, puree until smooth, about 1 minute. Set aside."
      dependencies: [12,5]
      time: 2
   - 14:
      name: "Begin Braising the Beef"
-     step: "Add [1 whole chuck-eye roast (about 4 pounds), or 4 pounds boneless shortribs] to Dutch oven. Add browned oxtails, and [2 whole bay leaves]. Bring to a boil over high heat."
+     step: "To the Dutch oven, add [1 whole chuck-eye roast (about 4 pounds), or 4 pounds boneless shortribs; the browned oxtails; 2 whole bay leaves]. Bring to a boil over high heat."
      dependencies: [7,8,13]
      time: 1
   - 15:
