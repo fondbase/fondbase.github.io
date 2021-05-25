@@ -32,17 +32,17 @@ steps:
      time: 1
   - 2:
      name: "Slice Onion"
-     step: "Finely slice 1 small onion."
+     step: "Finely slice [1 small onion]."
      dependencies: null
      time: 3
   - 3:
      name: "Smash Garlic"
-     step: "Peel and smash 6 medium cloves garlic."
+     step: "Peel and smash [6 medium cloves garlic]."
      dependencies: null
      time: 3
   - 4:
      name: "Roast Chilies"
-     step: "Add [1 whole dried New Mexico, costeño, or choricero chili, seeds and stem removed], [1 whole chile ancho or pasilla, seeds and stem removed] and [1 whole chile negro, seeds and stem removed] to large heavy-bottomed Dutch oven or stock pot and cook over medium-high heat, stirring frequently, until slightly darkened with intense, roasted aroma, 2 to 5 minutes. Do not allow to smoke. Remove chilies to small bowl and set aside."
+     step: "Add [1 whole dried New Mexico, costeño, or choricero chili, seeds and stem removed]; [1 whole chile ancho or pasilla, seeds and stem removed]; and [1 whole chile negro, seeds and stem removed] to large heavy-bottomed Dutch oven or stock pot and cook over medium-high heat, stirring frequently, until slightly darkened with intense, roasted aroma, 2 to 5 minutes. Do not allow to smoke. Remove chilies to small bowl and set aside."
      dependencies: [1]
      time: 5
      timer: True
@@ -80,12 +80,12 @@ steps:
      time: 2
   - 11:
      name: "Add Spices to Dutch Oven"
-     step: "Add [2 tsp ground cumin], [1/2 tsp ground cloves], and [2 tsp dried oregano] and cook, stirring constantly until fragrant, about 30 seconds."
+     step: "Add [2 tsp ground cumin]; [1/2 tsp ground cloves]; and [2 tsp dried oregano] and cook, stirring constantly until fragrant, about 30 seconds."
      dependencies: [10]
      time: 1
   - 12:
      name: "Add Chipotles, Vinegar and Stock to Dutch Oven"
-     step: "Add chipotle chilies, [1/4 cup apple cider vinegar], and remaining [2 cups chicken broth]. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
+     step: "Add chipotle chilies; [1/4 cup apple cider vinegar]; and remaining [2 cups chicken broth]. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
      dependencies: [10,11]
      time: 10
      timer: True
