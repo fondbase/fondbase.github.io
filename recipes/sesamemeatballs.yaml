@@ -68,7 +68,7 @@ steps:
   - 8:
      name: "Season and Serve"
      step: "Dress the chickpea mixture with a drizzle of olive oil and stir to combine. Adjust seasoning to taste. Serve with meatballs."
-     dependencies: [7]
+     dependencies: [7,5]
      time: 1
   - 9:
      name: "Enjoy!"
