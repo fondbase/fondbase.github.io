@@ -43,7 +43,7 @@ steps:
   - 5: 
       dependencies: [4]
       name: "Add Meat"
-      step: "Add [3/4lb ground beef; a large [pinch of salt; a few grindings of ground black pepper] Break up the meat, stir well, and cook until the beef has lost its raw, red color"
+      step: "Add [3/4lb ground beef; a large pinch of salt; a few grindings of ground black pepper] Break up the meat, stir well, and cook until the beef has lost its raw, red color."
       time: 5
   - 6: 
       dependencies: [5]

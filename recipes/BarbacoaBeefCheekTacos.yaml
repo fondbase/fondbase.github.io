@@ -85,7 +85,7 @@ steps:
      time: 1
   - 12:
      name: "Add Chipotles, Vinegar and Stock"
-     step: "Add [the chopped chipotle chilies; 1/4 cup apple cider vinegar; remaining 2 cups chicken broth] to Dutch oven. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
+     step: "Add [The chopped chipotles and adobo; 1/4 cup apple cider vinegar; remaining 2 cups chicken broth] to Dutch oven. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
      dependencies: [10,11]
      time: 10
      timer: True
@@ -96,7 +96,7 @@ steps:
      time: 2
   - 14:
      name: "Begin Braising the Beef"
-     step: "To the Dutch oven, add [1 whole chuck-eye roast (about 4 pounds), or 4 pounds boneless shortribs; the browned oxtails; 2 whole bay leaves]. Bring to a boil over high heat."
+     step: "To the Dutch oven, add [1 whole chuck-eye roast (about 4 pounds), or 4 pounds boneless shortribs; The browned oxtails; 2 whole bay leaves] Bring to a boil over high heat."
      dependencies: [7,8,13]
      time: 1
   - 15:
