@@ -36,7 +36,7 @@ steps:
      timer: True
   - 4:
      name: "Mix Dry Ingredients"
-     step: "Sift [1/2 cup unbleached all-purpose flour; 1/2 teaspoon baking powder; and 1/4 teaspoon fine sea salt] together into a medium bowl."
+     step: "Sift [1/2 cup unbleached all-purpose flour; 1/2 teaspoon baking powder; 1/4 teaspoon fine sea salt] together into a medium bowl."
      dependencies: null
      time: 2
   - 5:
@@ -47,7 +47,7 @@ steps:
      timer: True
   - 6:
      name: "Add the Sugar and Vanilla"
-     step: "Increase the speed to high and gradually add [1 1/4 cups superfine sugar; and 2 tsp vanilla extract]. Whip until the eggs are very thick and pale yellow, about 3 minutes."
+     step: "Increase the speed to high and gradually add [1 1/4 cups superfine sugar; 2 tsp vanilla extract] Whip until the eggs are very thick and pale yellow, about 3 minutes."
      dependencies: [5]
      time: 3
      timer: True
@@ -63,7 +63,7 @@ steps:
      time: 3
   - 9:
      name: "Stir in Nuts"
-     step: "Remove the bowl from the mixer. Using a wooden spoon, stir in [2 cups of chocolate chips; 1 1/2 cups of chopped pecans; and 1 1/4 cups of chopped walnuts], making sure the chunky ingredients are evenly distributed at the bottom of the bowl. The dough will be somewhat soft."
+     step: "Remove the bowl from the mixer. Using a wooden spoon, stir in [2 cups of chocolate chips; 1 1/2 cups of chopped pecans; 1 1/4 cups of chopped walnuts] making sure the chunky ingredients are evenly distributed at the bottom of the bowl. The dough will be somewhat soft."
      dependencies: [8]
      time: 2
   - 10:

@@ -45,7 +45,7 @@ steps:
      time: 1
   - 6:
      name: "Mix Dry Ingredients"
-     step: "In a large bowl, sift together [4 1/2 cups all-purpose flour; 1 teaspoon baking soda; 1 tablespoon plus 2 teaspoons baking powder; 1 teaspoon salt; and 2 teaspoons sugar]. (If you don’t have a sifter, you can use a whisk.)."
+     step: "In a large bowl, sift together [4 1/2 cups all-purpose flour; 1 teaspoon baking soda; 1 tablespoon plus 2 teaspoons baking powder; 1 teaspoon salt; 2 teaspoons sugar] (If you don’t have a sifter, you can use a whisk.)."
      dependencies: [4]
      time: 2
   - 7:

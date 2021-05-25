@@ -26,12 +26,12 @@ steps:
      time: 10
   - 2:
      name: "Add the Chicken"
-     step: "To the potatoes, add [1 1/2 pounds bone-in, skin-on chicken thighs and drumsticks]. Season them with [2 1/2 teaspoons of salt] and [1/2 teaspoon of pepper]."
+     step: "To the potatoes, add [1 1/2 pounds bone-in, skin-on chicken thighs and drumsticks; 2 1/2 teaspoons of salt; 1/2 teaspoon of pepper] Toss to combine."
      dependencies: [1]
      time: 3
   - 3:
      name: "Mix the Marinade"
-     step: "In a small bowl, whisk together [2 tablespoons harissa; 1/2 teaspoon ground cumin; and 3 tablespoons of olive oil]. Pour this mixture over the chicken and potatoes, and toss to combine."
+     step: "In a small bowl, whisk together [2 tablespoons harissa; 1/2 teaspoon ground cumin; 3 tablespoons of olive oil] Pour this mixture over the chicken and potatoes, and toss to combine."
      dependencies: [2]
      time: 3
   - 4:
@@ -57,7 +57,7 @@ steps:
      time: 3
   - 8:
      name: "Season the Leek and Lemon Zest Mix"
-     step: "To the leeks and lemon zest, add [1/4 teaspoon of salt; and 1 1/2 tablespoons of olive oil]. Stir to combine and set aside."
+     step: "To the leeks and lemon zest, add [1/4 teaspoon of salt; 1 1/2 tablespoons of olive oil] Stir to combine and set aside."
      dependencies: [7]
      time: 1
   - 9:

@@ -42,13 +42,13 @@ ingredients:
 steps:
   - 1:
      name: "Mix Marinade"
-     step: "In a ziploc bag, mix [juice of 1/2 lemon; 2 minced garlic cloves; 1 tsp kosher salt; 1 tsp paprika; 1/4 tsp ground coriander; 1 1/2 tsp ground cumin; 1/8 tsp ground cloves; and 1 tsp dried oregano].  Add [2 lbs boneless, skinless chicken thighs] and marinate overnight."
+     step: "In a ziploc bag, mix [juice of 1/2 lemon; 2 minced garlic cloves; 1 tsp kosher salt; 1 tsp paprika; 1/4 tsp ground coriander; 1 1/2 tsp ground cumin; 1/8 tsp ground cloves; 1 tsp dried oregano; 2 lbs boneless, skinless chicken thighs] Toss to combine and marinate overnight."
      dependencies: null
      time: 1440
      timer: True
   - 2:
      name: "Mix the Sauce"
-     step: "In a medium bowl, mix [3/4 cup plain greek yogurt; 2 tbsp mayo; 1 tbsp white vinegar; 1/2 tsp granulated sugar; and 1/2 tsp kosher salt]."
+     step: "In a medium bowl, mix [3/4 cup plain greek yogurt; 2 tbsp mayo; 1 tbsp white vinegar; 1/2 tsp granulated sugar; 1/2 tsp kosher salt]"
      dependencies: null
      time: 5
   - 3:
@@ -65,18 +65,18 @@ steps:
      timer: True
   - 5:
      name: "Bloom the Spices"
-     step: "Add [1 tbsp olive oil] to the pan.  Add [1/2 tsp ground turmeric; 3/4 tsp ground cumin; and 2 cups of basmati rice]. Toast together for a minute, stirring."
+     step: "Add [1 tbsp olive oil] to the pan.  Add [1/2 tsp ground turmeric; 3/4 tsp ground cumin; 2 cups of basmati rice] Toast together for a minute, stirring."
      dependencies: [4]
      time: 1
   - 6:
      name: "Cook the Rice"
-     step: "Add [3 1/2 cups chicken stock; and 1 tsp salt], and bring to a boil; then reduce the heat to low, cover with a lid and let cook for about 15 minutes, until the stock has absorbed and the rice is tender."
+     step: "Add [3 1/2 cups chicken stock; 1 tsp salt] Bring to a boil; then reduce the heat to low, cover with a lid and let cook for about 15 minutes, until the stock has absorbed and the rice is tender."
      dependencies: [5]
      time: 15
      timer: True
   - 7:
      name: "Assemble the Salad"
-     step: "Chop [1/2 head of iceberg lettuce; 2 medium tomatoes; and 1/2 small red onion]. Combine in a large bowl to make the salad. Season with salt and pepper. The sauce will be your dressing."
+     step: "Chop [1/2 head of iceberg lettuce; 2 medium tomatoes; 1/2 small red onion] Combine in a large bowl to make the salad. Season with salt and pepper. The sauce will be your dressing."
      dependencies: [5]
      time: 5
   - 8:
@@ -87,7 +87,7 @@ steps:
      timer: True
   - 9:
      name: "Mix the Hot Sauce"
-     step: "In a small bowl, stir [1 tbsp hot sauce; and 1 tbsp harissa] together."
+     step: "In a small bowl, mix [1 tbsp hot sauce; 1 tbsp harissa]"
      dependencies: null
      time: 5
   - 10:

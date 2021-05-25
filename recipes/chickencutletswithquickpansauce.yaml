@@ -32,7 +32,7 @@ steps:
      time: 1
   - 4:
      name: "Heat the oil and butter"
-     step: "Add [2 tbsp olive oil; and 2 tbsp of butter] in a large skillet over medium-high heat until butter has melted."
+     step: "Add [2 tbsp olive oil; 2 tbsp of butter] in a large skillet over medium-high heat until butter has melted."
      dependencies: [1,2,3]
      time: 2
   - 5:

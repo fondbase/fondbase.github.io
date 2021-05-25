@@ -33,17 +33,17 @@ steps:
      time: 4
   - 2:
      name: "Dry Brine the Chicken"
-     step: "In a bowl, toss the chicken pieces with [1 tbsp salt; and 1 1/2 tsp pepper], cover, and refrigerate overnight or up to 24 hours."
+     step: "In a bowl, toss the chicken pieces with [1 tbsp salt; 1 1/2 tsp pepper] Cover and refrigerate overnight or up to 24 hours."
      dependencies: [1]
      time: 1440
   - 3:
      name: "Make the Dip"
-     step: "In a bowl, whisk together [1 cup whole milk; 2 large eggs; and 1 tablespoon Louisiana-style hot sauce]."
+     step: "In a bowl, whisk together [1 cup whole milk; 2 large eggs; 1 tablespoon Louisiana-style hot sauce]"
      dependencies: [2]
      time: 2
   - 4:
      name: "Make the Dredge"
-     step: "In a separate bowl, whisk together [2 cups all-purpose flour; and 2 teaspoons sea salt]."
+     step: "In a separate bowl, whisk together [2 cups all-purpose flour; 2 teaspoons sea salt]"
      dependencies: [2]
      time: 2
   - 5:
@@ -63,7 +63,7 @@ steps:
      time: 20
   - 8:
      name: "Make the Spicy Coating"
-     step: "While the chicken fries, carefully ladle [1/2 cup melted and heated lard (or frying oil)] into a medium heatproof bowl and whisk in [3 tbsp cayenne pepper; 1 tsp (packed) light brown sugar; 1 tsp freshly ground black pepper; 3/4 tsp sea salt; 1/2 tsp paprika; and 1/2 tsp garlic powder]."
+     step: "While the chicken fries, carefully ladle [1/2 cup melted and heated lard (or frying oil)] into a medium heatproof bowl and whisk in [3 tbsp cayenne pepper; 1 tsp (packed) light brown sugar; 1 tsp freshly ground black pepper; 3/4 tsp sea salt; 1/2 tsp paprika; 1/2 tsp garlic powder]"
      dependencies: [6]
      time: 3
   - 9:

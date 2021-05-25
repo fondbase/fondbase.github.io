@@ -31,7 +31,7 @@ steps:
      time: 1
   - 2:
      name: "Mix Dressing"
-     step: "Stir together [1 teaspoon honey; juice of 1/2 lemon; the garlic; a pinch of red pepper flakes; and a pinch of sea salt] until well combined, then whisk in [3 tablespoons canola or olive oil].  Set aside." 
+     step: "Stir together [1 teaspoon honey; juice of 1/2 lemon; the garlic; a pinch of red pepper flakes; a pinch of sea salt] until well combined, then whisk in [3 tablespoons canola or olive oil].  Set aside." 
      dependencies: [1]
      time: 3
   - 3:
@@ -56,7 +56,7 @@ steps:
      time: 2
   - 7:
      name: "Add Olives and Parsley"
-     step: "Add [1/3 cup pitted kalamata or other black olives; and a large handful of flat-leaf parsley leaves] to the salad bowl." 
+     step: "Add [1/3 cup pitted kalamata or other black olives; a large handful of flat-leaf parsley leaves] to the salad bowl." 
      dependencies: [3]
      time: 1
   - 8:
@@ -66,7 +66,7 @@ steps:
      time: 2
   - 9:
      name: "Mix Dredge"
-     step: "In a small bowl, whisk together [1/4 cup all-purpose flour; a large pinch of smoked paprika; a pinch of sea salt; and a couple grinds of black pepper]." 
+     step: "In a small bowl, whisk together [1/4 cup all-purpose flour; a large pinch of smoked paprika; a pinch of sea salt; a couple grinds of black pepper]" 
      dependencies: [7]
      time: 5
   - 10:

@@ -26,7 +26,7 @@ steps:
      time: 10
   - 2:
      name: "Marinate Chicken"
-     step: "In a large bowl combine [4 quartered chickens; the pureed garlic; 1/4 cup dried oregano; 1/2 cup red wine vinegar; 1/2 cup olive oil; 1 cup pitted prunes; 1/2 cup pitted green olives; 1/2 cup capers and juice; 6 bay leaves; pepper and coarse salt to taste]."
+     step: "In a large bowl combine [4 quartered chickens; the pureed garlic; 1/4 cup dried oregano; 1/2 cup red wine vinegar; 1/2 cup olive oil; 1 cup pitted prunes; 1/2 cup pitted green olives; 1/2 cup capers and juice; 6 bay leaves; pepper and coarse salt to taste]"
      dependencies: [1]
      time: 8
   - 3:
