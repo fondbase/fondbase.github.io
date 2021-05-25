@@ -85,7 +85,7 @@ steps:
      time: 1
   - 12:
      name: "Add Chipotles, Vinegar and Stock"
-     step: "Add [chipotle chilies; 1/4 cup apple cider vinegar; remaining 2 cups chicken broth] to Dutch oven. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
+     step: "Add [the chopped chipotle chilies; 1/4 cup apple cider vinegar; remaining 2 cups chicken broth] to Dutch oven. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
      dependencies: [10,11]
      time: 10
      timer: True
