@@ -1,0 +1,103 @@
+---
+name: "Spinach Carbonara"
+author: "Drew Tappan"
+source: "The Weekly Menu"
+image: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe15cfbdc-5e21-4b1b-a2b7-0e13b9dfdf8c_1400x1400.jpeg"
+tags: [Spinach,Side,Eggs,Carbonara,Dinner]
+ingredients:
+  - 1 lbs fresh spinach
+  - 2 pieces thick sliced bacon or equivalent amount of pancetta or guanciale
+  - ½ cup finely shredded parmesan cheese
+  - 1 egg yolk
+  - 2 tbsp heavy cream
+  - 1/2 cup water
+  - 2 tsp AP flour
+steps:
+  - 1:
+     name: "Boil Water"
+     step: "Prepare a large pot of heavily salted boiling water and an ice water bath."
+     dependencies: null
+     time: 1
+  - 2:
+     name: "Wash the Spinach"
+     step: "Wash [1 lbs fresh spinach] and remove any long woody stems."
+     dependencies: null
+     time: 4
+  - 3:
+     name: "Blanch the Spinach"
+     step: "Blanch the spinach for 1 minute, or until all the leaves are dark green."
+     dependencies: [1,2]
+     time: 1
+     timer: True
+  - 4:
+     name: "Drain the Spinach"
+     step: "Drain the spinach and squeeze to remove as much water as possible."
+     dependencies: [3]
+     time: 1
+  - 5:
+     name: "Chop the Spinach"
+     step: "Using a sharp knife, chop the spinach finely and set aside."
+     dependencies: [4]
+     time: 1
+  - 6:
+     name: "Slice Bacon"
+     step: "Cut [2 pieces thick sliced bacon or equivalent amount of pancetta or guanciale] into 1/8th inch pieces."
+     dependencies: null
+     time: 2
+  - 7:
+     name: "Fry Bacon"
+     step: "Fry the bacon over medium heat until crisp."
+     dependencies: [6]
+     time: 5
+  - 8:
+     name: "Remove Bacon"
+     step: "Remove the bacon, retaining the fat in the pan."
+     dependencies: [7]
+     time: 1
+  - 9:
+     name: "Add Flour to Bacon Fat"
+     step: "Add [2 tsp AP flour] and cook just until the raw flour smell has dispersed."
+     dependencies: [8]
+     time: 1
+  - 10:
+     name: "Add Water and Cream to Flour"
+     step: "Add [1/2 cup water; 2 tbsp heavy cream] and bring to a low simmer."
+     dependencies: [9]
+     time: 1
+  - 11:
+     name: "Separate and Beat an Egg"
+     step: "Separate [1 egg yolk] and whisk in a separate bowl."
+     dependencies: null
+     time: 1
+  - 12:
+     name: "Fold the Sauce into the Egg"
+     step: "Slowly, and while constantly whisking, add about half of the warm sauce to the egg."
+     dependencies: [10,11]
+     time: 1
+  - 13:
+     name: "Return the Sauce to the Pan"
+     step: "Reverse the process and whisk the egg mixture back into the pan."
+     dependencies: [12]
+     time: 1
+  - 14:
+     name: "Add Cheese, Bacon and Spinach"
+     step: "Add [½ cup finely shredded parmesan cheese; half the fried bacon; the chopped spinach]."
+     dependencies: [5,8,13]
+     time: 2
+  - 15:
+     name: "Reduce Heat and Cook"
+     step: "Reduce the heat to very low and cook for 5-10 minutes."
+     dependencies: [14]
+     time: 5
+     timer: True
+  - 16:
+     name: "Garnish with Remaining Bacon"
+     step: "Serve topped with the remaining fried bacon."
+     dependencies: [15]
+     time: 1
+  - 17:
+     name: "Enjoy!"
+     step: "Take a picture of your dish and enjoy!"
+     dependencies: [16]
+     time: 1
+ 
