@@ -6,7 +6,7 @@ image: "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:s
 tags: [Spinach,Side,Eggs,Carbonara,Dinner]
 ingredients:
   - 1 lbs fresh spinach
-  - 2 pieces thick sliced bacon or equivalent amount of pancetta or guanciale
+  - 2 pieces thick sliced bacon (or equivalent amount of pancetta or guanciale)
   - ½ cup finely shredded parmesan cheese
   - 1 egg yolk
   - 2 tbsp heavy cream
@@ -41,7 +41,7 @@ steps:
      time: 1
   - 6:
      name: "Slice Bacon"
-     step: "Cut [2 pieces thick sliced bacon or equivalent amount of pancetta or guanciale] into 1/8th inch pieces."
+     step: "Cut [2 pieces thick sliced bacon (or equivalent amount of pancetta or guanciale)] into 1/8th inch pieces."
      dependencies: null
      time: 2
   - 7:
