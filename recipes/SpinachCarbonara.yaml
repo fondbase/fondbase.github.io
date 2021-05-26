@@ -47,7 +47,7 @@ steps:
   - 7:
      name: "Fry Bacon"
      step: "Fry the bacon over medium heat until crisp."
-     dependencies: [6]
+     dependencies: [5,6]
      time: 5
   - 8:
      name: "Remove Bacon"
@@ -70,7 +70,7 @@ steps:
      dependencies: null
      time: 1
   - 12:
-     name: "Fold the Sauce into the Egg"
+     name: "Fold Half the Sauce into the Egg"
      step: "Slowly, and while constantly whisking, add about half of the warm sauce to the egg."
      dependencies: [10,11]
      time: 1
