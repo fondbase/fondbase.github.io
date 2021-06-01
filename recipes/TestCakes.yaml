@@ -35,7 +35,7 @@ steps:
       step: "Let batter rest for 10-15 minutes"
       dependencies: [3]
       time: 15
-      timer: "Batter resting"
+      timer: True
   - 5: 
       name: "Heat Skillet"
       step: "Heat a skillet over medium heat and melt [1 tbsp butter]"
@@ -46,13 +46,13 @@ steps:
       step: "Working in batches, carefully add a ladleful of batter into skillet and cook until bubbles have formed on the top and the bottom is golden brown."
       dependencies: [4,5]
       time: 3
-      timer: "Cook until bubble form on the top"
+      timer: True
   - 7:
       name: "Flip & Continue Cooking"
       step: "Flip and cook until the other side is golden brown."
       dependencies: [6]
       time: 3
-      timer: "Cook until bottom side is golden brown"
+      timer: True
   - 8: 
       name: "Prepare toppings"
       step: "While batter rests, prepare toppings"
