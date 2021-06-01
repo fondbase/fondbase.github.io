@@ -28,7 +28,7 @@ ingredients:
 steps:
   - 1:
      name: "Dry and Cut up Chicken"
-     step: "Pat dry [1 3lb chicken]. Cut into quarters."
+     step: "Pat dry [1/3lb chicken]. Cut into quarters."
      dependencies: null
      time: 4
   - 2:
