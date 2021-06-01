@@ -39,18 +39,18 @@ steps:
   - 5: 
       name: "Heat Skillet"
       step: "Heat a skillet over medium heat and melt [1 tbsp butter]"
-      dependencies: [3]
+      dependencies: [-4]
       time: 2
   - 6:
       name: "Cook"
       step: "Working in batches, carefully add a ladleful of batter into skillet and cook until bubbles have formed on the top and the bottom is golden brown."
-      dependencies: [4.,5]
+      dependencies: [4,5]
       time: 3
       timer: "Cook until bubble form on the top"
   - 7:
       name: "Flip & Continue Cooking"
       step: "Flip and cook until the other side is golden brown."
-      dependencies: [6.]
+      dependencies: [6]
       time: 3
       timer: "Cook until bottom side is golden brown"
   - 8: 
