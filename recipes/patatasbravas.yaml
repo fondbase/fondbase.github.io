@@ -41,7 +41,7 @@ steps:
      time: 10
      timer: True
   - 6:
-     name: "Dice the Potatoes"
+     name: "Peel and Dice the Potatoes"
      step: "Peel and dice the slightly cooled potatoes. Place them on a platter."
      dependencies: [5]
      time: 3
