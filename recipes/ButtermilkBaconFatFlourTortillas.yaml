@@ -18,12 +18,12 @@ steps:
      dependencies: null
      time: 5
   - 2:
-     name: "Mix Dough"
+     name: "Mix the Dough"
      step: "In a bowl, stir together [2 cups all‐purpose flour; 1/2 teaspoon baking powder; 1/4 teaspoon kosher salt] Pour in the melted fat mixture and stir until the flour is crumbly. Pour in [3/4 cup buttermilk] and stir until a soft dough forms."
      dependencies: [1]
      time: 3
   - 3:
-     name: "Knead Dough"
+     name: "Knead the Dough"
      step: "Place the dough on a floured surface and knead for 2 minutes until the dough is firm and smooth."
      dependencies: [2]
      time: 2

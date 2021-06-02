@@ -47,7 +47,7 @@ steps:
      time: 5
      timer: True
   - 5:
-     name: "Simmer Chilies"
+     name: "Simmer Roasted Chilies"
      step: "Transfer chilies to a 2-quart microwave-safe liquid measuring cup or bowl. Add [2 cups chicken broth], cover with plastic wrap, and microwave on high power until gently simmering, about 5 minutes. Remove from microwave and set aside."
      dependencies: [4]
      time: 5
