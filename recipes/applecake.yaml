@@ -46,7 +46,7 @@ steps:
      dependencies: [3,5]
      time: 2
   - 7:
-     name: "Fold in the Apples"
+     name: "Fold the Apples into the Batter"
      step: "Switch to a rubber spatula and fold in the apples, turning the fruit so that it's coated with batter."
      dependencies: [4,6]
      time: 2
