@@ -23,7 +23,7 @@ steps:
      dependencies: null
      time: 5
   - 2:
-     name: "Let Beans Sit"
+     name: "Let Beans Sit in Water"
      step: "Turn the heat off and let the beans sit for 1 hour."
      dependencies: [1]
      time: 60
@@ -44,7 +44,7 @@ steps:
      dependencies: [2]
      time: 3
   - 6:
-     name: "Add Chorizo, Fennel, Onion and Chipotles"
+     name: "Add Chorizo, Fennel, Onion and Chipotles to Beans"
      step: "Reduce the heat to low, stir in [6 ounces (about 1 link) Mexican-style chorizo (casing removed and crumbled); the chopped fennel and onion; the chopped chipotle chiles in adobo]"
      dependencies: [5,3,4]
      time: 1

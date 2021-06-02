@@ -37,7 +37,7 @@ steps:
       time: 5
   - 4: 
       dependencies: [1,2,3]
-      name: "Add Celery and Carrots"
+      name: "Saute Celery and Carrots"
       step: "Add the celery and carrots. Continue to cook for about 2 minutes, stirring the vegetables to coat them well."
       time: 2
   - 5: 

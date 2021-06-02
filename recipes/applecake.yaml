@@ -41,7 +41,7 @@ steps:
      dependencies: null
      time: 4
   - 6:
-     name: "Fold in the Dry Ingredients"
+     name: "Fold the Dry Ingredients into the Wet"
      step: "Whisk in half the flour mixture and when it is incorporated, add [4 tbsp melted butter], followed by the rest of the flour and another [4 tbsp melted butter], mixing gently after each addition so that you have a smooth, rather thick batter."
      dependencies: [3,5]
      time: 2

@@ -36,18 +36,18 @@ steps:
      time: 2
   - 5:
      name: "Drain and Cool the Potatoes"
-     step: "Drain and cool the potatoes."
+     step: "Drain and cool the potatoes until cool enough to handle."
      dependencies: [2]
      time: 10
      timer: True
   - 6:
      name: "Dice the Potatoes"
-     step: "Peel and dice the cooled potatoes.  Place them on a platter."
+     step: "Peel and dice the slightly cooled potatoes. Place them on a platter."
      dependencies: [5]
      time: 3
   - 7:
      name: "Mix the Potatoes with the Sauce"
-     step: "Pour the sauce mixture over the potatoes and serve hot."
+     step: "Pour the sauce mixture over the potatoes and serve warm."
      dependencies: [6,4]
      time: 12
   - 8:

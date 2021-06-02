@@ -24,12 +24,12 @@ steps:
      dependencies: null
      time: 3
   - 3:
-     name: "Mix Dough"
+     name: "Mix the Dough"
      step: "Combine [2 cups masarepa; 2 ounces (about 1/2 cup) finely crumbled queso fresco (optional); 1 cup water; 1 teaspoon vegetable oil] in a medium bowl and knead with hands until a dough is formed."
      dependencies: [1]
      time: 1
   - 4:
-     name: "Test Dough"
+     name: "Test the Dough"
      step: "Take a small amount and flatten it between your palms If the edges crack, knead in more water a tablespoon at a time until dough is supple and smooth but not sticky. Season dough to taste with salt."
      dependencies: [3]
      time: 1
@@ -40,7 +40,7 @@ steps:
      time: 5
      timer: True
   - 6:
-     name: "Divide Dough"
+     name: "Divide the Dough"
      step: "Divide dough into eight even pieces and roll into balls."
      dependencies: [5]
      time: 3
@@ -66,7 +66,7 @@ steps:
      time: 5
      timer: True
   - 11:
-     name: "Flip and Continue Cooking"
+     name: "Flip and Continue Cooking Arepas"
      step: "Flip arepas and cook on second side until a dry crust has formed, about five minutes longer. "
      dependencies: [10]
      time: 5
