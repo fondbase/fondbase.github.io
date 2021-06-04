@@ -33,7 +33,7 @@ steps:
      dependencies: [1,2]
      time: 4
   - 4:
-     name: "Optional-Add Garlic and Fennel"
+     name: "Optional: Add Garlic and Fennel"
      step: "Optionally, add the garlic and/or [1/2 teaspoon fennel seeds]."
      dependencies: [1,2,3]
      time: 1

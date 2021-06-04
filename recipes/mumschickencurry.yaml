@@ -71,23 +71,23 @@ steps:
      dependencies: [8]
      time: 5
   - 10:
-     name: "Add the Tomato Paste and Season"
+     name: "Add Tomato Paste and Season"
      step: "Add [2 tbsp tomato paste; 1 1/2 tsp ground cumin; 1/2 tsp ground turmeric; 1/2 teaspoon of salt] (or to taste)."
      dependencies: [9]
      time: 1
   - 11:
-     name: "Add the Yogurt"
+     name: "Add Yogurt"
      step: "Whisk [3 tbsp whole milk yogurt] and add it slowly to the curry. Cook it through until it starts to bubble."
      dependencies: [10]
      time: 3
   - 12:
-     name: "Add the Chicken"
+     name: "Add Chicken"
      step: "Add [2lbs boneless skinless chicken thighs], put the lid on the pan and continue to cook on a gentle heat for around 30 minutes."
      dependencies: [11]
      time: 30
      timer: True
   - 13:
-     name: "Add the Almonds and Garam Masala"
+     name: "Add Almonds and Garam Masala"
      step: "Add [3 tbsp  ground almonds] and [1 tsp garam masala] and cook for another 5 minutes."
      dependencies: [12]
      time: 5

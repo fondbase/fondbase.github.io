@@ -43,7 +43,7 @@ steps:
      dependencies: null
      time: 3
   - 5:
-     name: "Mix the sauce"
+     name: "Mix the Sauce"
      step: "To the chilies and shallots, add [2 tablespoons ﬁsh sauce (nam pla); 2 tablespoons freshly squeezed lime juice; 1 teaspoon sugar] Whisk together to combine."
      dependencies: [4]
      time: 2

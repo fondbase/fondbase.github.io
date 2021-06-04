@@ -21,7 +21,7 @@ steps:
      time: 4
      timer: True
   - 2:
-     name: "Prepare cheese sauce"
+     name: "Prepare Cheese Sauce"
      step: "In a medium (10-inch) bowl, combine [3 cups cream; 1/4 teaspoon ground nutmeg; 1 cup of gruyere; 1/2 cup of cheddar; 2 teaspoons salt; 1 teaspoon pepper] Stir the pasta into the cream mixture."
      dependencies: [1]
      time: 5

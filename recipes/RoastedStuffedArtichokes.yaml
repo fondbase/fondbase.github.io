@@ -79,7 +79,7 @@ steps:
      dependencies: [11]
      time: 2
   - 13:
-     name: "Add the Mint Oil"
+     name: "Pour the Mint Oil Over the Artichokes"
      step: "Pour the mint oil over the artichokes, drizzling it on the outer leaves as well as the filling. Add a splash of water to the baking dish, and cover tightly."
      dependencies: [11,12]
      time: 1

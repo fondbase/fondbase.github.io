@@ -31,7 +31,7 @@ steps:
      dependencies: [2]
      time: 5
   - 4:
-     name: "Cut Onions"
+     name: "Cut and Brown Onions"
      step: "Peel and cut [2 onions] in half, from root to tip.  When the pot is very hot, place the onions in the oil and brown on both sides, about a minute per side. Remove the onions to a plate."
      dependencies: [3]
      time: 2

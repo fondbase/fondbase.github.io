@@ -26,7 +26,7 @@ steps:
       dependencies: null
       time: 5
   - 3:
-      name: "Combine Wet & Dry"
+      name: "Combine Wet & Dry Ingredients"
       step: "Combine dry and wet ingredients, whisking until just combined, some lumps are ok"
       dependencies: [1, 2]
       time: 5
@@ -42,7 +42,7 @@ steps:
       dependencies: [3]
       time: 2
   - 6:
-      name: "Cook"
+      name: "Begin Cooking"
       step: "Working in batches, carefully add a ladleful of batter into skillet and cook until bubbles have formed on the top and the bottom is golden brown."
       dependencies: [4,5]
       time: 3

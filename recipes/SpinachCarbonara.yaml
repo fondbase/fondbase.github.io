@@ -40,22 +40,22 @@ steps:
      dependencies: [4]
      time: 1
   - 6:
-     name: "Slice Bacon"
+     name: "Slice the Bacon"
      step: "Cut [2 pieces thick sliced bacon (or equivalent amount of pancetta or guanciale)] into 1/8th inch pieces."
      dependencies: null
      time: 2
   - 7:
-     name: "Fry Bacon"
+     name: "Fry the Bacon"
      step: "Fry the bacon over medium heat until crisp."
      dependencies: [5,6]
      time: 5
   - 8:
-     name: "Remove Bacon"
+     name: "Remove the Bacon"
      step: "Remove the bacon, retaining the fat in the pan."
      dependencies: [7]
      time: 1
   - 9:
-     name: "Add Flour to Bacon Fat"
+     name: "Add Flour to the Bacon Fat"
      step: "Add [2 tsp AP flour] and cook just until the raw flour smell has dispersed."
      dependencies: [8]
      time: 1

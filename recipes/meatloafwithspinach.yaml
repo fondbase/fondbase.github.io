@@ -35,7 +35,7 @@ steps:
      dependencies: [2]
      time: 3
   - 4:
-     name: "Gently Mix"
+     name: "Add Cooled Spinach and Oats"
      step: "Add cooked and cooled spinach and [1/2 cup uncooked old-fashioned rolled oats]; gently mix until blended."
      dependencies: [3]
      time: 1

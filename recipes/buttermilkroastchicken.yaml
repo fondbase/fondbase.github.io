@@ -19,7 +19,7 @@ steps:
      name: "Marinate the Chicken"
      step: "Stir [2 tablespoons of kosher salt or 4 teaspoons fine sea salt; into 2 cups buttermilk] to dissolve. Place the chicken in a gallon-size resealable plastic bag and pour in the salted buttermilk."
      dependencies: [1]
-     time: 1440
+     time: 5
   - 3:
      name: "Refrigerate Overight"
      step: "Seal the bag, squish the buttermilk all around the chicken, place on a rimmed plate, and refrigerate overnight."
@@ -27,7 +27,7 @@ steps:
      time: 1440
      timer: True
   - 4:
-     name: "Remove Chicken and Rest"
+     name: "Remove Chicken from Fridge and Rest"
      step: "Pull the chicken from the fridge and let rest for an hour."
      dependencies: [3]
      time: 60

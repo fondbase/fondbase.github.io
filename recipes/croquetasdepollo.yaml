@@ -25,7 +25,7 @@ steps:
      time: 10
      timer: True
   - 2:
-     name: "Dice Onion"
+     name: "Dice an Onion"
      step: "Finely dice [1 medium onion]. Set aside."
      dependencies: null
      time: 5

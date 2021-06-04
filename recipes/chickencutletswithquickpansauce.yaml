@@ -26,12 +26,12 @@ steps:
      dependencies: null
      time: 5
   - 3:
-     name: "Prepare the flour"
+     name: "Prepare the Flour"
      step: "Put [1 cup of flour] on a plate or in a shallow bowl next to the stove." 
      dependencies: null
      time: 1
   - 4:
-     name: "Heat the oil and butter"
+     name: "Heat the Oil and butter"
      step: "Add [2 tbsp olive oil; 2 tbsp of butter] in a large skillet over medium-high heat until butter has melted."
      dependencies: [1,2,3]
      time: 2
