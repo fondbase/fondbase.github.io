@@ -46,7 +46,7 @@ steps:
       step: "Working in batches, carefully add a ladleful of batter into skillet and cook until bubbles have formed on the top and the bottom is golden brown."
       dependencies: [4,5]
       time: 3
-      timer: True
+      timer: "cook until bubbles have formed on the top and the bottom is golden brown"
   - 7:
       name: "Flip & Continue Cooking"
       step: "Flip and cook until the other side is golden brown."
