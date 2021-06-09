@@ -1,0 +1,42 @@
+---
+    name: "Old-Fashioned Pancakes"
+    author: "Chef John"
+    source: "allrecipes"
+    image: "https://3.bp.blogspot.com/-tXBfrSN4omw/TlHTQsFjuFI/AAAAAAAAKLQ/wuHelV5XvY4/IMG_8306.JPG"
+    tags: [breakfast,american]
+    ingredients:
+      - 1 ½ cups all-purpose flour
+      - 3 ½ teaspoons baking powder
+      - 1 teaspoon salt
+      - 1 tablespoon white sugar
+      - 3 tablespoons butter, melted
+      - 1 egg
+      - 1 ¼ cups milk
+      - cooking spray
+    steps:
+      - 1:
+        name: "Preheat Skillet and Melt Butter"
+        step: "Preheat skillet to Medium and melt butter"
+        dependencies: null
+        time: 2
+      - 2:
+        name: "Sift dry ingredients"
+        step: "Sift together flour, baking powder, salt, and sugar in a large bowl."
+        dependencies: null
+        time: 1
+      - 3:
+        name: "Whisk in wet ingredients"
+        step: "Whisk in melted butter, egg, and milk until combined."
+        dependencies: [1, 2]
+        time: 2
+      - 4:
+        name: "Rest Batter"
+        step: "Let batter rest for 5 minutes."
+        dependencies: [3]
+        time: 5
+        timer: True
+      - 5:
+        name: "Pour Batter"
+        step: "Pour batter into the hot skillet, about 1/4 cup of batter for each pancake. Cook for 2 to 3 minutes, until bubbles appear on the sides and center of each pancake. Flip and cook until golden, about 1 to 2 minutes."
+        dependencies: [4]
+        time: 10
