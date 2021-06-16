@@ -45,13 +45,13 @@ steps:
      step: "Add [1 whole dried New Mexico, costeño, or choricero chili (seeds and stem removed); 1 whole chile ancho or pasilla (seeds and stem removed); 1 whole chile negro (seeds and stem removed)] to large heavy-bottomed Dutch oven or stock pot and cook over medium-high heat, stirring frequently, until slightly darkened with intense, roasted aroma, 2 to 5 minutes. Do not allow to smoke. Remove chilies to small bowl and set aside."
      dependencies: [1]
      time: 5
-     timer: True
+     timer: Look for chilies to be slightly darkened with intense, roasted aroma. Do not allow to smoke.
   - 5:
      name: "Simmer Roasted Chilies"
      step: "Transfer chilies to a 2-quart microwave-safe liquid measuring cup or bowl. Add [2 cups chicken broth], cover with plastic wrap, and microwave on high power until gently simmering, about 5 minutes. Remove from microwave and set aside."
      dependencies: [4]
      time: 5
-     timer: True
+     timer: Microwave on high power until gently simmering.
   - 6:
      name: "Heat Oil"
      step: "Heat [1 tbsp vegetable or canola oil] in now-empty Dutch oven over high heat until shimmering."
@@ -72,7 +72,7 @@ steps:
      step: "Add remaining [2 tbsp vegetable or canola oil] and heat along with onions and garlic and cook, stirring frequently, until deep brown and just starting to burn, about 10 minutes."
      dependencies: [2,3,8]
      time: 10
-     timer: True
+     timer: Cook until deep brown and just starting to burn
   - 10:
      name: "Chop Chipotles"
      step: "Roughly chop [4 chipotle chilis packed in adobo] and set aside, along with 2 tbsp of the adobo sauce."
@@ -88,7 +88,7 @@ steps:
      step: "Add [The chopped chipotles and adobo; 1/4 cup apple cider vinegar; remaining 2 cups chicken broth] to Dutch oven. Scrape up browned bits from bottom of pan, simmer until reduced by about half."
      dependencies: [10,11]
      time: 10
-     timer: True
+     timer: Simmer until reduced by half, scraping up browned bits from bottom of pan.
   - 13:
      name: "Add Soaked Chilies and Blend Braising Liquid"
      step: "Add [the soaked chilies and their liquid; 2 tsp fish sauce] to the Dutch oven. Using an immersion blender, puree until smooth, about 1 minute. Set aside."
@@ -104,7 +104,7 @@ steps:
      step: "Place lid on pot slightly cracked and transfer to oven. Cook, turning beef occasionally, until completely tender and a cake tester or metal skewer inserted into meat shows little to no resistance, about 4 hours."
      dependencies: [14]
      time: 240
-     timer: True
+     timer: Turn beef occasionally, until completely tender and a cake tester or metal skewer inserted into meat shows little to no resistance.
   - 16:
      name: "Remove Beef from Oven"
      step: "When cooked, remove pot from oven, discard bay leaves and oxtails (meat from oxtails can be eaten if desired) and transfer chuck to a large plate."
@@ -115,13 +115,13 @@ steps:
      step: "Return Dutch oven to stovetop and cook, stirring frequently, over medium-high heat until liquid is reduced to about 1 1/2 cups, about 5 minutes."
      dependencies: [16]
      time: 5
-     timer: True
+     timer: Stir frequently until liquid is reduced to about 1 1/2 cups.
   - 18:
      name: "Rest Beef"
      step: "Beef can be cut and served immediately, but for best flavor, transfer beef to a sealed container along with liquid and refrigerate overnight and up to five days."
      dependencies: [17]
      time: 1440
-     timer: True
+     timer: Refrigerate over or up to 5 days.
   - 19:
      name: "Slice and Shred Beef"
      step: "When ready to serve, slice beef against the grain into 1 1/2- to 2-inch slices, then shred into large chunks with fingers or two forks."
@@ -132,7 +132,7 @@ steps:
      step: "Return beef to a pot along with the sauce. Bring to a simmer and cook, gently stirring and folding until beef is hot, tender, and coated in sauce. Season to taste with salt."
      dependencies: [19]
      time: 5
-     timer: True
+     timer: Gently stir and fold until beef is hot, tender, and coated in sauce.
   - 21:
      name: "Serve with Garnishes"
      step: "Serve immediately, piling the beef into [warm corn tortillas with onions, cilantro, salsa, limes, or other condiments] as desired."
