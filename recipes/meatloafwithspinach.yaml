@@ -33,7 +33,7 @@ steps:
      time: 5
   - 3:
      name: "Saute Spinach"
-     step: "Heat a large sauté pan over medium heat; add [1 5-oz package of baby spinach; 1 1/2 cups finely chopped onion and 2 tbsp water to pan]. Cover and steam 2 minutes or until spinach wilts. Remove pan from heat; cool 5 minutes."
+     step: "Heat a large sauté pan over medium heat; add [1 5-oz package of baby spinach; 1 1/2 cups finely chopped onion and 2 tbsp water to pan] Cover and steam 2 minutes or until spinach wilts. Remove pan from heat; cool 5 minutes."
      dependencies: [2]
      time: 5
      timer: Steam until spinach wilts.
