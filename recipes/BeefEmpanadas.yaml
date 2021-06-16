@@ -34,13 +34,13 @@ steps:
      step: "Heat a large skillet over medium heat, and then swirl in the olive oil. Add the onion and bell pepper. Saute until the onion is translucent, 3 to 4 minutes. "
      dependencies: [1]
      time: 4
-     timer: True
+     timer: Saute until the onion is translucent.
   - 3:
      name: "Add Beef"
      step: "Raise the heat to high and add [1 pound ground beef]. Cook, stirring constantly, to brown, about 5 to 7 minutes."
      dependencies: [2]
      time: 7
-     timer: True
+     timer: Cook, stirring constantly, to brown.
   - 4:
      name: "Slice Olives"
      step: "Slice [3/4 cup pimento-filled green olives]. Set aside."
@@ -56,7 +56,7 @@ steps:
      step: "Stir in [the sliced olives; 3/4 cup raisins; 1 teaspoon honey; 1 teaspoon coarse salt; 1/4 teaspoon freshly ground black pepper; and several dashes of hot sauce]. Cook until the meat is golden brown, the liquid has evaporated, and the flavors have blended, about 4 more minutes."
      dependencies: [4,5]
      time: 5
-     timer: True
+     timer: Cook until the meat is golden brown, the liquid has evaporated, and the flavors have blended.
   - 7:
      name: "Cool the Beef"
      step: "Cool the filling mixture completely in the fridge."
