@@ -48,7 +48,7 @@ steps:
      step: "Cover and refrigerate meatball mix for 30 minutes."
      dependencies: [5]
      time: 30
-     timer: True
+     timer: Refrigerating Meat
   - 7:
      name: "Form Meatballs"
      step: "Remove the meatball mix from the refrigerator and form into 1 1/2-inch balls."
