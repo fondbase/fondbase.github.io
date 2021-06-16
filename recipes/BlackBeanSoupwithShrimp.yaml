@@ -53,7 +53,7 @@ steps:
      step: "Partially cover, and simmer until the beans are tender, about 2 hours."
      dependencies: [6]
      time: 120
-     timer: True
+     timer: Simmer until the beans are tender.
   - 8:
      name: "Blend until Smooth"
      step: "Use an immersion blender (or transfer the soup to a blender, in batches if necessary) and blend until it forms a smooth puree."
@@ -70,6 +70,7 @@ steps:
      step: "Add [12 medium shrimp, peeled and deveined if necessary] and cook until they are orange-red, 3 to 4 minutes."
      dependencies: [9]
      time: 4
+     timer: Cook until the shrimp are orange-red.
   - 11:
      name: "Serve with Tostadas and Cheese"
      step: "Serve the soup in individual bowls garnished with the tostadas and crumbled cheese."
