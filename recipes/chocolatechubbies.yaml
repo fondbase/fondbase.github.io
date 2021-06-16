@@ -33,7 +33,7 @@ steps:
      step: "Remove the bowl from the heat and let stand, stirring occasionally, until cooled slightly but still warm, about 5 minutes."
      dependencies: [2]
      time: 5
-     timer: True
+     timer: Stir occasionally, until cooled slightly but still warm.
   - 4:
      name: "Mix Dry Ingredients"
      step: "Sift [1/2 cup unbleached all-purpose flour; 1/2 teaspoon baking powder; 1/4 teaspoon fine sea salt] together into a medium bowl."
@@ -44,13 +44,13 @@ steps:
      step: "Whip [3 large eggs] in the bowl of a heavy-duty stand mixer fitted with the whisk attachment on medium-high speed until the eggs are foamy and lightly thickened, about 30 seconds."
      dependencies: [3]
      time: 1
-     timer: True
+     timer: Look for the eggs to be foamy and lightly thickened.
   - 6:
      name: "Add the Sugar and Vanilla"
      step: "Increase the speed to high and gradually add [1 1/4 cups superfine sugar; 2 tsp vanilla extract] Whip until the eggs are very thick and pale yellow, about 3 minutes."
      dependencies: [5]
      time: 3
-     timer: True
+     timer: Whip until the eggs are very thick and pale yellow.
   - 7:
      name: "Add the Cooled Chocolate"
      step: "Reduce the mixer speed to medium and beat in the tepid chocolate, making sure it is completely incorporated."
@@ -82,7 +82,7 @@ steps:
      step: "Rotate the position of the baking sheets from top to bottom and front to back.  Continue baking until the cookies are set around the edges  (if you lift a cookie from the pan, the edges should release easily, even if the center of the cookie seems underdone), another 7 to 10 minutes.  Do not overbake."
      dependencies: [11]
      time: 7
-     timer: True
+     timer: Bake until the cookies are set around the edges.
   - 13:
      name: "Cool and serve"
      step: "Cool completely on the baking pans."

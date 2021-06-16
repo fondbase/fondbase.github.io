@@ -60,7 +60,7 @@ steps:
      step: "Slide the pan into the oven and bake for 50 to 60 minutes."
      dependencies: [1,8]
      time: 50
-     timer: Baking for 50 to 60 Minutes
+     timer: True
   - 10:
      name: "Check for Doneness"
      step: "The cake is done when the top is golden brown and a knife inserted deep into the center comes out clean - the cake may pull away from the sides of the pan. Transfer to a cooling rack."
@@ -71,7 +71,7 @@ steps:
      step: "Cool for 5 minutes."
      dependencies: [10]
      time: 5
-     timer: Cake Cooling for 5 Minutes
+     timer: True
   - 12:
      name: "Slowly Remove Sprngform Pan Sides"
      step: "Carefully run a blunt knife around the edges of the cake and remove the sides of the springform pan. (Open the springform slowly, and before it's fully opened, make sure there aren't any apples stuck to it.)"

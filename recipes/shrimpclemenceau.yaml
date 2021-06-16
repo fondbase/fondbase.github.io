@@ -52,7 +52,7 @@ steps:
      step: "Spread the potatoes and mushrooms in a single layer on a large, rimmed baking sheet. Scatter [2 fresh thyme sprigs] and crushed garlic on top. Roast until tender, 25 to 30 minutes."
      dependencies: [6]
      time: 25
-     timer: True
+     timer: Roast until potatoes are tender.
   - 8:
      name: "Bring Water to Boil"
      step: "While the potatoes roast, bring a medium saucepan of salted water to a boil. While the water is heating, prepare an ice bath by filling a large bowl halfway with ice, then adding enough water just to cover the ice."

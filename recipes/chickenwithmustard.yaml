@@ -56,13 +56,13 @@ steps:
      step: "Place the chicken pieces in the pan in a single layer. Cook over medium-high heat, browning them well on one side."
      dependencies: [6]
      time: 5
-     timer: True
+     timer: Brown well on one side.
   - 8:
      name: "Flip the Chicken"
      step: "Flip the chicken pieces and brown on the other side.  Be sure the chicken is well-browned on all sides."
      dependencies: [7]
      time: 5
-     timer: True
+     timer: Be sure the chicken is well-browned on all sides.
   - 9:
      name: "Deglaze the Pan"
      step: "Remove the chicken pieces and put them in the bowl with the onions. Add [1 cup of white wine] to the hot pan, scraping the fond off the bottom with a sturdy flat utensil."
@@ -73,7 +73,7 @@ steps:
      step: "Return the chicken pieces to the pan along with the bacon and onions. Cover and cook over low to medium heat, turning the chicken in the sauce a few times during cooking, until the chicken is cooked through, about 15 minutes."
      dependencies: [9]
      time: 15
-     timer: True
+     timer: Turn the chicken in the sauce a few times during cooking.
   - 11:
      name: "Remove the Pan from Heat"
      step: "Remove the pot from the heat and stir in [3 tbsp Dijon mustard; 1 tbsp whole mustard seeds or grainy mustard; 2 to 3 tbsp crème fraîche]"

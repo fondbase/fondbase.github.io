@@ -37,6 +37,7 @@ steps:
      step: "Dump in the tomatoes, add [2 tsp fine sea salt], and stir well. Turn the heat up to medium, set the sauce simmering at a gentle pace, not aggressively, and simmer for 4 hours. Stir it from time to time. Mother it a little bit."
      dependencies: [4]
      time: 240
+     timer: Stir from time to time.
   - 6:
      name: "Season and Serve with Pasta"
      step: "Check the sauce for salt at the end. The sauce can be cooked with meat at this point, or stored, covered, in the fridge for at least 4 days or frozen for up to a few months."

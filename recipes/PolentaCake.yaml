@@ -52,7 +52,7 @@ steps:
      step: "In a stand mixer fitted with the paddle attachment (or in a bowl by hand), beat together [1/2 cup butter] and [1 1/3 cups of sugar] on medium speed until light and fluffy, 3 to 5 minutes."
      dependencies: [5,6]
      time: 5
-     timer: True
+     timer: Beat until light and fluffy
   - 8:
      name: "Add the Egg Mixture"
      step: "With the mixer running, slowly dribble in the egg mixture, a little at a time, until completely incorporated."
@@ -68,7 +68,7 @@ steps:
      step: "Scrape the batter into the prepared cake pan and smooth the top. Bake until a toothpick inserted into the center comes out clean, about 40 minutes. "
      dependencies: [9,2]
      time: 40
-     timer: True
+     timer: Bake until a toothpick inserted into the center comes out clean.
   - 11:
      name: "Cool and Serve"
      step: "Let cool for about 30 minutes, then invert the cake onto a serving plate."

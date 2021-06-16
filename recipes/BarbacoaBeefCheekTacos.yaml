@@ -72,7 +72,7 @@ steps:
      step: "Add remaining [2 tbsp vegetable or canola oil] and heat along with onions and garlic and cook, stirring frequently, until deep brown and just starting to burn, about 10 minutes."
      dependencies: [2,3,8]
      time: 10
-     timer: Cook until deep brown and just starting to burn
+     timer: Cook until deep brown and just starting to burn.
   - 10:
      name: "Chop Chipotles"
      step: "Roughly chop [4 chipotle chilis packed in adobo] and set aside, along with 2 tbsp of the adobo sauce."

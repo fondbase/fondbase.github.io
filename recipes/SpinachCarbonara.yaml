@@ -28,7 +28,7 @@ steps:
      step: "Blanch the spinach for 1 minute, or until all the leaves are dark green."
      dependencies: [1,2]
      time: 1
-     timer: True
+     timer: The leaves should be dark green.
   - 4:
      name: "Drain the Spinach"
      step: "Drain the spinach and squeeze to remove as much water as possible."

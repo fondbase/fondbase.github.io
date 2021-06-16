@@ -31,7 +31,7 @@ steps:
      time: 4
   - 3:
      name: "Roast the Ribs"
-     step: "Roast for 20 minutes and remove from the oven. "
+     step: "Roast for 20 minutes and remove from the oven."
      dependencies: [1,2]
      time: 20
      timer: True
@@ -61,7 +61,7 @@ steps:
      step: "Add the garlic and cook until fragrant (about 1 min). Add [1 (750ml) bottle of dry red wine], bring to a boil, lower the heat, and simmer over medium heat for 10 minutes, until the liquid is reduced."
      dependencies: [6,7]
      time: 10
-     timer: True
+     timer: Simmer until the liquid is reduced.
   - 9:
      name: "Add Stock and Beer"
      step: "Add [4 cups beef stock; 1 cup canned crushed tomatoes; 1 11.2 oz bottle of Guinness; 6 sprigs of fresh thyme (tied with kitchen string); 1 tablespoon salt; 1½ teaspoons pepper]"
@@ -78,13 +78,13 @@ steps:
      step: "Uncover and cook for one more hour, until the meat is very tender."
      dependencies: [10]
      time: 60
-     timer: True
+     timer: Cook until the meat is very tender.
   - 12:
      name: "Remove Ribs and Reduce Liquid"
      step: "Remove the short ribs to a plate with a slotted spoon and discard the thyme bundle and any bones that have separated from the meat. Simmer the sauce on the stove for 20 minutes, until reduced. Skim some of the fat off the top and discard."
      dependencies: [11]
      time: 20
-     timer: True
+     timer: Simmer until reduced, skimming fat from the surface.
   - 13:
      name: "Return the Ribs to the Pot"
      step: "Return the ribs to the pot, heat for 5 minutes, and taste for seasonings. Serve hot."

@@ -76,20 +76,25 @@ steps:
      step: "Cook until the edges turn golden and crispy, 2 to 4 minutes."
      dependencies: [10]
      time: 2
-     timer: True
+     timer: Cook until the edges turn golden and crispy.
   - 12:
      name: "Flip and Continue Cooking"
-     step: "Flip pancakes, add a little more oil, if needed, and cook for about another 2 to 3 minutes until cooked through. Remove and arrange cooked pancakes in a single layer on a baking sheet and keep in warm oven until ready to serve. Repeat with the remaining batter, adding oil as needed."
+     step: "Flip pancakes, add a little more oil, if needed, and cook for about another 2 to 3 minutes until cooked through."
      dependencies: [11]
      time: 2
      timer: True
   - 13:
-     name: "Serve with Dipping Sauce"
-     step: "Serve whole or cut into wedges, garnished with scallions, and with dipping sauce."
-     dependencies: [1,7,12]
+     name: "Remove to Warm Oven"
+     step: "Remove and arrange cooked pancakes in a single layer on a baking sheet and keep in warm oven until ready to serve. Repeat with the remaining batter, adding oil as needed."
+     dependencies: [12]
      time: 1
   - 14:
+     name: "Serve with Dipping Sauce"
+     step: "Serve whole or cut into wedges, garnished with scallions, and with dipping sauce."
+     dependencies: [1,7,13]
+     time: 1
+  - 15:
      name: "Enjoy!"
      step: "Take a picture of your dish and enjoy!"
-     dependencies: [13]
+     dependencies: [14]
      time: 1

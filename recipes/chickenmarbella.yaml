@@ -49,7 +49,7 @@ steps:
      step: "Bake for 50 minutes to 1 hour, basting frequently with pan juices."
      dependencies: [5]
      time: 50
-     timer: True
+     timer: Baste frequently with pan juices.
   - 7:
      name: "Plate and Serve"
      step: "With a slotted spoon, transfer chicken, prunes, olives and capers to a serving platter. Moisten with a few spoonfuls of pan juices and sprinkle generously with [1/4 cup parsley or cilantro]. Pass remaining pan juices in a sauceboat."

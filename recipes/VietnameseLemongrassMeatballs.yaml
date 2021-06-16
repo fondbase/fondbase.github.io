@@ -48,7 +48,7 @@ steps:
      step: "Cover and refrigerate meatball mix for 30 minutes."
      dependencies: [5]
      time: 30
-     timer: Refrigerating Meat
+     timer: True
   - 7:
      name: "Form Meatballs"
      step: "Remove the meatball mix from the refrigerator and form into 1 1/2-inch balls."
@@ -64,7 +64,7 @@ steps:
      step: "Add the meatballs and cook over moderate heat until browned all over and cooked through, 8 to 10 minutes."
      dependencies: [7,8]
      time: 8
-     timer: True
+     timer: Cook over moderate heat until browned all over and cooked through.
   - 10:
      name: "Garnish and Serve"
      step: "Transfer to a platter and serve in Bibb lettuce leaves with the pickled shallots and garnishes."

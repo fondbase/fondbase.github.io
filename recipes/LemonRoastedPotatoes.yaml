@@ -23,7 +23,7 @@ steps:
      step: "Set a stovetop steamer over medium heat. Add the potatoes. Adjust the heat to maintain a gentle simmer and steam the potatoes until tender when pierced with a cake tester, about 10 minutes."
      dependencies: null
      time: 10
-     timer: True
+     timer: Steam the potatoes until tender when pierced.
   - 3:
      name: "Slice Onion"
      step: "Halve [1 medium yellow onion] through the root end so that there is a piece of core at the end of both halves holding the layers together. Use a mandoline or sharp chef’s knife to thinly slice the onion, discarding the cores when you are done."
@@ -60,7 +60,7 @@ steps:
      step: "Rotate the pan and bake until the potatoes are a deep golden brown, about 10 more minutes."
      dependencies: [8]
      time: 10
-     timer: True
+     timer: Bake until the potatoes are a deep golden brown.
   - 10:
      name: "Chop Rosemary"
      step: "Finely chop the leaves of 1-2 sprigs of fresh rosemary, producing [1 teaspoon (1.5 grams) chopped fresh rosemary]."

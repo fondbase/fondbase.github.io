@@ -114,7 +114,7 @@ steps:
      step: "Bake, uncovered, for 40 minutes. The chicken should be lovely and golden, the stock should be absorbed and the rice should be tender."
      dependencies: [1,17]
      time: 40
-     timer: True
+     timer: The chicken should be lovely and golden, the stock should be absorbed and the rice should be tender.
   - 19:
      name: "Chop Cilantro"
      step: "While the chicken bakes, chop a small handful of cilantro to produce [3 tablespoons chopped cilantro leaves]."

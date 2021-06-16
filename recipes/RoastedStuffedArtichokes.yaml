@@ -88,7 +88,7 @@ steps:
      step: "Roast the artichokes for 1 1/2 hours, until the flesh is very tender and the ricotta is firm and doubled in size."
      dependencies: [13]
      time: 90
-     timer: True
+     timer: Roast until the flesh is very tender and the ricotta is firm and doubled in size.
   - 15:
      name: "Serve with Pan Juice"
      step: "Serve warm, topped with the pan juice. To eat an artichoke, pull off the leaves and dip the fleshy part in the pan juice. When you reach the center, cut into the ricotta and the artichoke heart with a fork."

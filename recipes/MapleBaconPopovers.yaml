@@ -33,7 +33,7 @@ steps:
      step: "Cook chopped bacon in a medium nonstick skillet over medium-high, stirring occasionally, until crisp and golden, 5 to 7 minutes."
      dependencies: [3]
      time: 5
-     timer: True
+     timer: Cook until crisp and golden.
   - 5:
      name: "Remove Bacon and Cool Drippings"
      step: "Using a slotted spoon, transfer bacon to a plate lined with paper towels. Allow drippings to cool slightly in skillet, about 5 minutes; pour into a small heatproof bowl."
@@ -65,7 +65,7 @@ steps:
      step: "Carefully remove hot pan from oven. Pour batter into popover cups, filling each two-thirds full. Bake in preheated oven until popovers are puffed and golden brown, 18 to 20 minutes."
      dependencies: [6,9]
      time: 18
-     timer: True
+     timer: Bake until popovers are puffed and golden brown.
   - 11:
      name: "Brush with Syrup"
      step: "Remove popovers from the oven and lightly brush tops with additional maple syrup. Remove from pan, and serve immediately."

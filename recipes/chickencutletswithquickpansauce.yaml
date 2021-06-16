@@ -45,19 +45,19 @@ steps:
      step: "Cook, adjusting the heat as needed so that the fat is always bubbling but the chicken doesn’t burn."
      dependencies: [5]
      time: 2
-     timer: True
+     timer: Adjust the heat as needed so that the fat is always bubbling but the chicken doesn’t burn.
   - 7:
      name: "Rotate (but don't flip) the Chicken"
      step: "After 2 minutes, rotate the chicken so that the outside edges are moved toward the center and vice versa (don’t flip them; you want the same side in contact with the fat).  Cook for another 3 to 4 minutes until the bottom is browned."
      dependencies: [6]
      time: 3
-     timer: True
+     timer: Cook until the bottom is browned.
   - 8:
      name: "Flip the Chicken and Continue Cooking"
      step: "Turn the cutlets over and cook on the second side, adjusting the heat, another 3 to 4 minutes. To check for doneness, cut into a piece with a thin-bladed knife and take a peek. Transfer the chicken to an ovenproof platter and put it in the oven."
      dependencies: [7]
      time: 3
-     timer: True
+     timer: To check for doneness, cut into a piece with a thin-bladed knife and take a peek.
   - 9:
      name: "Flour and Cook the Second Batch"
      step: "Turn a piece of the chicken in the flour to coat it on all sides and shake off any excess flour. Add the floured chicken to the pan, then repeat with 2-3 more pieces to avoid crowding the pan."
@@ -68,19 +68,19 @@ steps:
      step: "Cook, adjusting the heat as needed so that the fat is always bubbling but the chicken doesn’t burn."
      dependencies: [9]
      time: 2
-     timer: True
+     timer: Adjust the heat as needed so that the fat is always bubbling but the chicken doesn’t burn.
   - 11:
      name: "Rotate (but don't flip) the Chicken"
      step: "After 2 minutes, rotate the chicken so that the outside edges are moved toward the center and vice versa (don’t flip them; you want the same side in contact with the fat).  Cook for another 3 to 4 minutes until the bottom is browned."
      dependencies: [10]
      time: 3
-     timer: True
+     timer: Cook until the bottom is browned.
   - 12:
      name: "Flip the Chicken and Continue Cooking"
      step: "Turn the cutlets over and cook on the second side, adjusting the heat, another 3 to 4 minutes. To check for doneness, cut into a piece with a thin-bladed knife and take a peek. Transfer the chicken to an ovenproof platter and put it in the oven."
      dependencies: [11]
      time: 3
-     timer: True
+     timer: To check for doneness, cut into a piece with a thin-bladed knife and take a peek.
   - 13:
      name: "Deglaze the Pan with Wine"
      step: "Add [1/2 cup dry white wine] to the skillet, keeping the heat at medium-high. Let it bubble away as you stir and scrape the bottom of the pan, until about half the wine has evaporated, a minute or two."

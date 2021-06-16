@@ -14,7 +14,7 @@ steps:
      step: "The day before you want to cook, remove the wingtips of [1 3½- to 4-pound chicken] by cutting through the first wing joint with poultry shears or a sharp knife. Reserve for stock. Season the chicken generously with salt and let it sit for 30 minutes."
      dependencies: null
      time: 30
-     timer: True
+     timer: Let the chicken sit.
   - 2:
      name: "Marinate the Chicken"
      step: "Stir [2 tablespoons of kosher salt or 4 teaspoons fine sea salt; into 2 cups buttermilk] to dissolve. Place the chicken in a gallon-size resealable plastic bag and pour in the salted buttermilk."
@@ -59,7 +59,7 @@ steps:
      step: "Move the pan so the legs are facing the back right corner of the oven.  Continue cooking for another 30 minutes or so, until the chicken is brown all over and the juices run clear when you insert a knife down to the bone between the leg and the thigh."
      dependencies: [8]
      time: 30
-     timer: True
+     timer: Roast until the chicken is brown all over and the juices run clear when you insert a knife down to the bone between the leg and the thigh.
   - 10:
      name: "Rest and Carve"
      step: "When the chicken’s done, remove it to a platter and let it rest for 10 minutes before carving and serving."

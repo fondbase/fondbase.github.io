@@ -40,7 +40,7 @@ steps:
      step: "Add the tomatoes and a very large pinch of salt and bring to a boil. Lower the heat and let the sauce simmer, stirring every so often, until it is slightly reduced and has lost any tin-can taste, about 30 minutes."
      dependencies: [4]
      time: 30
-     timer: True
+     timer: Let the sauce simmer, stirring every so often, until it is slightly reduced and has lost any tin-can taste.
   - 6:
      name: "Chop Herbs"
      step: "Finely chop [1 cup of basil leaves] and [1 cup of parsley]. Add to a large bowl."
@@ -61,7 +61,7 @@ steps:
      step: "Drizzle the meatballs with the remaining [2 Tbsp olive oil] and roast until they’re browned and firm to the touch, about 25 minutes."
      dependencies: [2,8]
      time: 25
-     timer: True
+     timer: Roast until they’re browned and firm to the touch.
   - 10:
      name: "Add the Meatballs to the Sauce"
      step: "Use tongs or a slotted spoon to transfer the meatballs to the simmering sauce (discard whatever juice and fat is left on the baking sheet). Cook the meatballs for 10 minutes in the sauce (they can be left in the gently simmering sauce for up to 1 hour)."

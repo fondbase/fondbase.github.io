@@ -90,7 +90,7 @@ steps:
      step: "Flip the halloumi and continue frying until both sides are golden and slightly soft inside, another 2 minutes." 
      dependencies: [12]
      time: 2
-     timer: True
+     timer: Fry until both sides are golden and slightly soft inside.
   - 14:
      name: "Toss the Salad and Dressing"
      step: "Toss the salad vegetables with the dressing, turning them over with your hands to make sure everything is lightly coated." 

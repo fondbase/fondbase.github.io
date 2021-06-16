@@ -25,7 +25,7 @@ steps:
      step: "Add [5 tbsp butter] and a pinch of salt to the sauce pan, place over medium-low heat and simmer, uncovered, for about 45 minutes, stirring occationally."
      dependencies: [1,2]
      time: 45
-     timer: True
+     timer: Simmer, uncovered, stirring occationally.
   - 4:
      name: "Bring Water to Boil"
      step: "While the sauce simmers, bring a large pot of salted water to a boil."

@@ -29,7 +29,7 @@ steps:
      step: "Place the skillet with the chicken on the stove and turn heat to medium-high. Cook until fat has rendered and skin is crisp, about 7 minutes."
      dependencies: [2]
      time: 7
-     timer: True
+     timer: Cook until fat has rendered and skin is crisp.
   - 4:
      name: "Turn Chicken"
      step: "Once the skin is crisp and brown, flip the chicken over and cook for another 7 minutes."
@@ -43,7 +43,7 @@ steps:
      time: 3
   - 6:
      name: "Add Water and Garlic"
-     step: "Pour in 3/4 cup water and the minced garlic.  Bring the water to a boil, then turn down the heat to low and cover.  Simmer for 25 minutes."
+     step: "Pour in 3/4 cup water and the minced garlic. Bring the water to a boil, then turn down the heat to low and cover. Simmer for 25 minutes."
      dependencies: [5]
      time: 25
      timer: True

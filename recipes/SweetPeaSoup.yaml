@@ -37,7 +37,7 @@ steps:
      step: "Add the scallion whites, [1/2 teaspoon sugar; 1 teaspoon kosher salt; 1 1/2 teaspoons cracked black pepper]. Cook, stirring, until just fragrant, about 2 minutes. "
      dependencies: [3]
      time: 2
-     timer: True
+     timer: Cook, stirring, until just fragrant.
   - 5:
      name: "Add the Garlic"
      step: "Add the garlic and cook, stirring, for 1 minute. "
@@ -54,7 +54,7 @@ steps:
      step: "Add [1 (16-ounce) package frozen petite peas] and half of the scallion greens (reserving the rest for garnish). Simmer until the peas are thawed and tender, about 3 minutes. Remove the pan from the heat and let cool slightly."
      dependencies: [6]
      time: 3
-     timer: True
+     timer: Simmer until the peas are thawed and tender.
   - 8:
      name: "Blend the Soup"
      step: "Using an immersion blender, blend the soup until it’s semi-smooth but still has some texture. (Alternatively, puree the soup in batches in a standard blender.)"
@@ -65,7 +65,7 @@ steps:
      step: "Return the soup pot to medium-high heat. Add [1 cup heavy cream] and stir well. Cook until the soup is warmed through, 5 to 7 minutes."
      dependencies: [8]
      time: 5
-     timer: True
+     timer: Cook until the soup is warmed through.
   - 10:
      name: "Remove from Heat"
      step: "Remove from the heat and stir in the remaining [1 tablespoon butter] until melted. Season to taste with salt and pepper."

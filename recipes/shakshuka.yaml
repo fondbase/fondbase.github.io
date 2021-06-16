@@ -41,13 +41,13 @@ steps:
      step: "Add [2 tbsp Pilpelchuma or harissa; 2 tsp tomato paste; diced peppers; minced garlic; 1 tsp ground cumin; 3/4 teaspoon salt].  Stir and cook over medium heat for about 8 minutes to allow the peppers to soften."
      dependencies: [4]
      time: 8
-     timer: True
+     timer: Stir and cook over medium heat until the peppers have softened."
   - 6:
      name: "Add Tomatoes"
      step: "Add the tomatoes, bring to a gentle simmer, and cook for a further 10 minutes until you have quite a thick sauce. Taste for seasoning."
      dependencies: [5]
      time: 10
-     timer: True
+     timer: Cook until you have quite a thick sauce.
   - 7:
      name: "Add Eggs and Yolks"
      step: "Make 8 little dips in the sauce. Gently break [4 eggs] and carefully pour each into its own dip. Do the same with the [4 egg yolks]."
@@ -58,7 +58,7 @@ steps:
      step: "Use a fork to swirl the egg whites a little bit with the sauce, taking care not to break the yolks. Simmer gently for 8 to 10 minutes, until the egg whites are set but the yolks are still runny (you can cover the pan with a lid if you wish to hasten the process)."
      dependencies: [7]
      time: 10
-     timer: True
+     timer: Simmer gently until the egg whites are set but the yolks are still runny (you can cover the pan with a lid if you wish to hasten the process).
   - 9:
      name: "Remove from Heat and Serve"
      step: "Remove from the heat, leave for a couple of minutes to settle, then spoon into individual plates and serve with [1/2 cup / 120 g labneh or thick yogurt]."

@@ -64,19 +64,19 @@ steps:
      step: "Melt [2 tsp butter] in a 12-inch cast iron or non-stick skillet over medium-low heat. Add arepas and cook, moving them around the pan and rotating them occasionally, until first side is charred in spots and a dry crust has formed, about five minutes."
      dependencies: [1,9]
      time: 5
-     timer: True
+     timer: Cook, moving them around the pan and rotating them occasionally, until first side is charred in spots and a dry crust has formed.
   - 11:
      name: "Flip and Continue Cooking Arepas"
      step: "Flip arepas and cook on second side until a dry crust has formed, about five minutes longer. "
      dependencies: [10]
      time: 5
-     timer: True
+     timer: Cook on second side until a dry crust has formed.
   - 12:
      name: "Transfer to Oven"
      step: "Transfer to a baking sheet and place in oven until heated through and cheese is melted, about 10 minutes."
      dependencies: [1,11]
      time: 10
-     timer: True
+     timer: Bake until heated through and cheese is melted.
   - 13:
      name: "Enjoy!"
      step: "Take a picture of your dish and enjoy!"

@@ -23,7 +23,7 @@ steps:
      step: "Add [12 small potatoes] and cook for 20 to 25 minutes, until tender but not falling apart."
      dependencies: [1]
      time: 20
-     timer: True
+     timer: Cook until tender but not falling apart.
   - 3:
      name: "Chop the Garlic"
      step: "Mince [1 clove of garlic]."
@@ -39,7 +39,7 @@ steps:
      step: "Drain and cool the potatoes until cool enough to handle."
      dependencies: [2]
      time: 10
-     timer: True
+     timer: Cool until cool enough to handle.
   - 6:
      name: "Peel and Dice the Potatoes"
      step: "Peel and dice the slightly cooled potatoes. Place them on a platter."

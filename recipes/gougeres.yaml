@@ -55,7 +55,7 @@ steps:
      time: 4
   - 9:
      name: "Lower Temperature and Begin Baking"
-     step: "Slide the baking sheets into the oven. Immediately turn the oven temperature down to 375 degrees F and bake for 12 minutes."
+     step: "Slide the baking sheets into the oven. Immediately turn the oven temperature down to 375F degrees and bake for 12 minutes."
      dependencies: [8]
      time: 12
      timer: True
@@ -64,7 +64,7 @@ steps:
      step: "Rotate the pans from front to back and top to bottom. Continue baking until the gougères are golden, firm, and, yes, puffed, another 12 to 15 minutes or so."
      dependencies: [9]
      time: 12
-     timer: True
+     timer: Bake until the gougères are golden, firm and puffed.
   - 11:
      name: "Remove from Oven and Serve"
      step: "Transfer the pans to racks to cool and serve warm."

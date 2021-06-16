@@ -68,7 +68,7 @@ steps:
      step: "Bake for another 10 to 15 minutes, until golden brown and crusty." 
      dependencies: [9]
      time: 10
-     timer: True
+     timer: Bake until golden brown and crusty.
   - 11:
      name: "Enjoy!"
      step: "Take a picture of your dish and enjoy!" 

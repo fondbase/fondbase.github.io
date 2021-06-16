@@ -52,7 +52,7 @@ steps:
      step: "Add [1/2 oz (1 tbsp) kosher salt] and mix on medium speed for 6 to 8 minutes, until the dough starts to pull away from the sides of the bowl. Note that the dough will not pull so much that it completely cleans the bowl, but if the dough is too sticky and is not pulling away from the sides at all, throw a small handful of flour into the bowl to make it less sticky."
      dependencies: [6]
      time: 6
-     timer: True
+     timer: Look for the dough to start puling away from the sides of the bowl.  It won' completely clean the bowl, but if the dough is too sticky throw a small handful of flour into the bowl to make it less sticky.
   - 8:
      name: "Grease a Bowl"
      step: "While the dough is mixing, place [olive oil] into a bowl large enough to hold the dough when it doubles in size and grease the sides."
@@ -143,7 +143,7 @@ steps:
      step: "Bake the pizza until it is golden brown and the cornice, or rim, is crisp and blistered, 8 to 12 minutes. Cooking times may vary according to the power of your oven."
      dependencies: [23]
      time: 8
-     timer: True
+     timer: Bake the pizza until it is golden brown and the cornice, or rim, is crisp and blistered.
   - 25:
      name: "Remove from Oven, Slice and Repeat"
      step: "When the pizza is done, slide the peel under the crust, remove it from the oven, and place it on a cutting board or round."

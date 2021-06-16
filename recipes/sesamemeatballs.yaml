@@ -54,7 +54,7 @@ steps:
      step: "Discard the oil and wipe all but a thin layer from the pan. Return all of the meatballs to the pan and transfer to preheated oven. Bake until a thermometer reads an internal temperature of 160 to 165 degrees, or about 10 to 15 minutes."
      dependencies: [4]
      time: 10
-     timer: True
+     timer: Roast until a thermometer reads an internal temperature of 160 to 165 degrees.
   - 6:
      name: "Assemble the Salad"
      step: "While the meatballs bake, in a medium bowl,combine: [1 3/4 cups drained and rinsed cooked chickpeas; a handful of pitted, halved, and very thinly sliced green olives; 1/2 tsp ground sumac; 2 tbsp freshly squeezed lemon juice; 1 clove of minced garlic; 1/8 tsp of cayenne pepper; a small handful of chopped fresh parsley; 1/4 teaspoon table salt]."

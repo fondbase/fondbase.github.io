@@ -59,7 +59,7 @@ steps:
      step: "Reduce the heat to 325°F (163°C) and cook until an instant-read thermometer poked into the center of the loin reaches 130°F (54°C) for medium-rare, or 140°F (60°C) for medium, about 1 hour. Skin should be puffy and crisp; if it’s not puffy enough, remove the roast from the oven, preheat the broiler, and place the roast a few inches under the broiler until the skin puffs."
      dependencies: [6]
      time: 60
-     timer: True
+     timer: Roast until an instant-read thermometer poked into the center of the loin reaches 130°F (54°C) for medium-rare, or 140°F (60°C) for medium.
   - 8:
      name: "Peel and Core Apples"
      step: "While the pork roasts, peel, core and dice [4 tart baking apples]. Add to a large saucepan."
@@ -85,7 +85,7 @@ steps:
      step: "Bring the mixture to a boil over medium-high heat, stirring occasionally. Reduce the heat to a simmer and continue cooking, stirring occasionally, until most of the liquid has evaporated, about 45 minutes. Remove the star anise and allow to cool."
      dependencies: [11]
      time: 45
-     timer: True
+     timer: Cook, stirring occasionally, until most of the liquid has evaporated
   - 13:
      name: "Rest the Roast"
      step: "When the roast is done, remove it from the oven and let rest on a carving board for 30 minutes."
