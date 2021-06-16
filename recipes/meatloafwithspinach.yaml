@@ -45,7 +45,7 @@ steps:
   - 5:
      name: "Add Cooled Spinach and Oats"
      step: "Add cooked and cooled spinach, onion and [1/2 cup uncooked old-fashioned rolled oats]; gently mix until blended."
-     dependencies: [4]
+     dependencies: [3,4]
      time: 1
   - 6:
      name: "Shape Loaf"
