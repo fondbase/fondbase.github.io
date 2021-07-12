@@ -1,5 +1,6 @@
 ---
 name: "ZZZ Test Pancakes Don't Use"
+access: 0
 author: "TEST"
 source: "Testing"
 tags: [breakfast,pancakes,buttermilk,brunch,fluffy]
