@@ -65,7 +65,7 @@ steps:
      step: "Transfer the mixture to a large baking tray to cool. Once cool, cover with plastic wrap and refrigerate for several hours until chilled. (This will make forming the croquettes easier.)"
      dependencies: [8]
      time: 120
-     timer: True
+     timer: "Cook until well browned"
   - 10:
      name: "Form Croquettes"
      step: "On a flat work surface dusted with flour, form the meat mixture into into 2- to 2 1/2-inch long cylinders about 1 inch (2.5 cm) in diameter. Lightly roll in flour."
